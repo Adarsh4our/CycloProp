@@ -165,12 +165,6 @@ All figures are saved to the `figures/` directory automatically.
 
 ---
 
-## Team
-
-**Adarsh Singh** — B.Tech. Mathematics and Computing, IIT Ropar (2025MCB1458)
-
----
-
 ## Competition Reference
 
 - **Challenge:** PUSHPAK Grand Challenge 2026
