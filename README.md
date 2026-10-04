@@ -18,6 +18,14 @@ This repository contains the complete **Stage 1 Technical Design Report** delive
 
 ---
 
+## CAD Assembly Preview (SolidWorks Rev 2.1 Baseline — Assem9.SLDASM)
+
+| Motor Drive End (Isometric) | Pitch Control Mechanism (End View) | Control Carriage & Linkages |
+|:---:|:---:|:---:|
+| <img src="figures/cad_preview_motor_isometric.png" width="280"/> | <img src="figures/cad_preview_pitch_mechanism_side.png" width="280"/> | <img src="figures/cad_preview_mechanism_isometric.png" width="280"/> |
+
+---
+
 ## Key Performance Metrics (Rev 3.0 Baseline)
 
 | Parameter | Value |
