@@ -1,4 +1,5 @@
 # NACA 0009 | t/c=9%  | Thinnest structural limit
+# Source: NACA 4-digit formula (Report 460)
 # Chord = 38.0 mm (actual blade chord)
 # x_mm     y_mm
 0.00000	0.00000

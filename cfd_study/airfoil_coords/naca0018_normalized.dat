@@ -1,4 +1,5 @@
 # NACA 0018 | t/c=18% | Cyclorotor literature candidate
+# Source: NACA 4-digit formula (Report 460)
 # Normalised chord (x in [0,1])
 # x_norm   y_norm
 0.00000000	0.00000000

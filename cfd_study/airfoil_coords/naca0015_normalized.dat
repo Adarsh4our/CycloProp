@@ -1,4 +1,5 @@
 # NACA 0015 | t/c=15% | Original baseline
+# Source: NACA 4-digit formula (Report 460)
 # Normalised chord (x in [0,1])
 # x_norm   y_norm
 0.00000000	0.00000000
