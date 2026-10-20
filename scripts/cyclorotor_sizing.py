@@ -9,10 +9,10 @@ Target Requirements:
   - 4-blade cycloidal rotor undergoing cyclic pitch: theta(psi) = theta_0 * sin(psi - phi_0)
 
 Key Aerodynamic Features:
-  1. Complete Blade Element Momentum Theory (BEMT) / Double-pass Inflow Solver.
+  1. Preliminary blade-element model with uniform vector momentum inflow.
   2. Curvilinear flow virtual camber correction: kappa = c / (2R) -> delta_alpha = c / (4R).
   3. Dynamic pitch-rate damping & virtual pitching effect.
-  4. Low-Reynolds unsteady dynamic stall delay (Leishman-Beddoes / Gormont cyclorotor adaptation).
+  4. Empirical instantaneous stall-delay approximation; not a validated unsteady model.
   5. 3D finite aspect ratio tip-loss & induced drag polar correction (C_Di = C_L^2 / (pi * AR * e)).
   6. Endplate parasitic friction & shaft bearing tare torque modeling.
   7. Multi-variable parametric sweeps (Radius, Span, Chord, RPM, Pitch Amplitude).
@@ -22,8 +22,17 @@ Key Aerodynamic Features:
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from typing import Dict, List, Tuple, Optional
+from project_config import BASELINE, ROOT
+
+
+class ConvergenceError(RuntimeError):
+    """The induced-flow or thrust-direction iteration did not converge."""
+
+
+class InvalidPerformanceError(RuntimeError):
+    """The calculated power fails the model's hover consistency checks."""
 
 # Matplotlib formatting for publication-grade figures
 plt.rcParams.update({
@@ -48,10 +57,20 @@ class CyclorotorGeometry:
     span: float         # Blade span b [m]
     chord: float        # Blade chord c [m]
     num_blades: int = 4 # Number of blades N
-    airfoil: str = "NACA 0015"
+    airfoil: str = BASELINE["geometry"]["airfoil"]
     pivot_ratio: float = 0.25 # Pivot axis location from leading edge (x/c)
     blade_mass_each: float = 0.0125 # Mass of single blade [kg] (12.5 g)
-    total_module_mass: float = 0.3014 # Total module mass [kg] (301.4 g, Rev 3.0)
+    total_module_mass: float = BASELINE["geometry"]["total_module_mass"]
+
+    def __post_init__(self):
+        for name in ("radius", "span", "chord", "blade_mass_each", "total_module_mass"):
+            value = getattr(self, name)
+            if not np.isfinite(value) or value <= 0:
+                raise ValueError(f"{name} must be finite and positive")
+        if not isinstance(self.num_blades, int) or self.num_blades < 1:
+            raise ValueError("num_blades must be a positive integer")
+        if not np.isfinite(self.pivot_ratio) or not 0 <= self.pivot_ratio <= 1:
+            raise ValueError("pivot_ratio must be between zero and one")
 
     @property
     def diameter(self) -> float:
@@ -87,12 +106,15 @@ class CyclorotorAeroModel:
     """
     Aerodynamic, Kinematic, and Power Solver for Cycloidal Rotors.
     """
-    def __init__(self, rho: float = 1.225, mu: float = 1.81e-5):
+    def __init__(self, rho: float = BASELINE["fluid"]["rho"],
+                 mu: float = BASELINE["fluid"]["mu"]):
+        if not np.isfinite(rho) or not np.isfinite(mu) or rho <= 0 or mu <= 0:
+            raise ValueError("Density and viscosity must be finite and positive")
         self.rho = rho          # Air density [kg/m^3]
         self.mu = mu            # Dynamic viscosity [Pa*s]
-        self.eta_motor = 0.84   # High-efficiency Brushless Outrunner motor efficiency
-        self.eta_mech = 0.96    # Precision ceramic/steel hybrid bearing & linkage efficiency
-        self.eta_esc = 0.97     # High-frequency 32-bit ESC switching efficiency
+        self.eta_motor = BASELINE["efficiencies"]["motor"]
+        self.eta_mech = BASELINE["efficiencies"]["mechanical"]
+        self.eta_esc = BASELINE["efficiencies"]["esc"]
         self.e_oswald = 0.85    # Oswald span efficiency factor
         self.tip_loss_factor = 0.90 # Tip-loss factor with endplate tip-vortex mitigation
 
@@ -114,11 +136,13 @@ class CyclorotorAeroModel:
             cl_alpha_2d = 2.0 * np.pi * 0.92
             cd0 = 0.013  # Low-drag laminar bucket at Re ~ 100,000
             cd_profile_quad = 1.05
-        else:  # Default NACA 0015
+        elif airfoil == "NACA 0015":
             alpha_ss_deg = 13.5  # Static stall angle [deg]
             cl_alpha_2d = 2.0 * np.pi * 0.88  # 2D lift curve slope with low-Re viscous boundary layer deficit
             cd0 = 0.020  # Base zero-lift profile drag coefficient at Re ~ 100,000
             cd_profile_quad = 1.25
+        else:
+            raise ValueError(f"No analytical polar for {airfoil!r}; supply accepted CFD data")
 
         alpha_ss = np.radians(alpha_ss_deg)
 
@@ -147,15 +171,18 @@ class CyclorotorAeroModel:
                 cd[i] = cd_profile + cd_induced
                 cm[i] = -0.05 * a  # Pitch damping about quarter-chord
             else:
-                # Post-stall regime (Viterna-Corrigan / flat plate dynamic stall shedding)
+                # Empirical continuous join; calibration against unsteady data is pending.
                 cl_max_dyn = self.tip_loss_factor * cl_alpha_2d * a_ds
                 cd_max = 1.60
-                cl[i] = sgn * (cl_max_dyn * np.cos(abs_a - a_ds) * np.exp(-1.4 * (abs_a - a_ds)) + 
-                                0.5 * cd_max * np.sin(2.0 * abs_a))
-                cd_profile = cd0 + (cd_max - cd0) * (np.sin(abs_a) ** 2)
+                delta = abs_a - a_ds
+                attached_weight = np.exp(-1.4 * delta)
+                cl[i] = sgn * (cl_max_dyn * np.cos(delta) * attached_weight +
+                                0.5 * cd_max * np.sin(2.0 * abs_a) * (1 - attached_weight))
+                cd_profile = cd0 + (attached_weight * cd_profile_quad * a_ds**2 +
+                                    (1 - attached_weight) * (cd_max - cd0) * np.sin(abs_a)**2)
                 cd_induced = (cl[i] ** 2) / (np.pi * aspect_ratio * self.e_oswald)
                 cd[i] = cd_profile + cd_induced
-                cm[i] = -0.22 * sgn * (np.sin(abs_a - a_ds))
+                cm[i] = -sgn * (0.05 * a_ds * attached_weight + 0.22 * np.sin(delta))
 
         return cl, cd, cm
 
@@ -167,6 +194,19 @@ class CyclorotorAeroModel:
         Evaluate full revolution kinematics and blade forces across azimuth psi in [0, 2*pi].
         Supports 'sinusoidal' (standard eccentric ring) and 'asymmetric_cam' (higher-harmonic dwell).
         """
+        if not all(np.isfinite(v) for v in (rpm, theta_0_deg, phi_0_deg)) or rpm <= 0:
+            raise ValueError("RPM must be positive and operating inputs finite")
+        if not 0 <= theta_0_deg < 90:
+            raise ValueError("Pitch amplitude must be in [0, 90) degrees")
+        if not isinstance(num_azimuth, int) or num_azimuth < 8 or num_azimuth % geom.num_blades:
+            raise ValueError("Azimuth count must be >= 8 and divisible by blade count")
+        if pitch_schedule not in ("sinusoidal", "asymmetric_cam"):
+            raise ValueError(f"Unknown pitch schedule: {pitch_schedule}")
+        # v_i is opposite the air velocity, in global (X, Z). Scalar callers
+        # explicitly request vertical inflow; solved states use both components.
+        inflow = np.array([0.0, v_i] if np.ndim(v_i) == 0 else v_i, dtype=float)
+        if inflow.shape != (2,) or not np.all(np.isfinite(inflow)):
+            raise ValueError("Induced velocity must be a finite scalar or (X, Z) pair")
         omega = 2.0 * np.pi * rpm / 60.0  # Rotational velocity [rad/s]
         theta_0 = np.radians(theta_0_deg)
         phi_0 = np.radians(phi_0_deg)
@@ -180,9 +220,9 @@ class CyclorotorAeroModel:
             # 3rd harmonic adds flattened dwell at peak pitch; cosine term biases advancing arc
             raw_cam = np.sin(psi - phi_0) + 0.15 * np.sin(3.0 * (psi - phi_0))
             theta = theta_0 * (raw_cam / np.max(np.abs(raw_cam)))
-            dtheta_dpsi = np.gradient(theta, dpsi)
+            dtheta_dpsi = (np.roll(theta, -1) - np.roll(theta, 1)) / (2 * dpsi)
             dtheta_dt = omega * dtheta_dpsi
-            d2theta_dt2 = np.gradient(dtheta_dt, dt)
+            d2theta_dt2 = (np.roll(dtheta_dt, -1) - np.roll(dtheta_dt, 1)) / (2 * dt)
         else:
             # Pure sinusoidal eccentric ring
             theta = theta_0 * np.sin(psi - phi_0)
@@ -193,8 +233,8 @@ class CyclorotorAeroModel:
         # Tangential and radial velocity components of oncoming flow relative to blade:
         # Rotation is CCW; at psi=0 (3 o'clock), blade moves along +Z.
         # Flow blows against motion (+V_flow_T along tangent) and downward (+Z thrust -> -Z induced downwash).
-        V_flow_T = omega * geom.radius + v_i * np.cos(psi)
-        V_flow_N = v_i * np.sin(psi)
+        V_flow_T = omega * geom.radius - inflow[0] * np.sin(psi) + inflow[1] * np.cos(psi)
+        V_flow_N = inflow[0] * np.cos(psi) + inflow[1] * np.sin(psi)
         
         U_rel = np.sqrt(V_flow_T**2 + V_flow_N**2)
         phi_inf = np.arctan2(V_flow_N, V_flow_T)
@@ -210,7 +250,8 @@ class CyclorotorAeroModel:
 
         # Total Effective Angle of Attack
         alpha_eff = alpha_geom + delta_alpha_camber + delta_alpha_rate
-        dalpha_dt = np.gradient(alpha_eff, dt)
+        # Periodic central difference avoids a special derivative at the seam.
+        dalpha_dt = (np.roll(alpha_eff, -1) - np.roll(alpha_eff, 1)) / (2 * dt)
 
         # Reduced frequency k = |dalpha/dt| * c / (2 * U_rel)
         k_reduced = np.abs(dalpha_dt) * geom.chord / (2.0 * np.maximum(U_rel, 1.0))
@@ -284,37 +325,46 @@ class CyclorotorAeroModel:
             'Q_multi': Q_multi,
             'M_pitch_single': M_pitch_total,
             'omega': omega,
-            'v_i': v_i
+            'v_i': float(np.linalg.norm(inflow)),
+            'inflow_XZ': inflow
         }
 
     def solve_hover_state(self, geom: CyclorotorGeometry, rpm: float, 
                           theta_0_deg: float, phi_0_deg: float = 0.0,
                           pitch_schedule: str = "sinusoidal",
-                          blockage_factor: float = 1.0,
-                          max_iter: int = 50, tol: float = 1e-4) -> Dict[str, float]:
+                          blockage_factor: float = BASELINE["operating"]["blockage_factor"],
+                          max_iter: int = 200, tol: float = 1e-6,
+                          strict: bool = True) -> Dict[str, float]:
         """
         Solve self-consistent hover induced velocity v_i and rotor performance metrics.
         Includes aerodynamic blockage factor from frame structure and supports non-sinusoidal cam scheduling.
         """
-        v_i = 3.5  # Initial guess [m/s]
-        relaxation = 0.35
-
-        for _ in range(max_iter):
-            res = self.evaluate_azimuth(geom, rpm, theta_0_deg, phi_0_deg, v_i=v_i, pitch_schedule=pitch_schedule)
-            F_X_mean = np.mean(res['F_X_multi'])
-            F_Z_mean = np.mean(res['F_Z_multi'])
-            F_net = np.sqrt(F_X_mean**2 + F_Z_mean**2)
-
-            # Momentum theory induced velocity: v_i_new = sqrt(F_net / (4 * rho * R * b))
-            v_i_new = np.sqrt(F_net / (2.0 * self.rho * geom.swept_area))
-
-            if np.abs(v_i_new - v_i) < tol:
-                v_i = v_i_new
+        if not np.isfinite(blockage_factor) or not 0 < blockage_factor <= 1:
+            raise ValueError("blockage_factor must be in (0, 1]")
+        if not isinstance(max_iter, int) or max_iter < 1 or not np.isfinite(tol) or tol <= 0:
+            raise ValueError("Iteration limit and tolerance must be positive")
+        phase = np.radians(phi_0_deg)
+        inflow = 3.5 * np.array([-np.sin(phase), np.cos(phase)])
+        relaxation = 0.2
+        for iteration in range(1, max_iter + 1):
+            res = self.evaluate_azimuth(
+                geom, rpm, theta_0_deg, phi_0_deg, v_i=inflow, pitch_schedule=pitch_schedule
+            )
+            force = np.array([np.mean(res['F_X_multi']), np.mean(res['F_Z_multi'])])
+            magnitude = np.linalg.norm(force)
+            if not np.isfinite(magnitude):
+                raise ConvergenceError("Nonfinite blade force during inflow iteration")
+            target = (force / np.sqrt(2 * self.rho * geom.swept_area * magnitude)
+                      if magnitude > 1e-12 else np.zeros(2))
+            residual = float(np.linalg.norm(target - inflow))
+            if residual < tol:
                 break
-            v_i = (1.0 - relaxation) * v_i + relaxation * v_i_new
-
-        # Final evaluation with converged v_i
-        res = self.evaluate_azimuth(geom, rpm, theta_0_deg, phi_0_deg, v_i=v_i, pitch_schedule=pitch_schedule)
+            inflow += relaxation * (target - inflow)
+        else:
+            raise ConvergenceError(
+                f"Inflow did not converge after {max_iter} iterations; residual={residual:.6g} m/s"
+            )
+        v_i = float(np.linalg.norm(inflow))
         F_X_raw = float(np.mean(res['F_X_multi']))
         F_Z_raw = float(np.mean(res['F_Z_multi']))
         F_net_raw = float(np.sqrt(F_X_raw**2 + F_Z_raw**2))
@@ -329,12 +379,20 @@ class CyclorotorAeroModel:
         omega = 2.0 * np.pi * rpm / 60.0
         P_aero = Q_mean * omega  # Total aerodynamic power [W]
         P_induced = F_net * v_i  # Induced power [W]
-        P_profile = max(P_aero - P_induced, 0.0)  # Profile drag + tare power [W]
+        P_profile = P_aero - P_induced
         
         # Ideal momentum power
         P_ideal = (F_net ** 1.5) / np.sqrt(2.0 * self.rho * geom.swept_area)
-        figure_of_merit = P_ideal / np.maximum(P_aero, 1e-3)
-        figure_of_merit = float(np.clip(figure_of_merit, 0.0, 1.0))
+        figure_of_merit = float(P_ideal / P_aero) if P_aero != 0 else float("nan")
+        physical_consistent = bool(
+            np.isfinite(figure_of_merit) and P_aero > 0
+            and 0 <= figure_of_merit <= 1 and P_profile >= -1e-6
+        )
+        if strict and not physical_consistent:
+            raise InvalidPerformanceError(
+                f"Invalid hover power: P={P_aero:.6g} W, FM={figure_of_merit:.6g}, "
+                f"profile power={P_profile:.6g} W"
+            )
 
         # Electrical power consumed from battery
         P_elec = P_aero / (self.eta_motor * self.eta_mech * self.eta_esc)
@@ -360,6 +418,15 @@ class CyclorotorAeroModel:
             'thrust_Z_N': F_Z_mean,
             'thrust_grams': thrust_grams,
             'v_i': float(v_i),
+            'inflow_XZ': inflow.tolist(),
+            'phi_0_deg': float(phi_0_deg),
+            'thrust_direction_deg': float(np.degrees(np.arctan2(F_X_mean, F_Z_mean))),
+            'converged': True,
+            'iterations': iteration,
+            'inflow_residual_m_s': residual,
+            'physical_consistent': physical_consistent,
+            'validation_status': 'preliminary model; aerodynamic validation pending',
+            'polar_model': 'empirical Re-independent analytical approximation',
             'torque_Nm': Q_mean,
             'P_aero_W': P_aero,
             'P_induced_W': P_induced,
@@ -372,9 +439,33 @@ class CyclorotorAeroModel:
             'max_pitch_moment_Nm': max_M_pitch_single,
             'tip_speed_m_s': float(omega * geom.radius),
             'mean_Re': float(np.mean(res['Re'])),
+            'min_Re': float(np.min(res['Re'])),
+            'max_Re': float(np.max(res['Re'])),
+            'min_alpha_deg': float(np.min(res['alpha_eff_deg'])),
+            'max_alpha_deg': float(np.max(res['alpha_eff_deg'])),
             'pitch_schedule': pitch_schedule,
             'airfoil': geom.airfoil
         }
+
+    def solve_hover_direction(self, geom, rpm, theta_0_deg,
+                              thrust_direction_deg=0.0, **kwargs):
+        """Calibrate phase for a requested direction: 0 = +Z, 90 = +X.
+
+        The uniform-inflow model is rotationally invariant. Re-evaluation
+        checks the phase adjustment against finite azimuth discretization.
+        """
+        if not np.isfinite(thrust_direction_deg):
+            raise ValueError("Thrust direction must be finite")
+        phase = 0.0
+        for _ in range(12):
+            result = self.solve_hover_state(geom, rpm, theta_0_deg, phi_0_deg=phase, **kwargs)
+            if result["thrust_N"] < 1e-8:
+                raise ConvergenceError("Thrust direction is undefined at zero thrust")
+            error = (result["thrust_direction_deg"] - thrust_direction_deg + 180) % 360 - 180
+            if abs(error) < 1e-3:
+                return result
+            phase += error
+        raise ConvergenceError("Pitch phase did not reach the requested thrust direction")
 
 
 def run_parametric_sweeps(save_dir: str = "figures") -> Dict[str, any]:
@@ -385,15 +476,7 @@ def run_parametric_sweeps(save_dir: str = "figures") -> Dict[str, any]:
     aero = CyclorotorAeroModel()
 
     # Recommended Baseline Geometry (Rev 3.0)
-    baseline_geom = CyclorotorGeometry(
-        radius=0.095,       # R = 95 mm (Diameter D = 190 mm)
-        span=0.220,         # b = 220 mm
-        chord=0.038,        # c = 38 mm
-        num_blades=4,
-        airfoil="NACA 0015",
-        blade_mass_each=0.0125,
-        total_module_mass=0.3014  # Rev 3.0 baseline: 301.4 g
-    )
+    baseline_geom = CyclorotorGeometry(**BASELINE["geometry"])
 
     print("=" * 80)
     print("CYCLOPROP BASELINE GEOMETRIC SPECIFICATIONS:")
@@ -416,7 +499,7 @@ def run_parametric_sweeps(save_dir: str = "figures") -> Dict[str, any]:
     sweep_pitch_results = {th0: [] for th0 in pitch_amplitudes}
     for th0 in pitch_amplitudes:
         for rpm in rpm_range:
-            res = aero.solve_hover_state(baseline_geom, rpm, theta_0_deg=th0)
+            res = aero.solve_hover_direction(baseline_geom, rpm, theta_0_deg=th0)
             sweep_pitch_results[th0].append(res)
 
     # Plot 1: Thrust vs RPM & Power vs Thrust
@@ -458,10 +541,10 @@ def run_parametric_sweeps(save_dir: str = "figures") -> Dict[str, any]:
     # -------------------------------------------------------------
     # 2. Sweep 2: Azimuth Kinematics & Aerodynamic State (at 12 N Hover)
     # -------------------------------------------------------------
-    op_rpm = 2730.0
-    op_theta0 = 35.0
-    op_state = aero.solve_hover_state(baseline_geom, op_rpm, theta_0_deg=op_theta0)
-    azimuth_data = aero.evaluate_azimuth(baseline_geom, op_rpm, theta_0_deg=op_theta0, v_i=op_state['v_i'])
+    op_rpm = BASELINE["operating"]["rpm"]
+    op_theta0 = BASELINE["operating"]["theta_0_deg"]
+    op_state = aero.solve_hover_direction(baseline_geom, op_rpm, theta_0_deg=op_theta0)
+    azimuth_data = aero.evaluate_azimuth(baseline_geom, op_rpm, theta_0_deg=op_theta0, v_i=op_state['inflow_XZ'], phi_0_deg=op_state['phi_0_deg'])
 
     fig, axs = plt.subplots(2, 2, figsize=(14, 10))
 
@@ -486,8 +569,8 @@ def run_parametric_sweeps(save_dir: str = "figures") -> Dict[str, any]:
     axs[0, 1].legend()
 
     # Subplot C: Single Blade & 4-Blade Total Thrust Forces
-    axs[1, 0].plot(azimuth_data['psi_deg'], azimuth_data['F_Z_single'], 'b:', alpha=0.7, label='Single Blade $F_Z(\\psi)$')
-    axs[1, 0].plot(azimuth_data['psi_deg'], azimuth_data['F_Z_multi'], 'navy', linewidth=2.5, label='Total 4-Blade Net Lift $F_Z(\\psi)$')
+    axs[1, 0].plot(azimuth_data['psi_deg'], azimuth_data['F_Z_single'] * op_state['blockage_factor'], 'b:', alpha=0.7, label='Single Blade $F_Z(\\psi)$')
+    axs[1, 0].plot(azimuth_data['psi_deg'], azimuth_data['F_Z_multi'] * op_state['blockage_factor'], 'navy', linewidth=2.5, label='Total 4-Blade Net Lift $F_Z(\\psi)$')
     axs[1, 0].axhline(y=op_state['thrust_Z_N'], color='r', linestyle='--', label=f'Mean $F_Z = {op_state["thrust_Z_N"]:.2f}$ N')
     axs[1, 0].set_xlabel('Azimuth Angle $\\psi$ (deg)')
     axs[1, 0].set_ylabel('Vertical Force $F_Z$ (N)')
@@ -517,13 +600,13 @@ def run_parametric_sweeps(save_dir: str = "figures") -> Dict[str, any]:
     # 3. Sweep 3: Geometric Parametric Sweeps (Radius, Chord, Span)
     # -------------------------------------------------------------
     r_sweep = np.linspace(0.065, 0.115, 15)
-    r_results = [aero.solve_hover_state(CyclorotorGeometry(radius=r, span=0.220, chord=0.038, num_blades=4), rpm=2500.0, theta_0_deg=35.0) for r in r_sweep]
+    r_results = [aero.solve_hover_direction(replace(baseline_geom, radius=r), rpm=2500.0, theta_0_deg=35.0) for r in r_sweep]
 
     b_sweep = np.linspace(0.150, 0.250, 15)
-    b_results = [aero.solve_hover_state(CyclorotorGeometry(radius=0.095, span=b, chord=0.038, num_blades=4), rpm=2500.0, theta_0_deg=35.0) for b in b_sweep]
+    b_results = [aero.solve_hover_direction(replace(baseline_geom, span=b), rpm=2500.0, theta_0_deg=35.0) for b in b_sweep]
 
     c_sweep = np.linspace(0.025, 0.045, 15)
-    c_results = [aero.solve_hover_state(CyclorotorGeometry(radius=0.095, span=0.220, chord=c, num_blades=4), rpm=2500.0, theta_0_deg=35.0) for c in c_sweep]
+    c_results = [aero.solve_hover_direction(replace(baseline_geom, chord=c), rpm=2500.0, theta_0_deg=35.0) for c in c_sweep]
 
     fig, axs = plt.subplots(1, 3, figsize=(16, 5))
 
@@ -613,9 +696,14 @@ def run_parametric_sweeps(save_dir: str = "figures") -> Dict[str, any]:
     target_thrusts = [8.0, 10.0, 12.0, 14.0, 15.0]
     for ft_target in target_thrusts:
         rpms = np.linspace(1800, 3100, 50)
-        t_list = [aero.solve_hover_state(baseline_geom, r, 35.0)['thrust_N'] for r in rpms]
+        t_list = [aero.solve_hover_direction(baseline_geom, r, 35.0)['thrust_N'] for r in rpms]
+        if not np.all(np.diff(t_list) > 0):
+            raise ValueError("Thrust sweep must be increasing before inverse interpolation")
+        if not t_list[0] <= ft_target <= t_list[-1]:
+            print(f"{ft_target:.1f} N target lies outside the sampled RPM envelope")
+            continue
         req_rpm = float(np.interp(ft_target, t_list, rpms))
-        perf = aero.solve_hover_state(baseline_geom, req_rpm, 35.0)
+        perf = aero.solve_hover_direction(baseline_geom, req_rpm, 35.0)
         
         tag = ""
         if abs(ft_target - 10.0) < 0.1:
@@ -644,24 +732,24 @@ def run_airfoil_and_cam_study(save_dir: str = "figures") -> Dict[str, any]:
     aero = CyclorotorAeroModel()
 
     # Geometry variants
-    geom_0015 = CyclorotorGeometry(radius=0.095, span=0.220, chord=0.038, num_blades=4, airfoil="NACA 0015", total_module_mass=0.303)
-    geom_0012 = CyclorotorGeometry(radius=0.095, span=0.220, chord=0.038, num_blades=4, airfoil="NACA 0012", total_module_mass=0.303)
-    geom_e374 = CyclorotorGeometry(radius=0.095, span=0.220, chord=0.038, num_blades=4, airfoil="Eppler E374", total_module_mass=0.303)
+    geom_0012 = CyclorotorGeometry(**BASELINE["geometry"])
+    geom_0015 = replace(geom_0012, airfoil="NACA 0015")
+    geom_e374 = replace(geom_0012, airfoil="Eppler E374")
 
-    rpm_eval = 2640.0
-    theta0_eval = 35.0
+    rpm_eval = BASELINE["operating"]["rpm"]
+    theta0_eval = BASELINE["operating"]["theta_0_deg"]
 
     # 1. Evaluate baseline and variants at 2640 RPM
-    res_base_ideal = aero.solve_hover_state(geom_0015, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=1.0)
-    res_base_block = aero.solve_hover_state(geom_0015, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.92)
-    res_faired_0015 = aero.solve_hover_state(geom_0015, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.96)
-    res_faired_0012 = aero.solve_hover_state(geom_0012, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.96)
-    res_faired_e374 = aero.solve_hover_state(geom_e374, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.96)
-    res_cam_track = aero.solve_hover_state(geom_0012, rpm_eval, theta0_eval, pitch_schedule="asymmetric_cam", blockage_factor=0.96)
+    res_base_ideal = aero.solve_hover_direction(geom_0015, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=1.0)
+    res_base_block = aero.solve_hover_direction(geom_0015, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.92)
+    res_faired_0015 = aero.solve_hover_direction(geom_0015, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.96)
+    res_faired_0012 = aero.solve_hover_direction(geom_0012, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.96)
+    res_faired_e374 = aero.solve_hover_direction(geom_e374, rpm_eval, theta0_eval, pitch_schedule="sinusoidal", blockage_factor=0.96)
+    res_cam_track = aero.solve_hover_direction(geom_0012, rpm_eval, theta0_eval, pitch_schedule="asymmetric_cam", blockage_factor=0.96)
 
     # Azimuthal detailed data for plotting
-    az_sin = aero.evaluate_azimuth(geom_0015, rpm_eval, theta0_eval, v_i=res_base_ideal['v_i'], pitch_schedule="sinusoidal")
-    az_cam = aero.evaluate_azimuth(geom_0012, rpm_eval, theta0_eval, v_i=res_cam_track['v_i'], pitch_schedule="asymmetric_cam")
+    az_sin = aero.evaluate_azimuth(geom_0015, rpm_eval, theta0_eval, v_i=res_base_ideal['inflow_XZ'], phi_0_deg=res_base_ideal['phi_0_deg'], pitch_schedule="sinusoidal")
+    az_cam = aero.evaluate_azimuth(geom_0012, rpm_eval, theta0_eval, v_i=res_cam_track['inflow_XZ'], phi_0_deg=res_cam_track['phi_0_deg'], pitch_schedule="asymmetric_cam")
 
     # Generate 4-panel publication plot
     fig, axs = plt.subplots(2, 2, figsize=(15, 11))
@@ -697,7 +785,7 @@ def run_airfoil_and_cam_study(save_dir: str = "figures") -> Dict[str, any]:
 
     # Panel C: Multi-Blade Lift Generation over Azimuth
     axs[1, 0].plot(az_sin['psi_deg'], az_sin['F_Z_multi'], 'b-', label=f'Sinusoidal 4-Blade Lift ($F_Z = {res_base_ideal["thrust_Z_N"]:.2f}$ N)')
-    axs[1, 0].plot(az_cam['psi_deg'], az_cam['F_Z_multi'], 'r-', linewidth=2.2, label=f'Cam-Track 4-Blade Lift ($F_Z = {res_cam_track["thrust_Z_N"]:.2f}$ N)')
+    axs[1, 0].plot(az_cam['psi_deg'], az_cam['F_Z_multi'] * res_cam_track['blockage_factor'], 'r-', linewidth=2.2, label=f'Cam-Track 4-Blade Lift ($F_Z = {res_cam_track["thrust_Z_N"]:.2f}$ N)')
     axs[1, 0].set_xlabel('Azimuth Angle $\\psi$ (deg)')
     axs[1, 0].set_ylabel('Vertical Lift Force $F_Z$ (N)')
     axs[1, 0].set_title('C: Azimuthal Lift Production & Dwell Effect')
@@ -785,6 +873,6 @@ def run_airfoil_and_cam_study(save_dir: str = "figures") -> Dict[str, any]:
 
 
 if __name__ == '__main__':
-    figures_out = "c:/Users/Adarsh Singh/CycloProp/figures"
+    figures_out = ROOT / "figures" / "corrected"
     run_parametric_sweeps(save_dir=figures_out)
     run_airfoil_and_cam_study(save_dir=figures_out)

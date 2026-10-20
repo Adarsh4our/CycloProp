@@ -1,5 +1,5 @@
 """
-CycloProp: Perfected High-Precision ISO General Arrangement & Assembly Drawings
+CycloProp: Legacy preliminary assembly schematic - CAD reconciliation pending
 Zero text overlap, crisp contrast, to-scale geometry, and professional layout.
 """
 
@@ -11,7 +11,10 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.patches import FancyBboxPatch, Circle, Rectangle, Polygon
 
-output_dir = r"c:\Users\Adarsh Singh\CycloProp\figures"
+from project_config import ROOT
+
+output_dir = ROOT / "figures" / "legacy_schematic"
+print("LEGACY SCHEMATIC: dimensions and mass annotations require CAD reconciliation; see reports/BASELINE.md")
 os.makedirs(output_dir, exist_ok=True)
 
 # -------------------------------------------------------------------------

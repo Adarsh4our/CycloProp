@@ -1,0 +1,354 @@
+{
+  "status": "Analytical estimate; CFD, CAD mass and hardware validation pending",
+  "revision": "2026-10-20-corrected-preliminary",
+  "config_sha256": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+  "solver_sha256": "c726253f7722ecfde1e1ae1e7af5f199dd3b4abdfd824bae503375cf9a863298",
+  "baseline": {
+    "revision": "2026-10-20-corrected-preliminary",
+    "status": "Analytical estimate; CFD, CAD mass and hardware validation pending",
+    "geometry": {
+      "radius": 0.095,
+      "span": 0.22,
+      "chord": 0.038,
+      "num_blades": 4,
+      "airfoil": "NACA 0012",
+      "pivot_ratio": 0.25,
+      "blade_mass_each": 0.0125,
+      "total_module_mass": 0.33110791545379087
+    },
+    "operating": {
+      "rpm": 2640.0,
+      "theta_0_deg": 35.0,
+      "thrust_direction_deg": 0.0,
+      "blockage_factor": 0.96,
+      "pitch_schedule": "sinusoidal",
+      "battery_voltage": 14.8
+    },
+    "fluid": {
+      "rho": 1.225,
+      "mu": 1.81e-05
+    },
+    "efficiencies": {
+      "motor": 0.84,
+      "mechanical": 0.96,
+      "esc": 0.97
+    },
+    "shaft": {
+      "outer_diameter_m": 0.006,
+      "inner_diameter_m": 0.0,
+      "length_m": 0.26,
+      "density_kg_m3": 7850.0,
+      "basis": "Gross solid rod; subtract machining only after CAD mass verification"
+    },
+    "bom": [
+      {
+        "component": "Rotor blades",
+        "category": "Structure",
+        "quantity": 4,
+        "unit_mass_g": 12.5
+      },
+      {
+        "component": "Endplates",
+        "category": "Structure",
+        "quantity": 2,
+        "unit_mass_g": 18.0
+      },
+      {
+        "component": "Central drive shaft",
+        "category": "Drivetrain",
+        "quantity": 1,
+        "mass_from": "shaft"
+      },
+      {
+        "component": "Main shaft bearings",
+        "category": "Drivetrain",
+        "quantity": 4,
+        "unit_mass_g": 3.5
+      },
+      {
+        "component": "Blade trunnion bushings",
+        "category": "Pitch Control",
+        "quantity": 8,
+        "unit_mass_g": 0.15
+      },
+      {
+        "component": "Inner carriage",
+        "category": "Pitch Control",
+        "quantity": 1,
+        "unit_mass_g": 6.0
+      },
+      {
+        "component": "Outer ring and bearing",
+        "category": "Pitch Control",
+        "quantity": 1,
+        "unit_mass_g": 7.5
+      },
+      {
+        "component": "Pushrods",
+        "category": "Pitch Control",
+        "quantity": 4,
+        "unit_mass_g": 2.6
+      },
+      {
+        "component": "Pitch arms",
+        "category": "Pitch Control",
+        "quantity": 4,
+        "unit_mass_g": 1.8
+      },
+      {
+        "component": "Servos",
+        "category": "Pitch Control",
+        "quantity": 2,
+        "unit_mass_g": 7.8
+      },
+      {
+        "component": "Motor",
+        "category": "Drivetrain",
+        "quantity": 1,
+        "unit_mass_g": 68.0
+      },
+      {
+        "component": "ESC",
+        "category": "Electrical",
+        "quantity": 1,
+        "unit_mass_g": 12.0
+      },
+      {
+        "component": "Coupler",
+        "category": "Drivetrain",
+        "quantity": 1,
+        "unit_mass_g": 8.0
+      },
+      {
+        "component": "Frame and fairings",
+        "category": "Structure",
+        "quantity": 1,
+        "unit_mass_g": 24.5
+      },
+      {
+        "component": "Fasteners",
+        "category": "Structure",
+        "quantity": 1,
+        "unit_mass_g": 9.0
+      },
+      {
+        "component": "Wiring",
+        "category": "Electrical",
+        "quantity": 1,
+        "unit_mass_g": 4.0
+      }
+    ],
+    "cfd": {
+      "airfoils": [
+        "naca0009",
+        "naca0012",
+        "naca0015",
+        "naca0018",
+        "naca63012"
+      ],
+      "reynolds": [
+        30000,
+        50000,
+        75000,
+        100000,
+        125000
+      ],
+      "angles_deg": [
+        -40,
+        -35,
+        -30,
+        -25,
+        -20,
+        -15,
+        -10,
+        -5,
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40
+      ],
+      "iterations": 2000,
+      "mesh": {
+        "Nx": 160,
+        "ND": 80,
+        "NT": 60,
+        "ExpT": 250.0,
+        "ExpD": 50.0,
+        "ExpArc": 30.0
+      },
+      "acceptance": {
+        "window_samples": 20,
+        "residual_limit": 0.0001,
+        "coefficient_atol": 0.002,
+        "coefficient_rtol": 0.02
+      }
+    }
+  },
+  "bom": [
+    {
+      "component": "Rotor blades",
+      "category": "Structure",
+      "quantity": 4,
+      "unit_mass_g": 12.5,
+      "total_mass_g": 50.0
+    },
+    {
+      "component": "Endplates",
+      "category": "Structure",
+      "quantity": 2,
+      "unit_mass_g": 18.0,
+      "total_mass_g": 36.0
+    },
+    {
+      "component": "Central drive shaft",
+      "category": "Drivetrain",
+      "quantity": 1,
+      "mass_from": "shaft",
+      "unit_mass_g": 57.70791545379091,
+      "total_mass_g": 57.70791545379091
+    },
+    {
+      "component": "Main shaft bearings",
+      "category": "Drivetrain",
+      "quantity": 4,
+      "unit_mass_g": 3.5,
+      "total_mass_g": 14.0
+    },
+    {
+      "component": "Blade trunnion bushings",
+      "category": "Pitch Control",
+      "quantity": 8,
+      "unit_mass_g": 0.15,
+      "total_mass_g": 1.2
+    },
+    {
+      "component": "Inner carriage",
+      "category": "Pitch Control",
+      "quantity": 1,
+      "unit_mass_g": 6.0,
+      "total_mass_g": 6.0
+    },
+    {
+      "component": "Outer ring and bearing",
+      "category": "Pitch Control",
+      "quantity": 1,
+      "unit_mass_g": 7.5,
+      "total_mass_g": 7.5
+    },
+    {
+      "component": "Pushrods",
+      "category": "Pitch Control",
+      "quantity": 4,
+      "unit_mass_g": 2.6,
+      "total_mass_g": 10.4
+    },
+    {
+      "component": "Pitch arms",
+      "category": "Pitch Control",
+      "quantity": 4,
+      "unit_mass_g": 1.8,
+      "total_mass_g": 7.2
+    },
+    {
+      "component": "Servos",
+      "category": "Pitch Control",
+      "quantity": 2,
+      "unit_mass_g": 7.8,
+      "total_mass_g": 15.6
+    },
+    {
+      "component": "Motor",
+      "category": "Drivetrain",
+      "quantity": 1,
+      "unit_mass_g": 68.0,
+      "total_mass_g": 68.0
+    },
+    {
+      "component": "ESC",
+      "category": "Electrical",
+      "quantity": 1,
+      "unit_mass_g": 12.0,
+      "total_mass_g": 12.0
+    },
+    {
+      "component": "Coupler",
+      "category": "Drivetrain",
+      "quantity": 1,
+      "unit_mass_g": 8.0,
+      "total_mass_g": 8.0
+    },
+    {
+      "component": "Frame and fairings",
+      "category": "Structure",
+      "quantity": 1,
+      "unit_mass_g": 24.5,
+      "total_mass_g": 24.5
+    },
+    {
+      "component": "Fasteners",
+      "category": "Structure",
+      "quantity": 1,
+      "unit_mass_g": 9.0,
+      "total_mass_g": 9.0
+    },
+    {
+      "component": "Wiring",
+      "category": "Electrical",
+      "quantity": 1,
+      "unit_mass_g": 4.0,
+      "total_mass_g": 4.0
+    }
+  ],
+  "performance": {
+    "rpm": 2640.0,
+    "theta_0_deg": 35.0,
+    "thrust_N": 8.399526872264728,
+    "thrust_raw_N": 8.749507158609092,
+    "blockage_factor": 0.96,
+    "thrust_X_N": 1.5938181563276051e-06,
+    "thrust_Z_N": 8.399526872264575,
+    "thrust_grams": 856.5133732992131,
+    "v_i": 9.243162080213864,
+    "inflow_XZ": [
+      1.5642718882441497e-06,
+      9.24316208021373
+    ],
+    "phi_0_deg": 19.675255350389023,
+    "thrust_direction_deg": 1.087192827139232e-05,
+    "converged": true,
+    "iterations": 47,
+    "inflow_residual_m_s": 9.516231381179948e-07,
+    "physical_consistent": true,
+    "validation_status": "preliminary model; aerodynamic validation pending",
+    "polar_model": "empirical Re-independent analytical approximation",
+    "torque_Nm": 0.5359053546129444,
+    "P_aero_W": 148.15647660628838,
+    "P_induced_W": 77.63818827745469,
+    "P_profile_W": 70.51828832883369,
+    "P_elec_W": 189.4080303529092,
+    "figure_of_merit": 0.5134408414039981,
+    "power_loading_elec_g_W": 4.52205416899874,
+    "power_loading_aero_g_W": 5.781140270872634,
+    "tw_ratio": 2.5868103217204648,
+    "max_pitch_moment_Nm": 0.06821241930641139,
+    "tip_speed_m_s": 26.263714584010668,
+    "mean_Re": 69653.88851179765,
+    "min_Re": 43773.85188131219,
+    "max_Re": 91317.40932152749,
+    "min_alpha_deg": -13.140825998354902,
+    "max_alpha_deg": 21.520461595626475,
+    "pitch_schedule": "sinusoidal",
+    "airfoil": "NACA 0012"
+  },
+  "limitations": [
+    "Empirical Re-independent analytical coefficients and continuous stall approximation",
+    "Uniform inflow and empirical blockage; cyclic pitching not CFD validated",
+    "Shaft mass from gross solid geometry; other BOM masses remain estimates",
+    "CAD mass, structural, thermal and hardware verification pending"
+  ]
+}

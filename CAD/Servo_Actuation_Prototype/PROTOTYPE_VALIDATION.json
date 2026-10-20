@@ -1,0 +1,246 @@
+{
+  "status": "PROVISIONAL",
+  "sample_count": 17,
+  "native_boolean_checks": 197,
+  "native_bodies": 51,
+  "neutral_mate_errors": [],
+  "samples": [
+    {
+      "offset_mm": [
+        0.0,
+        0.0
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        6.88,
+        0.0
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        6.356291183677653,
+        2.632862014671818
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        4.8648946545634475,
+        4.8648946545634475
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        2.6328620146718182,
+        6.356291183677653
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        4.212784989066895e-16,
+        6.88
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -2.6328620146718174,
+        6.356291183677653
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -4.864894654563447,
+        4.8648946545634475
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -6.356291183677653,
+        2.6328620146718187
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -6.88,
+        8.42556997813379e-16
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -6.356291183677653,
+        -2.632862014671817
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -4.8648946545634475,
+        -4.864894654563447
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -2.632862014671822,
+        -6.3562911836776514
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        -1.2638354967200685e-15,
+        -6.88
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        2.632862014671819,
+        -6.356291183677652
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        4.864894654563446,
+        -4.8648946545634475
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    },
+    {
+      "offset_mm": [
+        6.3562911836776514,
+        -2.632862014671822
+      ],
+      "rebuilt": true,
+      "mate_errors": [],
+      "component_pose_errors": [],
+      "collisions": []
+    }
+  ],
+  "crank_angles_at_extremes_deg": [
+    -34.653337321188275,
+    35.34022448980943
+  ],
+  "assumptions": [
+    "Rigid components and nominal CAD geometry",
+    "Existing control ring angle held fixed",
+    "Original-original intersections and internal servo-body intersections excluded",
+    "Reference horn is not a manufactured spline",
+    "No physical fasteners except reference pivot pins modelled",
+    "No full-motion proof or load/mass approval"
+  ],
+  "checks": {
+    "sampled_positions": "passed",
+    "full_continuous_motion": "not performed",
+    "physical_hardware_measurement": "not performed",
+    "load_and_stiffness_analysis": "not performed",
+    "small_positive_native_drag_both_axes": "passed: approximately +1 mm observed on each axis; centred again using mate dimensions",
+    "native_drag_collision_detection": "disabled; sampled body intersection checks checked separately"
+  },
+  "final_active_mate_count": 62,
+  "restored_axis_limits": {
+    "LimitDistance1": {
+      "type": "MateLimitDistanceDim",
+      "advanced": true,
+      "min_mm": 5.12,
+      "max_mm": 18.880000000000003
+    },
+    "LimitDistance2": {
+      "type": "MateLimitDistanceDim",
+      "advanced": true,
+      "min_mm": 5.120000000003774,
+      "max_mm": 18.880000000003783
+    },
+    "LimitDistance3": {
+      "type": "MateLimitDistanceDim",
+      "advanced": true,
+      "min_mm": 5.12,
+      "max_mm": 18.880000000000003
+    },
+    "LimitDistance4": {
+      "type": "MateLimitDistanceDim",
+      "advanced": true,
+      "min_mm": 5.119999999933386,
+      "max_mm": 18.879999999933386
+    }
+  },
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "26b983786cae89396ea9b27615e1e8450e213891fe48a50ef859dcac90410bd9",
+    "CAD\\Servo_Actuation_Prototype\\Pivot_Pin_D2_REFERENCE.SLDPRT": "ae860838550bb25473608ee1dc476461157464e14968709abd3727fa32b1ce3a",
+    "CAD\\Servo_Actuation_Prototype\\Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT": "f9b41de341e551af7a981cb72016948a08f286c823d59fdc58d5c5b207b2d876",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Horn_R12_LAYOUT.SLDPRT": "13a6819e1b34eeb417987c3071ef4278a1da5a44a3a1ab837f236834ba6d8d6e",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Link_L40_PROTOTYPE.SLDPRT": "4a2e7ed24b6925d7f338969301bccb83ae38a0081c0e7f4ad424d4def4addee1",
+    "CAD\\Servo_Actuation_Prototype\\Servo_X_Mount_PROTOTYPE.SLDPRT": "e8ee84e06a94568348ed7852d0bfca9f710a4d50323eb550d08c81c82f8d3a97",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Y_Mount_PROTOTYPE.SLDPRT": "ea1a7c63b1ccfddd8a7664dcb0287976699ccd168e9da91301afde84e5ac95ec",
+    "CAD\\Servo_Actuation_Prototype\\X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": "390ac86a704825212cb37936b684e90007c4837a05a1d54cb8fac37b88effe17",
+    "CAD\\Servo_Actuation_Prototype\\Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": "e16166e1bd2408d848d15e633a2bcc9c68706efe94aec2803d2a048d1845f4b3",
+    "CAD\\Servo_Actuation_Prototype\\~$Pivot_Pin_D2_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Servo_Actuation_Prototype\\~$Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Servo_Actuation_Prototype\\~$Servo_Horn_R12_LAYOUT.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Servo_Actuation_Prototype\\~$Servo_Link_L40_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Servo_Actuation_Prototype\\~$Servo_X_Mount_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Servo_Actuation_Prototype\\~$Servo_Y_Mount_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Servo_Actuation_Prototype\\~$X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Servo_Actuation_Prototype\\~$Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD/Assem20.SLDASM": "2657bce20fe74d247d8557bea86b4be81e15c512061ff0ed08978205d46b3463"
+  }
+}

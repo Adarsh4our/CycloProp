@@ -1,0 +1,43 @@
+﻿Grand Challenge Title:,Grand Challenge 2: CycloProp - Advanced UAV Propulsion Challenge,,,,
+Team ID:,CycloProp (Team Leader: Adarsh Singh),,,,
+,,,,,
+Budget Proposal,,,,,
+Sr. No.,Category (Select only from the drop down menu),Particulars,Vendor,Amount,Justification
+1,Software / Computing / Computer-Aided Engineering (CAE) / Subscription,"SanDisk Extreme 1TB Portable External SSD (USB 3.2 Gen 2 Type-C, Up to 1050MB/s Read, IP65 Water/Dust Resistant) — FAQ-approved for simulation logs & dedicated external Linux OS environment",Amazon India / SanDisk India,17999,"PUSHPAK Stage 2 FAQ explicitly approves external SSDs for simulation storage. High-speed NVMe 1050MB/s rugged external drive required to host a dedicated bootable Linux OS (Ubuntu 24.04 LTS), execute OpenFOAM 2D CFD solvers, and archive massive unsteady VTK simulation flow-field logs (D3, D4). Live verified Amazon India retail rate."
+2,Software / Computing / Computer-Aided Engineering (CAE) / Subscription,"512GB M.2 NVMe PCIe Gen4 x4 Internal SSD (Pack of 2 pcs: Crucial P3 Plus / WD Blue SN580 500GB @ ₹3,500 each) — high-speed simulation workspace expansion for team workstations",Amazon India / Crucial India / Western Digital,7000,"High-speed Gen4 NVMe internal solid-state drives (2 units @ ₹3,500 each) to upgrade team workstations with dedicated high-IOPS Linux/OpenFOAM computational partitions, preventing disk bottlenecks during parallel grid generation and transient FEA stress runs (D3, D4)."
+3,Software / Computing / Computer-Aided Engineering (CAE) / Subscription,Cloud HPC On-Demand Compute Credits — parallel 2D OpenFOAM AoA parameter sweeps & Richardson mesh convergence study,AWS India / DigitalOcean India,9000,"Running 200+ parallel 2D CFD cases (17 AoA x pitch amplitudes x 3 grid densities) simultaneously on cloud for overnight convergence vs. 6 days of sequential laptop runs. Required for D3 aerodynamic thrust validation (11.76N target, FM=0.768)."
+4,Software / Computing / Computer-Aided Engineering (CAE) / Subscription,"Google One AI Premium (Gemini Advanced / Ultra) Subscription — 2 Months (₹1,950/mo incl. Indian GST)",Google India Pvt. Ltd.,3900,"AI-assisted computational engineering subscription (Google India Pvt. Ltd., GST-compliant tax invoice) across the 2-month Stage 2 development period. Accelerates OpenFOAM mesh automation scripting, Python BEMT solver optimization, SolidWorks macro automation, and complex mathematical deliverable verification (D1–D6)."
+5,Components / Electronics,"Raw ASTM Material Coupon Stock: UD CFRP prepreg sample (50x200mm x3), G10 FR4 sheet (150x150mm x2), 4130 Chromoly rod section, 7075-T6 Al bar slug, Igus JFM-0306-04 polymer bushing x4",Carbon Craft India / PCB Unlimited / Igus India,8000,"D5 explicitly requires photographic evidence of physical material samples. Raw coupon specimens enable dimensional verification, mass-density confirmation, and macro photography for the material selection dossier. NOT functional assemblies — raw specimen stock only."
+6,Mechanical / Structural / Fabrication,"FDM Desktop 3D Printed Kinematic Clearance Verification Set — eccentric carriage ring, 4-bar linkage, pitch horn, pushrod assembly (non-structural, non-flight PETG/PLA; visual interference check only)",IIT Ropar Mechatronics Lab / Local 3D Bureau,4500,"D1/D2 kinematic design verification consumable. Physical eccentric linkage model allows manual verification of gimbal-lock absence, pushrod toggle clearance, and eccentric carriage travel (e<=6.88mm), correlating SolidWorks Motion simulation with physical reality before design freeze."
+7,Other Direct Technical Expenses,"Professional A3 Large-Format Engineering Drawings, Technical Report Dossier Printing & Archival Binding x3 sets (GA drawings, FEA contour plots, kinematic trace diagrams, 2D manufacturing drawings)",Print Solutions / Campus Print Centre,5500,"Three formal A3 dossier sets for faculty mentor (Dr. Shashi Shekhar Jha), IIT Ropar CoDRAS archive, and master review copy. Supports all D1-D6 deliverable documentation and evaluation readiness."
+8,Other Direct Technical Expenses,"High-Speed Archival Flash Drives x3 (SanDisk Ultra USB 3.0 64GB @ ₹1,000 each) + Dedicated Broadband Data Top-Up for multi-GB CAD and CFD file transfers",SanDisk India / Amazon India,3200,Physical offline submission media archive for faculty mentor and broadband for multi-GB OpenFOAM and SolidWorks dataset synchronisation across the Stage 2 simulation campaign.
+9,Other Direct Technical Expenses,"Miscellaneous Design Verification Consumables (Themisto TH-M61 150mm digital vernier caliper, engineering graph paper, adhesive labels for material specimen cataloguing)",Amazon India / Local Stationery,1000,"Lab consumables for material coupon cataloguing, precision digital dimensional spot-checks (coupon thickness, bushing OD verification), and physical design verification activities directly tied to D5 deliverable photography."
+Total Stage 2 Requirement,,,,=SUM(E6:E14),
+,,,,,
+,,,,,
+Do's and Don't,,,,,
+1. Total budget amount should not exceed INR 1 Lakh.,,,,,
+2. Personal remuneration/honorarium to team members is strictly prohibited at this stage.,,,,,
+3. No meeting expenses shall be considered. ,,,,,
+4. Only expenses which are related to your work during stage 2 is permissible.,,,,,
+,,,,,
+Financial Declaration,,,,,
+,,,,,
+We hereby certify that:,,,,,
+,,,,,
+True,1. The information provided in this financial proposal is true and accurate to the best of our knowledge.,,,,
+True,2. The proposed expenditure is directly related to the Stage 2 technical development of the project.,,,,
+True,3. The requested financial support will be used only for approved development activities.,,,,
+True,"4. No expenditure will be incurred outside the approved scope without prior approval, wherever such approval is required.",,,,
+True,"5. The team will maintain appropriate records, invoices/bills, payment proof and other supporting documents for expenditure made from the development support.",,,,
+True,6. The team agrees to provide expenditure statements and supporting documents when requested by the organisers.,,,,
+True,7. The team understands that financial support is intended for technical development and does not constitute unrestricted prize money.,,,,
+True,8. The team will comply with all applicable competition and funding guidelines.,,,,
+,,,,,
+Date:,18 October 2026,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

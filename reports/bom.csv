@@ -1,0 +1,17 @@
+component,category,quantity,unit_mass_g,total_mass_g
+Rotor blades,Structure,4,12.5,50.0
+Endplates,Structure,2,18.0,36.0
+Central drive shaft,Drivetrain,1,57.70791545379091,57.70791545379091
+Main shaft bearings,Drivetrain,4,3.5,14.0
+Blade trunnion bushings,Pitch Control,8,0.15,1.2
+Inner carriage,Pitch Control,1,6.0,6.0
+Outer ring and bearing,Pitch Control,1,7.5,7.5
+Pushrods,Pitch Control,4,2.6,10.4
+Pitch arms,Pitch Control,4,1.8,7.2
+Servos,Pitch Control,2,7.8,15.6
+Motor,Drivetrain,1,68.0,68.0
+ESC,Electrical,1,12.0,12.0
+Coupler,Drivetrain,1,8.0,8.0
+Frame and fairings,Structure,1,24.5,24.5
+Fasteners,Structure,1,9.0,9.0
+Wiring,Electrical,1,4.0,4.0

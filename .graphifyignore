@@ -1,0 +1,15 @@
+# Ignore heavy CFD simulation numerical outputs
+cfd_study/openfoam/
+
+# Ignore SolidWorks CAD binary files
+CAD/*.SLDPRT
+CAD/*.SLDASM
+*.SLDPRT
+*.SLDASM
+
+# Ignore raw coordinate dump text files
+scripts/*.txt
+
+# Ignore compiled binary PDFs (prevent pypdf warnings)
+*.pdf
+CycloProp_PUSHPAK_Stage1_Submission/*.pdf

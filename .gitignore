@@ -7,16 +7,24 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Debug / temp image crops
 crop_*.png
 groove*.png
+/test_open.ps1
+/test_open.vbs
 
 # SolidWorks temp / backup files
 *.swp
 *.bak
 *~recover~*
 *.sldrep
+~$*
 
 # OS
 .DS_Store
@@ -25,3 +33,9 @@ desktop.ini
 
 # Jupyter
 .ipynb_checkpoints/
+
+graphify-out/
+
+# Generated OpenFOAM cases; retain templates and report snapshots
+/cfd_study/openfoam/blade*/
+/cfd_study/runs/

@@ -1,0 +1,61 @@
+{
+  "revision": "2026-10-20-corrected-preliminary",
+  "status": "Analytical estimate; CFD, CAD mass and hardware validation pending",
+  "geometry": {
+    "radius": 0.095,
+    "span": 0.220,
+    "chord": 0.038,
+    "num_blades": 4,
+    "airfoil": "NACA 0012",
+    "pivot_ratio": 0.25,
+    "blade_mass_each": 0.0125
+  },
+  "operating": {
+    "rpm": 2640.0,
+    "theta_0_deg": 35.0,
+    "thrust_direction_deg": 0.0,
+    "blockage_factor": 0.96,
+    "pitch_schedule": "sinusoidal",
+    "battery_voltage": 14.8
+  },
+  "fluid": {"rho": 1.225, "mu": 0.0000181},
+  "efficiencies": {"motor": 0.84, "mechanical": 0.96, "esc": 0.97},
+  "shaft": {
+    "outer_diameter_m": 0.006,
+    "inner_diameter_m": 0.0,
+    "length_m": 0.260,
+    "density_kg_m3": 7850.0,
+    "basis": "Gross solid rod; subtract machining only after CAD mass verification"
+  },
+  "bom": [
+    {"component": "Rotor blades", "category": "Structure", "quantity": 4, "unit_mass_g": 12.5},
+    {"component": "Endplates", "category": "Structure", "quantity": 2, "unit_mass_g": 18.0},
+    {"component": "Central drive shaft", "category": "Drivetrain", "quantity": 1, "mass_from": "shaft"},
+    {"component": "Main shaft bearings", "category": "Drivetrain", "quantity": 4, "unit_mass_g": 3.5},
+    {"component": "Blade trunnion bushings", "category": "Pitch Control", "quantity": 8, "unit_mass_g": 0.15},
+    {"component": "Inner carriage", "category": "Pitch Control", "quantity": 1, "unit_mass_g": 6.0},
+    {"component": "Outer ring and bearing", "category": "Pitch Control", "quantity": 1, "unit_mass_g": 7.5},
+    {"component": "Pushrods", "category": "Pitch Control", "quantity": 4, "unit_mass_g": 2.6},
+    {"component": "Pitch arms", "category": "Pitch Control", "quantity": 4, "unit_mass_g": 1.8},
+    {"component": "Servos", "category": "Pitch Control", "quantity": 2, "unit_mass_g": 7.8},
+    {"component": "Motor", "category": "Drivetrain", "quantity": 1, "unit_mass_g": 68.0},
+    {"component": "ESC", "category": "Electrical", "quantity": 1, "unit_mass_g": 12.0},
+    {"component": "Coupler", "category": "Drivetrain", "quantity": 1, "unit_mass_g": 8.0},
+    {"component": "Frame and fairings", "category": "Structure", "quantity": 1, "unit_mass_g": 24.5},
+    {"component": "Fasteners", "category": "Structure", "quantity": 1, "unit_mass_g": 9.0},
+    {"component": "Wiring", "category": "Electrical", "quantity": 1, "unit_mass_g": 4.0}
+  ],
+  "cfd": {
+    "airfoils": ["naca0009", "naca0012", "naca0015", "naca0018", "naca63012"],
+    "reynolds": [30000, 50000, 75000, 100000, 125000],
+    "angles_deg": [-40, -35, -30, -25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40],
+    "iterations": 2000,
+    "mesh": {"Nx": 160, "ND": 80, "NT": 60, "ExpT": 250.0, "ExpD": 50.0, "ExpArc": 30.0},
+    "acceptance": {
+      "window_samples": 20,
+      "residual_limit": 0.0001,
+      "coefficient_atol": 0.002,
+      "coefficient_rtol": 0.02
+    }
+  }
+}

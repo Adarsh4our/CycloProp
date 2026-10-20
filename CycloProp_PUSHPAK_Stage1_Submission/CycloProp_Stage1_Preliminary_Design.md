@@ -1,3 +1,5 @@
+> **Calculation correction, 20 October 2026:** Numerical performance and mass sign-offs below are historical claims, superseded by the current preliminary calculation in `reports/BASELINE.md` and inputs in `config/baseline.json`. The current model predicts about 8.40 N vertical thrust, 189.41 W and 331.11 g estimated mass. Aerodynamic, CAD, structural and hardware validation remain pending.
+
 ---
 title: "CycloProp: Advanced UAV Propulsion Module"
 subtitle: "PUSHPAK Grand Challenge 2026 — Stage 1 Preliminary Design Submission"
