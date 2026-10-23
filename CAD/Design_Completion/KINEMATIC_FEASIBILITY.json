@@ -1,0 +1,85 @@
+{
+  "status": "CALCULATED DESIGN STUDY; NOT NATIVE CAD MOTION VALIDATION",
+  "assumptions": [
+    "rigid planar links; no joint clearance or elasticity",
+    "rotor radius95, ring connection radius40, ball-centre length95mm",
+    "constant 1:1 angular timing",
+    "zero pitch at centred carriage using clockwise tangential horn",
+    "e=6.88mm, sampled rotor angles0..360deg in0.1deg increments; all eccentric directions equivalent by rotational symmetry",
+    "nearest-zero assembly branch; not a numerical continuation or proof of branch retention"
+  ],
+  "rows": [
+    {
+      "horn_radius_mm": 12.0,
+      "neutral_ring_hole_phase_from_blade_radial_deg": -84.03961774565268,
+      "min_pitch_deg": -44.8555993460782,
+      "max_pitch_deg": 33.31758107702697,
+      "max_abs_pitch_deg": 44.8555993460782,
+      "no_closure_samples": 0,
+      "closure_cosine_range": [
+        -0.16365518143385652,
+        0.9298581430342252
+      ]
+    },
+    {
+      "horn_radius_mm": 13.0,
+      "neutral_ring_hole_phase_from_blade_radial_deg": -84.45885716605633,
+      "min_pitch_deg": -38.96764504924681,
+      "max_pitch_deg": 30.693098806254692,
+      "max_abs_pitch_deg": 38.96764504924681,
+      "no_closure_samples": 0,
+      "closure_cosine_range": [
+        -0.11882996515948671,
+        0.8865243461333292
+      ]
+    },
+    {
+      "horn_radius_mm": 14.0,
+      "neutral_ring_hole_phase_from_blade_radial_deg": -84.86289580922902,
+      "min_pitch_deg": -34.74174362658074,
+      "max_pitch_deg": 28.45806064802191,
+      "max_abs_pitch_deg": 34.74174362658074,
+      "no_closure_samples": 0,
+      "closure_cosine_range": [
+        -0.08052849779981269,
+        0.849290145253036
+      ]
+    },
+    {
+      "horn_radius_mm": 14.5,
+      "neutral_ring_hole_phase_from_blade_radial_deg": -85.05920216592106,
+      "min_pitch_deg": -33.00878194915919,
+      "max_pitch_deg": 27.45969579399994,
+      "max_abs_pitch_deg": 33.00878194915919,
+      "no_closure_samples": 0,
+      "closure_cosine_range": [
+        -0.06340076463410425,
+        0.8325676172840738
+      ]
+    },
+    {
+      "horn_radius_mm": 15.0,
+      "neutral_ring_hole_phase_from_blade_radial_deg": -85.25169391042044,
+      "min_pitch_deg": -31.46244295963626,
+      "max_pitch_deg": 26.52959239595829,
+      "max_abs_pitch_deg": 31.46244295963626,
+      "no_closure_samples": 0,
+      "closure_cosine_range": [
+        -0.04744057472199175,
+        0.8169402732773433
+      ]
+    },
+    {
+      "horn_radius_mm": 16.0,
+      "neutral_ring_hole_phase_from_blade_radial_deg": -85.62521795960411,
+      "min_pitch_deg": -28.806950316706036,
+      "max_pitch_deg": 24.847423305894804,
+      "max_abs_pitch_deg": 28.806950316706036,
+      "no_closure_samples": 0,
+      "closure_cosine_range": [
+        -0.01858191368243471,
+        0.7885626197932154
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1270 @@
+{
+  "status": "Verified complete for stated two-view balloon task:68 native BOM-linked item balloons, each attached component checked; original87-item key and405 quantities preserved; three-page PDF reviewed.",
+  "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+  "source_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+  "original_BOM_drawing_sha256": "61ed5c6f0a39acfec646f073d0bbe02b6805d74847454356e664970e5697f391",
+  "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_BALLOONED_ASSEMBLY.SLDDRW",
+  "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_BALLOONED_ASSEMBLY.pdf",
+  "views": [
+    {
+      "sheet": "Assembly_Isometric",
+      "orientation": "*Isometric",
+      "native_view": "Drawing View2",
+      "BOM_link": "Bill of Materials1",
+      "balloons": [
+        {
+          "item_number": "74",
+          "position_m": [
+            0.4257786647516954,
+            0.4823998313904685,
+            -0.03984306341312005
+          ],
+          "attachments": [
+            {
+              "component": "RB_Oldham_Floating_Disk_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "77",
+          "position_m": [
+            0.43774676427649745,
+            0.4823998313904685,
+            -0.022666054500361965
+          ],
+          "attachments": [
+            {
+              "component": "RB_Hub_Endplate_Shim_H0p65_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "34",
+          "position_m": [
+            0.4497148638012995,
+            0.4823998313904685,
+            -0.06810887826870482
+          ],
+          "attachments": [
+            {
+              "component": "RB_M1p6_Nut_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M1p6_Nut_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "33",
+          "position_m": [
+            0.46168296332610154,
+            0.4823998313904685,
+            -0.06775143957357166
+          ],
+          "attachments": [
+            {
+              "component": "RB_M1p6_Washer_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M1p6_Washer_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "19",
+          "position_m": [
+            0.4736510628509034,
+            0.48239983139046816,
+            -0.06648424035121225
+          ],
+          "attachments": [
+            {
+              "component": "RB_Servo_Link_L40_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Link_L40_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "15",
+          "position_m": [
+            0.4856191623757056,
+            0.4823998313904685,
+            -0.048772228468276335
+          ],
+          "attachments": [
+            {
+              "component": "RB_X_Slider_Drive_Tab_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "68",
+          "position_m": [
+            0.5095553614253098,
+            0.4823998313904685,
+            -0.017559882241674152
+          ],
+          "attachments": [
+            {
+              "component": "RB_Base_Spacer_OD6_ID3p4_L4-4",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "69",
+          "position_m": [
+            0.5857640951038006,
+            0.4389275698209382,
+            -0.020999206525219583
+          ],
+          "attachments": [
+            {
+              "component": "RB_M3x16_Base_Screw_REFERENCE-4",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3x16_Base_Screw_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "61",
+          "position_m": [
+            0.5857640951038003,
+            0.4269594702961364,
+            -0.0023072240933400545
+          ],
+          "attachments": [
+            {
+              "component": "RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-4",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "25",
+          "position_m": [
+            0.5857640951038006,
+            0.41499137077133413,
+            -0.003389590010756449
+          ],
+          "attachments": [
+            {
+              "component": "RB_M4_Locknut_AF7_H5_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "21",
+          "position_m": [
+            0.5857640951038006,
+            0.4030232712465321,
+            -0.0066670925597017705
+          ],
+          "attachments": [
+            {
+              "component": "RB_XY_Stop_Fixed_Bracket_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "23",
+          "position_m": [
+            0.5857640951038006,
+            0.39105517172173004,
+            -0.009114517463628458
+          ],
+          "attachments": [
+            {
+              "component": "RB_XY_Stop_Follower_D6_M4_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "24",
+          "position_m": [
+            0.5857640951038006,
+            0.379087072196928,
+            -0.0024860015717043105
+          ],
+          "attachments": [
+            {
+              "component": "RB_M4_Washer_4p3x9x0p8_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "22",
+          "position_m": [
+            0.5857640951038006,
+            0.36711897267212595,
+            -0.015686297358678658
+          ],
+          "attachments": [
+            {
+              "component": "RB_XY_Stop_Moving_Arm_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "11",
+          "position_m": [
+            0.5857640951038006,
+            0.3551508731473239,
+            -0.04402751449620612
+          ],
+          "attachments": [
+            {
+              "component": "RB_XY_Fixed_Base-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Fixed_Base.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "3",
+          "position_m": [
+            0.5857640951038006,
+            0.34318277362252186,
+            -0.03933783865902163
+          ],
+          "attachments": [
+            {
+              "component": "RB_Intermediate_X_Slider-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Intermediate_X_Slider.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "76",
+          "position_m": [
+            0.5857640951038006,
+            0.3312146740977198,
+            -0.024844573026080785
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2x18_Oldham_CSK_Screw_REFERENCE-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "14",
+          "position_m": [
+            0.5857640951038006,
+            0.3192465745729178,
+            -0.08622627139685868
+          ],
+          "attachments": [
+            {
+              "component": "RB_Servo_Y_Mount_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Y_Mount_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "17",
+          "position_m": [
+            0.5857640951038006,
+            0.30727847504811573,
+            -0.09908520693304357
+          ],
+          "attachments": [
+            {
+              "component": "RB_Savox_SH0257MG_INTERFACE_REFERENCE-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "49",
+          "position_m": [
+            0.5857640951038006,
+            0.2953103755233137,
+            -0.031578384353874944
+          ],
+          "attachments": [
+            {
+              "component": "RB_Shaft_Drive_Hub_RevA-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Shaft_Drive_Hub_RevA.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "60",
+          "position_m": [
+            0.5857640951038006,
+            0.28334227599851164,
+            -0.030339566724751355
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2x10_Ball_Compact_Screw_REFERENCE-6",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "28",
+          "position_m": [
+            0.5857640951038007,
+            0.2713741764737096,
+            -0.021599204750631595
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-13",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "32",
+          "position_m": [
+            0.5857640951038006,
+            0.2594060769489077,
+            -0.02178042595176921
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2_Nut_AF4_H1p6_REFERENCE-14",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "54",
+          "position_m": [
+            0.5857640951038006,
+            0.2474379774241053,
+            -0.008669988557870045
+          ],
+          "attachments": [
+            {
+              "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-3",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "56",
+          "position_m": [
+            0.5857640951038006,
+            0.2354698778993034,
+            -0.017590594186730035
+          ],
+          "attachments": [
+            {
+              "component": "RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-8",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "62",
+          "position_m": [
+            0.5857640951038006,
+            0.22350177837450133,
+            -0.05131756306593305
+          ],
+          "attachments": [
+            {
+              "component": "RB_Cage_Lower_Frame_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "86",
+          "position_m": [
+            0.5857640951038006,
+            0.21153367884969904,
+            -0.016971967119034814
+          ],
+          "attachments": [
+            {
+              "component": "RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-5",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "58",
+          "position_m": [
+            0.5857640951038006,
+            0.19956557932489716,
+            -0.018164400104784595
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2_Small_Washer_REFERENCE-10",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Small_Washer_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "30",
+          "position_m": [
+            0.5857640951038006,
+            0.1875974798000951,
+            -0.017366059983209947
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2x12_Socket_Cap_REFERENCE-7",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x12_Socket_Cap_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "79",
+          "position_m": [
+            0.5857640951038006,
+            0.17562938027529307,
+            0.0005951938010509972
+          ],
+          "attachments": [
+            {
+              "component": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "51",
+          "position_m": [
+            0.5857640951038008,
+            0.1636612807504913,
+            -0.022549775875626454
+          ],
+          "attachments": [
+            {
+              "component": "RB_DIN1481_D2x14_INSTALLED_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "66",
+          "position_m": [
+            0.4642718138975308,
+            0.11760016860953156,
+            0.01038183011989502
+          ],
+          "attachments": [
+            {
+              "component": "RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE-3",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "83",
+          "position_m": [
+            0.4403356148479267,
+            0.11760016860953154,
+            -0.0768737730086062
+          ],
+          "attachments": [
+            {
+              "component": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "50",
+          "position_m": [
+            0.3804951172239165,
+            0.11760016860953154,
+            0.08665437174227819
+          ],
+          "attachments": [
+            {
+              "component": "RB_Endplate_Hub_Interface_RevA-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Endplate_Hub_Interface_RevA.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "63",
+          "position_m": [
+            0.2462571718796647,
+            0.21075611423651944,
+            0.04310660717804071
+          ],
+          "attachments": [
+            {
+              "component": "RB_Cage_Upper_Support_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Upper_Support_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "45",
+          "position_m": [
+            0.2462571718796647,
+            0.2227242137613215,
+            -0.007756748674353053
+          ],
+          "attachments": [
+            {
+              "component": "RB_M3_Nut_REFERENCE-6",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3_Nut_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "47",
+          "position_m": [
+            0.24625717187966467,
+            0.23469231328612358,
+            0.06999129660073078
+          ],
+          "attachments": [
+            {
+              "component": "RB_Upper_MainBearing_Retainer-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Upper_MainBearing_Retainer.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "85",
+          "position_m": [
+            0.24625717187966473,
+            0.24666041281092566,
+            0.07017882791030872
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "27",
+          "position_m": [
+            0.2462571718796647,
+            0.2586285123357277,
+            0.06547702209031614
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-21",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "78",
+          "position_m": [
+            0.2462571718796647,
+            0.27059661186052975,
+            0.06644745923052486
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2p5x10_Hub_Screw_REFERENCE-5",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "12",
+          "position_m": [
+            0.24625717187966478,
+            0.28256471138533185,
+            0.010925736483591297
+          ],
+          "attachments": [
+            {
+              "component": "RB_3-Drive_Shaft-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_3-Drive_Shaft.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "82",
+          "position_m": [
+            0.2462571718796647,
+            0.29453281091013384,
+            0.03420226506991686
+          ],
+          "attachments": [
+            {
+              "component": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "81",
+          "position_m": [
+            0.2462571718796647,
+            0.3065009104349359,
+            0.03366427017446061
+          ],
+          "attachments": [
+            {
+              "component": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "80",
+          "position_m": [
+            0.2462571718796647,
+            0.3184690099597379,
+            0.037844632127769784
+          ],
+          "attachments": [
+            {
+              "component": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "67",
+          "position_m": [
+            0.2462571718796647,
+            0.33043710948453997,
+            0.06519132820211326
+          ],
+          "attachments": [
+            {
+              "component": "RB_Cage_TieRod_M3_L327_REFERENCE-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "44",
+          "position_m": [
+            0.2462571718796647,
+            0.342405209009342,
+            0.06446177456621005
+          ],
+          "attachments": [
+            {
+              "component": "RB_M3_Washer_REFERENCE-8",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3_Washer_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "53",
+          "position_m": [
+            0.2462571718796645,
+            0.354373308534144,
+            -0.017207174303624173
+          ],
+          "attachments": [
+            {
+              "component": "RB_Part1-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sheet": "Assembly_Side",
+      "orientation": "*Right",
+      "native_view": "Drawing View3",
+      "BOM_link": "Bill of Materials1",
+      "balloons": [
+        {
+          "item_number": "1",
+          "position_m": [
+            0.6347285143750007,
+            0.3026583514188305,
+            -0.01681961017276712
+          ],
+          "attachments": [
+            {
+              "component": "RB_MGN5C-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_MGN5C.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "2",
+          "position_m": [
+            0.6347285143750007,
+            0.23084975427001952,
+            -0.020844610172767175
+          ],
+          "attachments": [
+            {
+              "component": "RB_MGNR05R-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_MGNR05R.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "4",
+          "position_m": [
+            0.6347285143750007,
+            0.2906902518940287,
+            0.03838038982723291
+          ],
+          "attachments": [
+            {
+              "component": "RB_Assem3-1/RB_4-Inner_Carriage_Plate-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_4-Inner_Carriage_Plate.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "8",
+          "position_m": [
+            0.6347285143750007,
+            0.32659455046843416,
+            0.04830178630964277
+          ],
+          "attachments": [
+            {
+              "component": "RB_Assem3-1/RB_4-Outer_Control_Ring-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_4-Outer_Control_Ring.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "10",
+          "position_m": [
+            0.6347285143750007,
+            0.3864350480924433,
+            -0.012292247343610008
+          ],
+          "attachments": [
+            {
+              "component": "RB_Assem3-1/RB_Outer_Race_Retainer-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Outer_Race_Retainer.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "13",
+          "position_m": [
+            0.6347285143750007,
+            0.338562649993236,
+            -0.03909999999999947
+          ],
+          "attachments": [
+            {
+              "component": "RB_Servo_X_Mount_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_X_Mount_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "16",
+          "position_m": [
+            0.6347285143750007,
+            0.2547859533196232,
+            -0.04326961017276698
+          ],
+          "attachments": [
+            {
+              "component": "RB_Y_Carriage_Drive_Tab_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "20",
+          "position_m": [
+            0.6347285143750007,
+            0.36249884904283963,
+            -0.06290919208582746
+          ],
+          "attachments": [
+            {
+              "component": "RB_Pivot_Pin_D2_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Pivot_Pin_D2_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "31",
+          "position_m": [
+            0.6347285143750007,
+            0.3505307495180378,
+            -0.06612499999999955
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2_Washer_2p2x5x0p3_REFERENCE-4",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "35",
+          "position_m": [
+            0.6347285143750007,
+            0.19494545569561397,
+            -0.022097734016394588
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2x3_Horn_Retaining_Screw_REFERENCE-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "40",
+          "position_m": [
+            0.6347285143750007,
+            0.31462645094363234,
+            0.013046551642813764
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2x6_Retainer_Screw_REFERENCE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "43",
+          "position_m": [
+            0.6347285143750007,
+            0.20691355522041582,
+            -0.021514672164690607
+          ],
+          "attachments": [
+            {
+              "component": "RB_Savox_Output_Spline_NATIVE_REFERENCE-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "52",
+          "position_m": [
+            0.6347285143750007,
+            0.37446694856764146,
+            -0.06290919208582746
+          ],
+          "attachments": [
+            {
+              "component": "RB_Pivot_Thrust_Spacer_H0p5-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Pivot_Thrust_Spacer_H0p5.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "59",
+          "position_m": [
+            0.6347285143750007,
+            0.21888165474521767,
+            0.042073321072046754
+          ],
+          "attachments": [
+            {
+              "component": "RB_Ball_Mount_Spacer_H2p5-5",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Mount_Spacer_H2p5.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "64",
+          "position_m": [
+            0.6347285143750007,
+            0.27872215236922687,
+            -0.003162499999999402
+          ],
+          "attachments": [
+            {
+              "component": "RB_Lower_Bearing_Pedestal_R2_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "70",
+          "position_m": [
+            0.6347285143750007,
+            0.26675405284442505,
+            -0.0021849999999994374
+          ],
+          "attachments": [
+            {
+              "component": "RB_M2x8_Pedestal_Screw_REFERENCE-3",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "72",
+          "position_m": [
+            0.6347285143750007,
+            0.3984031476172451,
+            -0.033877797182592095
+          ],
+          "attachments": [
+            {
+              "component": "RB_Oldham_Output_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "73",
+          "position_m": [
+            0.6347285143750007,
+            0.4103712471420469,
+            -0.03775818701004796
+          ],
+          "attachments": [
+            {
+              "component": "RB_Oldham_Input_PROTOTYPE-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Input_PROTOTYPE.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "75",
+          "position_m": [
+            0.6347285143750007,
+            0.24281785379482138,
+            0.03531311084285482
+          ],
+          "attachments": [
+            {
+              "component": "RB_Oldham_Output_Pilot_Standoff_L9-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "84",
+          "position_m": [
+            0.1972927526084648,
+            0.4063220203403953,
+            0.026092369717569452
+          ],
+          "attachments": [
+            {
+              "component": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT"
+            }
+          ]
+        },
+        {
+          "item_number": "87",
+          "position_m": [
+            0.5137800430909734,
+            0.13637243410761346,
+            -0.023587127560779297
+          ],
+          "attachments": [
+            {
+              "component": "RB_ISO8750_D1x8_INSTALLED_REFERENCE-2",
+              "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "native_models_before": {
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_3-Drive_Shaft.SLDPRT": "a381a1d975ec3ad17c11d01874933044756ee629dda7bf1b65fd29f08445f931",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_4-Inner_Carriage_Plate.SLDPRT": "8577c6d39ebd3c030794ac6d34abca14ca8fbd6733bd51bbbf90a53543d5e67c",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_4-Outer_Control_Ring.SLDPRT": "493ccb0fffbf93677f651b47d5c959a366da032f3a2e70c35c9f96afe4567001",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_6806.SLDASM": "2dcfd6e16e7e0263da357bff259955fe5052d7ef90f82e5db381462974096de7",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_686ZZ_6x13x5_ENVELOPE.SLDPRT": "d934ed15558f6b49e3605042e9b550b39e34dad9030e4f35477795c39a06284d",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20.SLDASM": "318bc7711522cc84b5c8dde12a3d454d92012cd876130833bc4e568834d961ad",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem3.SLDASM": "6f97dafd0ce913c8b67006d9f027e36f6f5baf46e7eae57b356b2ad7e3079a15",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": "328a831292a95ff97c3581e073e09677c616b6f6fd4847719f3a906b5d22df9d",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Mount_Spacer_H0p5.SLDPRT": "043749f7a1de9451ac0a292c73056e6c563c7d22f4ead91236ad68488fea5c2b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Mount_Spacer_H2p5.SLDPRT": "d59fe8235d74162a90a8aa07447cd13ab69dfc8d75711a94d44813c471271393",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT": "77f4411f89bf14dae7984f4784ed59b36551ef5137c6f48bf65a634509aff28b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT": "a1b4565e4ce1e3798514975f92227b9c96762e78da9d9de0cd1eb2e9755731cc",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT": "94a5a0b908380d4cbd0a544a57eceb664615340e6157a9a228a39082c5150cd3",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM": "028f26de0c1623d6d96193b7272f808626a5303e5e8564b167ee9d1a9913756e",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT": "d4b454ac54c4ce877cd0aa50ab67a52e7e7da51bf732d63d5f8af1cb55200a23",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT": "e0231053896f06e372ff1fb47f16ed791932588311991b5aef80a00b002393a7",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT": "a46870302f3594054b80c69b032b40f2f8eac9c9f63bbd3879c23e91f32ca398",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p8.SLDPRT": "5cbe98e23976067e789a79de7b4335861dfc82a9ec2feec92f7cb5c7fc72f70b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": "e0d89d44fe3d58e7391acbb8e027c670aaded872806eb85eb2ec74635d8f95bb",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT": "5b6f20392b9f61a251c164214fa424fa2d91af07d6501546d7b796f444e3f999",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT": "525219445aee49edf40464e46f36d96a183a1a0cf5c57537a00bf1a18f8e93e9",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT": "caab05effc685a5b8ac4d28fc83d0a0a8bbf9a5baee23496ad8f4d464d2a68fc",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT": "dfefe0a6cb04f448ed9db94b8dbaf293d42a51bc7582bc7aef3dbea3558760a4",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Upper_Support_PROTOTYPE.SLDPRT": "6f0bb63643a20873cd94ac16186599c5066aa39acea2230a5227e1b415e28b7d",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT": "307c69991c806a91667790808a894c4f3dd664da54fc12866c6c53c838fdeb80",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT": "49e773f7a83e655711cf40a7ae9f15daa35e14c57ddf976c245314319e3d5d87",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT": "a282ee55bd8246b3cee75dd9c72ac0b444a7649e4adba1ff8a89b6ac4034a6cb",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT": "46b7e688e2e9e2665f379d50f1b64da03ef0d2879a4cc6755e128a5d059233b1",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT": "4d555e432f17a07221c929893ea77e3573936a45fff4ee55f359c5fbff2aab3f",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT": "126c3346b76740063935c00164d7eb8c40f51971aa59184886c72692af7a1b0c",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Endplate_Hub_Interface_RevA.SLDPRT": "2f9b5c7a55bd391f1272b3e97a744b38dfc3f204246c67c0f31973eb3c5577c6",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT": "576c9847b859cc01dd92e9a8d2b6c642cbb40442f583d00836284f9fb3e5db79",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Frame_Mounting_RevA.SLDPRT": "8298f84fd81bd99d9337fdd862b662243073325a3051ade042d9ca3469a1367f",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT": "6ed90e3d5e9858dbf7e95eb535a99b5280362a9b0b103cee7d97561eb62bfc1c",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Inner_Race_Retainer.SLDPRT": "c07146193cbbfc0faf63b08538130b4f6a54ab443bf16a258d2077fe4349b26b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT": "af196774f5976d9b001d3241fd91e68d6e62c3720c1c8275a935b713a8981f84",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Intermediate_X_Slider.SLDPRT": "b65c1513de58f1803d531438c29c8bccab154289ecd57507fab83313130758a5",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT": "9d69947e967479a1c38dbd1bd65f76e22bd3035fb836fecba7abe5f24c009126",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_PROTOTYPE.SLDPRT": "5737b02617328e660412b73bb81f79a0785af7476faa452824de9c8c51124b5c",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT": "b7fadda78bfb949f1abc7ed0b473b0bb0874503c5696fde1c32c938425c72768",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT": "d54e49329b391d8ca3e446b88298c04803e40dd530d986a99ff1c618e43c11b3",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_MainBearing_OuterSpacer_L3p5.SLDPRT": "0f2be85142ce328907ef571fbbe18e7226644bf6e8731a07d50de6983e0ba1c9",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_MainBearing_Retainer.SLDPRT": "18ea3d45ae41003fbebcc2a6ad42c77db509d6e6423d9a0128cb80e74ea65ffa",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M1p6_Nut_REFERENCE.SLDPRT": "474acee7ab5728bc8bbf3c3f826e4fcdfb3819930620a951512a7bfe2144aeb1",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M1p6_Washer_REFERENCE.SLDPRT": "df310d6a954468d733a6a5e9c5a7946832c6f4450c63f0e7274a9a5e2340b1f1",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_CSK_REFERENCE.SLDPRT": "13a952fac961971899ec65c9644b8746f7732af5b431a98a2308c9c928d80bcd",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT": "402743b50d024ab886836a4bf0e60bef18d12575cd4aa19bda19be0157ed0b2b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x4_CSK_REFERENCE.SLDPRT": "d09f0908e4a7e86505581247bab1228bbd08d83416355bc61e22ea52e579fd93",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x8_CSK_REFERENCE.SLDPRT": "7050db3bf82ac2f4d86f4eab0730d954b6f582b49a0e9afc521faf5a0f95d9fa",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x8_Hub_Screw_REFERENCE.SLDPRT": "d2daa4f6101c91088296dc7cbccc63ab6f8e58ac80036c53a2d6186f965d57c1",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": "518030304d59dc3d4edf49a6118c8023dc2cd9378f67f3fa0bbb716e52fc1ce0",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": "8d8e5080c81a8cb2c1e552faf9c54fa5ec0aadde6762efaa245968f05822f115",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT": "6a54ae7ad7f9116fc6d0605080bd29768f1d67a63df064440d6f70e6ea11e366",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x12_Socket_Cap_REFERENCE.SLDPRT": "48a0b3349e63a20ead6f68b335fffc040540e84f40388da0ff7fa9efb717f8cd",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT": "ef232857dba9f9cef10ec9c3cf4d10844a3c6f527c264898faa572578da2eb9e",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x2_Socket_Cap_REFERENCE.SLDPRT": "aaa9a27ba98f8a93f4af64e7cc85417062ad3fb7c6618ade65fdbd9d8beec96c",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT": "a56b9a062ae85dd39bc79df94571a378180a5a77f8789d29e8f0b8969494aad9",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT": "829f4e9b9bc9691195ccbc9a6c34c168b84d92c4ab90d631c6074c3dc3ff4b28",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x4_MainCap_Screw_REFERENCE.SLDPRT": "306d89afbaf656516c139f92eabcdae2188eb5a13c446c2f39e3900407cf3e26",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x5_Bearing_Cap_Screw_REFERENCE.SLDPRT": "9f1d66fc8ac49e3d2f21b268ef83ef01b1771b1433f8b993be6a6d3049c82937",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT": "b07bf77d0650b96d9d6dd4f7f40249c28bca87701805bc02405f025db59cf10c",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT": "b3a73026056a272d45c40c3fbb07aecd233c3358371758e7201a8bec341a1c9b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT": "814195044319df25c173d25b917c2a6dc233feb3fad41fd113c68c1ab60cc735",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Small_Washer_REFERENCE.SLDPRT": "b62212ddf271cfa8ab1c04ffd6579030fad9dbe01cf3bdc2a2fb2933276ad33b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT": "e01ec92100503e520df96fbc835aac9800d1d4157fc499b7934d84f3d1c9f63b",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3x16_Base_Screw_REFERENCE.SLDPRT": "2172dfd015a71f8b4adb39929c44f8a237675698534bd7fe263410e1e7053bca",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3x55_Frame_Screw_REFERENCE.SLDPRT": "86674e4a09d3b8287de2d76119b72cdca1b66181410c821d16e9b2399f240006",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3_Nut_REFERENCE.SLDPRT": "33cf3b9bd5c0dadce47bb9259e4b4d93ee4ac0dd98f8dffc226a60ab8eaf9055",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3_Washer_REFERENCE.SLDPRT": "f11a83594b39684fc696ce3174160965ec4f4f65eb817e2d1140d913d54d0a8f",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT": "a7e877e3423659aaa95793546178504764ba98fb08d91ec0be7c49d8ed6a2e65",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": "3f3a227bad5a1720f4eb177e0d29eaff7258dc1e9909695933e7646278cc83fd",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_MGN5C.SLDPRT": "767e0c7dbcd8d518d2880cfc27a7bd343f7434ccbfb5bb13b361c2168ad45ead",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_MGNR05R.SLDPRT": "146d31e8075b8167020f2e19745f2046beba0a48ca137aff76450d7e1baaae11",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT": "b744e072a17bc109a3389d8b6fd8adf17b7daac492e3fdf00141de73b5638587",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Input_PROTOTYPE.SLDPRT": "af9dae8ba203cda27d077effe4c6a3d284f7a604c0311ca75ebfaee0574e8c81",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT": "96ab51e470bd16aba78f958647a3159bd53ba4ab737cc6946a0357b888b36d09",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_PROTOTYPE.SLDPRT": "c359840527fcadabef7829157b1bdfc8fb6e592db45ae5bc943f26cddeaae74a",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Outer_Race_Retainer.SLDPRT": "28e37b78b5860e7d02ec1a52711ea513d6a2a3e8b862f1f11f8db68b8e8b8e23",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT": "663d104c30af6f821e56c754a9f3a544abb3a549cb027639e4f4d42478013d1d",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Pivot_Pin_D2_REFERENCE.SLDPRT": "708c55d5bb08448ad8a773ad6f8e1940cef81e649772b4e7d0865f99a97d26b4",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Pivot_Thrust_Spacer_H0p5.SLDPRT": "9c63c6949703dff11055ed5e424d84d899bb1d99bd45e1e90602e9e1a20c9341",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT": "dfed44a8303ddc288338e0ee6525533be05cf68a9647cf4f22d759bf7ba9feb4",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT": "102285224ba27bb885a20268fd5fbc253ca1d5429f4cf95dd39ad819361d5793",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Horn_R12_LAYOUT.SLDPRT": "dd01e933ca7c33b35b44dcc2a7de22fad84cd0e7fde0f283bef998726194e7dd",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Link_L40_PROTOTYPE.SLDPRT": "1864809aa003946d29a7eab85f8b3e0a0db9377cf84e79d3e958bacea722837a",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_X_Mount_PROTOTYPE.SLDPRT": "9c6d953e7a94091e251134bc0f9ce8cc6c4c1180390e3a13c1c00c4adbce84d9",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Y_Mount_PROTOTYPE.SLDPRT": "b5abf8c466b6bd21f1614346ed91c2cd3f27d9efde5c7613cf49a08101424a6c",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Shaft_Drive_Hub_RevA.SLDPRT": "fa45ab37f3a269f432346d0dbc7f6375b19e5772b0cafc789df13ccbe5268cbc",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT": "7a893a0440386394aaeadfecc09a10f49ab5c0e6f002502e521369e09fbaa078",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Stage_Support_L36p5.SLDPRT": "157bdfcbcba691a4fc8daa3ec74d9f42b8a5acb4031890cf4487f3d8d47c798d",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Upper_MainBearing_Retainer.SLDPRT": "49e9f93a7802a5b43351f51e9b9a9ce8c240910abeae53ce8eae0217a98b41e5",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Fixed_Base.SLDPRT": "6c0218d6a25ea90cb4f0d3ff72f1ad7b3fc08c6a86a76e5508fe4eb4de8077cb",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": "ef66868f1a41284daad0a80df1b37c7de82668c6c8154456dac4534942ff4e82",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": "cd5de82e5390f70ecd5b43a8469ba7893cb995a7e7ce4d49053f7c06f2003cab",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": "3de27d954c3cf8f4a6e18df55b86490abcc3c798a4504da9287d4486780e92a9",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": "8570d4a7f6074ffc7d5a6c700c55e9f5c8a4632ac0f608ddd038b3fc1b488abb",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": "d418e312b618b0dd68f880f3e18e123381c2df467e3f6e583639294a52bc931a"
+  },
+  "scope": "BOM-linked visible-component balloons on two views. Occluded items and purchase qualification are separate; source geometry unchanged.",
+  "BOM_feature": "Bill of Materials1",
+  "complete": true,
+  "drawing_sha256": "f4a9a1ec42a32927bd0030eca634dc0d6639c4e43fd14fa832519b74d06fcc4c",
+  "pdf_sha256": "cc6e0edd3b0f9683220555515337cdffa9f7594a49e1d8bfe248edc693dfef80",
+  "original_drawing_unchanged": true,
+  "changed_source_model_files": [],
+  "PDF_QA": {
+    "pages": [
+      {
+        "page": 1,
+        "outside_text": [],
+        "render": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_PAGE_1.png"
+      },
+      {
+        "page": 2,
+        "outside_text": [],
+        "render": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_PAGE_2.png"
+      },
+      {
+        "page": 3,
+        "outside_text": [],
+        "render": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_PAGE_3.png"
+      }
+    ],
+    "text_bounds": "passed",
+    "visual_review": "All three sheets rendered and text bounds checked; isometric/side balloon sheets visually inspected. Circular labels are separated/readable and attached leaders present. No fabrication completeness claim."
+  },
+  "coverage": {
+    "balloons": 68,
+    "unique_item_numbers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "27",
+      "28",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "40",
+      "43",
+      "44",
+      "45",
+      "47",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "56",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87"
+    ],
+    "unlabelled_BOM_items": [
+      {
+        "item": "5",
+        "part": "6806 Outer ring^NSK_6806_RB_6806"
+      },
+      {
+        "item": "6",
+        "part": "6806 Inner ring^NSK_6806_RB_6806"
+      },
+      {
+        "item": "7",
+        "part": "6806 Ball^NSK_6806_RB_6806"
+      },
+      {
+        "item": "9",
+        "part": "RB_Inner_Race_Retainer"
+      },
+      {
+        "item": "18",
+        "part": "RB_Servo_Horn_R12_LAYOUT"
+      },
+      {
+        "item": "26",
+        "part": "RB_M2p5x10_CSK_REFERENCE"
+      },
+      {
+        "item": "29",
+        "part": "RB_M2p5x8_CSK_REFERENCE"
+      },
+      {
+        "item": "36",
+        "part": "RB_Custom_M2x9_Rail_LowHead_REFERENCE"
+      },
+      {
+        "item": "37",
+        "part": "RB_M2x2_Socket_Cap_REFERENCE"
+      },
+      {
+        "item": "38",
+        "part": "RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE"
+      },
+      {
+        "item": "39",
+        "part": "RB_Inner_Retainer_Spacer_H1_REFERENCE"
+      },
+      {
+        "item": "41",
+        "part": "RB_Custom_M2x4_Retainer_LowHead_REFERENCE"
+      },
+      {
+        "item": "42",
+        "part": "RB_M2p5x4_CSK_REFERENCE"
+      },
+      {
+        "item": "46",
+        "part": "RB_686ZZ_6x13x5_ENVELOPE"
+      },
+      {
+        "item": "48",
+        "part": "RB_DSH6_INSTALLED_CLEARANCE_REFERENCE"
+      },
+      {
+        "item": "55",
+        "part": "RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE"
+      },
+      {
+        "item": "57",
+        "part": "RB_Ball_Mount_Spacer_H0p5"
+      },
+      {
+        "item": "65",
+        "part": "RB_Lower_Bearing_Top_Cap_PROTOTYPE"
+      },
+      {
+        "item": "71",
+        "part": "RB_M2x5_Bearing_Cap_Screw_REFERENCE"
+      }
+    ],
+    "scope": "Visible components in selected isometric and side views; no hidden/internal completeness assertion."
+  },
+  "BOM_key_reconciliation": {
+    "result": "passed",
+    "entries": 87,
+    "leaf_instances": 405,
+    "item_number_path_and_quantity_match_original": true
+  },
+  "source_live_save_flag_after_linking": true,
+  "preserved_live_source_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Balloon_Task_Final_Live_Source\\LIVE_SOURCE_ASSOCIATIONS_PRESERVED.SLDASM",
+  "source_live_note": "SolidWorks marked the live source dirty during drawing balloon association. Its unsaved live state was preserved separately; source model files were not overwritten or discarded.",
+  "working_assembly_left_open": true,
+  "drawing_window_closed": true,
+  "coverage_csv": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_BALLOON_COVERAGE.csv"
+}

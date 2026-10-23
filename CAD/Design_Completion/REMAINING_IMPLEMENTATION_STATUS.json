@@ -1,0 +1,61 @@
+{
+  "utc": "2026-10-23T04:40:24.037859+00:00",
+  "overall_status": "INCOMPLETE: starting state preserved; numerical load/acceptance proposals prepared; no physical release",
+  "starting_checkpoint": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Checkpoints\\START_20261023T042432Z",
+  "baseline_sha256": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+  "working_assembly_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+  "native_and_drawing_sources_checked_unchanged": 165,
+  "source_changes": [],
+  "verification": {
+    "disk_archive_CRC_and_all_member_SHA256": "passed",
+    "three_dirty_assembly_copies": "passed",
+    "read_only_recovery_comparison_preserved_live_pose": "passed",
+    "numerical_self_checks": {
+      "analytic_vs_periodic_second_derivative_max_error": 2.909059010347548e-07,
+      "centred_orbital_torque_Nm": 0.8622283796879683,
+      "old_J_only_rod_force_reproduced_N": 15.959495224349855,
+      "rpm_squared_scaling": "passed",
+      "closure_and_branch_sampling": "passed",
+      "36000_to_72000_rod_peak_difference_N": 2.4296269884871435e-08
+    },
+    "native_rebuild_motion_clearance": "not performed",
+    "physical_inspection_or_tests": "not performed"
+  },
+  "steps": {
+    "1": "Completed scoped inventory, disk archive, separate dirty-source copies, recovery comparison and evidence currency check; solver DOF not established.",
+    "2": "Draft numerical register and sampled load model complete for review; external inputs/approval and omitted dynamics remain open.",
+    "3": "Not completed: native blade geometric COM identified; construction, real inertia, supplier fits and loaded endfloat remain unresolved.",
+    "4": "Not completed: old servo screen invalid as full selection basis; no adequately documented replacement/drive or priced purchase list.",
+    "5": "Not completed: provisional pitch-error allocation exposes joint/timing issues; no new fits or geometry released.",
+    "6": "Not completed: final frozen geometry, native campaign and 19 hidden-item drawing details outstanding.",
+    "7": "Not performed: no supplied hardware, fabrication, assembly, retention tests or guarded speed qualification."
+  },
+  "release_gates": {
+    "fabrication": "HOLD",
+    "assembly_acceptance": "NOT PERFORMED",
+    "powered_test": "HOLD"
+  },
+  "next_work": [
+    "Define actual skin/core/spar and metal trunnion geometry/process, then recompute first mass moment and inertia.",
+    "Resolve realistic external load/command/duty limits and distributed linkage dynamics; do not size from inertia-only history.",
+    "Recheck arm/trunnion/rod/bearing/Oldham/post loads; revise interfaces only against the updated design.",
+    "Select documented actuator and main drive hardware before a priced purchase BOM."
+  ],
+  "not_authorized_or_performed": [
+    "purchases",
+    "fabrication",
+    "powered testing"
+  ],
+  "deliverables": {
+    "NUMERICAL_REQUIREMENTS_REGISTER.md": "fcb3f8b7534ca953952c264ecbf6661e94d52d6e653d4823389056f29d23cf6e",
+    "MECHANICAL_LOAD_ENVELOPE.json": "117a3f7ea48cc9ab48cf8bc4f499b6decdc5f9a397e96d57c57b0bc083767c11",
+    "CURRENT_RESUME_NOTES.md": "4b3d88a47cfc209ced63edb9a0f5e3111f3b906e006ff8c01276b9fb156cf19e",
+    "MECHANICAL_COMPLETION_REPORT.md": "d8ddccfa85eae7e77968ddeb3ba57a50b1a72c3ceb672c91c24e32bd421e91b8",
+    "STARTING_POINT_CHECKPOINT.json": "d5a60975109d8b206ea3d095b0466e3fc339d775dea427e66d89ce124b449e4a",
+    "STARTING_RECOVERY_COMPARISON.json": "f152a208d9d68a3fdce14946c4fd5818ac46a1056598942ad4be100c5f18e985",
+    "automation\\capture_starting_point.py": "0f6bd482d1342c6550ae41311e6eb6a8583b8489e707abce01bb2cf9bf0f910d",
+    "automation\\compare_starting_recovery.py": "4bcd1dd5297fa9b5bba704a7f8a0fc4d9ccc817ea4aa4966373f5dbb3fcd3e17",
+    "automation\\mechanical_load_envelope.py": "32672d434893b3ff7cef90404b307e3906a9a9341718770e2d44a92be66e013b",
+    "automation\\finalize_requirements_checkpoint.py": "da0cf69b4ff7e1d8cead5e84818edefee04a2951fa650eb7861a12d48303c342"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "parts": {
+    "BA_NA23C60_T4A_CASE_REFERENCE": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_NA23C60_T4A_CASE_REFERENCE.SLDPRT",
+      "description": "Zaber NA23C60-T4A supplier dimensional envelope. Stroke60,body56.4,mountpitch47.1,D5.2 through,L nominal208.4. Drawing-chain207.4 discrepancy1mm and pilot/connector details HOLD. Envelope is not supplier CAD or hardware mass.",
+      "sha256": "9d7c9a734660524975d75ebc7913063a3c908fe95a444489c9e606c749741c7c"
+    },
+    "BA_NA23C60_T4A_ROD_REFERENCE": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_NA23C60_T4A_ROD_REFERENCE.SLDPRT",
+      "description": "Midstroke30; D10x60 rod plus1/4-20x22.2 major envelope. Exact extension datum and permissible side load require OEM confirmation.",
+      "sha256": "1d9fc074d3c6214d40d9083a5e65f2ace758936ba0ff64716d3a54e0e3a7d8d5"
+    },
+    "BA_NEMA23_Bench_Bracket": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_NEMA23_Bench_Bracket.SLDPRT",
+      "description": "6061 plate8,foot8;40mm clearance bore,47.1 square mount patternD5.5; fourM6foot holes. Bent/welded/machined process and stiffness not released.",
+      "sha256": "bfdc3e54f6eccd19d7e871eafac72527ee9ae38e612b7b2ff0fa7ef307830e38"
+    },
+    "BA_X_Actuator_Drop_Link": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_X_Actuator_Drop_Link.SLDPRT",
+      "description": "Separate replacement candidate for original Xtab: foot5,primaryM3at(-27,28),(-13,28);12x24deepweb. Female1/4-20 thread major CAD. Original footprint must be reconciled before installation.",
+      "sha256": "82973d99b1de5e411d39d390fbfb8f266c9d4982955a4fda604effe34fde4f1b"
+    },
+    "BA_Y_Cross_Slot_Drop_Link": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Y_Cross_Slot_Drop_Link.SLDPRT",
+      "description": "Replacement Ytab candidate: outboardfoot6,2M3at(-35,-23/-17),12x12web;40mmXslot,19.02Yfinishedwidth,8Zheight. Matching carriage ear and rail/fastener clearance required.",
+      "sha256": "b23721e808c77397e4a014429c3e4d8c20542815b819f2e7e7ace4149ce428d6"
+    },
+    "BA_Y_Guided_Crosshead": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Y_Guided_Crosshead.SLDPRT",
+      "description": "Twin D10 bush housings on28mmXcentres,12mm base,shoe upriser and1/4-20 adapter. Thread/bush retention/guide alignment not released.",
+      "sha256": "5e16ddd9e5470040f775fd984f147ea34437d3e29385096b4f8fb91a0bb497f0"
+    },
+    "BA_Y_Bronze_Sliding_Shoe": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Y_Bronze_Sliding_Shoe.SLDPRT",
+      "description": "Bronze shoe8x19x6 withD4.5through andD7.5x4.2counterbore. Material grade/finish/lubrication HOLD; generic bronze density only.",
+      "sha256": "2ee2e2d29d919287f53abe1ab1f9aea911cd8d0f5eb4f21d846cad1f7064c669"
+    },
+    "BA_D8_Guide_Shaft_L126": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_D8_Guide_Shaft_L126.SLDPRT",
+      "description": "Ground steelD8x126; proposedh6,hardness/straightness/finish require supplier selection. No friction/life claim.",
+      "sha256": "6d1bdef9e09da8b760481bcf78f22529bdb9335a01ce23f4f3c4760796992a74"
+    },
+    "BA_Guide_Support_Post": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Guide_Support_Post.SLDPRT",
+      "description": "16squarex38,shaftaxis30abovebottom,D8throughY,M5bottom8deep. Positive axial shaft collars and clamp screws required, not yet installed.",
+      "sha256": "edf5584b770da059a70fe45fa9c1efaebeef2484912dfb5698bec06d2b451eab"
+    },
+    "BA_Bronze_Bush_10_8_L15": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Bronze_Bush_10_8_L15.SLDPRT",
+      "description": "BushOD10ID8.02L15, proposed press fit/line ream; actual bronze grade,fit and retention HOLD.",
+      "sha256": "22ea1ace39ab2aeb0626e5e625f47c553049229f1aabb5fd3e688de51b561fa2"
+    },
+    "BA_Bench_Plate_650_12": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Bench_Plate_650_12.SLDPRT",
+      "description": "650squarex12 plate; fixture mounting hole coordinates not released. Secure to a rigid bench before any use.",
+      "sha256": "7cc5c59218f950b5a29088bdfa5f71238b8c01c4cf11861dca2ae10e3318ea6d"
+    },
+    "BA_Frame_Bench_Column_L102": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Frame_Bench_Column_L102.SLDPRT",
+      "description": "OD16ID6.6L102 withD12x8topcounterbore to clear original frame lower nut. Extended one-piece tie rods and bench fastening remain required.",
+      "sha256": "d4e11fc9b03835a124383988496df75342e3b24cf470fd4a2bc881ad09d75ee6"
+    }
+  },
+  "added": {
+    "Rotor": "BD_Bench_Development_Source-1",
+    "Bench": "BA_Bench_Plate_650_12-1",
+    "FrameColumn0": "BA_Frame_Bench_Column_L102-1",
+    "FrameColumn1": "BA_Frame_Bench_Column_L102-2",
+    "FrameColumn2": "BA_Frame_Bench_Column_L102-3",
+    "FrameColumn3": "BA_Frame_Bench_Column_L102-4",
+    "XCase": "BA_NA23C60_T4A_CASE_REFERENCE-1",
+    "XRod": "BA_NA23C60_T4A_ROD_REFERENCE-1",
+    "XBracket": "BA_NEMA23_Bench_Bracket-1",
+    "YCase": "BA_NA23C60_T4A_CASE_REFERENCE-2",
+    "YRod": "BA_NA23C60_T4A_ROD_REFERENCE-2",
+    "YBracket": "BA_NEMA23_Bench_Bracket-2",
+    "XDrop": "BA_X_Actuator_Drop_Link-1",
+    "YDrop": "BA_Y_Cross_Slot_Drop_Link-1",
+    "YHead": "BA_Y_Guided_Crosshead-1",
+    "YShoe": "BA_Y_Bronze_Sliding_Shoe-1",
+    "YGuideShaft0": "BA_D8_Guide_Shaft_L126-1",
+    "YBush0": "BA_Bronze_Bush_10_8_L15-1",
+    "YGuideSupport00": "BA_Guide_Support_Post-1",
+    "YGuideSupport01": "BA_Guide_Support_Post-2",
+    "YGuideShaft1": "BA_D8_Guide_Shaft_L126-2",
+    "YBush1": "BA_Bronze_Bush_10_8_L15-2",
+    "YGuideSupport10": "BA_Guide_Support_Post-3",
+    "YGuideSupport11": "BA_Guide_Support_Post-4"
+  },
+  "assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BA_Bench_Actuation_Layout.SLDASM",
+  "source_rotor": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_Bench_Development_Source.SLDASM",
+  "status": "SEPARATE STATIC DEVELOPMENT LAYOUT; NOT INSTALLED OR MOTION VERIFIED",
+  "tests": "NOT RUN: user requested no further tests",
+  "legacy_servo": "Original inadequate servos remain in rotor reference; proposed replacements are shown separately and overlap old tabs. They must be removed during final integration.",
+  "holds": [
+    "Replace rotor X/Y tabs and strengthen their moving-plate attachments; do not stack new links over old tabs.",
+    "Install physical X-floating/Y-driving cross-slot constraint and external Yguide; supplier actuator side-load capacity is not assumed.",
+    "Finish bench holes, extended tie rods, all mounting fasteners, shaft collars, bush retention and thread runouts.",
+    "Confirm OEM extension datum, body stack1mm discrepancy, connectors and flange mounting hardware.",
+    "Motion, clearance, material, stiffness, thermal, holding duty and physical tests not performed."
+  ],
+  "assembly_sha256": "37ee99bac19ad7925d71a7cc2c9e2f93ced34ced3371aa997998fbeec24570b9"
+}

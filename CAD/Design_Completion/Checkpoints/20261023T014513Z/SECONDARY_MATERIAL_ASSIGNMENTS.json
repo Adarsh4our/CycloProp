@@ -1,0 +1,703 @@
+{
+  "status": "Listed secondary material/density assumptions assigned and read back; not supplier/strength certification",
+  "parts": {
+    "RB_Inner_Race_Retainer.SLDPRT": {
+      "before": {
+        "sha256": "0e9133a9e84c16049b91e481f33456d89fe5c67bdda9f72a45eef9dd08e8dc66",
+        "material": "",
+        "mass_g": 0.46278015981867854
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 1.3004122490904864,
+      "sha256": "c07146193cbbfc0faf63b08538130b4f6a54ab443bf16a258d2077fe4349b26b"
+    },
+    "RB_Outer_Race_Retainer.SLDPRT": {
+      "before": {
+        "sha256": "817d3e6492167b25e70ec3b888caeccf3d9aeda38bb2d97f16625f92a88c0a38",
+        "material": "",
+        "mass_g": 0.27075816284963655
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 0.7608304376074787,
+      "sha256": "28e37b78b5860e7d02ec1a52711ea513d6a2a3e8b862f1f11f8db68b8e8b8e23"
+    },
+    "RB_Servo_X_Mount_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "11f43b6103212647a16e016ad0a094c6606bb948144ce6e6a39705292f18298b",
+        "material": "",
+        "mass_g": 6.968362505800837
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 19.581098641300343,
+      "sha256": "9c6d953e7a94091e251134bc0f9ce8cc6c4c1180390e3a13c1c00c4adbce84d9"
+    },
+    "RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "a933539f13154ec5e4433115ee5ac3c0f5e9377ac2d9d7aedf765d970552a33e",
+        "material": "",
+        "mass_g": 1.6134178876061107
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 4.533704264173172,
+      "sha256": "d418e312b618b0dd68f880f3e18e123381c2df467e3f6e583639294a52bc931a"
+    },
+    "RB_Servo_Y_Mount_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "3f65e104bdf48679ea43aa925461a481657b9ade8b2b65f0908334c5e945c027",
+        "material": "",
+        "mass_g": 7.724362505800828
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 21.705458641300332,
+      "sha256": "b5abf8c466b6bd21f1614346ed91c2cd3f27d9efde5c7613cf49a08101424a6c"
+    },
+    "RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "26e9da57d9643060e0f140ea7416177d65d94e5bc2fffc5933e0518053482c9e",
+        "material": "",
+        "mass_g": 0.7854178876061121
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 2.2070242641731754,
+      "sha256": "8570d4a7f6074ffc7d5a6c700c55e9f5c8a4632ac0f608ddd038b3fc1b488abb"
+    },
+    "RB_Servo_Horn_R12_LAYOUT.SLDPRT": {
+      "before": {
+        "sha256": "f23ed501967836cf67a380045f65b64b9f0a5ccdc75510563301cb0782be02bf",
+        "material": "",
+        "mass_g": 0.39664200792249577
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 1.114564042262213,
+      "sha256": "dd01e933ca7c33b35b44dcc2a7de22fad84cd0e7fde0f283bef998726194e7dd"
+    },
+    "RB_Pivot_Pin_D2_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "e07201caf8417694a5759a4ca747dca4427b4d88828f77a34fbb641610d24942",
+        "material": "",
+        "mass_g": 0.033527076799110274
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.2631875528730157,
+      "sha256": "708c55d5bb08448ad8a773ad6f8e1940cef81e649772b4e7d0865f99a97d26b4"
+    },
+    "RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "4aa06b752fa85d15c41ad3f0afb157976805d64de7a7e5298c854cf0dcae562a",
+        "material": "",
+        "mass_g": 2.21674468785418
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 6.2290525728702475,
+      "sha256": "ef66868f1a41284daad0a80df1b37c7de82668c6c8154456dac4534942ff4e82"
+    },
+    "RB_M2p5x10_CSK_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "52b6583921ee6a4413d53669798e6b49ed6d635c3135f9ac4a8b2cc199accace",
+        "material": "",
+        "mass_g": 0.05726861608106395
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.449558636236352,
+      "sha256": "13a952fac961971899ec65c9644b8746f7732af5b431a98a2308c9c928d80bcd"
+    },
+    "RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "bd7efe4a508d6ce61d2235b792ede59e6e12d5eb202d3088f337c1ba99ed1277",
+        "material": "",
+        "mass_g": 0.14934437085539157
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 1.1723533112148241,
+      "sha256": "a7e877e3423659aaa95793546178504764ba98fb08d91ec0be7c49d8ed6a2e65"
+    },
+    "RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "45f3c0b36324530bec65474b707a42509f1aeb398f417566f613e65cef482911",
+        "material": "",
+        "mass_g": 0.03927619135517958
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.30831810213815974,
+      "sha256": "3f3a227bad5a1720f4eb177e0d29eaff7258dc1e9909695933e7646278cc83fd"
+    },
+    "RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "c4d7eed4bdc1a200222d09c6c1fb32269d5f25b84171ec32b1131310054e07ea",
+        "material": "",
+        "mass_g": 0.9001961122952307
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 2.529551075549598,
+      "sha256": "3de27d954c3cf8f4a6e18df55b86490abcc3c798a4504da9287d4486780e92a9"
+    },
+    "RB_Servo_Link_L40_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "2f7c7f66983560f13afdb948a9e11ef3e1cacc899da452dd3c3a7d7ba85da5cd",
+        "material": "",
+        "mass_g": 0.5381455763976689
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 1.5121890696774498,
+      "sha256": "1864809aa003946d29a7eab85f8b3e0a0db9377cf84e79d3e958bacea722837a"
+    },
+    "RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": {
+      "before": {
+        "sha256": "a27962c19e40a94c45921055d032af488de83d2f50871fe6ec4353137942f959",
+        "material": "",
+        "mass_g": 0.8042477193189871
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 6.313344596654049,
+      "sha256": "cd5de82e5390f70ecd5b43a8469ba7893cb995a7e7ce4d49053f7c06f2003cab"
+    },
+    "RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "b779ac02d08668807951c4fc08c67f9c5c09ca6895ae6e15d938c9ca8d29430b",
+        "material": "",
+        "mass_g": 0.03348379314675383
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.26284777620201755,
+      "sha256": "518030304d59dc3d4edf49a6118c8023dc2cd9378f67f3fa0bbb716e52fc1ce0"
+    },
+    "RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "4b72423502bce11735014080bafcbe1437b6430220eaa6a847f0f3ac2d842da7",
+        "material": "",
+        "mass_g": 0.011274390635570368
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.0885039664892274,
+      "sha256": "8d8e5080c81a8cb2c1e552faf9c54fa5ec0aadde6762efaa245968f05822f115"
+    },
+    "RB_M2p5x8_CSK_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "641f6db28781574a26fdfe3ca5ac3922a557b0bfaa6cdfa2d30d231f2a815f09",
+        "material": "",
+        "mass_g": 0.04745113903859584
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.37249144145297736,
+      "sha256": "7050db3bf82ac2f4d86f4eab0730d954b6f582b49a0e9afc521faf5a0f95d9fa"
+    },
+    "RB_M2x12_Socket_Cap_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "670d61e44e15895f0fe490c43fdd505750d5310be6362326b2065e2c224bea6d",
+        "material": "",
+        "mass_g": 0.060381410801995834
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.47399407479566724,
+      "sha256": "48a0b3349e63a20ead6f68b335fffc040540e84f40388da0ff7fa9efb717f8cd"
+    },
+    "RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "5f4f015e915c518bbc3f512dfeca0d02d1acad93b2a396ae2516cf3050636b58",
+        "material": "",
+        "mass_g": 0.017143702091137965
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.13457806141543305,
+      "sha256": "814195044319df25c173d25b917c2a6dc233feb3fad41fd113c68c1ab60cc735"
+    },
+    "RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "58d13b835e07d41aba1789ba4a0a981ab91d7b54e086f0929ec3fc7a91107266",
+        "material": "",
+        "mass_g": 0.0047500880922277675
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.037288191523987976,
+      "sha256": "e01ec92100503e520df96fbc835aac9800d1d4157fc499b7934d84f3d1c9f63b"
+    },
+    "RB_M1p6_Nut_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "0b004ccdadf89607a8e698b9906332cff47097680b24219c998b928c5dd35117",
+        "material": "",
+        "mass_g": 0.008914725087391743
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.06998059193602518,
+      "sha256": "474acee7ab5728bc8bbf3c3f826e4fcdfb3819930620a951512a7bfe2144aeb1"
+    },
+    "RB_M1p6_Washer_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "3aea8637a22b6d2de44c1cceb72405f37127b6816815b4d0ea4845eff8e0a385",
+        "material": "",
+        "mass_g": 0.0030889709766421633
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.024248422166640984,
+      "sha256": "df310d6a954468d733a6a5e9c5a7946832c6f4450c63f0e7274a9a5e2340b1f1"
+    },
+    "RB_Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "e6144b8b1880d622e47bc32a4644ba948c8b516a4d71bccf31f3374d215441ea",
+        "material": "",
+        "mass_g": 0.03462977582052029
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.27184374019108426,
+      "sha256": "46b7e688e2e9e2665f379d50f1b64da03ef0d2879a4cc6755e128a5d059233b1"
+    },
+    "RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "3e116ade0535548ec11f73da076082a5a7c44bb522134e3d71b75e378287866f",
+        "material": "",
+        "mass_g": 0.032107076919687685
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.2520405538195483,
+      "sha256": "a56b9a062ae85dd39bc79df94571a378180a5a77f8789d29e8f0b8969494aad9"
+    },
+    "RB_Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "4c3b3cf9552857dfd84d33592fa9f3feb9f6725614c21b17b1a3f05b7bafb18a",
+        "material": "",
+        "mass_g": 0.008765043503515523
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.06880559150259685,
+      "sha256": "af196774f5976d9b001d3241fd91e68d6e62c3720c1c8275a935b713a8981f84"
+    },
+    "RB_M2x2_Socket_Cap_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "aaf6701432c54c4265cbd7b2c38189d634f0b6b27f4d635dabbfa747331e5700",
+        "material": "",
+        "mass_g": 0.028965484266097893
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.22737905148886844,
+      "sha256": "aaa9a27ba98f8a93f4af64e7cc85417062ad3fb7c6618ade65fdbd9d8beec96c"
+    },
+    "RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "6ce4cd8485eef7f65c0407520e9ef60256d679d722313a501a30f02e8d6e993b",
+        "material": "",
+        "mass_g": 0.014209423572186635
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.11154397504166508,
+      "sha256": "49e773f7a83e655711cf40a7ae9f15daa35e14c57ddf976c245314319e3d5d87"
+    },
+    "RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "c363acbc302727131cb70c5e240f876eb4710c8a6eb2e5700b0c8cf4591561a6",
+        "material": "",
+        "mass_g": 0.041531854880457075
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.326025060811588,
+      "sha256": "b07bf77d0650b96d9d6dd4f7f40249c28bca87701805bc02405f025db59cf10c"
+    },
+    "RB_Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "1e3f1107c15291eb8286676abeea721d0cf3be04f0501b6a0ee96e64e00eb413",
+        "material": "",
+        "mass_g": 0.01892181255257132
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.14853622853768486,
+      "sha256": "a282ee55bd8246b3cee75dd9c72ac0b444a7649e4adba1ff8a89b6ac4034a6cb"
+    },
+    "RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "7a78dc14b49580aed041ac7e7896aea9a3e4f411cf0874d6a7bb07868ce4f1f6",
+        "material": "",
+        "mass_g": 0.043138577560537565
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.33863783385021984,
+      "sha256": "dfed44a8303ddc288338e0ee6525533be05cf68a9647cf4f22d759bf7ba9feb4"
+    },
+    "RB_M2p5x4_CSK_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "9489dfd3529812eb6d525cea662c7d67ff395caf78b6b315034812cff050b558",
+        "material": "",
+        "mass_g": 0.02781618495365963
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.21835705188622812,
+      "sha256": "d09f0908e4a7e86505581247bab1228bbd08d83416355bc61e22ea52e579fd93"
+    },
+    "RB_M3_Washer_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "f53739f1d1cefa3f442914046cb2fdee9f0c6a7b641bffcf3961a943968199b2",
+        "material": "",
+        "mass_g": 0.015221016406642545
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.119484978792144,
+      "sha256": "f11a83594b39684fc696ce3174160965ec4f4f65eb817e2d1140d913d54d0a8f"
+    },
+    "RB_M3_Nut_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "1a8dc43189071d0f3e5c358c6a424a9b3b4aac80106a3ca3f6ac2d57740e6e68",
+        "material": "",
+        "mass_g": 0.04590884398536537
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.3603844252851181,
+      "sha256": "33cf3b9bd5c0dadce47bb9259e4b4d93ee4ac0dd98f8dffc226a60ab8eaf9055"
+    },
+    "RB_686ZZ_6x13x5_ENVELOPE.SLDPRT": {
+      "before": {
+        "sha256": "5b63fb3500e90bfa0af28ed1eafc007cf666b3343974f402111b33da88739293",
+        "material": "",
+        "mass_g": 0.522289778659303
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 4.099974762475529,
+      "sha256": "d934ed15558f6b49e3605042e9b550b39e34dad9030e4f35477795c39a06284d"
+    },
+    "RB_Upper_MainBearing_Retainer.SLDPRT": {
+      "before": {
+        "sha256": "90ec84a2bfa9dd3fd705c60cb44250b76d8e6421ca2e4147d27c44769921091f",
+        "material": "",
+        "mass_g": 0.26665838443670165
+      },
+      "material": "7075-T6 (SN)",
+      "basis": "Selected provisional machined7075-T6 for bench prototype. Supplied alloy/temper, strength and fatigue remain unverified.",
+      "mass_g": 0.7493100602671317,
+      "sha256": "49e9f93a7802a5b43351f51e9b9a9ce8c240910abeae53ce8eae0217a98b41e5"
+    },
+    "RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "a04049a315223a20531283b4a3a6c005d32db299cd7fc3046bfcd89a379f6d41",
+        "material": "",
+        "mass_g": 0.03895038387829398
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.30576051344460764,
+      "sha256": "126c3346b76740063935c00164d7eb8c40f51971aa59184886c72692af7a1b0c"
+    },
+    "RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "2eba8af832207427f0229e4bf2644d68b7b156629b889be0ec0adfbc2688fde9",
+        "material": "",
+        "mass_g": 0.028148670176164552
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.22096706088289175,
+      "sha256": "4d555e432f17a07221c929893ea77e3573936a45fff4ee55f359c5fbff2aab3f"
+    },
+    "RB_Pivot_Thrust_Spacer_H0p5.SLDPRT": {
+      "before": {
+        "sha256": "f2da0321a7f4a4a87c9f7b04a49bd166c05f1ad6e14faa3f7fccecf588cfc46d",
+        "material": "",
+        "mass_g": 0.004551382356888212
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.03572835150157247,
+      "sha256": "9c63c6949703dff11055ed5e424d84d899bb1d99bd45e1e90602e9e1a20c9341"
+    },
+    "RB_Ball_Mount_Spacer_H0p5.SLDPRT": {
+      "before": {
+        "sha256": "4425229f86db05381cff83d8d37381c617238814db530ff4e31d53bc4af6b729",
+        "material": "",
+        "mass_g": 0.0018024887849971431
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.014149536962227576,
+      "sha256": "043749f7a1de9451ac0a292c73056e6c563c7d22f4ead91236ad68488fea5c2b"
+    },
+    "RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "f8bca992b86aac9283a5f22f9ed58e45f4eba69dc6598349ef57a566e2cbc0dc",
+        "material": "",
+        "mass_g": 0.054098225494816236
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.42467107013430744,
+      "sha256": "6a54ae7ad7f9116fc6d0605080bd29768f1d67a63df064440d6f70e6ea11e366"
+    },
+    "RB_M2_Small_Washer_REFERENCE.SLDPRT": {
+      "before": {
+        "sha256": "d38c56852f047462c017e0c7c4645e46b5c733b5692c0559563fde8eb2b619fa",
+        "material": "",
+        "mass_g": 0.0023632630736629212
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.01855161512825393,
+      "sha256": "b62212ddf271cfa8ab1c04ffd6579030fad9dbe01cf3bdc2a2fb2933276ad33b"
+    },
+    "RB_Ball_Mount_Spacer_H2p5.SLDPRT": {
+      "before": {
+        "sha256": "8c89d124ad8c22e7f37c687145fc7920351ab7cb0afc5caa556a7ecb9a0468a1",
+        "material": "",
+        "mass_g": 0.00901244392498572
+      },
+      "material": "AISI 4340 Steel, normalized",
+      "basis": "7850kg/m3 steel DENSITY PROXY for fastener, spacer or purchased/custom reference envelope. Not a selected/supplied4340 grade and NOT library strength approval. Supplier grade, heat treatment, finish and real geometry remain release holds.",
+      "mass_g": 0.07074768481113788,
+      "sha256": "d59fe8235d74162a90a8aa07447cd13ab69dfc8d75711a94d44813c471271393"
+    }
+  },
+  "backup": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Secondary_Materials",
+  "limits": [
+    "Nominal14g servo override retained as explicitly manufacturer-based proxy, not hardware measurement",
+    "Unspecified blade composite, mixed-material guide blocks/rails and virtual6806 internals remain unassigned",
+    "Steel library is used as a density proxy only; do not use its strength for purchased-reference parts"
+  ],
+  "attempts": {
+    "RB_Inner_Race_Retainer.SLDPRT": {
+      "sha256": "0e9133a9e84c16049b91e481f33456d89fe5c67bdda9f72a45eef9dd08e8dc66",
+      "material": "",
+      "mass_g": 0.46278015981867854
+    },
+    "RB_Outer_Race_Retainer.SLDPRT": {
+      "sha256": "817d3e6492167b25e70ec3b888caeccf3d9aeda38bb2d97f16625f92a88c0a38",
+      "material": "",
+      "mass_g": 0.27075816284963655
+    },
+    "RB_Servo_X_Mount_PROTOTYPE.SLDPRT": {
+      "sha256": "11f43b6103212647a16e016ad0a094c6606bb948144ce6e6a39705292f18298b",
+      "material": "",
+      "mass_g": 6.968362505800837
+    },
+    "RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": {
+      "sha256": "a933539f13154ec5e4433115ee5ac3c0f5e9377ac2d9d7aedf765d970552a33e",
+      "material": "",
+      "mass_g": 1.6134178876061107
+    },
+    "RB_Servo_Y_Mount_PROTOTYPE.SLDPRT": {
+      "sha256": "3f65e104bdf48679ea43aa925461a481657b9ade8b2b65f0908334c5e945c027",
+      "material": "",
+      "mass_g": 7.724362505800828
+    },
+    "RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": {
+      "sha256": "26e9da57d9643060e0f140ea7416177d65d94e5bc2fffc5933e0518053482c9e",
+      "material": "",
+      "mass_g": 0.7854178876061121
+    },
+    "RB_Servo_Horn_R12_LAYOUT.SLDPRT": {
+      "sha256": "f23ed501967836cf67a380045f65b64b9f0a5ccdc75510563301cb0782be02bf",
+      "material": "",
+      "mass_g": 0.39664200792249577
+    },
+    "RB_Pivot_Pin_D2_REFERENCE.SLDPRT": {
+      "sha256": "e07201caf8417694a5759a4ca747dca4427b4d88828f77a34fbb641610d24942",
+      "material": "",
+      "mass_g": 0.033527076799110274
+    },
+    "RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": {
+      "sha256": "4aa06b752fa85d15c41ad3f0afb157976805d64de7a7e5298c854cf0dcae562a",
+      "material": "",
+      "mass_g": 2.21674468785418
+    },
+    "RB_M2p5x10_CSK_REFERENCE.SLDPRT": {
+      "sha256": "52b6583921ee6a4413d53669798e6b49ed6d635c3135f9ac4a8b2cc199accace",
+      "material": "",
+      "mass_g": 0.05726861608106395
+    },
+    "RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT": {
+      "sha256": "bd7efe4a508d6ce61d2235b792ede59e6e12d5eb202d3088f337c1ba99ed1277",
+      "material": "",
+      "mass_g": 0.14934437085539157
+    },
+    "RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": {
+      "sha256": "45f3c0b36324530bec65474b707a42509f1aeb398f417566f613e65cef482911",
+      "material": "",
+      "mass_g": 0.03927619135517958
+    },
+    "RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": {
+      "sha256": "c4d7eed4bdc1a200222d09c6c1fb32269d5f25b84171ec32b1131310054e07ea",
+      "material": "",
+      "mass_g": 0.9001961122952307
+    },
+    "RB_Servo_Link_L40_PROTOTYPE.SLDPRT": {
+      "sha256": "2f7c7f66983560f13afdb948a9e11ef3e1cacc899da452dd3c3a7d7ba85da5cd",
+      "material": "",
+      "mass_g": 0.5381455763976689
+    },
+    "RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": {
+      "sha256": "a27962c19e40a94c45921055d032af488de83d2f50871fe6ec4353137942f959",
+      "material": "",
+      "mass_g": 0.8042477193189871
+    },
+    "RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": {
+      "sha256": "b779ac02d08668807951c4fc08c67f9c5c09ca6895ae6e15d938c9ca8d29430b",
+      "material": "",
+      "mass_g": 0.03348379314675383
+    },
+    "RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": {
+      "sha256": "4b72423502bce11735014080bafcbe1437b6430220eaa6a847f0f3ac2d842da7",
+      "material": "",
+      "mass_g": 0.011274390635570368
+    },
+    "RB_M2p5x8_CSK_REFERENCE.SLDPRT": {
+      "sha256": "641f6db28781574a26fdfe3ca5ac3922a557b0bfaa6cdfa2d30d231f2a815f09",
+      "material": "",
+      "mass_g": 0.04745113903859584
+    },
+    "RB_M2x12_Socket_Cap_REFERENCE.SLDPRT": {
+      "sha256": "670d61e44e15895f0fe490c43fdd505750d5310be6362326b2065e2c224bea6d",
+      "material": "",
+      "mass_g": 0.060381410801995834
+    },
+    "RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT": {
+      "sha256": "5f4f015e915c518bbc3f512dfeca0d02d1acad93b2a396ae2516cf3050636b58",
+      "material": "",
+      "mass_g": 0.017143702091137965
+    },
+    "RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT": {
+      "sha256": "58d13b835e07d41aba1789ba4a0a981ab91d7b54e086f0929ec3fc7a91107266",
+      "material": "",
+      "mass_g": 0.0047500880922277675
+    },
+    "RB_M1p6_Nut_REFERENCE.SLDPRT": {
+      "sha256": "0b004ccdadf89607a8e698b9906332cff47097680b24219c998b928c5dd35117",
+      "material": "",
+      "mass_g": 0.008914725087391743
+    },
+    "RB_M1p6_Washer_REFERENCE.SLDPRT": {
+      "sha256": "3aea8637a22b6d2de44c1cceb72405f37127b6816815b4d0ea4845eff8e0a385",
+      "material": "",
+      "mass_g": 0.0030889709766421633
+    },
+    "RB_Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT": {
+      "sha256": "e6144b8b1880d622e47bc32a4644ba948c8b516a4d71bccf31f3374d215441ea",
+      "material": "",
+      "mass_g": 0.03462977582052029
+    },
+    "RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT": {
+      "sha256": "3e116ade0535548ec11f73da076082a5a7c44bb522134e3d71b75e378287866f",
+      "material": "",
+      "mass_g": 0.032107076919687685
+    },
+    "RB_Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT": {
+      "sha256": "4c3b3cf9552857dfd84d33592fa9f3feb9f6725614c21b17b1a3f05b7bafb18a",
+      "material": "",
+      "mass_g": 0.008765043503515523
+    },
+    "RB_M2x2_Socket_Cap_REFERENCE.SLDPRT": {
+      "sha256": "aaf6701432c54c4265cbd7b2c38189d634f0b6b27f4d635dabbfa747331e5700",
+      "material": "",
+      "mass_g": 0.028965484266097893
+    },
+    "RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT": {
+      "sha256": "6ce4cd8485eef7f65c0407520e9ef60256d679d722313a501a30f02e8d6e993b",
+      "material": "",
+      "mass_g": 0.014209423572186635
+    },
+    "RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT": {
+      "sha256": "c363acbc302727131cb70c5e240f876eb4710c8a6eb2e5700b0c8cf4591561a6",
+      "material": "",
+      "mass_g": 0.041531854880457075
+    },
+    "RB_Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT": {
+      "sha256": "1e3f1107c15291eb8286676abeea721d0cf3be04f0501b6a0ee96e64e00eb413",
+      "material": "",
+      "mass_g": 0.01892181255257132
+    },
+    "RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT": {
+      "sha256": "7a78dc14b49580aed041ac7e7896aea9a3e4f411cf0874d6a7bb07868ce4f1f6",
+      "material": "",
+      "mass_g": 0.043138577560537565
+    },
+    "RB_M2p5x4_CSK_REFERENCE.SLDPRT": {
+      "sha256": "9489dfd3529812eb6d525cea662c7d67ff395caf78b6b315034812cff050b558",
+      "material": "",
+      "mass_g": 0.02781618495365963
+    },
+    "RB_M3_Washer_REFERENCE.SLDPRT": {
+      "sha256": "f53739f1d1cefa3f442914046cb2fdee9f0c6a7b641bffcf3961a943968199b2",
+      "material": "",
+      "mass_g": 0.015221016406642545
+    },
+    "RB_M3_Nut_REFERENCE.SLDPRT": {
+      "sha256": "1a8dc43189071d0f3e5c358c6a424a9b3b4aac80106a3ca3f6ac2d57740e6e68",
+      "material": "",
+      "mass_g": 0.04590884398536537
+    },
+    "RB_686ZZ_6x13x5_ENVELOPE.SLDPRT": {
+      "sha256": "5b63fb3500e90bfa0af28ed1eafc007cf666b3343974f402111b33da88739293",
+      "material": "",
+      "mass_g": 0.522289778659303
+    },
+    "RB_Upper_MainBearing_Retainer.SLDPRT": {
+      "sha256": "90ec84a2bfa9dd3fd705c60cb44250b76d8e6421ca2e4147d27c44769921091f",
+      "material": "",
+      "mass_g": 0.26665838443670165
+    },
+    "RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT": {
+      "sha256": "a04049a315223a20531283b4a3a6c005d32db299cd7fc3046bfcd89a379f6d41",
+      "material": "",
+      "mass_g": 0.03895038387829398
+    },
+    "RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT": {
+      "sha256": "2eba8af832207427f0229e4bf2644d68b7b156629b889be0ec0adfbc2688fde9",
+      "material": "",
+      "mass_g": 0.028148670176164552
+    },
+    "RB_Pivot_Thrust_Spacer_H0p5.SLDPRT": {
+      "sha256": "f2da0321a7f4a4a87c9f7b04a49bd166c05f1ad6e14faa3f7fccecf588cfc46d",
+      "material": "",
+      "mass_g": 0.004551382356888212
+    },
+    "RB_Ball_Mount_Spacer_H0p5.SLDPRT": {
+      "sha256": "4425229f86db05381cff83d8d37381c617238814db530ff4e31d53bc4af6b729",
+      "material": "",
+      "mass_g": 0.0018024887849971431
+    },
+    "RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT": {
+      "sha256": "f8bca992b86aac9283a5f22f9ed58e45f4eba69dc6598349ef57a566e2cbc0dc",
+      "material": "",
+      "mass_g": 0.054098225494816236
+    },
+    "RB_M2_Small_Washer_REFERENCE.SLDPRT": {
+      "sha256": "d38c56852f047462c017e0c7c4645e46b5c733b5692c0559563fde8eb2b619fa",
+      "material": "",
+      "mass_g": 0.0023632630736629212
+    },
+    "RB_Ball_Mount_Spacer_H2p5.SLDPRT": {
+      "sha256": "8c89d124ad8c22e7f37c687145fc7920351ab7cb0afc5caa556a7ecb9a0468a1",
+      "material": "",
+      "mass_g": 0.00901244392498572
+    }
+  },
+  "complete": true,
+  "assembly_sha256": "8cfec4662ebbe2caa1c0a87ffbe5298dc36bcb8ab1ffc4c288106d8b1d0b9045"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "INERTIA-ONLY ANALYTICAL SCREEN, NOT APPROVED LOAD ENVELOPE",
+  "blade_mass_assumption_kg": 0.0125,
+  "blade_pitch_inertia_assumption_kgm2": 2.632291666666667e-06,
+  "inertia_model": "uniform chord/span mass distribution, pivot quarterchord; no measured mass/inertia",
+  "rpm": 2640,
+  "e_mm": 6.88,
+  "sample_step_deg": 0.01,
+  "peak_abs_rod_force_N": 15.95949617279804,
+  "peak_abs_blade_hinge_torque_Nm": 0.15783067353511132,
+  "peak_ring_force_norm_N": 29.7535920799255,
+  "ring_force_ranges_N": [
+    [
+      17.866444647609793,
+      29.749558068786676
+    ],
+    [
+      -4.599694618736293,
+      4.517204309787337
+    ]
+  ],
+  "peak_abs_ring_torque_Nm": 0.023373521778801233,
+  "excluded": [
+    "aerodynamic hinge torque",
+    "Oldham floating inertia/friction",
+    "bearing and guide friction",
+    "stop/jam loads",
+    "actual composite inertia",
+    "servo leverage/force transformation"
+  ]
+}

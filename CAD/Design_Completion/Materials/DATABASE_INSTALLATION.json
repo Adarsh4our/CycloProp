@@ -1,0 +1,8 @@
+{
+  "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Materials\\CycloProp_Prototype_Densities.sldmat",
+  "installed_copy": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\custom materials\\CycloProp_Prototype_Densities.sldmat",
+  "sha256": "16f92f1ce768b2eb6a7763dad47b769eb1480dc5522916248a6bedacf72c7b47",
+  "reason": "SolidWorks requires database in a configured Material Databases folder; no preferences or existing databases modified. Portable copy retained with project. Density-only assumptions; no FE properties.",
+  "material_readback": "G10_FR4_1850_DENSITY_ONLY_PROVISIONAL",
+  "database_readback": "CycloProp_Prototype_Densities"
+}

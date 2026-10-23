@@ -1,0 +1,16 @@
+{
+  "status": "implemented; native rebuild/mates checked at construction pose",
+  "shaft_nose_removed_mm": 2.0,
+  "shaft_solid_axial_extent_mm": [
+    2.0,
+    275.0
+  ],
+  "shaft_assembly_origin_changed": false,
+  "pedestal_head_bottom_base_mm": 32.8,
+  "pedestal_floor_top_base_mm": 35.0,
+  "shaft_nose_base_mm": 35.575,
+  "nominal_nose_clearance_mm": 0.575,
+  "pedestal_base_threads": "3xM2x0.4 through4mm flange",
+  "mate_errors": [],
+  "recovery": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Frame_Interfaces"
+}

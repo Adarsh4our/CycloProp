@@ -1,0 +1,1 @@
+Incomplete documentation archive attempt; do not use as a recovery checkpoint. See ASSEMBLY_BOM_TASK_CHECKPOINT.json for the completed checkpoint.

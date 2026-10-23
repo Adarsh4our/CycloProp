@@ -1,0 +1,506 @@
+{
+  "status": "PAUSED AT EXPLICIT USER REQUEST",
+  "timestamp_utc": "20261022T105430Z",
+  "checkpoint_folder": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Checkpoints\\20261022T105430Z",
+  "assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+  "assembly_sha256": "e431b7265656a49597f09133532f190ee6484248b1d29abb6e5fff80b06a5f1f",
+  "assembly_dirty": false,
+  "root_components": 323,
+  "saved_task_documents": [],
+  "constraints": {
+    "RevB_SETUP_Rotor_Angle": {
+      "exists": true,
+      "suppressed": false
+    },
+    "RevB_SETUP_Ring_Angle": {
+      "exists": true,
+      "suppressed": true
+    },
+    "LimitDistance3": {
+      "exists": true,
+      "suppressed": false,
+      "advanced_limit": false
+    },
+    "LimitDistance1": {
+      "exists": true,
+      "suppressed": false,
+      "advanced_limit": false
+    }
+  },
+  "baseline_sha256": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+  "selected_transforms": {
+    "3-Drive_Shaft-1": [
+      0.24323705820963099,
+      0.9699668723794257,
+      1.8303285158625306e-17,
+      -0.9699668723794257,
+      0.24323705820963099,
+      -3.1408004277386984e-17,
+      -3.491676091417268e-17,
+      -1.011398969491344e-17,
+      1.0,
+      0.783782501086058,
+      1.1848443308096597,
+      -0.013101375850359772,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-1": [
+      0.6849593542978099,
+      -0.728581280956303,
+      6.421717710363637e-17,
+      0.728581280956303,
+      0.6849593542978099,
+      -9.904189465512328e-18,
+      -3.677014911611798e-17,
+      5.357140037470566e-17,
+      1.0,
+      0.754167866690314,
+      1.0996190001027,
+      0.019398624149639776,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-2": [
+      -0.11250954067407766,
+      -0.9936506444708363,
+      -5.3184028692244274e-17,
+      0.9936506444708363,
+      -0.11250954067407766,
+      1.156957172049539e-17,
+      -1.747982303568315e-17,
+      -5.154465718553524e-17,
+      1.0,
+      0.6927044888464164,
+      1.217391532462047,
+      0.01939862414964213,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-3": [
+      -0.9493040560059949,
+      -0.314359363230312,
+      -5.877952613676163e-17,
+      0.314359363230312,
+      -0.9493040560059949,
+      -2.046097832003004e-17,
+      -4.936754245598436e-17,
+      -3.790158411638707e-17,
+      0.9999999999999999,
+      0.8159084101480307,
+      1.2799775976363932,
+      0.01939862414964206,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-4": [
+      0.42505445409397585,
+      0.9051677806102425,
+      4.3150484660330036e-17,
+      -0.9051677806102425,
+      0.42505445409397585,
+      3.4799653098564725e-18,
+      -1.5191353225063647e-17,
+      -4.0537603187294264e-17,
+      1.0,
+      0.8718913366482106,
+      1.1531377163639487,
+      0.01939862414964169,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "native_files": {
+    "RB_3-Drive_Shaft.SLDPRT": {
+      "sha256": "a381a1d975ec3ad17c11d01874933044756ee629dda7bf1b65fd29f08445f931",
+      "bytes": 147415
+    },
+    "RB_4-Inner_Carriage_Plate.SLDPRT": {
+      "sha256": "18e9e958eb9a2ee69e62faa620cb338f265a6eff7f41a8a650f9ae5015e6f127",
+      "bytes": 186553
+    },
+    "RB_4-Outer_Control_Ring.SLDPRT": {
+      "sha256": "513bdcfe1c975f1e77ce0d3e1fd424acd97bc0bd670ca7304e3e00ffd625567d",
+      "bytes": 160741
+    },
+    "RB_6806.SLDASM": {
+      "sha256": "2dcfd6e16e7e0263da357bff259955fe5052d7ef90f82e5db381462974096de7",
+      "bytes": 408177
+    },
+    "RB_686ZZ_6x13x5_ENVELOPE.SLDPRT": {
+      "sha256": "5b63fb3500e90bfa0af28ed1eafc007cf666b3343974f402111b33da88739293",
+      "bytes": 63893
+    },
+    "RB_Assem20.SLDASM": {
+      "sha256": "318bc7711522cc84b5c8dde12a3d454d92012cd876130833bc4e568834d961ad",
+      "bytes": 1673799
+    },
+    "RB_Assem20_Design_RevB.SLDASM": {
+      "sha256": "e431b7265656a49597f09133532f190ee6484248b1d29abb6e5fff80b06a5f1f",
+      "bytes": 1860434
+    },
+    "RB_Assem3.SLDASM": {
+      "sha256": "6f97dafd0ce913c8b67006d9f027e36f6f5baf46e7eae57b356b2ad7e3079a15",
+      "bytes": 382580
+    },
+    "RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": {
+      "sha256": "2c553ef078a8b9bf8162a86f61f2a98305a22bcb4af2e8df75480d3de2b7144d",
+      "bytes": 114838
+    },
+    "RB_Ball_Mount_Spacer_H0p5.SLDPRT": {
+      "sha256": "4425229f86db05381cff83d8d37381c617238814db530ff4e31d53bc4af6b729",
+      "bytes": 64277
+    },
+    "RB_Ball_Mount_Spacer_H2p5.SLDPRT": {
+      "sha256": "8c89d124ad8c22e7f37c687145fc7920351ab7cb0afc5caa556a7ecb9a0468a1",
+      "bytes": 67035
+    },
+    "RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT": {
+      "sha256": "a1b4565e4ce1e3798514975f92227b9c96762e78da9d9de0cd1eb2e9755731cc",
+      "bytes": 76719
+    },
+    "RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT": {
+      "sha256": "94a5a0b908380d4cbd0a544a57eceb664615340e6157a9a228a39082c5150cd3",
+      "bytes": 111767
+    },
+    "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM": {
+      "sha256": "028f26de0c1623d6d96193b7272f808626a5303e5e8564b167ee9d1a9913756e",
+      "bytes": 130766
+    },
+    "RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT": {
+      "sha256": "d4b454ac54c4ce877cd0aa50ab67a52e7e7da51bf732d63d5f8af1cb55200a23",
+      "bytes": 96573
+    },
+    "RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT": {
+      "sha256": "e0231053896f06e372ff1fb47f16ed791932588311991b5aef80a00b002393a7",
+      "bytes": 79243
+    },
+    "RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT": {
+      "sha256": "a46870302f3594054b80c69b032b40f2f8eac9c9f63bbd3879c23e91f32ca398",
+      "bytes": 70165
+    },
+    "RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p8.SLDPRT": {
+      "sha256": "5cbe98e23976067e789a79de7b4335861dfc82a9ec2feec92f7cb5c7fc72f70b",
+      "bytes": 75633
+    },
+    "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": {
+      "sha256": "aaf5e94ec70008dff51503d8d4798fc8b41d754906b9c3f37b7039d1dcf4886c",
+      "bytes": 117106
+    },
+    "RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT": {
+      "sha256": "5b6f20392b9f61a251c164214fa424fa2d91af07d6501546d7b796f444e3f999",
+      "bytes": 62588
+    },
+    "RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT": {
+      "sha256": "525219445aee49edf40464e46f36d96a183a1a0cf5c57537a00bf1a18f8e93e9",
+      "bytes": 117758
+    },
+    "RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT": {
+      "sha256": "caab05effc685a5b8ac4d28fc83d0a0a8bbf9a5baee23496ad8f4d464d2a68fc",
+      "bytes": 52028
+    },
+    "RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT": {
+      "sha256": "dfefe0a6cb04f448ed9db94b8dbaf293d42a51bc7582bc7aef3dbea3558760a4",
+      "bytes": 61394
+    },
+    "RB_Cage_Upper_Support_PROTOTYPE.SLDPRT": {
+      "sha256": "6f0bb63643a20873cd94ac16186599c5066aa39acea2230a5227e1b415e28b7d",
+      "bytes": 100888
+    },
+    "RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT": {
+      "sha256": "bea244396aba9cd5550b9173ee2e4f7be976697bfd35ef0964be581f1d59bea7",
+      "bytes": 51962
+    },
+    "RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT": {
+      "sha256": "6ce4cd8485eef7f65c0407520e9ef60256d679d722313a501a30f02e8d6e993b",
+      "bytes": 65050
+    },
+    "RB_Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT": {
+      "sha256": "1e3f1107c15291eb8286676abeea721d0cf3be04f0501b6a0ee96e64e00eb413",
+      "bytes": 63845
+    },
+    "RB_Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT": {
+      "sha256": "e6144b8b1880d622e47bc32a4644ba948c8b516a4d71bccf31f3374d215441ea",
+      "bytes": 64217
+    },
+    "RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT": {
+      "sha256": "2eba8af832207427f0229e4bf2644d68b7b156629b889be0ec0adfbc2688fde9",
+      "bytes": 60964
+    },
+    "RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT": {
+      "sha256": "a04049a315223a20531283b4a3a6c005d32db299cd7fc3046bfcd89a379f6d41",
+      "bytes": 67112
+    },
+    "RB_Endplate_Hub_Interface_RevA.SLDPRT": {
+      "sha256": "f2bde46b567e4135b8adb4297d2de5c63af580a340149471c5efdc3fcda2174e",
+      "bytes": 109563
+    },
+    "RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT": {
+      "sha256": "576c9847b859cc01dd92e9a8d2b6c642cbb40442f583d00836284f9fb3e5db79",
+      "bytes": 83963
+    },
+    "RB_Frame_Mounting_RevA.SLDPRT": {
+      "sha256": "8298f84fd81bd99d9337fdd862b662243073325a3051ade042d9ca3469a1367f",
+      "bytes": 277988
+    },
+    "RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT": {
+      "sha256": "6ed90e3d5e9858dbf7e95eb535a99b5280362a9b0b103cee7d97561eb62bfc1c",
+      "bytes": 76230
+    },
+    "RB_Inner_Race_Retainer.SLDPRT": {
+      "sha256": "0e9133a9e84c16049b91e481f33456d89fe5c67bdda9f72a45eef9dd08e8dc66",
+      "bytes": 71634
+    },
+    "RB_Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT": {
+      "sha256": "4c3b3cf9552857dfd84d33592fa9f3feb9f6725614c21b17b1a3f05b7bafb18a",
+      "bytes": 64807
+    },
+    "RB_Intermediate_X_Slider.SLDPRT": {
+      "sha256": "6ca73f4cb20f684cfa53367b4ce215ba9539e4b1a2709d18a28d86cecf358bef",
+      "bytes": 99811
+    },
+    "RB_Lower_Bearing_Pedestal_PROTOTYPE.SLDPRT": {
+      "sha256": "5737b02617328e660412b73bb81f79a0785af7476faa452824de9c8c51124b5c",
+      "bytes": 119541
+    },
+    "RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT": {
+      "sha256": "b7fadda78bfb949f1abc7ed0b473b0bb0874503c5696fde1c32c938425c72768",
+      "bytes": 122480
+    },
+    "RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT": {
+      "sha256": "d54e49329b391d8ca3e446b88298c04803e40dd530d986a99ff1c618e43c11b3",
+      "bytes": 74540
+    },
+    "RB_Lower_MainBearing_OuterSpacer_L3p5.SLDPRT": {
+      "sha256": "0f2be85142ce328907ef571fbbe18e7226644bf6e8731a07d50de6983e0ba1c9",
+      "bytes": 67859
+    },
+    "RB_Lower_MainBearing_Retainer.SLDPRT": {
+      "sha256": "18ea3d45ae41003fbebcc2a6ad42c77db509d6e6423d9a0128cb80e74ea65ffa",
+      "bytes": 69155
+    },
+    "RB_M1p6_Nut_REFERENCE.SLDPRT": {
+      "sha256": "0b004ccdadf89607a8e698b9906332cff47097680b24219c998b928c5dd35117",
+      "bytes": 60424
+    },
+    "RB_M1p6_Washer_REFERENCE.SLDPRT": {
+      "sha256": "3aea8637a22b6d2de44c1cceb72405f37127b6816815b4d0ea4845eff8e0a385",
+      "bytes": 60582
+    },
+    "RB_M2p5x10_CSK_REFERENCE.SLDPRT": {
+      "sha256": "52b6583921ee6a4413d53669798e6b49ed6d635c3135f9ac4a8b2cc199accace",
+      "bytes": 61698
+    },
+    "RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT": {
+      "sha256": "402743b50d024ab886836a4bf0e60bef18d12575cd4aa19bda19be0157ed0b2b",
+      "bytes": 75830
+    },
+    "RB_M2p5x4_CSK_REFERENCE.SLDPRT": {
+      "sha256": "9489dfd3529812eb6d525cea662c7d67ff395caf78b6b315034812cff050b558",
+      "bytes": 59226
+    },
+    "RB_M2p5x8_CSK_REFERENCE.SLDPRT": {
+      "sha256": "641f6db28781574a26fdfe3ca5ac3922a557b0bfaa6cdfa2d30d231f2a815f09",
+      "bytes": 61013
+    },
+    "RB_M2p5x8_Hub_Screw_REFERENCE.SLDPRT": {
+      "sha256": "d2daa4f6101c91088296dc7cbccc63ab6f8e58ac80036c53a2d6186f965d57c1",
+      "bytes": 64107
+    },
+    "RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": {
+      "sha256": "b779ac02d08668807951c4fc08c67f9c5c09ca6895ae6e15d938c9ca8d29430b",
+      "bytes": 61900
+    },
+    "RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": {
+      "sha256": "4b72423502bce11735014080bafcbe1437b6430220eaa6a847f0f3ac2d842da7",
+      "bytes": 60922
+    },
+    "RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT": {
+      "sha256": "f8bca992b86aac9283a5f22f9ed58e45f4eba69dc6598349ef57a566e2cbc0dc",
+      "bytes": 62802
+    },
+    "RB_M2x12_Socket_Cap_REFERENCE.SLDPRT": {
+      "sha256": "670d61e44e15895f0fe490c43fdd505750d5310be6362326b2065e2c224bea6d",
+      "bytes": 63906
+    },
+    "RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT": {
+      "sha256": "ef232857dba9f9cef10ec9c3cf4d10844a3c6f527c264898faa572578da2eb9e",
+      "bytes": 75321
+    },
+    "RB_M2x2_Socket_Cap_REFERENCE.SLDPRT": {
+      "sha256": "aaf6701432c54c4265cbd7b2c38189d634f0b6b27f4d635dabbfa747331e5700",
+      "bytes": 64314
+    },
+    "RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT": {
+      "sha256": "3e116ade0535548ec11f73da076082a5a7c44bb522134e3d71b75e378287866f",
+      "bytes": 64279
+    },
+    "RB_M2x4_MainCap_Screw_REFERENCE.SLDPRT": {
+      "sha256": "306d89afbaf656516c139f92eabcdae2188eb5a13c446c2f39e3900407cf3e26",
+      "bytes": 65012
+    },
+    "RB_M2x5_Bearing_Cap_Screw_REFERENCE.SLDPRT": {
+      "sha256": "9f1d66fc8ac49e3d2f21b268ef83ef01b1771b1433f8b993be6a6d3049c82937",
+      "bytes": 78730
+    },
+    "RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT": {
+      "sha256": "c363acbc302727131cb70c5e240f876eb4710c8a6eb2e5700b0c8cf4591561a6",
+      "bytes": 64989
+    },
+    "RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT": {
+      "sha256": "b3a73026056a272d45c40c3fbb07aecd233c3358371758e7201a8bec341a1c9b",
+      "bytes": 77994
+    },
+    "RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT": {
+      "sha256": "5f4f015e915c518bbc3f512dfeca0d02d1acad93b2a396ae2516cf3050636b58",
+      "bytes": 59597
+    },
+    "RB_M2_Small_Washer_REFERENCE.SLDPRT": {
+      "sha256": "d38c56852f047462c017e0c7c4645e46b5c733b5692c0559563fde8eb2b619fa",
+      "bytes": 60581
+    },
+    "RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT": {
+      "sha256": "58d13b835e07d41aba1789ba4a0a981ab91d7b54e086f0929ec3fc7a91107266",
+      "bytes": 60171
+    },
+    "RB_M3x16_Base_Screw_REFERENCE.SLDPRT": {
+      "sha256": "2172dfd015a71f8b4adb39929c44f8a237675698534bd7fe263410e1e7053bca",
+      "bytes": 78733
+    },
+    "RB_M3x55_Frame_Screw_REFERENCE.SLDPRT": {
+      "sha256": "86674e4a09d3b8287de2d76119b72cdca1b66181410c821d16e9b2399f240006",
+      "bytes": 55410
+    },
+    "RB_M3_Nut_REFERENCE.SLDPRT": {
+      "sha256": "1a8dc43189071d0f3e5c358c6a424a9b3b4aac80106a3ca3f6ac2d57740e6e68",
+      "bytes": 60641
+    },
+    "RB_M3_Washer_REFERENCE.SLDPRT": {
+      "sha256": "f53739f1d1cefa3f442914046cb2fdee9f0c6a7b641bffcf3961a943968199b2",
+      "bytes": 60627
+    },
+    "RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT": {
+      "sha256": "bd7efe4a508d6ce61d2235b792ede59e6e12d5eb202d3088f337c1ba99ed1277",
+      "bytes": 62815
+    },
+    "RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": {
+      "sha256": "45f3c0b36324530bec65474b707a42509f1aeb398f417566f613e65cef482911",
+      "bytes": 61417
+    },
+    "RB_MGN5C.SLDPRT": {
+      "sha256": "767e0c7dbcd8d518d2880cfc27a7bd343f7434ccbfb5bb13b361c2168ad45ead",
+      "bytes": 353675
+    },
+    "RB_MGNR05R.SLDPRT": {
+      "sha256": "146d31e8075b8167020f2e19745f2046beba0a48ca137aff76450d7e1baaae11",
+      "bytes": 146125
+    },
+    "RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT": {
+      "sha256": "b744e072a17bc109a3389d8b6fd8adf17b7daac492e3fdf00141de73b5638587",
+      "bytes": 98761
+    },
+    "RB_Oldham_Input_PROTOTYPE.SLDPRT": {
+      "sha256": "af9dae8ba203cda27d077effe4c6a3d284f7a604c0311ca75ebfaee0574e8c81",
+      "bytes": 115196
+    },
+    "RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT": {
+      "sha256": "96ab51e470bd16aba78f958647a3159bd53ba4ab737cc6946a0357b888b36d09",
+      "bytes": 89687
+    },
+    "RB_Oldham_Output_PROTOTYPE.SLDPRT": {
+      "sha256": "c359840527fcadabef7829157b1bdfc8fb6e592db45ae5bc943f26cddeaae74a",
+      "bytes": 109002
+    },
+    "RB_Outer_Race_Retainer.SLDPRT": {
+      "sha256": "817d3e6492167b25e70ec3b888caeccf3d9aeda38bb2d97f16625f92a88c0a38",
+      "bytes": 69675
+    },
+    "RB_Part1.SLDPRT": {
+      "sha256": "02314b869f0d550dd989608ac604f31e299c424cb4ba0fe854ee52fbdfe753d9",
+      "bytes": 102859
+    },
+    "RB_Pivot_Pin_D2_REFERENCE.SLDPRT": {
+      "sha256": "e07201caf8417694a5759a4ca747dca4427b4d88828f77a34fbb641610d24942",
+      "bytes": 73503
+    },
+    "RB_Pivot_Thrust_Spacer_H0p5.SLDPRT": {
+      "sha256": "f2da0321a7f4a4a87c9f7b04a49bd166c05f1ad6e14faa3f7fccecf588cfc46d",
+      "bytes": 63320
+    },
+    "RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT": {
+      "sha256": "7a78dc14b49580aed041ac7e7896aea9a3e4f411cf0874d6a7bb07868ce4f1f6",
+      "bytes": 463719
+    },
+    "RB_Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT": {
+      "sha256": "102285224ba27bb885a20268fd5fbc253ca1d5429f4cf95dd39ad819361d5793",
+      "bytes": 686273
+    },
+    "RB_Servo_Horn_R12_LAYOUT.SLDPRT": {
+      "sha256": "f23ed501967836cf67a380045f65b64b9f0a5ccdc75510563301cb0782be02bf",
+      "bytes": 637425
+    },
+    "RB_Servo_Link_L40_PROTOTYPE.SLDPRT": {
+      "sha256": "2f7c7f66983560f13afdb948a9e11ef3e1cacc899da452dd3c3a7d7ba85da5cd",
+      "bytes": 52741
+    },
+    "RB_Servo_X_Mount_PROTOTYPE.SLDPRT": {
+      "sha256": "11f43b6103212647a16e016ad0a094c6606bb948144ce6e6a39705292f18298b",
+      "bytes": 90383
+    },
+    "RB_Servo_Y_Mount_PROTOTYPE.SLDPRT": {
+      "sha256": "3f65e104bdf48679ea43aa925461a481657b9ade8b2b65f0908334c5e945c027",
+      "bytes": 90268
+    },
+    "RB_Shaft_Drive_Hub_RevA.SLDPRT": {
+      "sha256": "ebaeaaff7591014fcd024c634b3ca81d75566cafc59c22bdce8697afaacc95c9",
+      "bytes": 101126
+    },
+    "RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT": {
+      "sha256": "96fe0daae7f4afee07ec66794c3de1b4a130cc268f57ed38f25ea9ef3e7a1592",
+      "bytes": 112180
+    },
+    "RB_Stage_Support_L36p5.SLDPRT": {
+      "sha256": "157bdfcbcba691a4fc8daa3ec74d9f42b8a5acb4031890cf4487f3d8d47c798d",
+      "bytes": 61285
+    },
+    "RB_Upper_MainBearing_Retainer.SLDPRT": {
+      "sha256": "90ec84a2bfa9dd3fd705c60cb44250b76d8e6421ca2e4147d27c44769921091f",
+      "bytes": 68643
+    },
+    "RB_XY_Fixed_Base.SLDPRT": {
+      "sha256": "ddab635b5a7906653563d6c8baca95e056cb6f38e8c60b6f2e71a670b99e932a",
+      "bytes": 191119
+    },
+    "RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": {
+      "sha256": "4aa06b752fa85d15c41ad3f0afb157976805d64de7a7e5298c854cf0dcae562a",
+      "bytes": 87972
+    },
+    "RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": {
+      "sha256": "a27962c19e40a94c45921055d032af488de83d2f50871fe6ec4353137942f959",
+      "bytes": 66424
+    },
+    "RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": {
+      "sha256": "c4d7eed4bdc1a200222d09c6c1fb32269d5f25b84171ec32b1131310054e07ea",
+      "bytes": 68867
+    },
+    "RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": {
+      "sha256": "26e9da57d9643060e0f140ea7416177d65d94e5bc2fffc5933e0518053482c9e",
+      "bytes": 78239
+    },
+    "RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": {
+      "sha256": "a933539f13154ec5e4433115ee5ac3c0f5e9377ac2d9d7aedf765d970552a33e",
+      "bytes": 86389
+    }
+  },
+  "next_step": "Review unexecuted integrate_blade_cartridges.py and its restart handling, then integrate8 cartridge subassemblies. Main rotor/endplates are unchanged by cartridge work so far."
+}

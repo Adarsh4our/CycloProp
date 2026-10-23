@@ -1,0 +1,1575 @@
+{
+  "status": "DEVELOPMENT SCREEN; NOT APPROVED LOADS OR PHYSICAL CAPACITY",
+  "sources_sha256": {
+    "CAD\\Design_Completion\\Bench_Prototype\\BLADE_ROTOR_INTEGRATION.json": "1c60b514c33ef547eaf840015dc15403ca297812a7a8793f0b57e546711f905f",
+    "CAD\\Design_Completion\\REVISED_NATIVE_MATERIAL_BOM.json": "2c0a9c6e10beba172059f00fe747d6d63ccaf3215492834cc0798112f8216b88",
+    "CAD\\Design_Completion\\automation\\bench_load_and_tolerance_study.py": "11122abb0de7df4eeca0c89a8a1dd50ca15d54177c3d449e4485721761c9da44"
+  },
+  "blade_mass_kg": 0.0156908394678581,
+  "blade_aft_COM_m": 0.005742628423246876,
+  "blade_Jp_kgm2": 1.6707553090827172e-06,
+  "sampling": "4blades,0.25deg azimuth; centre and e3.44/e6.88 at16directions; sampled study only",
+  "peaks": {
+    "rod_force_N": 85.88199814505943,
+    "ring_torque_Nm": 2.5659587956931675,
+    "axis_force_N": 143.76399050190713,
+    "static_joint_proof_proposal_N": 128.82299721758915
+  },
+  "arm_and_rod": {
+    "arm_and_clamped_hardware_mass_kg": 0.0035112486346434426,
+    "arm_chord_first_mass_moment_kgm": -2.030506920871922e-05,
+    "combined_pitch_inertia_kgm2": 1.9020953600509275e-06,
+    "rod_mass_native_estimate_kg": 0.0010902561677070875,
+    "notes": "Exported arm/ball/spacers/fasteners partly counterbalance the blade aft mass moment; it is included with its actual sign. Explicit distributed rod acceleration/couple bounds. No structural flexibility or commanded XY acceleration included."
+  },
+  "manufacturing_match_requirements": {
+    "blade_first_mass_moment_relative": 0.05,
+    "blade_Jp_relative": 0.1
+  },
+  "frame_bound": {
+    "permitted_loaded_pitch_abs_deg": 37.5,
+    "maximum_undeformed_blade_radius_mm": 114.6338201604741,
+    "beam_deflection_screen_mm": 4.328002957411066,
+    "additional_adverse_allowance_mm": 1.0,
+    "remaining_frame_gap_mm": 11.130737743177797,
+    "required_mm": 3.5,
+    "result": "passes conditional geometric bound if stiffness/pitch assumptions are met"
+  },
+  "post": {
+    "original_deflection_mm": 0.4360543182500469,
+    "D12_root_to8p5_candidate_deflection_mm": 0.23485813556520724,
+    "nominal_radial_gap_mm": 0.62,
+    "other_tolerance_budget_mm": 0.09,
+    "candidate_residual_mm": 0.2951418644347928,
+    "proposed_minimum_mm": 0.25,
+    "result": "passes study"
+  },
+  "joint_screens": {
+    "tube_E_assumption_GPa": 70,
+    "ideal_pinned_Euler_force_N": 234.99321072794322,
+    "Euler_over_operating_force": 2.7362336205898092,
+    "bond_average_shear_MPa": 5.467417810958078,
+    "proof_bond_average_shear_MPa": 8.201126716437118,
+    "cap_thread_average_shear_MPa": 6.73327316620453,
+    "limits": "No CFRP modulus, adhesive allowables, thread root/peel/fatigue or host pin proof qualified."
+  },
+  "actuator_selection": {
+    "candidate": "ZaberNA23C60-T4A + X-MCC2 at48V",
+    "continuous_thrust_N": 700,
+    "travel_mm": 60,
+    "command_speed_proposed_mm_s": 0.25,
+    "thrust_curve_review": "Supplier chart reviewed: continuous thrust decays rapidly with speed; operate only in low-speed region and verify actual current/temperature/duty.",
+    "sizing_status": "force screen passes",
+    "backlash_um": 30,
+    "accuracy_um": 36,
+    "additional_requirements": "Calibrated actual XY position; native coupling/mounts and 44Hz disturbance holding/thermal proof remain required. Supplier700N does not qualify existing rails/post/threads."
+  },
+  "pitch_tolerance_proposal": {
+    "loaded_peak_target_deg": 35,
+    "loaded_error_allowance_deg": 2.5,
+    "budget_deg": {
+      "timing": 0.25,
+      "two_socket_joints": 0.65,
+      "rod_length": 0.2,
+      "actuator_and_guides": 0.5,
+      "elastic": 0.6,
+      "thermal_wear": 0.2,
+      "nominal_calibration": 0.05,
+      "measurement": 0.05
+    },
+    "notes": "Replaces the earlier unapproved+/-1deg draft for this candidate only. Requires approval; not an aerodynamic performance equivalence or a37.5deg command. Nominal35deg preserved."
+  },
+  "poses": [
+    {
+      "XY_mm": [
+        0.0,
+        0.0
+      ],
+      "rod_force_N": 66.88966370721558,
+      "ring_torque_Nm": 2.2603638194154643,
+      "axis_force_xy_N": [
+        96.88237814593214,
+        96.88237814593211
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04008426399524767,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5175.677045618027,
+      "rod_transverse_end_reaction_bound_N": 5.642813821045052,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 2.7889157246354363e-16,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068203211969775,
+        "peak_abs_combined_hinge_torque_Nm": 0.5068203211969778,
+        "peak_abs_rod_force_N": 42.24290619712521,
+        "independent_blade_inertia_rod_bound_N": 42.24290619712522,
+        "independent_blade_inertia_axis_bound_N": [
+          119.48077468239609,
+          119.4807746823961
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.7172520442425359,
+        "peak_abs_ring_force_xy_N": [
+          9.237055564881302e-14,
+          6.750155989720952e-14
+        ],
+        "peak_abs_ring_torque_Nm": 1.7172520442425356,
+        "minimum_rod_moment_arm_mm": 11.997761679367331,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          235.74582487184733,
+          235.74582487184733
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.3882856949911435,
+        "pitch_extrema_deg": [
+          -1.0177774980683254e-13,
+          1.0177774980683254e-13
+        ],
+        "peak_absolute_pitch_speed_rad_s": 3.683189133897115e-13,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 0.8470714237477868
+      }
+    },
+    {
+      "XY_mm": [
+        3.44,
+        0.0
+      ],
+      "rod_force_N": 72.55321722350074,
+      "ring_torque_Nm": 2.3270437708271414,
+      "axis_force_xy_N": [
+        113.64592660152368,
+        101.53362962410077
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04471887921189912,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651475,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.526780087193648,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270511,
+        "independent_blade_inertia_axis_bound_N": [
+          126.42272141397768,
+          126.42633275544672
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.847358060818939,
+        "peak_abs_ring_force_xy_N": [
+          12.5116683984458,
+          0.3944642936182845
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974042,
+        "minimum_rod_moment_arm_mm": 11.437816406865977,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          240.7356020186256,
+          240.76535559425142
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044937,
+        "pitch_extrema_deg": [
+          -16.622278887709385,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660798,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997929
+      }
+    },
+    {
+      "XY_mm": [
+        3.1781455918388266,
+        1.316431007335909
+      ],
+      "rod_force_N": 72.55321722350074,
+      "ring_torque_Nm": 2.327043770827141,
+      "axis_force_xy_N": [
+        112.5930351789583,
+        106.2797809913762
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899105,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570803,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651465,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.526780087193648,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270511,
+        "independent_blade_inertia_axis_bound_N": [
+          125.4579023739639,
+          126.3053335367707
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189395,
+        "peak_abs_ring_force_xy_N": [
+          11.592318539975345,
+          5.02180983488174
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974033,
+        "minimum_rod_moment_arm_mm": 11.437816406865977,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          239.92589428151382,
+          241.4857155599883
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.521465819404494,
+        "pitch_extrema_deg": [
+          -16.622278887709488,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660798,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997929
+      }
+    },
+    {
+      "XY_mm": [
+        2.4324473272817237,
+        2.4324473272817237
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.327043770827141,
+      "axis_force_xy_N": [
+        109.94793463397617,
+        110.28862625099484
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04471887921189911,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651466,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936479,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270513,
+        "independent_blade_inertia_axis_bound_N": [
+          124.70566730669177,
+          125.74045965231582
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189397,
+        "peak_abs_ring_force_xy_N": [
+          8.96482444539819,
+          8.951951292289426
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974033,
+        "minimum_rod_moment_arm_mm": 11.437816406865975,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          239.81914040894537,
+          241.96292337182
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044954,
+        "pitch_extrema_deg": [
+          -16.622278887709435,
+          16.69678054231724
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.5917817866078,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997929
+      }
+    },
+    {
+      "XY_mm": [
+        1.3164310073359091,
+        3.1781455918388266
+      ],
+      "rod_force_N": 72.55321722350078,
+      "ring_torque_Nm": 2.327043770827141,
+      "axis_force_xy_N": [
+        106.07344245100455,
+        112.87518003006936
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899105,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651464,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.526780087193648,
+        "peak_abs_rod_force_N": 45.74001984181934,
+        "independent_blade_inertia_rod_bound_N": 46.499351972705135,
+        "independent_blade_inertia_axis_bound_N": [
+          125.96462319238914,
+          126.64435483737407
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189388,
+        "peak_abs_ring_force_xy_N": [
+          5.031313407907557,
+          11.583432005814881
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974033,
+        "minimum_rod_moment_arm_mm": 11.437816406865974,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          240.1769917151166,
+          241.69051615032174
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044945,
+        "pitch_extrema_deg": [
+          -16.622278887709435,
+          16.696780542317263
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660785,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997926
+      }
+    },
+    {
+      "XY_mm": [
+        2.1063924945334475e-16,
+        3.44
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.3270437708271405,
+      "axis_force_xy_N": [
+        101.53362962410066,
+        113.64592660152367
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899105,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651465,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936478,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270511,
+        "independent_blade_inertia_axis_bound_N": [
+          126.4263327554468,
+          126.42272141397763
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189393,
+        "peak_abs_ring_force_xy_N": [
+          0.39446429361821345,
+          12.5116683984458
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974033,
+        "minimum_rod_moment_arm_mm": 11.437816406865975,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          240.76535559425125,
+          240.73560201862557
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044937,
+        "pitch_extrema_deg": [
+          -16.622278887709385,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660791,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997926
+      }
+    },
+    {
+      "XY_mm": [
+        -1.3164310073359087,
+        3.1781455918388266
+      ],
+      "rod_force_N": 72.55321722350074,
+      "ring_torque_Nm": 2.3270437708271405,
+      "axis_force_xy_N": [
+        106.27978099137623,
+        112.59303517895835
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04471887921189912,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651474,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936479,
+        "peak_abs_rod_force_N": 45.7400198418193,
+        "independent_blade_inertia_rod_bound_N": 46.499351972705114,
+        "independent_blade_inertia_axis_bound_N": [
+          126.30533353677075,
+          125.45790237396393
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.84735806081894,
+        "peak_abs_ring_force_xy_N": [
+          5.021809834881765,
+          11.59231853997538
+        ],
+        "peak_abs_ring_torque_Nm": 1.746263778397403,
+        "minimum_rod_moment_arm_mm": 11.437816406865977,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          241.48571555998834,
+          239.92589428151385
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044945,
+        "pitch_extrema_deg": [
+          -16.622278887709463,
+          16.69678054231724
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660791,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997929
+      }
+    },
+    {
+      "XY_mm": [
+        -2.4324473272817233,
+        2.4324473272817237
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.327043770827141,
+      "axis_force_xy_N": [
+        110.28862625099485,
+        109.94793463397615
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899105,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.7218009717735,
+      "rod_transverse_end_reaction_bound_N": 6.0482934825708,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.046346152166514644,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936476,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270511,
+        "independent_blade_inertia_axis_bound_N": [
+          125.74045965231583,
+          124.70566730669174
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.84735806081894,
+        "peak_abs_ring_force_xy_N": [
+          8.951951292289419,
+          8.964824445398158
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974033,
+        "minimum_rod_moment_arm_mm": 11.437816406865974,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          241.96292337182012,
+          239.8191404089454
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.521465819404495,
+        "pitch_extrema_deg": [
+          -16.622278887709435,
+          16.696780542317263
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660804,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997933
+      }
+    },
+    {
+      "XY_mm": [
+        -3.1781455918388266,
+        1.3164310073359093
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.3270437708271414,
+      "axis_force_xy_N": [
+        112.87518003006937,
+        106.07344245100452
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899105,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651464,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936479,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.499351972705114,
+        "independent_blade_inertia_axis_bound_N": [
+          126.64435483737412,
+          125.96462319238913
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189388,
+        "peak_abs_ring_force_xy_N": [
+          11.583432005814878,
+          5.0313134079075255
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974035,
+        "minimum_rod_moment_arm_mm": 11.437816406865975,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          241.69051615032174,
+          240.17699171511651
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044963,
+        "pitch_extrema_deg": [
+          -16.622278887709435,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660798,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997926
+      }
+    },
+    {
+      "XY_mm": [
+        -3.44,
+        4.212784989066895e-16
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.3270437708271414,
+      "axis_force_xy_N": [
+        113.64592660152368,
+        101.53362962410073
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04471887921189912,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.046346152166514755,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936481,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.499351972705114,
+        "independent_blade_inertia_axis_bound_N": [
+          126.42272141397771,
+          126.42633275544675
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189395,
+        "peak_abs_ring_force_xy_N": [
+          12.511668398445778,
+          0.3944642936182525
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974042,
+        "minimum_rod_moment_arm_mm": 11.437816406865975,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          240.73560201862563,
+          240.7653555942514
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.521465819404493,
+        "pitch_extrema_deg": [
+          -16.622278887709385,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660791,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997926
+      }
+    },
+    {
+      "XY_mm": [
+        -3.1781455918388266,
+        -1.3164310073359085
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.327043770827141,
+      "axis_force_xy_N": [
+        112.59303517895833,
+        106.27978099137617
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899126,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.046346152166514845,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936479,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270511,
+        "independent_blade_inertia_axis_bound_N": [
+          125.45790237396389,
+          126.30533353677072
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189395,
+        "peak_abs_ring_force_xy_N": [
+          11.592318539975368,
+          5.021809834881708
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974033,
+        "minimum_rod_moment_arm_mm": 11.437816406865974,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          239.92589428151385,
+          241.48571555998836
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044945,
+        "pitch_extrema_deg": [
+          -16.622278887709488,
+          16.69678054231724
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660804,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997924
+      }
+    },
+    {
+      "XY_mm": [
+        -2.4324473272817237,
+        -2.4324473272817233
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.327043770827141,
+      "axis_force_xy_N": [
+        109.94793463397613,
+        110.28862625099484
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04471887921189912,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651475,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936478,
+        "peak_abs_rod_force_N": 45.74001984181931,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270511,
+        "independent_blade_inertia_axis_bound_N": [
+          124.70566730669178,
+          125.74045965231583
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189395,
+        "peak_abs_ring_force_xy_N": [
+          8.964824445398147,
+          8.951951292289422
+        ],
+        "peak_abs_ring_torque_Nm": 1.746263778397403,
+        "minimum_rod_moment_arm_mm": 11.437816406865974,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          239.81914040894537,
+          241.96292337182
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044954,
+        "pitch_extrema_deg": [
+          -16.622278887709488,
+          16.69678054231724
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660798,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997922
+      }
+    },
+    {
+      "XY_mm": [
+        -1.316431007335911,
+        -3.1781455918388257
+      ],
+      "rod_force_N": 72.55321722350077,
+      "ring_torque_Nm": 2.327043770827141,
+      "axis_force_xy_N": [
+        106.07344245100454,
+        112.87518003006936
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04471887921189912,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651475,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.526780087193648,
+        "peak_abs_rod_force_N": 45.740019841819326,
+        "independent_blade_inertia_rod_bound_N": 46.499351972705114,
+        "independent_blade_inertia_axis_bound_N": [
+          125.96462319238913,
+          126.64435483737407
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189395,
+        "peak_abs_ring_force_xy_N": [
+          5.031313407907543,
+          11.58343200581487
+        ],
+        "peak_abs_ring_torque_Nm": 1.746263778397403,
+        "minimum_rod_moment_arm_mm": 11.437816406865977,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          240.17699171511657,
+          241.69051615032177
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044954,
+        "pitch_extrema_deg": [
+          -16.622278887709435,
+          16.696780542317263
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660804,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997924
+      }
+    },
+    {
+      "XY_mm": [
+        -6.319177483600342e-16,
+        -3.44
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.3270437708271414,
+      "axis_force_xy_N": [
+        101.53362962410074,
+        113.64592660152367
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.04471887921189912,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651475,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936479,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.4993519727051,
+        "independent_blade_inertia_axis_bound_N": [
+          126.42633275544678,
+          126.42272141397765
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189395,
+        "peak_abs_ring_force_xy_N": [
+          0.39446429361828095,
+          12.51166839844578
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974038,
+        "minimum_rod_moment_arm_mm": 11.437816406865975,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          240.7653555942513,
+          240.73560201862557
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044937,
+        "pitch_extrema_deg": [
+          -16.622278887709385,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660791,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997929
+      }
+    },
+    {
+      "XY_mm": [
+        1.3164310073359096,
+        -3.178145591838826
+      ],
+      "rod_force_N": 72.55321722350074,
+      "ring_torque_Nm": 2.3270437708271405,
+      "axis_force_xy_N": [
+        106.27978099137619,
+        112.59303517895833
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.0447188792118991,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651456,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936479,
+        "peak_abs_rod_force_N": 45.740019841819304,
+        "independent_blade_inertia_rod_bound_N": 46.49935197270509,
+        "independent_blade_inertia_axis_bound_N": [
+          126.30533353677073,
+          125.457902373964
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189397,
+        "peak_abs_ring_force_xy_N": [
+          5.021809834881722,
+          11.592318539975373
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974029,
+        "minimum_rod_moment_arm_mm": 11.437816406865977,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          241.4857155599883,
+          239.92589428151382
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044945,
+        "pitch_extrema_deg": [
+          -16.622278887709488,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660791,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997935
+      }
+    },
+    {
+      "XY_mm": [
+        2.432447327281723,
+        -2.4324473272817237
+      ],
+      "rod_force_N": 72.55321722350078,
+      "ring_torque_Nm": 2.3270437708271405,
+      "axis_force_xy_N": [
+        110.28862625099485,
+        109.94793463397616
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899105,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.721800971775,
+      "rod_transverse_end_reaction_bound_N": 6.048293482570802,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651465,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936478,
+        "peak_abs_rod_force_N": 45.740019841819326,
+        "independent_blade_inertia_rod_bound_N": 46.499351972705114,
+        "independent_blade_inertia_axis_bound_N": [
+          125.74045965231586,
+          124.70566730669174
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189393,
+        "peak_abs_ring_force_xy_N": [
+          8.951951292289426,
+          8.964824445398161
+        ],
+        "peak_abs_ring_torque_Nm": 1.7462637783974029,
+        "minimum_rod_moment_arm_mm": 11.437816406865975,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          241.96292337182012,
+          239.8191404089454
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044945,
+        "pitch_extrema_deg": [
+          -16.622278887709488,
+          16.696780542317164
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660798,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997922
+      }
+    },
+    {
+      "XY_mm": [
+        3.1781455918388257,
+        -1.316431007335911
+      ],
+      "rod_force_N": 72.55321722350075,
+      "ring_torque_Nm": 2.3270437708271405,
+      "axis_force_xy_N": [
+        112.87518003006937,
+        106.07344245100451
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.044718879211899105,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5462.7218009717735,
+      "rod_transverse_end_reaction_bound_N": 6.0482934825708,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.04634615216651465,
+        "peak_abs_orbital_COM_torque_Nm": 0.5068202569901893,
+        "peak_abs_combined_hinge_torque_Nm": 0.5267800871936479,
+        "peak_abs_rod_force_N": 45.74001984181931,
+        "independent_blade_inertia_rod_bound_N": 46.499351972705114,
+        "independent_blade_inertia_axis_bound_N": [
+          126.64435483737412,
+          125.96462319238913
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 1.8473580608189386,
+        "peak_abs_ring_force_xy_N": [
+          11.583432005814894,
+          5.031313407907533
+        ],
+        "peak_abs_ring_torque_Nm": 1.746263778397403,
+        "minimum_rod_moment_arm_mm": 11.437816406865972,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          241.69051615032177,
+          240.17699171511651
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 3.5214658194044945,
+        "pitch_extrema_deg": [
+          -16.622278887709435,
+          16.696780542317214
+        ],
+        "peak_absolute_pitch_speed_rad_s": 79.59178178660785,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.0441378310997929
+      }
+    },
+    {
+      "XY_mm": [
+        6.88,
+        0.0
+      ],
+      "rod_force_N": 85.8819981450594,
+      "ring_torque_Nm": 2.565958795693167,
+      "axis_force_xy_N": [
+        143.76399050190713,
+        114.31171707112239
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.051489107347628425,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380781,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158304,
+        "peak_abs_rod_force_N": 53.1344707438196,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419625,
+        "independent_blade_inertia_axis_bound_N": [
+          135.2705171610278,
+          133.1891254319545
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.114007317219129,
+        "peak_abs_ring_force_xy_N": [
+          32.738225037906915,
+          3.6702792388822836
+        ],
+        "peak_abs_ring_torque_Nm": 1.866402889778999,
+        "minimum_rod_moment_arm_mm": 9.605550260940303,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          260.8052989057066,
+          258.56687789249327
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347919,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508395
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438414,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.379059463147425
+      }
+    },
+    {
+      "XY_mm": [
+        6.356291183677653,
+        2.632862014671818
+      ],
+      "rod_force_N": 85.8819981450594,
+      "ring_torque_Nm": 2.565958795693167,
+      "axis_force_xy_N": [
+        140.770710552684,
+        125.49561142144363
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762846,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380817,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158304,
+        "peak_abs_rod_force_N": 53.134470743819584,
+        "independent_blade_inertia_rod_bound_N": 53.833994764196234,
+        "independent_blade_inertia_axis_bound_N": [
+          130.4286379831737,
+          133.69308250260588
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.114007317219128,
+        "peak_abs_ring_force_xy_N": [
+          30.64367423904824,
+          14.288692508263118
+        ],
+        "peak_abs_ring_torque_Nm": 1.866402889778999,
+        "minimum_rod_moment_arm_mm": 9.605550260940303,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          255.57087377173937,
+          261.8603822610306
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347918,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438434,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474278
+      }
+    },
+    {
+      "XY_mm": [
+        4.8648946545634475,
+        4.8648946545634475
+      ],
+      "rod_force_N": 85.8819981450594,
+      "ring_torque_Nm": 2.565958795693167,
+      "axis_force_xy_N": [
+        134.98072678987495,
+        135.8315712865518
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762844,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752482,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380793,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158304,
+        "peak_abs_rod_force_N": 53.1344707438196,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419621,
+        "independent_blade_inertia_axis_bound_N": [
+          134.30579928549423,
+          137.75629019511197
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191287,
+        "peak_abs_ring_force_xy_N": [
+          24.307711581129787,
+          23.733090842011265
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789986,
+        "minimum_rod_moment_arm_mm": 9.605550260940305,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          258.75079249365604,
+          267.0530613750179
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347921,
+        "pitch_extrema_deg": [
+          -34.98966306273441,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438408,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474256
+      }
+    },
+    {
+      "XY_mm": [
+        2.6328620146718182,
+        6.356291183677653
+      ],
+      "rod_force_N": 85.8819981450594,
+      "ring_torque_Nm": 2.5659587956931666,
+      "axis_force_xy_N": [
+        125.47945506765089,
+        142.5042368098985
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762846,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632383,
+      "rod_transverse_end_reaction_bound_N": 6.61228961075248,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380817,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158301,
+        "peak_abs_rod_force_N": 53.13447074381959,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419626,
+        "independent_blade_inertia_axis_bound_N": [
+          134.80632705869297,
+          139.550788522643
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.114007317219129,
+        "peak_abs_ring_force_xy_N": [
+          14.775069119090183,
+          30.27811568949118
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789984,
+        "minimum_rod_moment_arm_mm": 9.605550260940301,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          258.933503590648,
+          267.796472848433
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347918,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438414,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.379059463147428
+      }
+    },
+    {
+      "XY_mm": [
+        4.212784989066895e-16,
+        6.88
+      ],
+      "rod_force_N": 85.88199814505943,
+      "ring_torque_Nm": 2.565958795693167,
+      "axis_force_xy_N": [
+        114.31171707112236,
+        143.76399050190713
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762843,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380788,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158304,
+        "peak_abs_rod_force_N": 53.134470743819605,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419625,
+        "independent_blade_inertia_axis_bound_N": [
+          133.1891254319545,
+          135.27051716102775
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191274,
+        "peak_abs_ring_force_xy_N": [
+          3.6702792388822303,
+          32.7382250379069
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789988,
+        "minimum_rod_moment_arm_mm": 9.6055502609403,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          258.5668778924934,
+          260.80529890570654
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347921,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438414,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474256
+      }
+    },
+    {
+      "XY_mm": [
+        -2.6328620146718174,
+        6.356291183677653
+      ],
+      "rod_force_N": 85.88199814505937,
+      "ring_torque_Nm": 2.565958795693167,
+      "axis_force_xy_N": [
+        125.49561142144361,
+        140.770710552684
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.051489107347628446,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632385,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752482,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380806,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158302,
+        "peak_abs_rod_force_N": 53.134470743819556,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419623,
+        "independent_blade_inertia_axis_bound_N": [
+          133.69308250260585,
+          130.42863798317376
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191274,
+        "peak_abs_ring_force_xy_N": [
+          14.288692508263132,
+          30.64367423904824
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789988,
+        "minimum_rod_moment_arm_mm": 9.605550260940301,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          261.8603822610305,
+          255.57087377173943
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347919,
+        "pitch_extrema_deg": [
+          -34.98966306273436,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.9736304943842,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474258
+      }
+    },
+    {
+      "XY_mm": [
+        -4.864894654563447,
+        4.8648946545634475
+      ],
+      "rod_force_N": 85.88199814505936,
+      "ring_torque_Nm": 2.5659587956931653,
+      "axis_force_xy_N": [
+        135.83157128655182,
+        134.98072678987492
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762846,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380821,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158304,
+        "peak_abs_rod_force_N": 53.13447074381955,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419624,
+        "independent_blade_inertia_axis_bound_N": [
+          137.75629019511194,
+          134.30579928549415
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191283,
+        "peak_abs_ring_force_xy_N": [
+          23.733090842011325,
+          24.30771158112978
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789975,
+        "minimum_rod_moment_arm_mm": 9.605550260940303,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          267.0530613750178,
+          258.7507924936561
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347917,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438414,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474258
+      }
+    },
+    {
+      "XY_mm": [
+        -6.356291183677653,
+        2.6328620146718187
+      ],
+      "rod_force_N": 85.88199814505937,
+      "ring_torque_Nm": 2.5659587956931666,
+      "axis_force_xy_N": [
+        142.5042368098985,
+        125.47945506765086
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762844,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632383,
+      "rod_transverse_end_reaction_bound_N": 6.61228961075248,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380793,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158303,
+        "peak_abs_rod_force_N": 53.1344707438196,
+        "independent_blade_inertia_rod_bound_N": 53.833994764196255,
+        "independent_blade_inertia_axis_bound_N": [
+          139.5507885226429,
+          134.806327058693
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191296,
+        "peak_abs_ring_force_xy_N": [
+          30.278115689491166,
+          14.775069119090162
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789984,
+        "minimum_rod_moment_arm_mm": 9.605550260940314,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          267.79647284843304,
+          258.933503590648
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.07438994834792,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438414,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.379059463147426
+      }
+    },
+    {
+      "XY_mm": [
+        -6.88,
+        8.42556997813379e-16
+      ],
+      "rod_force_N": 85.88199814505941,
+      "ring_torque_Nm": 2.565958795693166,
+      "axis_force_xy_N": [
+        143.76399050190713,
+        114.31171707112233
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762845,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632383,
+      "rod_transverse_end_reaction_bound_N": 6.61228961075248,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380811,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158304,
+        "peak_abs_rod_force_N": 53.1344707438196,
+        "independent_blade_inertia_rod_bound_N": 53.833994764196234,
+        "independent_blade_inertia_axis_bound_N": [
+          135.2705171610278,
+          133.1891254319545
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191283,
+        "peak_abs_ring_force_xy_N": [
+          32.738225037906915,
+          3.6702792388822196
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789984,
+        "minimum_rod_moment_arm_mm": 9.6055502609403,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          260.8052989057066,
+          258.56687789249327
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347918,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438414,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474264
+      }
+    },
+    {
+      "XY_mm": [
+        -6.356291183677653,
+        -2.632862014671817
+      ],
+      "rod_force_N": 85.8819981450594,
+      "ring_torque_Nm": 2.565958795693167,
+      "axis_force_xy_N": [
+        140.77071055268408,
+        125.49561142144361
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762846,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380815,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158303,
+        "peak_abs_rod_force_N": 53.13447074381958,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419626,
+        "independent_blade_inertia_axis_bound_N": [
+          130.4286379831737,
+          133.69308250260588
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191274,
+        "peak_abs_ring_force_xy_N": [
+          30.64367423904832,
+          14.288692508263118
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789988,
+        "minimum_rod_moment_arm_mm": 9.6055502609403,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          255.57087377173946,
+          261.8603822610305
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.0743899483479185,
+        "pitch_extrema_deg": [
+          -34.98966306273441,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438425,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.379059463147426
+      }
+    },
+    {
+      "XY_mm": [
+        -4.8648946545634475,
+        -4.864894654563447
+      ],
+      "rod_force_N": 85.88199814505943,
+      "ring_torque_Nm": 2.5659587956931666,
+      "axis_force_xy_N": [
+        134.98072678987486,
+        135.83157128655182
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762843,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380789,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158305,
+        "peak_abs_rod_force_N": 53.134470743819605,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419623,
+        "independent_blade_inertia_axis_bound_N": [
+          134.30579928549417,
+          137.75629019511197
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.114007317219129,
+        "peak_abs_ring_force_xy_N": [
+          24.307711581129723,
+          23.733090842011286
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789984,
+        "minimum_rod_moment_arm_mm": 9.6055502609403,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          258.7507924936561,
+          267.053061375018
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347921,
+        "pitch_extrema_deg": [
+          -34.98966306273441,
+          34.991094277508495
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.9736304943844,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474256
+      }
+    },
+    {
+      "XY_mm": [
+        -2.632862014671822,
+        -6.3562911836776514
+      ],
+      "rod_force_N": 85.88199814505937,
+      "ring_torque_Nm": 2.565958795693167,
+      "axis_force_xy_N": [
+        125.47945506765085,
+        142.50423680989843
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762845,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.1140484335238081,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158302,
+        "peak_abs_rod_force_N": 53.13447074381958,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419624,
+        "independent_blade_inertia_axis_bound_N": [
+          134.806327058693,
+          139.55078852264305
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191287,
+        "peak_abs_ring_force_xy_N": [
+          14.77506911909014,
+          30.278115689491155
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789988,
+        "minimum_rod_moment_arm_mm": 9.605550260940309,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          258.933503590648,
+          267.7964728484328
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347919,
+        "pitch_extrema_deg": [
+          -34.98966306273441,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.9736304943842,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474258
+      }
+    },
+    {
+      "XY_mm": [
+        -1.2638354967200685e-15,
+        -6.88
+      ],
+      "rod_force_N": 85.88199814505943,
+      "ring_torque_Nm": 2.5659587956931666,
+      "axis_force_xy_N": [
+        114.31171707112242,
+        143.76399050190713
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762845,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.1140484335238081,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158303,
+        "peak_abs_rod_force_N": 53.13447074381961,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419625,
+        "independent_blade_inertia_axis_bound_N": [
+          133.18912543195447,
+          135.27051716102775
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.114007317219129,
+        "peak_abs_ring_force_xy_N": [
+          3.670279238882273,
+          32.73822503790689
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789984,
+        "minimum_rod_moment_arm_mm": 9.6055502609403,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          258.5668778924934,
+          260.80529890570665
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.0743899483479185,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438425,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474256
+      }
+    },
+    {
+      "XY_mm": [
+        2.632862014671819,
+        -6.356291183677652
+      ],
+      "rod_force_N": 85.88199814505936,
+      "ring_torque_Nm": 2.5659587956931675,
+      "axis_force_xy_N": [
+        125.49561142144364,
+        140.770710552684
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.05148910734762844,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380799,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158304,
+        "peak_abs_rod_force_N": 53.13447074381958,
+        "independent_blade_inertia_rod_bound_N": 53.83399476419623,
+        "independent_blade_inertia_axis_bound_N": [
+          133.69308250260585,
+          130.42863798317373
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191283,
+        "peak_abs_ring_force_xy_N": [
+          14.288692508263114,
+          30.643674239048252
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789993,
+        "minimum_rod_moment_arm_mm": 9.605550260940314,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          261.8603822610307,
+          255.57087377173937
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.0743899483479185,
+        "pitch_extrema_deg": [
+          -34.98966306273441,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.9736304943842,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.379059463147427
+      }
+    },
+    {
+      "XY_mm": [
+        4.864894654563446,
+        -4.8648946545634475
+      ],
+      "rod_force_N": 85.88199814505938,
+      "ring_torque_Nm": 2.5659587956931666,
+      "axis_force_xy_N": [
+        135.83157128655176,
+        134.9807267898749
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.051489107347628446,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632384,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752481,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380806,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158303,
+        "peak_abs_rod_force_N": 53.13447074381961,
+        "independent_blade_inertia_rod_bound_N": 53.8339947641962,
+        "independent_blade_inertia_axis_bound_N": [
+          137.75629019511194,
+          134.30579928549417
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.114007317219129,
+        "peak_abs_ring_force_xy_N": [
+          23.73309084201124,
+          24.307711581129745
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789984,
+        "minimum_rod_moment_arm_mm": 9.605550260940314,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          267.0530613750179,
+          258.7507924936561
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.074389948347921,
+        "pitch_extrema_deg": [
+          -34.98966306273438,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.97363049438414,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474262
+      }
+    },
+    {
+      "XY_mm": [
+        6.3562911836776514,
+        -2.632862014671822
+      ],
+      "rod_force_N": 85.88199814505936,
+      "ring_torque_Nm": 2.5659587956931675,
+      "axis_force_xy_N": [
+        142.50423680989846,
+        125.47945506765086
+      ],
+      "blade_and_arm_variation_hinge_bound_Nm": 0.051489107347628446,
+      "rod_mass_kg": 0.0010902561677070875,
+      "rod_acceleration_m_s2": 5854.588066632381,
+      "rod_transverse_end_reaction_bound_N": 6.612289610752478,
+      "rigid_blade_only": {
+        "peak_abs_pitch_acceleration_torque_Nm": 0.11404843352380806,
+        "peak_abs_orbital_COM_torque_Nm": 0.506820085428766,
+        "peak_abs_combined_hinge_torque_Nm": 0.5259447624158303,
+        "peak_abs_rod_force_N": 53.13447074381958,
+        "independent_blade_inertia_rod_bound_N": 53.833994764196255,
+        "independent_blade_inertia_axis_bound_N": [
+          139.55078852264293,
+          134.80632705869297
+        ],
+        "independent_blade_inertia_ring_torque_bound_Nm": 2.1140073172191296,
+        "peak_abs_ring_force_xy_N": [
+          30.278115689491184,
+          14.775069119090137
+        ],
+        "peak_abs_ring_torque_Nm": 1.8664028897789993,
+        "minimum_rod_moment_arm_mm": 9.605550260940314,
+        "unknown_hinge_to_axis_force_N_per_Nm": [
+          267.7964728484329,
+          258.93350359064806
+        ],
+        "unknown_hinge_to_ring_torque_Nm_per_Nm": 4.0743899483479185,
+        "pitch_extrema_deg": [
+          -34.98966306273446,
+          34.991094277508445
+        ],
+        "peak_absolute_pitch_speed_rad_s": 161.9736304943842,
+        "maximum_abs_ring_phase_to_blade_pitch_gain": 1.3790594631474256
+      }
+    }
+  ],
+  "release_holds": [
+    "Support load screen must pass, including dynamic amplification and actual arm inertia.",
+    "Actuator/coupling/guide mounting, loaded pitch and deflection must be verified.",
+    "Approve aero bounds, matched-blade tolerances, life/proof/temperatures and loaded pitch definition before release.",
+    "Supplier/process material allowables and physical joint/retention tests remain required."
+  ]
+}

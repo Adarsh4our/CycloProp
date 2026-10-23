@@ -1,0 +1,41 @@
+{
+  "status": "PRELIMINARY SELECTION SCREEN; NOT APPROVED LOAD CASES OR BEARING LIFE",
+  "blade_mass_assumption_g": 12.5,
+  "blade_COM_radius_assumption_mm": 95.0,
+  "arm_geometry_volume_mm3": 897.1147819341584,
+  "arm_density_assumption_kg_m3": 2810.0,
+  "arm_mass_from_volume_g": 2.520892537234985,
+  "arm_COM_radius_bound_mm": 110.0,
+  "assumptions": [
+    "Uniform span blade gives half centrifugal reaction at each end.",
+    "Mechanism end additionally carries full conservative arm centrifugal load and peak pitch-rod force.",
+    "Centrifugal, arm and rod reactions are added as positive scalar bounds; correlations not credited.",
+    "Aero loads, blade COM offset, trunnion bending, impact and measured mass/inertia remain external inputs."
+  ],
+  "mechanism_end_reaction_scale_N": 82.53389706737698,
+  "plain_bearing_D3_L2p25_pressure_MPa": 12.227244009981776,
+  "sinusoidal_pitch_journal_speed_peak_m_s": 0.2533198462946268,
+  "plain_bearing_peak_pv_scale_MPa_m_s": 3.0974035732154794,
+  "F693ZZ": {
+    "bore_mm": 3.0,
+    "OD_mm": 8.0,
+    "width_mm": 4.0,
+    "flange_OD_mm": 9.5,
+    "flange_width_mm": 0.9,
+    "source_static_rating_N": 176.5197,
+    "source_dynamic_rating_N": 539.3657499999999,
+    "static_rating_over_reaction_scale": 2.1387539698494695,
+    "note": "Supplier rotation speed rating is not approval for44Hz oscillatory pitch; grease redistribution, fretting/false brinelling and full life remain validation holds."
+  },
+  "decision": "Evaluate positively retained F693ZZ cartridge layout instead of unreconciled JFM-0306-04 claim. No endplate holes changed by this screen.",
+  "sources": {
+    "F693ZZ_supplier.pdf": {
+      "url": "https://www.smbbearings.com/firebrick/ckeditor/plugins/upload/Uploads/Documents/bearingpdfs/F693ZZ-flanged-miniature-bearing-3x8x4mm.pdf",
+      "sha256": "530e7973b93b5e33f024184902f6a3710ca61899ab0bcbe3d72b06afeb1bef7e"
+    },
+    "igus_J_catalogue.pdf": {
+      "url": "https://www.igus.com/us/pdf/j.pdf",
+      "sha256": "4fd4a37b9a202969913e4af5e2b01b4fa130ca24806bbc4dc678af120b635873"
+    }
+  }
+}

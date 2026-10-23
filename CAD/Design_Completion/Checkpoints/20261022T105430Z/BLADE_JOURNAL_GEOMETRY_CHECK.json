@@ -1,0 +1,29 @@
+{
+  "scope": "Exact nominal solid-volume intersection over proposed F693ZZ bearing spans; does not establish tolerance, finish, hardness, material or pin/core bond",
+  "part": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT",
+  "sha256": "02314b869f0d550dd989608ac604f31e299c424cb4ba0fe854ee52fbdfe753d9",
+  "checks": [
+    {
+      "journal": "Mechanism",
+      "interval_local_z_mm": [
+        -4.65,
+        -0.65
+      ],
+      "full_D3_cylinder_mm3": 28.274333882308138,
+      "native_intersection_mm3": 28.274333882308085,
+      "missing_volume_mm3": 5.3290705182007514e-14,
+      "result": "passed round journal envelope"
+    },
+    {
+      "journal": "Drive",
+      "interval_local_z_mm": [
+        220.65,
+        224.65
+      ],
+      "full_D3_cylinder_mm3": 28.274333882308138,
+      "native_intersection_mm3": 28.274333882308113,
+      "missing_volume_mm3": 2.4868995751603507e-14,
+      "result": "passed round journal envelope"
+    }
+  ]
+}

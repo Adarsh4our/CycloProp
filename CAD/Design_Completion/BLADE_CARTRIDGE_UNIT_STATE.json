@@ -1,0 +1,21 @@
+{
+  "assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM",
+  "components": {
+    "Housing": "RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+    "Nut": "RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+    "Cap": "RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+    "Bearing": "RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+    "InnerSpacer": "RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+    "ThrustFilm": "RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1"
+  },
+  "mates": [
+    "Cartridge_Envelope_Nut",
+    "Cartridge_Envelope_Cap",
+    "Cartridge_Envelope_Bearing",
+    "Cartridge_Envelope_InnerSpacer",
+    "Cartridge_Envelope_ThrustFilm"
+  ],
+  "representation": "Rigid external envelopes for bearing/retention stack. Rolling internals omitted. Axisymmetric inner spacer/film rotation does not change these clearance envelopes; internal bearing behavior is not verified.",
+  "complete": true,
+  "sha256": "028f26de0c1623d6d96193b7272f808626a5303e5e8564b167ee9d1a9913756e"
+}

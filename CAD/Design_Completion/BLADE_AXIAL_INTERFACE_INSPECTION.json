@@ -1,0 +1,3054 @@
+{
+  "Part1-1": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT",
+    "transform": [
+      0.6849593542978099,
+      -0.728581280956303,
+      6.421717710363637e-17,
+      0.728581280956303,
+      0.6849593542978099,
+      -9.904189465512328e-18,
+      -3.677014911611798e-17,
+      5.357140037470566e-17,
+      1.0,
+      0.754167866690314,
+      1.0996190001027,
+      0.019398624149639776,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Concentric4",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.760674980556143,
+              1.0926974779336143,
+              0.01789862414964027,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.7606749805561431,
+              1.0926974779336152,
+              0.007398624149639776,
+              -3.677014911611798e-17,
+              5.357140037470566e-17,
+              1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Width1",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.7655210393296329,
+              1.0845857430633636,
+              0.019398624149639776,
+              3.677014911611798e-17,
+              -5.357140037470566e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.7655210393296329,
+              1.0845857430633636,
+              0.23939862414963978,
+              -3.677014911611798e-17,
+              5.357140037470566e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coincident13",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.7612650017575827,
+              1.0946247035951322,
+              0.013398624149639778,
+              -0.6849593542978095,
+              0.7285812809563034,
+              -6.421717710363637e-17,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.7591754425661693,
+              1.0926602513755543,
+              0.009898624149639778,
+              0.6849593542978097,
+              -0.7285812809563031,
+              6.740167591557435e-17,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Concentric5",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.7606749805561431,
+              1.0926974779336152,
+              0.007398624149639776,
+              -3.677014911611798e-17,
+              5.357140037470566e-17,
+              1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-2",
+            "reference_type": 4,
+            "entity_params": [
+              0.7606749805561432,
+              1.0926974779336152,
+              0.009898624149639778,
+              -4.332193135178107e-16,
+              -3.1477057033349744e-16,
+              1.0,
+              0.0014999999999999998,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coincident14",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.754167866690314,
+              1.0996190001027,
+              0.013398624149639776,
+              3.677014911611798e-17,
+              -5.357140037470566e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.7524554683045696,
+              1.1014404533050908,
+              0.013398624149639778,
+              -4.332193135178107e-16,
+              -3.1477057033349744e-16,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Part1-2": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT",
+    "transform": [
+      -0.11250954067407766,
+      -0.9936506444708363,
+      -5.3184028692244274e-17,
+      0.9936506444708363,
+      -0.11250954067407766,
+      1.156957172049539e-17,
+      -1.747982303568315e-17,
+      -5.154465718553524e-17,
+      1.0,
+      0.6927044888464164,
+      1.217391532462047,
+      0.01939862414964213,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Independent_Part1_2_Axis",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.6916356482100123,
+              1.2079518513395737,
+              0.017898624149640267,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 4,
+            "entity_params": [
+              0.6916356482100127,
+              1.207951851339574,
+              0.25139862414964215,
+              1.747982303568315e-17,
+              5.154465718553524e-17,
+              -1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_2_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6885846507663533,
+              1.199008924366812,
+              0.01939862414964213,
+              1.747982303568315e-17,
+              5.154465718553524e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6885846507663533,
+              1.199008924366812,
+              0.23939862414964214,
+              -1.747982303568315e-17,
+              -5.154465718553524e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PlanarLink1_Arm_To_Blade_Axis",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 4,
+            "entity_params": [
+              0.6916356482100127,
+              1.207951851339574,
+              0.25139862414964215,
+              1.747982303568315e-17,
+              5.154465718553524e-17,
+              -1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.6916356482100127,
+              1.207951851339574,
+              0.00989862414964213,
+              -8.359106128246857e-17,
+              6.290407743242831e-17,
+              1.0,
+              0.0014999999999999998,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PlanarLink1_Arm_To_Blade_Drive_Flat",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6934869963456523,
+              1.2087486159530092,
+              0.013398624149642128,
+              0.11250954067407817,
+              0.9936506444708362,
+              5.318402869224428e-17,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.6906372225572251,
+              1.2090712914745771,
+              0.00989862414964213,
+              -0.11250954067407817,
+              -0.9936506444708363,
+              5.30998851712265e-17,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "PlanarLink1_Arm_To_Blade_Axial_Seat",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6927044888464164,
+              1.217391532462047,
+              0.013398624149642128,
+              1.747982303568315e-17,
+              5.154465718553524e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.6929857626981016,
+              1.219875659073224,
+              0.01339862414964213,
+              -8.359106128246857e-17,
+              6.290407743242831e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Part1-3": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT",
+    "transform": [
+      -0.9493040560059949,
+      -0.314359363230312,
+      -5.877952613676163e-17,
+      0.314359363230312,
+      -0.9493040560059949,
+      -2.046097832003004e-17,
+      -4.936754245598436e-17,
+      -3.790158411638707e-17,
+      0.9999999999999999,
+      0.8159084101480307,
+      1.2799775976363932,
+      0.01939862414964206,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Independent_Part1_3_Axis",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.8068900216159729,
+              1.276991183685705,
+              0.017898624149640274,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 4,
+            "entity_params": [
+              0.8068900216159738,
+              1.2769911836857053,
+              0.25139862414964204,
+              4.936754245598437e-17,
+              3.790158411638708e-17,
+              -1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_3_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.7974917812512421,
+              1.2760126100869922,
+              0.01939862414964206,
+              4.936754245598437e-17,
+              3.790158411638708e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.7974917812512421,
+              1.2760126100869922,
+              0.23939862414964203,
+              -4.936754245598437e-17,
+              -3.790158411638708e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Concentric10",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 4,
+            "entity_params": [
+              0.8068900216159738,
+              1.2769911836857053,
+              0.00739862414964206,
+              -4.936754245598437e-17,
+              -3.790158411638708e-17,
+              1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-4",
+            "reference_type": 4,
+            "entity_params": [
+              0.8068900216159738,
+              1.2769911836857053,
+              0.00989862414964206,
+              -5.430254458041833e-16,
+              -2.4081705512709405e-16,
+              1.0,
+              0.0014999999999999998,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coincident18",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.8083894387288326,
+              1.2756443087508191,
+              0.013398624149642059,
+              0.949304056005995,
+              0.3143593632303115,
+              5.877952613676162e-17,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8074878612192066,
+              1.2783668972492084,
+              0.00989862414964206,
+              -0.9493040560059949,
+              -0.3143593632303115,
+              -5.911993543211266e-16,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coincident19",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.8159084101480307,
+              1.2799775976363932,
+              0.01339862414964206,
+              4.936754245598437e-17,
+              3.790158411638708e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8182816702880458,
+              1.280763496044469,
+              0.013398624149642067,
+              -5.430254458041833e-16,
+              -2.4081705512709405e-16,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Part1-4": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT",
+    "transform": [
+      0.42505445409397585,
+      0.9051677806102425,
+      4.3150484660330036e-17,
+      -0.9051677806102425,
+      0.42505445409397585,
+      3.4799653098564725e-18,
+      -1.5191353225063647e-17,
+      -4.0537603187294264e-17,
+      1.0,
+      0.8718913366482106,
+      1.1531377163639487,
+      0.01939862414964169,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Independent_Part1_4_Axis",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.8759293539621035,
+              1.161736810279745,
+              0.017898624149640274,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 4,
+            "entity_params": [
+              0.8759293539621034,
+              1.161736810279746,
+              0.2513986241496417,
+              1.5191353225063647e-17,
+              4.0537603187294264e-17,
+              -1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_4_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8816857384275798,
+              1.1692300449702513,
+              0.01939862414964169,
+              1.5191353225063647e-17,
+              4.0537603187294264e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8816857384275798,
+              1.1692300449702513,
+              0.2393986241496417,
+              -1.5191353225063647e-17,
+              -4.0537603187294264e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Concentric9",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 4,
+            "entity_params": [
+              0.8759293539621034,
+              1.161736810279746,
+              0.007398624149641691,
+              -1.5191353225063647e-17,
+              -4.0537603187294264e-17,
+              1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-3",
+            "reference_type": 4,
+            "entity_params": [
+              0.8759293539621035,
+              1.161736810279746,
+              0.009898624149641695,
+              -4.986793150415612e-16,
+              1.8649435519846908e-16,
+              1.0,
+              0.0014999999999999998,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coincident16",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8739203014694609,
+              1.1615754663912183,
+              0.013398624149641691,
+              -0.4250544540939764,
+              -0.9051677806102425,
+              -4.315048466033005e-17,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.8765163078522531,
+              1.1603564171723892,
+              0.009898624149641695,
+              0.4250544540939759,
+              0.9051677806102426,
+              4.3157182431612117e-17,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coincident17",
+        "type": "MateCoincident",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8718913366482106,
+              1.1531377163639487,
+              0.013398624149641691,
+              1.5191353225063647e-17,
+              4.0537603187294264e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.8708287005129758,
+              1.1508747969124231,
+              0.013398624149641694,
+              -4.986793150415612e-16,
+              1.8649435519846908e-16,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Shaft_Drive_Hub_RevA-1": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Shaft_Drive_Hub_RevA.SLDPRT",
+    "transform": [
+      0.24323705820963099,
+      0.9699668723794257,
+      1.8303285158625306e-17,
+      0.9699668723794257,
+      -0.24323705820963099,
+      3.1408004277386984e-17,
+      3.491676091417268e-17,
+      1.011398969491344e-17,
+      -1.0,
+      0.783782501086058,
+      1.1848443308096597,
+      0.022398624149640268,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Conn_MechHub_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_3-Drive_Shaft-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechEndplate_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHubPin_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_DIN1481_D2x14_INSTALLED_REFERENCE-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub0TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-13",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub0Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub0BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-14",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub0Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-13",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub1TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-15",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub1Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub1BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-16",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub1Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-14",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub2TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-17",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub2Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-3",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub2BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-18",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub2Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-15",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub3TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-19",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub3Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-4",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub3BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-20",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_MechHub3Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-16",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Endplate_Hub_Interface_RevA-1": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Endplate_Hub_Interface_RevA.SLDPRT",
+    "transform": [
+      0.24323705820963099,
+      0.9699668723794257,
+      1.8303285158625306e-17,
+      0.9699668723794257,
+      -0.24323705820963099,
+      3.1408004277386984e-17,
+      3.491676091417268e-17,
+      1.011398969491344e-17,
+      -1.0,
+      0.783782501086058,
+      1.1848443308096597,
+      0.019398624149640272,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Conn_MechEndplate_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Concentric4",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.760674980556143,
+              1.0926974779336143,
+              0.01789862414964027,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.7606749805561431,
+              1.0926974779336152,
+              0.007398624149639776,
+              -3.677014911611798e-17,
+              5.357140037470566e-17,
+              1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Width1",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.7655210393296329,
+              1.0845857430633636,
+              0.019398624149639776,
+              3.677014911611798e-17,
+              -5.357140037470566e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.7655210393296329,
+              1.0845857430633636,
+              0.23939862414963978,
+              -3.677014911611798e-17,
+              5.357140037470566e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_2_Axis",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.6916356482100123,
+              1.2079518513395737,
+              0.017898624149640267,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 4,
+            "entity_params": [
+              0.6916356482100127,
+              1.207951851339574,
+              0.25139862414964215,
+              1.747982303568315e-17,
+              5.154465718553524e-17,
+              -1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_2_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6885846507663533,
+              1.199008924366812,
+              0.01939862414964213,
+              1.747982303568315e-17,
+              5.154465718553524e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6885846507663533,
+              1.199008924366812,
+              0.23939862414964214,
+              -1.747982303568315e-17,
+              -5.154465718553524e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_3_Axis",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.8068900216159729,
+              1.276991183685705,
+              0.017898624149640274,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 4,
+            "entity_params": [
+              0.8068900216159738,
+              1.2769911836857053,
+              0.25139862414964204,
+              4.936754245598437e-17,
+              3.790158411638708e-17,
+              -1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_3_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.7974917812512421,
+              1.2760126100869922,
+              0.01939862414964206,
+              4.936754245598437e-17,
+              3.790158411638708e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.7974917812512421,
+              1.2760126100869922,
+              0.23939862414964203,
+              -4.936754245598437e-17,
+              -3.790158411638708e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_4_Axis",
+        "type": "MateConcentric",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 4,
+            "entity_params": [
+              0.8759293539621035,
+              1.161736810279745,
+              0.017898624149640274,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.003000000000000008,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 4,
+            "entity_params": [
+              0.8759293539621034,
+              1.161736810279746,
+              0.2513986241496417,
+              1.5191353225063647e-17,
+              4.0537603187294264e-17,
+              -1.0,
+              0.0014999999999999987,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_4_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8816857384275798,
+              1.1692300449702513,
+              0.01939862414964169,
+              1.5191353225063647e-17,
+              4.0537603187294264e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8816857384275798,
+              1.1692300449702513,
+              0.2393986241496417,
+              -1.5191353225063647e-17,
+              -4.0537603187294264e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Shaft_Drive_Hub_RevA-2": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Shaft_Drive_Hub_RevA.SLDPRT",
+    "transform": [
+      0.24323705820963099,
+      0.9699668723794257,
+      1.8303285158625306e-17,
+      -0.9699668723794257,
+      0.24323705820963099,
+      -3.1408004277386984e-17,
+      -3.491676091417268e-17,
+      -1.011398969491344e-17,
+      1.0,
+      0.783782501086058,
+      1.1848443308096597,
+      0.23639862414964005,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Conn_DriveHub_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_3-Drive_Shaft-1",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveEndplate_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHubPin_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_DIN1481_D2x14_INSTALLED_REFERENCE-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub0TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-21",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub0Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-5",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub0BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-22",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub0Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-17",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub1TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-23",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub1Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-6",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub1BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-24",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub1Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-18",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub2TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-25",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub2Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-7",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub2BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-26",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub2Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-19",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub3TopWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-27",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub3Bolt_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5x8_Hub_Screw_REFERENCE-8",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub3BottomWasher_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE-28",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conn_DriveHub3Nut_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_M2p5_Nut_AF5_H2_REFERENCE-20",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Endplate_Hub_Interface_RevA-2": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Endplate_Hub_Interface_RevA.SLDPRT",
+    "transform": [
+      0.24323705820963099,
+      0.9699668723794257,
+      1.8303285158625306e-17,
+      -0.9699668723794257,
+      0.24323705820963099,
+      -3.1408004277386984e-17,
+      -3.491676091417268e-17,
+      -1.011398969491344e-17,
+      1.0,
+      0.783782501086058,
+      1.1848443308096597,
+      0.23939862414964005,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mates": [
+      {
+        "name": "Conn_DriveEndplate_Rigid",
+        "type": "MateLock",
+        "suppressed": false,
+        "entities": [
+          {
+            "component": "RB_Shaft_Drive_Hub_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 6,
+            "entity_params": [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Width1",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.7655210393296329,
+              1.0845857430633636,
+              0.019398624149639776,
+              3.677014911611798e-17,
+              -5.357140037470566e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.7655210393296329,
+              1.0845857430633636,
+              0.23939862414963978,
+              -3.677014911611798e-17,
+              5.357140037470566e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_2_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6885846507663533,
+              1.199008924366812,
+              0.01939862414964213,
+              1.747982303568315e-17,
+              5.154465718553524e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.6885846507663533,
+              1.199008924366812,
+              0.23939862414964214,
+              -1.747982303568315e-17,
+              -5.154465718553524e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_3_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.7974917812512421,
+              1.2760126100869922,
+              0.01939862414964206,
+              4.936754245598437e-17,
+              3.790158411638708e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-3",
+            "reference_type": 3,
+            "entity_params": [
+              0.7974917812512421,
+              1.2760126100869922,
+              0.23939862414964203,
+              -4.936754245598437e-17,
+              -3.790158411638708e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Independent_Part1_4_Span_Centre",
+        "type": "MateWidth",
+        "suppressed": false,
+        "FlipDimension": false,
+        "entities": [
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-1",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.019398624149640272,
+              -3.491676091417268e-17,
+              -1.011398969491344e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Endplate_Hub_Interface_RevA-2",
+            "reference_type": 3,
+            "entity_params": [
+              0.783782501086058,
+              1.1848443308096597,
+              0.23939862414964005,
+              3.491676091417268e-17,
+              1.011398969491344e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8816857384275798,
+              1.1692300449702513,
+              0.01939862414964169,
+              1.5191353225063647e-17,
+              4.0537603187294264e-17,
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "component": "RB_Part1-4",
+            "reference_type": 3,
+            "entity_params": [
+              0.8816857384275798,
+              1.1692300449702513,
+              0.2393986241496417,
+              -1.5191353225063647e-17,
+              -4.0537603187294264e-17,
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

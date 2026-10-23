@@ -1,0 +1,16 @@
+{
+  "scope": "Eight modified socket bodies and eight new caps against all resolved leaf solids at saved pose",
+  "body_count": 425,
+  "boolean_comparisons": 98,
+  "threshold_mm3": 1e-05,
+  "intersections": [],
+  "result": "passed",
+  "excluded": [
+    "unchanged pairs",
+    "same-component imported internals",
+    "motion between poses",
+    "loaded gaps/tolerances",
+    "Unmodelled helical threads, loaded deformation and physical wear"
+  ],
+  "assembly_sha256": "ef14a9312144086b18b3a53065e2feb050e79c2a6a44f416b6f317fd9d01f26d"
+}

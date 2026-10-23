@@ -1,0 +1,81 @@
+{
+  "parts": {
+    "RB_4-Outer_Control_Ring.SLDPRT": {
+      "before_sha256": "419e4a60a1425ce6f14ad29ac4beec7ab4577d725623d704a555cda86df9a2ae",
+      "after_sha256": "513bdcfe1c975f1e77ce0d3e1fd424acd97bc0bd670ca7304e3e00ffd625567d",
+      "body_count": 1,
+      "volume_mm3": 29739.970412160405,
+      "box_m": [
+        -0.04299999999999915,
+        0.0,
+        -0.04299999999999915,
+        0.04299999999999915,
+        0.0085,
+        0.04299999999999915
+      ],
+      "feature_errors": []
+    },
+    "RB_3-Drive_Shaft.SLDPRT": {
+      "before_sha256": "a86b5732f7470b2576b251f13457fd6e8a410b85ae3aa002322d8bc387d7c846",
+      "after_sha256": "a381a1d975ec3ad17c11d01874933044756ee629dda7bf1b65fd29f08445f931",
+      "body_count": 1,
+      "volume_mm3": 7643.017165988766,
+      "box_m": [
+        -0.0030000000000000087,
+        -0.0030000000000000087,
+        0.002,
+        0.0030000000000000087,
+        0.0030000000000000087,
+        0.275
+      ],
+      "feature_errors": []
+    }
+  },
+  "ring_wall_probes": [
+    {
+      "centre_m": [
+        0.0277163859753386,
+        0.0,
+        0.011480502970952693
+      ],
+      "solid_cylinder_D5_depth5p8_mm3": 113.88273369263001
+    },
+    {
+      "centre_m": [
+        -0.011480502970952692,
+        0.0,
+        0.0277163859753386
+      ],
+      "solid_cylinder_D5_depth5p8_mm3": 113.88273369263001
+    },
+    {
+      "centre_m": [
+        -0.027716385975338605,
+        0.0,
+        -0.01148050297095269
+      ],
+      "solid_cylinder_D5_depth5p8_mm3": 113.88273369263001
+    },
+    {
+      "centre_m": [
+        0.0114805029709527,
+        0.0,
+        -0.027716385975338598
+      ],
+      "solid_cylinder_D5_depth5p8_mm3": 113.88273369263001
+    }
+  ],
+  "complete": true,
+  "shaft_crosspin_local_z_mm": 22.925,
+  "shaft_crosspin_clock_deg": 164.17461441081946,
+  "ring_hole_PCD_mm": 60.0,
+  "ring_angles_deg": [
+    22.5,
+    112.5,
+    202.5,
+    292.5
+  ],
+  "ring_thread": "M2x0.4; CAD major diameter envelope; usable engagement4mm below pilot",
+  "ring_pilot": "D3.02 depth1.1 nominal; fit/tolerance release pending",
+  "recovery": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Coupling_Interfaces"
+}

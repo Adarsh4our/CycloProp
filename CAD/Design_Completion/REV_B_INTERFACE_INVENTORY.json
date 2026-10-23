@@ -1,0 +1,4162 @@
+{
+  "Frame_Mounting_RevA-1": {
+    "mates": [
+      {
+        "name": "Conn_RevisedFrame_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_RevisedFrame_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_RevisedFrame_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_MainBearing1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_MainBearing1_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_MainBearing1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_MainBearing2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_MainBearing2_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_MainBearing2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_LowerMainOuterSpacer_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_LowerMainOuterSpacer_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_LowerMainOuterSpacer_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_LowerMainCap_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_LowerMainCap_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_LowerMainCap_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_UpperMainCap_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_UpperMainCap_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_UpperMainCap_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      }
+    ],
+    "cylinders": [
+      {
+        "parameters": [
+          -0.024999999999999994,
+          0.030999999999999996,
+          0.263501,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0010000000000000007
+        ],
+        "box": [
+          -0.025999999999999995,
+          0.029999999999999995,
+          -0.006500000000000006,
+          -0.023999999999999994,
+          0.031999999999999994,
+          0.0030000000000000027
+        ]
+      },
+      {
+        "parameters": [
+          -0.025000000000000005,
+          0.0592,
+          0.263501,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0009999999999999983
+        ],
+        "box": [
+          -0.026000000000000002,
+          0.0582,
+          -0.006500000000000006,
+          -0.024000000000000007,
+          0.060200000000000004,
+          0.0030000000000000027
+        ]
+      },
+      {
+        "parameters": [
+          0.025000000000000005,
+          0.0592,
+          0.263501,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0009999999999999983
+        ],
+        "box": [
+          0.024000000000000007,
+          0.0582,
+          -0.006500000000000006,
+          0.026000000000000002,
+          0.060200000000000004,
+          0.0030000000000000027
+        ]
+      },
+      {
+        "parameters": [
+          0.024999999999999994,
+          0.030999999999999996,
+          0.263501,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0010000000000000007
+        ],
+        "box": [
+          0.023999999999999994,
+          0.029999999999999995,
+          -0.006500000000000006,
+          0.025999999999999995,
+          0.031999999999999994,
+          0.0030000000000000027
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          0.052,
+          -0.014010000000000002,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          0.0503,
+          -0.006500000000000001,
+          -0.0223,
+          0.0537,
+          0.002999999999999999
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          0.052,
+          -0.014010000000000002,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          0.0503,
+          -0.006500000000000001,
+          0.0257,
+          0.0537,
+          0.002999999999999999
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          -0.052,
+          -0.014010000000000002,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          -0.0537,
+          -0.006500000000000001,
+          -0.0223,
+          -0.0503,
+          0.002999999999999999
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          -0.052,
+          -0.014010000000000002,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          -0.0537,
+          -0.006500000000000001,
+          0.0257,
+          -0.0503,
+          0.002999999999999999
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.2635,
+          0.0,
+          0.0,
+          -1.0,
+          0.006500000000000001
+        ],
+        "box": [
+          -0.006500000000000001,
+          -0.006500000000000001,
+          0.24869999999999998,
+          0.006500000000000001,
+          0.006500000000000001,
+          0.2537
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.2635,
+          0.0,
+          0.0,
+          -1.0,
+          0.006500000000000001
+        ],
+        "box": [
+          -0.006500000000000001,
+          -0.006500000000000001,
+          -0.007000000000000006,
+          0.006500000000000001,
+          0.006500000000000001,
+          0.0005000000000000004
+        ]
+      },
+      {
+        "parameters": [
+          -0.0095,
+          0.0,
+          -0.00800099999999998,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0016
+        ],
+        "box": [
+          -0.0111,
+          -0.0016,
+          0.2525,
+          -0.007899999999999999,
+          0.0016,
+          0.2635
+        ]
+      },
+      {
+        "parameters": [
+          0.0095,
+          0.0,
+          -0.00800099999999998,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0016
+        ],
+        "box": [
+          0.007899999999999999,
+          -0.0016,
+          0.2525,
+          0.0111,
+          0.0016,
+          0.2635
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.2635,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.007
+        ],
+        "box": [
+          -0.007,
+          -0.007,
+          0.2625,
+          0.007,
+          0.007,
+          0.2635
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          -0.007,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.007
+        ],
+        "box": [
+          -0.007,
+          -0.007,
+          -0.008,
+          0.007,
+          0.007,
+          -0.007
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          -0.0125,
+          -0.00800099999999998,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0016000000000000012
+        ],
+        "box": [
+          -0.0016000000000000012,
+          -0.014100000000000001,
+          0.2525,
+          0.0016000000000000012,
+          -0.0109,
+          0.2635
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0125,
+          -0.00800099999999998,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0016000000000000012
+        ],
+        "box": [
+          -0.0016000000000000012,
+          0.0109,
+          0.2525,
+          0.0016000000000000012,
+          0.014100000000000001,
+          0.2635
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.2526,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.01
+        ],
+        "box": [
+          -0.01,
+          -0.01,
+          0.24869999999999998,
+          0.01,
+          0.01,
+          0.2526
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.003,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0057
+        ],
+        "box": [
+          -0.0057,
+          -0.0057,
+          0.0005,
+          0.0057,
+          0.0057,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.2625,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0057
+        ],
+        "box": [
+          -0.0057,
+          -0.0057,
+          0.2537,
+          0.0057,
+          0.0057,
+          0.2625
+        ]
+      },
+      {
+        "parameters": [
+          -1.5246852649384548e-18,
+          -0.0083,
+          -0.0048000000000000004,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.001
+        ],
+        "box": [
+          -0.0010000000000000015,
+          -0.0093,
+          -0.008,
+          0.0009999999999999985,
+          -0.0073,
+          -0.0048000000000000004
+        ]
+      },
+      {
+        "parameters": [
+          -0.00718801085141084,
+          0.004150000000000003,
+          -0.0048000000000000004,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.001
+        ],
+        "box": [
+          -0.00818801085141084,
+          0.0031500000000000026,
+          -0.008,
+          -0.00618801085141084,
+          0.005150000000000003,
+          -0.0048000000000000004
+        ]
+      },
+      {
+        "parameters": [
+          0.007188010851410842,
+          0.004149999999999999,
+          -0.0048000000000000004,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.001
+        ],
+        "box": [
+          0.006188010851410842,
+          0.003149999999999999,
+          -0.008,
+          0.008188010851410842,
+          0.005149999999999999,
+          -0.0048000000000000004
+        ]
+      },
+      {
+        "parameters": [
+          -1.5246852649384548e-18,
+          -0.0083,
+          0.25189999999999996,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.001
+        ],
+        "box": [
+          -0.0010000000000000015,
+          -0.0093,
+          0.24869999999999998,
+          0.0009999999999999985,
+          -0.0073,
+          0.25189999999999996
+        ]
+      },
+      {
+        "parameters": [
+          -0.00718801085141084,
+          0.004150000000000003,
+          0.25189999999999996,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.001
+        ],
+        "box": [
+          -0.00818801085141084,
+          0.0031500000000000026,
+          0.24869999999999998,
+          -0.00618801085141084,
+          0.005150000000000003,
+          0.25189999999999996
+        ]
+      },
+      {
+        "parameters": [
+          0.007188010851410842,
+          0.004149999999999999,
+          0.25189999999999996,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.001
+        ],
+        "box": [
+          0.006188010851410842,
+          0.003149999999999999,
+          0.24869999999999998,
+          0.008188010851410842,
+          0.005149999999999999,
+          0.25189999999999996
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          -0.006500000000000001,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.028
+        ],
+        "box": [
+          0.02,
+          -0.019595917942265426,
+          -0.008,
+          0.028,
+          0.019595917942265423,
+          -0.006500000000000001
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          -0.006500000000000001,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.028
+        ],
+        "box": [
+          -0.028,
+          -0.019595917942265426,
+          -0.008,
+          -0.019999999999999997,
+          0.01959591794226543,
+          -0.006500000000000001
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          -0.07,
+          -0.00651,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          -0.07170000000000001,
+          -0.006500000000000001,
+          -0.0223,
+          -0.0683,
+          0.002999999999999999
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          0.07,
+          -0.00651,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          0.0683,
+          -0.006500000000000001,
+          0.0257,
+          0.07170000000000001,
+          0.002999999999999999
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          -0.07,
+          -0.00651,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          -0.07170000000000001,
+          -0.006500000000000001,
+          0.0257,
+          -0.0683,
+          0.002999999999999999
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          0.07,
+          -0.00651,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          0.0683,
+          -0.006500000000000001,
+          -0.0223,
+          0.07170000000000001,
+          0.002999999999999999
+        ]
+      }
+    ],
+    "z_planes": [
+      {
+        "level": -0.008,
+        "area": 0.0015483036736733584
+      },
+      {
+        "level": 0.2525,
+        "area": 0.005989367060311974
+      },
+      {
+        "level": 0.002999999999999999,
+        "area": 0.00626947966191951
+      },
+      {
+        "level": 0.2635,
+        "area": 0.006493892051201339
+      },
+      {
+        "level": 0.2625,
+        "area": 5.1867694710767425e-05
+      },
+      {
+        "level": -0.007,
+        "area": 2.120575041173107e-05
+      },
+      {
+        "level": 0.2526,
+        "area": 5.473117221857627e-06
+      },
+      {
+        "level": 0.2526,
+        "area": 5.473117221857631e-06
+      },
+      {
+        "level": 0.24869999999999998,
+        "area": 0.00017200219778404124
+      },
+      {
+        "level": 0.0005,
+        "area": 3.066194429903641e-05
+      },
+      {
+        "level": 0.2537,
+        "area": 3.066194429903641e-05
+      },
+      {
+        "level": -0.0048000000000000004,
+        "area": 3.141592653589793e-06
+      },
+      {
+        "level": -0.0048000000000000004,
+        "area": 3.141592653589793e-06
+      },
+      {
+        "level": -0.0048000000000000004,
+        "area": 3.141592653589793e-06
+      },
+      {
+        "level": 0.25189999999999996,
+        "area": 3.141592653589793e-06
+      },
+      {
+        "level": 0.25189999999999996,
+        "area": 3.141592653589793e-06
+      },
+      {
+        "level": 0.25189999999999996,
+        "area": 3.141592653589793e-06
+      },
+      {
+        "level": -0.006500000000000001,
+        "area": 0.00488313351557462
+      }
+    ]
+  },
+  "3-Drive_Shaft-1": {
+    "mates": [
+      {
+        "name": "Concentric1",
+        "suppressed": false,
+        "type": "MateConcentric"
+      },
+      {
+        "name": "Shaft_Axial_Location_For_Frame_Bearings",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_ShaftClip1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip1_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_ShaftClip2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip2_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_ShaftClip3_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip3_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_ShaftClip4_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip4_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_ShaftClip4_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_MechHub_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_DriveHub_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "RevB_SETUP_Rotor_Angle",
+        "suppressed": false,
+        "type": "MatePlanarAngleDim"
+      }
+    ],
+    "cylinders": [
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.275,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.002999999999999999
+        ],
+        "box": [
+          -0.002999999999999999,
+          -0.002999999999999999,
+          0.013800000000000034,
+          0.002999999999999999,
+          0.002999999999999999,
+          0.26025
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.0138,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00285
+        ],
+        "box": [
+          -0.00285,
+          -0.00285,
+          0.013,
+          0.00285,
+          0.00285,
+          0.0138
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.275,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.002999999999999999
+        ],
+        "box": [
+          -0.002999999999999999,
+          -0.002999999999999999,
+          0.00029999999999996696,
+          0.002999999999999999,
+          0.002999999999999999,
+          0.007050000000000056
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.00785,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00285
+        ],
+        "box": [
+          -0.00285,
+          -0.00285,
+          0.00705,
+          0.00285,
+          0.00285,
+          0.00785
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.275,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.002999999999999999
+        ],
+        "box": [
+          -0.002999999999999999,
+          -0.002999999999999999,
+          0.007850000000000024,
+          0.002999999999999999,
+          0.002999999999999999,
+          0.013000000000000012
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.26105,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00285
+        ],
+        "box": [
+          -0.00285,
+          -0.00285,
+          0.26025,
+          0.00285,
+          0.00285,
+          0.26105
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.275,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.002999999999999999
+        ],
+        "box": [
+          -0.002999999999999999,
+          -0.002999999999999999,
+          0.26105,
+          0.002999999999999999,
+          0.002999999999999999,
+          0.2662
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.267,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00285
+        ],
+        "box": [
+          -0.00285,
+          -0.00285,
+          0.2662,
+          0.00285,
+          0.00285,
+          0.267
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.275,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.002999999999999999
+        ],
+        "box": [
+          -0.002999999999999999,
+          -0.002999999999999999,
+          0.267,
+          0.002999999999999999,
+          0.002999999999999999,
+          0.275
+        ]
+      },
+      {
+        "parameters": [
+          -0.0030000000000000087,
+          0.0,
+          0.2435,
+          1.0,
+          -0.0,
+          -0.0,
+          0.0010000000000000009
+        ],
+        "box": [
+          -0.002999999999999999,
+          -0.0010000000000000009,
+          0.2425,
+          0.002999999999999999,
+          0.0010000000000000009,
+          0.2445
+        ]
+      },
+      {
+        "parameters": [
+          -0.0030000000000000087,
+          0.0,
+          0.0415,
+          1.0,
+          -0.0,
+          -0.0,
+          0.0010000000000000009
+        ],
+        "box": [
+          -0.002999999999999999,
+          -0.0010000000000000009,
+          0.0405,
+          0.002999999999999999,
+          0.0010000000000000009,
+          0.0425
+        ]
+      }
+    ],
+    "z_planes": [
+      {
+        "level": 0.26025,
+        "area": 2.756747553525025e-06
+      },
+      {
+        "level": 0.013800000000000034,
+        "area": 2.756747553525025e-06
+      },
+      {
+        "level": 0.0,
+        "area": 2.2354153917306265e-05
+      },
+      {
+        "level": 0.007000000000000003,
+        "area": 1.1253889031701057e-06
+      },
+      {
+        "level": 0.007000000000000003,
+        "area": 1.125388903170111e-06
+      },
+      {
+        "level": 0.007050000000000056,
+        "area": 2.756747553525208e-06
+      },
+      {
+        "level": 0.007850000000000024,
+        "area": 2.756747553525198e-06
+      },
+      {
+        "level": 0.013000000000000012,
+        "area": 2.756747553525025e-06
+      },
+      {
+        "level": 0.2662,
+        "area": 2.756747553525025e-06
+      },
+      {
+        "level": 0.26105,
+        "area": 2.756747553525025e-06
+      },
+      {
+        "level": 0.275,
+        "area": 2.827433388230812e-05
+      },
+      {
+        "level": 0.267,
+        "area": 2.756747553525025e-06
+      }
+    ]
+  },
+  "XY_Fixed_Base-1": {
+    "mates": [
+      {
+        "name": "Coincident12",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Distance14",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Distance16",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Concentric1",
+        "suppressed": false,
+        "type": "MateConcentric"
+      },
+      {
+        "name": "Combined_XY_Radial_Limit_6p88mm",
+        "suppressed": false,
+        "type": "MateLimitDistanceDim"
+      },
+      {
+        "name": "mountX_Rigid_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "mountX_Rigid_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "mountX_Rigid_Front_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "servoX_Rigid_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "servoX_Rigid_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "servoX_Rigid_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Stop_Fixed_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Stop_Fixed_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Stop_Fixed_Front_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_RevisedFrame_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_RevisedFrame_Top_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_RevisedFrame_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Shaft_Axial_Location_For_Frame_Bearings",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt1_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt1_Front_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_FrameWasher1_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut1_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt2_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt2_Front_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_FrameWasher2_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut2_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt3_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt3_Front_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_FrameWasher3_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut3_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt4_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt4_Front_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_FrameWasher4_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher4_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut4_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut4_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameBolt4_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameWasher4_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_FrameNut4_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post1_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post2_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post3_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post4_Right_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post4_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "FourLinks_Post4_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "RevB_SETUP_Rotor_Angle",
+        "suppressed": false,
+        "type": "MatePlanarAngleDim"
+      },
+      {
+        "name": "RevB_SETUP_Ring_Angle",
+        "suppressed": false,
+        "type": "MatePlanarAngleDim"
+      }
+    ],
+    "cylinders": [
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          1.0,
+          0.01025
+        ],
+        "box": [
+          -0.01025,
+          -0.01025,
+          0.0,
+          0.01025,
+          0.01025,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.027,
+          0.027,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00145
+        ],
+        "box": [
+          0.02555,
+          0.02555,
+          0.0,
+          0.02845,
+          0.02845,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          0.021,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00145
+        ],
+        "box": [
+          0.02255,
+          0.01955,
+          0.0,
+          0.02545,
+          0.02245,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.025000000000000022,
+          0.02499999999999991,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00145
+        ],
+        "box": [
+          -0.026450000000000022,
+          0.02354999999999991,
+          0.0,
+          -0.023550000000000022,
+          0.02644999999999991,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.025000000000000022,
+          0.018000000000000016,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.00145
+        ],
+        "box": [
+          -0.026450000000000022,
+          0.016550000000000016,
+          0.0,
+          -0.023550000000000022,
+          0.019450000000000016,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.015000000000000013,
+          -0.02400000000000002,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0011999999999999997
+        ],
+        "box": [
+          -0.016200000000000013,
+          -0.02520000000000002,
+          0.0,
+          -0.013800000000000014,
+          -0.02280000000000002,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          -0.02400000000000002,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          -0.02520000000000002,
+          0.0,
+          0.0012,
+          -0.02280000000000002,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.015000000000000013,
+          -0.02400000000000002,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0011999999999999997
+        ],
+        "box": [
+          0.013800000000000014,
+          -0.02520000000000002,
+          0.0,
+          0.016200000000000013,
+          -0.02280000000000002,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          -0.052,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          -0.0537,
+          0.0,
+          -0.0223,
+          -0.0503,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          0.052,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          0.0503,
+          0.0,
+          0.0257,
+          0.0537,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          -0.052,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          -0.0537,
+          0.0,
+          0.0257,
+          -0.0503,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          0.052,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          0.0503,
+          0.0,
+          -0.0223,
+          0.0537,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          -0.07,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          -0.07170000000000001,
+          0.0,
+          -0.0223,
+          -0.0683,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          0.07,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          0.0683,
+          0.0,
+          0.0257,
+          0.07170000000000001,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.024,
+          -0.07,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          0.0223,
+          -0.07170000000000001,
+          0.0,
+          0.0257,
+          -0.0683,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.024,
+          0.07,
+          -1.0000000000000026e-05,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0017000000000000001
+        ],
+        "box": [
+          -0.0257,
+          0.0683,
+          0.0,
+          -0.0223,
+          0.07170000000000001,
+          0.003
+        ]
+      }
+    ],
+    "z_planes": [
+      {
+        "level": 0.003,
+        "area": 0.005209310325201028
+      },
+      {
+        "level": 0.0,
+        "area": 0.0052093103252010275
+      }
+    ]
+  },
+  "Endplate_Hub_Interface_RevA-1": {
+    "mates": [
+      {
+        "name": "Conn_MechEndplate_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Concentric4",
+        "suppressed": false,
+        "type": "MateConcentric"
+      },
+      {
+        "name": "Width1",
+        "suppressed": false,
+        "type": "MateWidth"
+      },
+      {
+        "name": "Independent_Part1_2_Axis",
+        "suppressed": false,
+        "type": "MateConcentric"
+      },
+      {
+        "name": "Independent_Part1_2_Span_Centre",
+        "suppressed": false,
+        "type": "MateWidth"
+      },
+      {
+        "name": "Independent_Part1_3_Axis",
+        "suppressed": false,
+        "type": "MateConcentric"
+      },
+      {
+        "name": "Independent_Part1_3_Span_Centre",
+        "suppressed": false,
+        "type": "MateWidth"
+      },
+      {
+        "name": "Independent_Part1_4_Axis",
+        "suppressed": false,
+        "type": "MateConcentric"
+      },
+      {
+        "name": "Independent_Part1_4_Span_Centre",
+        "suppressed": false,
+        "type": "MateWidth"
+      }
+    ],
+    "cylinders": [
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.0015,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.103
+        ],
+        "box": [
+          -0.103,
+          -0.103,
+          0.0,
+          0.103,
+          0.103,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          -0.095,
+          0.0,
+          0.0015,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.003000000000000008
+        ],
+        "box": [
+          -0.098,
+          -0.003000000000000008,
+          0.0,
+          -0.092,
+          0.003000000000000008,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          -9.95072181570293e-16,
+          -0.095,
+          0.0015,
+          0.0,
+          -0.0,
+          -1.0,
+          0.003000000000000008
+        ],
+        "box": [
+          -0.0030000000000010027,
+          -0.098,
+          0.0,
+          0.002999999999999013,
+          -0.092,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          0.095,
+          0.0,
+          0.0015,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.003000000000000008
+        ],
+        "box": [
+          0.092,
+          -0.003000000000000008,
+          0.0,
+          0.098,
+          0.003000000000000008,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          3.3169072719009766e-16,
+          0.095,
+          0.0015,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.003000000000000008
+        ],
+        "box": [
+          -0.002999999999999676,
+          0.092,
+          0.0,
+          0.0030000000000003396,
+          0.098,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          -0.00777817459305202,
+          -0.007778174593052022,
+          0.0015,
+          0.0,
+          0.0,
+          -1.0,
+          0.0013999999999999993
+        ],
+        "box": [
+          -0.00917817459305202,
+          -0.009178174593052021,
+          0.0,
+          -0.006378174593052021,
+          -0.006378174593052023,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          -0.007778174593051995,
+          0.007778174593052046,
+          0.0015,
+          0.0,
+          0.0,
+          -1.0,
+          0.001399999999999999
+        ],
+        "box": [
+          -0.009178174593051994,
+          0.006378174593052047,
+          0.0,
+          -0.006378174593051997,
+          0.009178174593052046,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          0.007778174593052077,
+          0.007778174593051966,
+          0.0015,
+          0.0,
+          0.0,
+          -1.0,
+          0.0014
+        ],
+        "box": [
+          0.0063781745930520765,
+          0.0063781745930519655,
+          0.0,
+          0.009178174593052077,
+          0.009178174593051966,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          0.007778174593051941,
+          -0.007778174593052102,
+          0.0015,
+          0.0,
+          0.0,
+          -1.0,
+          0.0013999999999999996
+        ],
+        "box": [
+          0.006378174593051941,
+          -0.009178174593052101,
+          0.0,
+          0.00917817459305194,
+          -0.0063781745930521026,
+          0.0015
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.0015,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.007
+        ],
+        "box": [
+          -0.007,
+          -0.007,
+          0.0,
+          0.007,
+          0.007,
+          0.0015
+        ]
+      }
+    ],
+    "z_planes": [
+      {
+        "level": 0.0015,
+        "area": 0.027386252038200238
+      },
+      {
+        "level": 0.0,
+        "area": 0.02738625203820025
+      }
+    ]
+  },
+  "Shaft_Drive_Hub_RevA-1": {
+    "mates": [
+      {
+        "name": "Conn_MechHub_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechEndplate_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHubPin_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub0TopWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub0Bolt_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub0BottomWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub0Nut_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub1TopWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub1Bolt_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub1BottomWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub1Nut_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub2TopWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub2Bolt_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub2BottomWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub2Nut_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub3TopWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub3Bolt_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub3BottomWasher_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      },
+      {
+        "name": "Conn_MechHub3Nut_Rigid",
+        "suppressed": false,
+        "type": "MateLock"
+      }
+    ],
+    "cylinders": [
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.003,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.014
+        ],
+        "box": [
+          -0.014,
+          -0.014,
+          0.0,
+          0.014,
+          0.014,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.0045000000000000005,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0069500000000000004
+        ],
+        "box": [
+          -0.0069500000000000004,
+          -0.0069500000000000004,
+          0.003,
+          0.0069500000000000004,
+          0.0069500000000000004,
+          0.0045000000000000005
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          1.0,
+          0.0030000000000000005
+        ],
+        "box": [
+          -0.0030000000000000005,
+          -0.0030000000000000005,
+          -0.011,
+          0.0030000000000000005,
+          0.0030000000000000005,
+          0.0045000000000000005
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.007
+        ],
+        "box": [
+          -0.007,
+          -0.007,
+          -0.011,
+          0.007,
+          0.007,
+          0.0
+        ]
+      },
+      {
+        "parameters": [
+          0.007778174593052024,
+          0.007778174593052024,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0014000000000000002
+        ],
+        "box": [
+          0.006378174593052024,
+          0.006378174593052024,
+          0.0,
+          0.009178174593052025,
+          0.009178174593052025,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.007778174593052021,
+          0.007778174593052024,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0014000000000000002
+        ],
+        "box": [
+          -0.009178174593052021,
+          0.006378174593052024,
+          0.0,
+          -0.006378174593052021,
+          0.009178174593052025,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.007778174593052025,
+          -0.007778174593052021,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0014000000000000002
+        ],
+        "box": [
+          -0.009178174593052025,
+          -0.009178174593052021,
+          0.0,
+          -0.0063781745930520245,
+          -0.006378174593052021,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          0.00777817459305202,
+          -0.007778174593052025,
+          0.00301,
+          -0.0,
+          -0.0,
+          -1.0,
+          0.0014000000000000002
+        ],
+        "box": [
+          0.00637817459305202,
+          -0.009178174593052025,
+          0.0,
+          0.009178174593052021,
+          -0.0063781745930520245,
+          0.003
+        ]
+      },
+      {
+        "parameters": [
+          -0.014,
+          0.0,
+          -0.006,
+          1.0,
+          -0.0,
+          -0.0,
+          0.001
+        ],
+        "box": [
+          0.0027683762457135917,
+          -0.001,
+          -0.007,
+          0.007,
+          0.001,
+          -0.005
+        ]
+      },
+      {
+        "parameters": [
+          -0.014,
+          0.0,
+          -0.006,
+          1.0,
+          -0.0,
+          -0.0,
+          0.001
+        ],
+        "box": [
+          -0.007,
+          -0.001,
+          -0.007,
+          -0.0027683762457135917,
+          0.001,
+          -0.005
+        ]
+      }
+    ],
+    "z_planes": [
+      {
+        "level": 0.003,
+        "area": 0.00043937529454943436
+      },
+      {
+        "level": 0.0,
+        "area": 0.0004371840336735555
+      },
+      {
+        "level": 0.0045000000000000005,
+        "area": 0.00012347244526771285
+      },
+      {
+        "level": -0.011,
+        "area": 0.0001256637061435917
+      }
+    ]
+  },
+  "MGNR05R-1": {
+    "mates": [
+      {
+        "name": "Rail_Block_Width_Center",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Block_Top_to_Rail_Base_6mm",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Coincident2",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Distance5",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Distance6",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "LimitDistance2",
+        "suppressed": false,
+        "type": "MateLimitDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Screw1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Screw1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Screw1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Washer1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Washer1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Washer1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Nut1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Nut1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Nut1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Screw2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Screw2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Screw2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Washer2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Washer2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Washer2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Nut2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Nut2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Nut2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Screw3_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Screw3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Screw3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Washer3_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Washer3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Washer3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Nut3_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail1Nut3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail1Nut3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "LimitDistance1",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      }
+    ],
+    "cylinders": [
+      {
+        "parameters": [
+          0.0023999999948205197,
+          0.04,
+          0.00173702832010511,
+          0.0,
+          -1.0,
+          0.0,
+          0.00010000000517947601
+        ],
+        "box": [
+          0.00244999635,
+          0.0,
+          0.00173702832,
+          0.0025,
+          0.04,
+          0.0018236329707
+        ]
+      },
+      {
+        "parameters": [
+          0.0029575245327786203,
+          0.04,
+          0.00274109688389768,
+          0.0,
+          -1.0,
+          0.0,
+          0.0010484869519143101
+        ],
+        "box": [
+          0.00211783801,
+          0.0,
+          0.0018236329707,
+          0.00244999635,
+          0.04,
+          0.0021132024407
+        ]
+      },
+      {
+        "parameters": [
+          0.00203804890019856,
+          0.04,
+          0.00205292230924327,
+          0.0,
+          -1.0,
+          0.0,
+          9.999998145673231e-05
+        ],
+        "box": [
+          0.00203804889,
+          0.0,
+          0.0021132024407,
+          0.00211783801,
+          0.04,
+          0.002152922290700002
+        ]
+      },
+      {
+        "parameters": [
+          0.001875,
+          0.04,
+          0.0023779222907,
+          0.0,
+          -1.0,
+          0.0,
+          0.000225
+        ],
+        "box": [
+          0.00165,
+          0.0,
+          0.0021529222907,
+          0.001875,
+          0.04,
+          0.0026029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.00203804889888973,
+          0.04,
+          0.00270292226948775,
+          0.0,
+          -1.0,
+          0.0,
+          9.99999787877481e-05
+        ],
+        "box": [
+          0.00203804889,
+          0.0,
+          0.0026029222907,
+          0.00211710323,
+          0.04,
+          0.0026416816907
+        ]
+      },
+      {
+        "parameters": [
+          0.0029867010587501497,
+          0.04,
+          0.00196803504244619,
+          0.0,
+          -1.0,
+          0.0,
+          0.00110000008657753
+        ],
+        "box": [
+          0.00211710323,
+          0.0,
+          0.0026416816907,
+          0.00244889441,
+          0.04,
+          0.0029275996307
+        ]
+      },
+      {
+        "parameters": [
+          0.00240000566122852,
+          0.04,
+          0.00301482782585446,
+          0.0,
+          -1.0,
+          0.0,
+          9.99943387714772e-05
+        ],
+        "box": [
+          0.00244889441,
+          0.0,
+          0.0029275996307,
+          0.0025,
+          0.04,
+          0.0030148278107
+        ]
+      },
+      {
+        "parameters": [
+          -0.00240000003453052,
+          0.04,
+          0.00301589395248644,
+          0.0,
+          -1.0,
+          0.0,
+          9.999996546948461e-05
+        ],
+        "box": [
+          -0.002500000000000005,
+          0.0,
+          0.0029287288806000003,
+          -0.00244901272,
+          0.04,
+          0.0030158939707
+        ]
+      },
+      {
+        "parameters": [
+          -0.00298815263013407,
+          0.04,
+          0.00196991294821807,
+          0.0,
+          -1.0,
+          0.0,
+          0.0010999999249494499
+        ],
+        "box": [
+          -0.00244901272,
+          0.0,
+          0.0026418381706,
+          -0.0021172242,
+          0.04,
+          0.0029287288806000003
+        ]
+      },
+      {
+        "parameters": [
+          -0.0020380488902981,
+          0.04,
+          0.0027029222826670703,
+          0.0,
+          -1.0,
+          0.0,
+          9.99999920670733e-05
+        ],
+        "box": [
+          -0.0021172242,
+          0.0,
+          0.002602922290599997,
+          -0.00203804888,
+          0.04,
+          0.0026418381706
+        ]
+      },
+      {
+        "parameters": [
+          -0.00187499999,
+          0.04,
+          0.0023779222906,
+          0.0,
+          -1.0,
+          0.0,
+          0.000225
+        ],
+        "box": [
+          -0.00187499999,
+          0.0,
+          0.0021529222906,
+          -0.00164999999,
+          0.04,
+          0.0026029222906
+        ]
+      },
+      {
+        "parameters": [
+          -0.0020380488902981,
+          0.04,
+          0.00205292229853293,
+          0.0,
+          -1.0,
+          0.0,
+          9.999999206707339e-05
+        ],
+        "box": [
+          -0.0021172242,
+          0.0,
+          0.0021140064106,
+          -0.00203804888,
+          0.04,
+          0.002152922290600004
+        ]
+      },
+      {
+        "parameters": [
+          -0.00298815287748184,
+          0.04,
+          0.00278593191903912,
+          0.0,
+          -1.0,
+          0.0,
+          0.00110000029552334
+        ],
+        "box": [
+          -0.00244901272,
+          0.0,
+          0.0018271157006000001,
+          -0.0021172242,
+          0.04,
+          0.0021140064106
+        ]
+      },
+      {
+        "parameters": [
+          -0.00239999997999524,
+          0.04,
+          0.00173995059681312,
+          0.0,
+          -1.0,
+          0.0,
+          0.00010000002000476201
+        ],
+        "box": [
+          -0.002500000000000002,
+          0.0,
+          0.0017399506106000001,
+          -0.00244901272,
+          0.04,
+          0.0018271157006000001
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.0032,
+          0.0028,
+          0.0018,
+          0.005,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.0038000000000000004,
+          0.0,
+          0.0012,
+          0.005,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.0182,
+          0.0028,
+          0.0018,
+          0.02,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.0188,
+          0.0,
+          0.0012,
+          0.02,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.0332,
+          0.0028,
+          0.0018,
+          0.035,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.033800000000000004,
+          0.0,
+          0.0012,
+          0.035,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.035,
+          0.0,
+          0.0012,
+          0.0362,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.035,
+          0.0028,
+          0.0018,
+          0.036800000000000006,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.02,
+          0.0,
+          0.0012,
+          0.0212,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.02,
+          0.0028,
+          0.0018,
+          0.0218,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.005,
+          0.0,
+          0.0012,
+          0.0062,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.005,
+          0.0028,
+          0.0018,
+          0.0068000000000000005,
+          0.0036029222907
+        ]
+      }
+    ],
+    "z_planes": [
+      {
+        "level": 0.0,
+        "area": 0.00016242831973649214
+      },
+      {
+        "level": 0.0021529222907,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0026029222907,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0036029222907,
+        "area": 0.00015346372780710723
+      },
+      {
+        "level": 0.0026029222906,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0021529222906,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0028,
+        "area": 5.654866776461628e-06
+      },
+      {
+        "level": 0.0028,
+        "area": 5.654866776461629e-06
+      },
+      {
+        "level": 0.0028,
+        "area": 5.654866776461628e-06
+      },
+      {
+        "level": 0.001445208,
+        "area": 5.644799999999998e-11
+      },
+      {
+        "level": 0.002150808,
+        "area": 1.1907072000000036e-11
+      },
+      {
+        "level": 0.00215172,
+        "area": 4.913841599999999e-10
+      },
+      {
+        "level": 0.00210468,
+        "area": 4.3493615999999995e-10
+      },
+      {
+        "level": 0.00144612,
+        "area": 4.913841599999999e-10
+      },
+      {
+        "level": 0.00149316,
+        "area": 4.3493615999999995e-10
+      },
+      {
+        "level": 0.0017754,
+        "area": 2.3703753599999996e-10
+      },
+      {
+        "level": 0.00182244,
+        "area": 2.3703753599999996e-10
+      },
+      {
+        "level": 0.00144612,
+        "area": 5.82119999999909e-10
+      },
+      {
+        "level": 0.00210468,
+        "area": 1.5324739199997604e-10
+      },
+      {
+        "level": 0.0019728,
+        "area": 5.733014399999105e-11
+      },
+      {
+        "level": 0.00149316,
+        "area": 4.624989119999277e-10
+      },
+      {
+        "level": 0.00215172,
+        "area": 1.6261862399997463e-10
+      },
+      {
+        "level": 0.00215172,
+        "area": 4.913841599999231e-10
+      },
+      {
+        "level": 0.00210468,
+        "area": 4.3493615999993197e-10
+      },
+      {
+        "level": 0.00144612,
+        "area": 4.913841599999231e-10
+      },
+      {
+        "level": 0.00149316,
+        "area": 4.3493615999993197e-10
+      },
+      {
+        "level": 0.0017754,
+        "area": 2.3703753599996295e-10
+      },
+      {
+        "level": 0.00182244,
+        "area": 2.3703753599996295e-10
+      }
+    ]
+  },
+  "MGNR05R-2": {
+    "mates": [
+      {
+        "name": "Second_Guide_Width_Center",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Second_Block_Top_to_Rail_Base_6mm",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Coincident12",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Distance14",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Distance16",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "LimitDistance4",
+        "suppressed": false,
+        "type": "MateLimitDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Screw1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Screw1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Screw1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Washer1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Washer1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Washer1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Nut1_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Nut1_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Nut1_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Screw2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Screw2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Screw2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Washer2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Washer2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Washer2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Nut2_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Nut2_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Nut2_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Screw3_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Screw3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Screw3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Washer3_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Washer3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Washer3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Nut3_Right_Plane",
+        "suppressed": false,
+        "type": "MateCoincident"
+      },
+      {
+        "name": "Conn_Rail2Nut3_Top_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "Conn_Rail2Nut3_Front_Plane",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      },
+      {
+        "name": "LimitDistance3",
+        "suppressed": false,
+        "type": "MateDistanceDim"
+      }
+    ],
+    "cylinders": [
+      {
+        "parameters": [
+          0.0023999999948205197,
+          0.04,
+          0.00173702832010511,
+          0.0,
+          -1.0,
+          0.0,
+          0.00010000000517947601
+        ],
+        "box": [
+          0.00244999635,
+          0.0,
+          0.00173702832,
+          0.0025,
+          0.04,
+          0.0018236329707
+        ]
+      },
+      {
+        "parameters": [
+          0.0029575245327786203,
+          0.04,
+          0.00274109688389768,
+          0.0,
+          -1.0,
+          0.0,
+          0.0010484869519143101
+        ],
+        "box": [
+          0.00211783801,
+          0.0,
+          0.0018236329707,
+          0.00244999635,
+          0.04,
+          0.0021132024407
+        ]
+      },
+      {
+        "parameters": [
+          0.00203804890019856,
+          0.04,
+          0.00205292230924327,
+          0.0,
+          -1.0,
+          0.0,
+          9.999998145673231e-05
+        ],
+        "box": [
+          0.00203804889,
+          0.0,
+          0.0021132024407,
+          0.00211783801,
+          0.04,
+          0.002152922290700002
+        ]
+      },
+      {
+        "parameters": [
+          0.001875,
+          0.04,
+          0.0023779222907,
+          0.0,
+          -1.0,
+          0.0,
+          0.000225
+        ],
+        "box": [
+          0.00165,
+          0.0,
+          0.0021529222907,
+          0.001875,
+          0.04,
+          0.0026029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.00203804889888973,
+          0.04,
+          0.00270292226948775,
+          0.0,
+          -1.0,
+          0.0,
+          9.99999787877481e-05
+        ],
+        "box": [
+          0.00203804889,
+          0.0,
+          0.0026029222907,
+          0.00211710323,
+          0.04,
+          0.0026416816907
+        ]
+      },
+      {
+        "parameters": [
+          0.0029867010587501497,
+          0.04,
+          0.00196803504244619,
+          0.0,
+          -1.0,
+          0.0,
+          0.00110000008657753
+        ],
+        "box": [
+          0.00211710323,
+          0.0,
+          0.0026416816907,
+          0.00244889441,
+          0.04,
+          0.0029275996307
+        ]
+      },
+      {
+        "parameters": [
+          0.00240000566122852,
+          0.04,
+          0.00301482782585446,
+          0.0,
+          -1.0,
+          0.0,
+          9.99943387714772e-05
+        ],
+        "box": [
+          0.00244889441,
+          0.0,
+          0.0029275996307,
+          0.0025,
+          0.04,
+          0.0030148278107
+        ]
+      },
+      {
+        "parameters": [
+          -0.00240000003453052,
+          0.04,
+          0.00301589395248644,
+          0.0,
+          -1.0,
+          0.0,
+          9.999996546948461e-05
+        ],
+        "box": [
+          -0.002500000000000005,
+          0.0,
+          0.0029287288806000003,
+          -0.00244901272,
+          0.04,
+          0.0030158939707
+        ]
+      },
+      {
+        "parameters": [
+          -0.00298815263013407,
+          0.04,
+          0.00196991294821807,
+          0.0,
+          -1.0,
+          0.0,
+          0.0010999999249494499
+        ],
+        "box": [
+          -0.00244901272,
+          0.0,
+          0.0026418381706,
+          -0.0021172242,
+          0.04,
+          0.0029287288806000003
+        ]
+      },
+      {
+        "parameters": [
+          -0.0020380488902981,
+          0.04,
+          0.0027029222826670703,
+          0.0,
+          -1.0,
+          0.0,
+          9.99999920670733e-05
+        ],
+        "box": [
+          -0.0021172242,
+          0.0,
+          0.002602922290599997,
+          -0.00203804888,
+          0.04,
+          0.0026418381706
+        ]
+      },
+      {
+        "parameters": [
+          -0.00187499999,
+          0.04,
+          0.0023779222906,
+          0.0,
+          -1.0,
+          0.0,
+          0.000225
+        ],
+        "box": [
+          -0.00187499999,
+          0.0,
+          0.0021529222906,
+          -0.00164999999,
+          0.04,
+          0.0026029222906
+        ]
+      },
+      {
+        "parameters": [
+          -0.0020380488902981,
+          0.04,
+          0.00205292229853293,
+          0.0,
+          -1.0,
+          0.0,
+          9.999999206707339e-05
+        ],
+        "box": [
+          -0.0021172242,
+          0.0,
+          0.0021140064106,
+          -0.00203804888,
+          0.04,
+          0.002152922290600004
+        ]
+      },
+      {
+        "parameters": [
+          -0.00298815287748184,
+          0.04,
+          0.00278593191903912,
+          0.0,
+          -1.0,
+          0.0,
+          0.00110000029552334
+        ],
+        "box": [
+          -0.00244901272,
+          0.0,
+          0.0018271157006000001,
+          -0.0021172242,
+          0.04,
+          0.0021140064106
+        ]
+      },
+      {
+        "parameters": [
+          -0.00239999997999524,
+          0.04,
+          0.00173995059681312,
+          0.0,
+          -1.0,
+          0.0,
+          0.00010000002000476201
+        ],
+        "box": [
+          -0.002500000000000002,
+          0.0,
+          0.0017399506106000001,
+          -0.00244901272,
+          0.04,
+          0.0018271157006000001
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.0032,
+          0.0028,
+          0.0018,
+          0.005,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.0038000000000000004,
+          0.0,
+          0.0012,
+          0.005,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.0182,
+          0.0028,
+          0.0018,
+          0.02,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.0188,
+          0.0,
+          0.0012,
+          0.02,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.0332,
+          0.0028,
+          0.0018,
+          0.035,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.033800000000000004,
+          0.0,
+          0.0012,
+          0.035,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.035,
+          0.0,
+          0.0012,
+          0.0362,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.035,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.035,
+          0.0028,
+          0.0018,
+          0.036800000000000006,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.02,
+          0.0,
+          0.0012,
+          0.0212,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.02,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.02,
+          0.0028,
+          0.0018,
+          0.0218,
+          0.0036029222907
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0014,
+          0.0,
+          0.0,
+          1.0,
+          0.0012
+        ],
+        "box": [
+          -0.0012,
+          0.005,
+          0.0,
+          0.0012,
+          0.0062,
+          0.0028
+        ]
+      },
+      {
+        "parameters": [
+          0.0,
+          0.005,
+          0.0061,
+          0.0,
+          0.0,
+          1.0,
+          0.0018
+        ],
+        "box": [
+          -0.0018,
+          0.005,
+          0.0028,
+          0.0018,
+          0.0068000000000000005,
+          0.0036029222907
+        ]
+      }
+    ],
+    "z_planes": [
+      {
+        "level": 0.0,
+        "area": 0.00016242831973649214
+      },
+      {
+        "level": 0.0021529222907,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0026029222907,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0036029222907,
+        "area": 0.00015346372780710723
+      },
+      {
+        "level": 0.0026029222906,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0021529222906,
+        "area": 6.521955600000008e-06
+      },
+      {
+        "level": 0.0028,
+        "area": 5.654866776461628e-06
+      },
+      {
+        "level": 0.0028,
+        "area": 5.654866776461629e-06
+      },
+      {
+        "level": 0.0028,
+        "area": 5.654866776461628e-06
+      },
+      {
+        "level": 0.001445208,
+        "area": 5.644799999999998e-11
+      },
+      {
+        "level": 0.002150808,
+        "area": 1.1907072000000036e-11
+      },
+      {
+        "level": 0.00215172,
+        "area": 4.913841599999999e-10
+      },
+      {
+        "level": 0.00210468,
+        "area": 4.3493615999999995e-10
+      },
+      {
+        "level": 0.00144612,
+        "area": 4.913841599999999e-10
+      },
+      {
+        "level": 0.00149316,
+        "area": 4.3493615999999995e-10
+      },
+      {
+        "level": 0.0017754,
+        "area": 2.3703753599999996e-10
+      },
+      {
+        "level": 0.00182244,
+        "area": 2.3703753599999996e-10
+      },
+      {
+        "level": 0.00144612,
+        "area": 5.82119999999909e-10
+      },
+      {
+        "level": 0.00210468,
+        "area": 1.5324739199997604e-10
+      },
+      {
+        "level": 0.0019728,
+        "area": 5.733014399999105e-11
+      },
+      {
+        "level": 0.00149316,
+        "area": 4.624989119999277e-10
+      },
+      {
+        "level": 0.00215172,
+        "area": 1.6261862399997463e-10
+      },
+      {
+        "level": 0.00215172,
+        "area": 4.913841599999231e-10
+      },
+      {
+        "level": 0.00210468,
+        "area": 4.3493615999993197e-10
+      },
+      {
+        "level": 0.00144612,
+        "area": 4.913841599999231e-10
+      },
+      {
+        "level": 0.00149316,
+        "area": 4.3493615999993197e-10
+      },
+      {
+        "level": 0.0017754,
+        "area": 2.3703753599996295e-10
+      },
+      {
+        "level": 0.00182244,
+        "area": 2.3703753599996295e-10
+      }
+    ]
+  },
+  "frame_features": [
+    {
+      "name": "Comments",
+      "type": "CommentsFolder"
+    },
+    {
+      "name": "Favorites",
+      "type": "FavoriteFolder"
+    },
+    {
+      "name": "History",
+      "type": "HistoryFolder"
+    },
+    {
+      "name": "Selection Sets",
+      "type": "SelectionSetFolder"
+    },
+    {
+      "name": "Sensors",
+      "type": "SensorFolder"
+    },
+    {
+      "name": "Design Binder",
+      "type": "DocsFolder"
+    },
+    {
+      "name": "Annotations",
+      "type": "DetailCabinet"
+    },
+    {
+      "name": "Surface Bodies",
+      "type": "SurfaceBodyFolder"
+    },
+    {
+      "name": "Solid Bodies",
+      "type": "SolidBodyFolder"
+    },
+    {
+      "name": "Lights and Cameras",
+      "type": "EnvFolder"
+    },
+    {
+      "name": "Markups",
+      "type": "InkMarkupFolder"
+    },
+    {
+      "name": "Equations",
+      "type": "EqnFolder"
+    },
+    {
+      "name": "Material <not specified>",
+      "type": "MaterialFolder"
+    },
+    {
+      "name": "Front Plane",
+      "type": "RefPlane"
+    },
+    {
+      "name": "Top Plane",
+      "type": "RefPlane"
+    },
+    {
+      "name": "Right Plane",
+      "type": "RefPlane"
+    },
+    {
+      "name": "Origin",
+      "type": "OriginProfileFeature"
+    },
+    {
+      "name": "Sketch1",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Boss-Extrude1",
+      "type": "Extrusion"
+    },
+    {
+      "name": "Sketch2",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude1",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch3",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude2",
+      "type": "ICE"
+    },
+    {
+      "name": "Plane16",
+      "type": "RefPlane"
+    },
+    {
+      "name": "Sketch4",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Boss-Extrude3",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch6",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude3",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch7",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude4",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch8",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Boss-Extrude4",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch9",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude13",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch13",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude15",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch14",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude16",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch15",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude17",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch17",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Boss-Extrude5",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch18",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Cut-Extrude18",
+      "type": "ICE"
+    },
+    {
+      "name": "Chamfer1",
+      "type": "Chamfer"
+    },
+    {
+      "name": "Chamfer2",
+      "type": "Chamfer"
+    },
+    {
+      "name": "Chamfer3",
+      "type": "Chamfer"
+    },
+    {
+      "name": "Chamfer4",
+      "type": "Chamfer"
+    },
+    {
+      "name": "Chamfer5",
+      "type": "Chamfer"
+    },
+    {
+      "name": "Sketch19",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Upper_Bearing_Housing_Extension",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch20",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Lower_Bearing_Outer_Race_Shoulder",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch21",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Upper_Bearing_Outer_Race_Shoulder",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch22",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Four_Stage_Support_D3p4",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch23",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Lower_Retainer_M2_Envelope",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch24",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Upper_Retainer_M2_Envelope",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch25",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Pitch_Linkage_Underside_Clearance_R28_Up7p5",
+      "type": "ICE"
+    },
+    {
+      "name": "Sketch26",
+      "type": "ProfileFeature"
+    },
+    {
+      "name": "Four_Link_Frame_Support_Holes_Y70",
+      "type": "ICE"
+    }
+  ],
+  "mate_errors": []
+}

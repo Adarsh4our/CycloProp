@@ -1,0 +1,15 @@
+{
+  "scope": "All12 installed coupling components against all resolved leaf solids, saved construction pose",
+  "body_count": 370,
+  "boolean_comparisons": 57,
+  "threshold_mm3": 1e-05,
+  "intersections": [],
+  "result": "passed",
+  "excluded": [
+    "unchanged pairs",
+    "same-component imported internals",
+    "motion between poses",
+    "loaded gaps and tolerances"
+  ],
+  "assembly_sha256": "e431b7265656a49597f09133532f190ee6484248b1d29abb6e5fff80b06a5f1f"
+}

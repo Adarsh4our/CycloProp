@@ -1,0 +1,80 @@
+{
+  "CP-RB-206": {
+    "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_PROTOTYPE.SLDPRT",
+    "model_sha256": "5737b02617328e660412b73bb81f79a0785af7476faa452824de9c8c51124b5c",
+    "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-206.SLDDRW",
+    "drawing_sha256": "d1d50901537c0522194447e51e7a747ec92e498307e4b7c7abd5623a9e30d2eb",
+    "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-206.pdf",
+    "pdf_sha256": "84896a4908f8a237bb8dc6d7efc8310a1dc6df37c87346940f101bf1da333ce0",
+    "view_outlines": [
+      {
+        "view": "*Front",
+        "outline_m": [
+          0.05163425742574257,
+          0.15663425742574258,
+          0.09836574257425743,
+          0.2033657425742574
+        ]
+      },
+      {
+        "view": "*Right",
+        "outline_m": [
+          0.1498784588593818,
+          0.1569908137605228,
+          0.2401215411406182,
+          0.2030091862394772
+        ]
+      },
+      {
+        "view": "*Isometric",
+        "outline_m": [
+          0.04681542466508182,
+          0.054508260315701176,
+          0.13318457533491818,
+          0.13549173968429884
+        ]
+      }
+    ],
+    "scope": "Native referenced views plus dimensional/interface notes; no fabrication release. PDF visual inspection pending.",
+    "status": "Superseded/uninstalled candidate; excluded from active package"
+  },
+  "CP-RB-221": {
+    "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p8.SLDPRT",
+    "model_sha256": "5cbe98e23976067e789a79de7b4335861dfc82a9ec2feec92f7cb5c7fc72f70b",
+    "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-221.SLDDRW",
+    "drawing_sha256": "def8c3c00913affd12ee37c9af4fafd99c4cbf0b1d135a3e868a3a36dbbafa9d",
+    "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-221.pdf",
+    "pdf_sha256": "4e66c0eaf1316ac3b0fab105ad3b4ce3d4119928be27d1802c9d4e9221b23d65",
+    "view_outlines": [
+      {
+        "view": "*Front",
+        "outline_m": [
+          0.053059999999999996,
+          0.15805999999999998,
+          0.09694,
+          0.20194
+        ]
+      },
+      {
+        "view": "*Right",
+        "outline_m": [
+          0.18585999999999994,
+          0.15805999999999998,
+          0.20414000000000007,
+          0.20194
+        ]
+      },
+      {
+        "view": "*Isometric",
+        "outline_m": [
+          0.07048354980121829,
+          0.06815782913632999,
+          0.1095164501987817,
+          0.12184217086367001
+        ]
+      }
+    ],
+    "scope": "Native referenced views plus dimensional/interface notes; no fabrication release. PDF visual inspection pending.",
+    "status": "Superseded/uninstalled candidate; excluded from active package"
+  }
+}

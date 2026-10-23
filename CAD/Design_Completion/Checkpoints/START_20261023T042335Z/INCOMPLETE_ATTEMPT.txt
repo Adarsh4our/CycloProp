@@ -1,0 +1,7 @@
+The checkpoint process was launched across an interrupted tool boundary. Its
+disk archive was created, but no completed native inventory or live-copy
+manifest was produced. The owned Python inventory process was stopped before
+retrying; SolidWorks was not terminated, rebuilt or saved over a source.
+
+Use START_20261023T042432Z for the completed checkpoint. Retain this attempt
+as history; it is not a separately validated recovery package.

@@ -1,0 +1,560 @@
+[
+  {
+    "title": "RB_MGN5C.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_MGN5C.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_MGNR05R.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_MGNR05R.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Intermediate_X_Slider.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Intermediate_X_Slider.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_4-Inner_Carriage_Plate.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_4-Inner_Carriage_Plate.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "6806 Outer ring^NSK_6806_RB_6806.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx13444\\VC~~\\NSK_6806_RB_6806\\6806 Outer ring^NSK_6806_RB_6806.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "6806 Inner ring^NSK_6806_RB_6806.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx13444\\VC~~\\NSK_6806_RB_6806\\6806 Inner ring^NSK_6806_RB_6806.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "6806 Ball^NSK_6806_RB_6806.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx13444\\VC~~\\NSK_6806_RB_6806\\6806 Ball^NSK_6806_RB_6806.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_4-Outer_Control_Ring.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_4-Outer_Control_Ring.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Inner_Race_Retainer.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Inner_Race_Retainer.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Outer_Race_Retainer.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Outer_Race_Retainer.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_XY_Fixed_Base.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Fixed_Base.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_3-Drive_Shaft.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_3-Drive_Shaft.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Servo_X_Mount_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_X_Mount_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Servo_Y_Mount_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Y_Mount_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Servo_Horn_R12_LAYOUT.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Horn_R12_LAYOUT.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Servo_Link_L40_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Servo_Link_L40_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Pivot_Pin_D2_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Pivot_Pin_D2_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2p5x10_CSK_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_CSK_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2p5x8_CSK_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x8_CSK_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x12_Socket_Cap_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x12_Socket_Cap_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M1p6_Washer_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M1p6_Washer_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M1p6_Nut_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M1p6_Nut_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x2_Socket_Cap_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x2_Socket_Cap_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2p5x4_CSK_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x4_CSK_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M3_Washer_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3_Washer_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M3_Nut_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3_Nut_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_686ZZ_6x13x5_ENVELOPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_686ZZ_6x13x5_ENVELOPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Upper_MainBearing_Retainer.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Upper_MainBearing_Retainer.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Shaft_Drive_Hub_RevA.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Shaft_Drive_Hub_RevA.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Endplate_Hub_Interface_RevA.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Endplate_Hub_Interface_RevA.SLDPRT",
+    "visible": true,
+    "dirty": true
+  },
+  {
+    "title": "RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Pivot_Thrust_Spacer_H0p5.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Pivot_Thrust_Spacer_H0p5.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Part1.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+    "visible": true,
+    "dirty": true
+  },
+  {
+    "title": "RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2_Small_Washer_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2_Small_Washer_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Ball_Mount_Spacer_H2p5.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Mount_Spacer_H2p5.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Cage_Upper_Support_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Upper_Support_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M3x16_Base_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3x16_Base_Screw_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x5_Bearing_Cap_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x5_Bearing_Cap_Screw_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Oldham_Output_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Oldham_Input_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Input_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+    "visible": true,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT",
+    "visible": true,
+    "dirty": true
+  },
+  {
+    "title": "RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT",
+    "visible": true,
+    "dirty": true
+  },
+  {
+    "title": "Socket_Cavity_Tool_D5p05.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Cavity_Tool_D5p05.SLDPRT",
+    "visible": true,
+    "dirty": false
+  },
+  {
+    "title": "RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+    "visible": true,
+    "dirty": true
+  },
+  {
+    "title": "RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT",
+    "visible": true,
+    "dirty": false
+  },
+  {
+    "title": "RB_Assem20_Design_RevB.SLDASM",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+    "visible": true,
+    "dirty": false
+  },
+  {
+    "title": "RB_Assem3.SLDASM",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem3.SLDASM",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_6806.SLDASM",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_6806.SLDASM",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "NSK_6806^RB_6806.SLDASM",
+    "path": "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx13444\\VC~~\\RB_6806\\NSK_6806^RB_6806.SLDASM",
+    "visible": false,
+    "dirty": true
+  },
+  {
+    "title": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM",
+    "visible": true,
+    "dirty": true
+  }
+]

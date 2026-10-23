@@ -1,0 +1,171 @@
+{
+  "planar_revision_backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_planar_link_pttbeswn",
+  "date": "2026-10-21",
+  "status": "PROVISIONAL - NOT FABRICATION RELEASED",
+  "scope": "Planar offset-arm revision of first95mm articulated pushrod",
+  "backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_ball_link_7molljnd",
+  "layout": {
+    "arm": "Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+    "blade": "Part1-2",
+    "ring": "Assem3-1/4-Outer_Control_Ring-1",
+    "ring_hole_local_m": [
+      0.0,
+      0.0,
+      -0.04
+    ],
+    "A": [
+      0.7036285708978679,
+      1.2392514466208735,
+      -0.012176375850359356
+    ],
+    "B": [
+      0.7490754633286961,
+      1.1558273495722347,
+      -0.012176375850359467
+    ],
+    "centre_distance_mm": 94.99999999999991,
+    "blade_pitch_from_tangent_deg": 5.430791205910221,
+    "socket_articulation_deg": 0.0,
+    "axial_offset_mm": 1.1102230246251565e-13
+  },
+  "added_components": {
+    "OffsetArm": "Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+    "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-2",
+    "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-3",
+    "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-4",
+    "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-3",
+    "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-4",
+    "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-1",
+    "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-2",
+    "ArmHeadWasher": "M2_Small_Washer_REFERENCE-4",
+    "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-1",
+    "ArmNutWasher": "M2_Small_Washer_REFERENCE-5",
+    "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-12",
+    "RingMountSpacer": "Ball_Mount_Spacer_H2p5-3",
+    "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-3",
+    "RingHeadWasher": "M2_Small_Washer_REFERENCE-6",
+    "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-2"
+  },
+  "pose_checks": [
+    {
+      "label": "original_pose",
+      "joint_centre_errors_mm": {
+        "Arm": 1.1102230246251565e-13,
+        "Ring": 0.0
+      },
+      "ball_centre_distance_mm": 94.99999999999984,
+      "mate_errors": [],
+      "checks_passed": true,
+      "native_boolean_comparisons": 34,
+      "intersections": []
+    },
+    {
+      "label": "X_plus_0p5mm",
+      "joint_centre_errors_mm": {
+        "Arm": 0.0,
+        "Ring": 0.0
+      },
+      "ball_centre_distance_mm": 94.99999999999994,
+      "mate_errors": [],
+      "checks_passed": true,
+      "native_boolean_comparisons": 34,
+      "intersections": []
+    },
+    {
+      "label": "restored_pose",
+      "joint_centre_errors_mm": {
+        "Arm": 2.7755575615628914e-14,
+        "Ring": 0.0
+      },
+      "ball_centre_distance_mm": 94.99999999999976,
+      "mate_errors": [],
+      "checks_passed": true,
+      "native_boolean_comparisons": 34,
+      "intersections": []
+    }
+  ],
+  "checks": {
+    "new_native_mates": "passed",
+    "local_motion_X_plus_0p5mm_and_restore": "passed",
+    "focused_static_interference": "passed",
+    "full_rotor_motion": "not performed; known frame collision at alternative attachment pose",
+    "manufacturing_fits_socket_retention_loads": "not performed",
+    "side_view_visual_inspection": "passed for rod alignment and shortened mounting stack; no full-motion or strength inference"
+  },
+  "checked_existing_components": [
+    "Frame_Mounting_RevA-1",
+    "3-Drive_Shaft-1",
+    "XY_Fixed_Base-1",
+    "Intermediate_X_Slider-1",
+    "Endplate_Hub_Interface_RevA-1",
+    "Endplate_Hub_Interface_RevA-2",
+    "Shaft_Drive_Hub_RevA-1",
+    "Shaft_Drive_Hub_RevA-2",
+    "Servo_X_Mount_PROTOTYPE-1",
+    "Servo_Y_Mount_PROTOTYPE-1",
+    "X_Slider_Drive_Tab_PROTOTYPE-1",
+    "Y_Carriage_Drive_Tab_PROTOTYPE-1",
+    "Part1-1",
+    "Part1-2",
+    "Part1-3",
+    "Part1-4",
+    "Blade_Pitch_Arm-1",
+    "Blade_Pitch_Arm-2",
+    "Blade_Pitch_Arm-3",
+    "Assem3-1/Inner_Race_Retainer-1",
+    "Assem3-1/4-Outer_Control_Ring-1",
+    "Assem3-1/4-Inner_Carriage_Plate-1",
+    "Assem3-1/Outer_Race_Retainer-1"
+  ],
+  "excluded_scope": [
+    "existing-existing geometry",
+    "same-component internal bodies",
+    "other existing hardware not listed",
+    "full360degree rotor and fullXY travel"
+  ],
+  "known_frame_collision": "FRAME_CLEARANCE_REJECTED_POSE.json",
+  "restored_xy_offset_mm": [
+    -4.6762268885955915,
+    -2.594445428909742
+  ],
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "1c85602909daad820714b0e89f0dc8b070bad3cbad6d88954f72cfc829a8991c",
+    "CAD\\Part1.SLDPRT": "4b7e1ec26b73b8ddeb70e4448a31629364a6c611e599d2085758c5804cf9a66b",
+    "CAD\\Blade_Pitch_Arm.SLDPRT": "72d115401acbcb9a3ffbd04e43b73227423a1707ed32936d0f7c8898c73239bd",
+    "CAD\\5-Pushrod_Linkage.SLDPRT": "ca5bdebe1d435c7766a481a70738b77ccd46b39cca3301598907e2a87ae04648",
+    "CAD\\Connections_Completion\\Frame_Mounting_RevA.SLDPRT": "aa821ca0b51ea7cc4d74ed38d89e727b92b4acfaf054d96ea95f998bf027b0a6",
+    "CAD\\Connections_Completion\\M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT": "d483145f6d8a5200e3f84cb1636757acb5227d753b048850897b28c0191b7b00",
+    "CAD\\4-Outer_Control_Ring.SLDPRT": "8b49f333fb99aeab5b3d2e3c686b1f85f772b3e6005dfe01b84c907c2a2a45e0",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": "ca3a2da914cce243e8ca7cc586f8773f418119268aee4cee791a38062e56bc1a",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H0p5.SLDPRT": "579f1e782ae9276646000397d69858754b968b5935a55c61fdcf014567ef820e",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H1p5.SLDPRT": "926f91441945f265f899a1b481231d634ea2ad6805035c52fc05ec2a5192dd6f",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H2p5.SLDPRT": "22774342d79cf6a9312945327288f1a4c597397ac5c81b8f29a55098b34acecd",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": "19841f6efbd18df071ac155c300d153c75f8075be0e1efd4d9ccd4588f05c3f2",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Carbon_Tube_OD2_ID1_L85_REFERENCE.SLDPRT": "6bc87db4117cf1543b729f2936aa2d7301e567a1875cab6566bc8969be19d3df",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\M2_Small_Washer_REFERENCE.SLDPRT": "4e1a8c03ac2e2239387833834247859deaddd0a8403989985657516c2b027f0d",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Cavity_Tool_D5p05.SLDPRT": "e3a5885f611f8211078ee84913c6f9208e4831b57d89ef46e13d3fef5170f918",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT": "c4b24c19a8bb8cb2a574f40275aa22caa07167958d61cfee21196a327f529798",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Ball_Mount_Spacer_H0p5.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Ball_Mount_Spacer_H2p5.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Carbon_Tube_OD2_ID1_L85_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$M2_Small_Washer_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\PLANAR_REVISION.md": "edc14e7b79867bd79f365461f37e4b149192a4f3a5c1b78baf2c8d7f22e4cc05",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\PLANAR_SIDE_VIEW.bmp": "f20b2477ebdcd1cac21e9162034e00e960ae8b971b91ee406a25529e0c8d1ca4"
+  },
+  "actual_saved_joint_alignment": {
+    "axial_offset_mm": 1.6653345369377348e-13,
+    "rod_inclination_deg": 1.0043856888832183e-13,
+    "centre_distance_mm": 94.99999999999976
+  },
+  "side_view": "PLANAR_SIDE_VIEW.bmp",
+  "remaining_work": [
+    "Resolve known frame obstruction at other rotor positions before fullrotation",
+    "Verify newoffsetarm material,bending,fatigue,clamping andmanufacture",
+    "Verifyphysicalsocketretention,pullout,fit,wear andadhesivebond",
+    "Fitotherthreearticulatedlinks with fulltiming andpitch-range checks",
+    "Completebladebushings,retention andaxialrunningallowance"
+  ]
+}

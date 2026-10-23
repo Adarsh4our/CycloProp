@@ -1,0 +1,34 @@
+{
+  "scope": "Conservative nominal geometric bounds for selected planar Oldham arrangement; not a substitute for native interference checks",
+  "eccentricity_max_mm": 6.88,
+  "tongue_width_mm": 4.0,
+  "slot_width_mm": 4.1,
+  "axial_face_gap_each_mm": 0.2,
+  "tongue_axial_engagement_mm": 1.8,
+  "maximum_longitudinal_slide_each_interface_mm": 6.88,
+  "tongue_nominal_radial_interval_mm": [
+    28.0,
+    38.0
+  ],
+  "floating_channel_radial_interval_mm": [
+    19.8997487421324,
+    44.0
+  ],
+  "minimum_longitudinal_tongue_contact_bound_mm": 9.119999999999997,
+  "minimum_central_pedestal_clearance_bound_mm": 2.120000000000001,
+  "input_bore_to_cap_head_radial_clearance_bound_mm": 1.799999999999999,
+  "input_bridge_to_cap_head_axial_gap_mm": 2.1000000000000014,
+  "output_underside_to_rod_mount_head_axial_gap_mm": 0.7000000000000028,
+  "floating_mass_native_g": 6.94602877260652,
+  "floating_centre_peak_acceleration_m_s2": 1051.6797787928151,
+  "floating_inertial_force_N": 7.3049980030633535,
+  "angular_free_play_screen_deg": 0.20462756647168734,
+  "free_play_screen_assumptions": "Each pair of opposed tongues may rock through nominal diametral side clearance over minimum28mm lever. Two stages add worst-direction play; excludes pilot, pin, bearing and guide play.",
+  "release_holds": [
+    "Native poses must demonstrate the selected branch and intended phase.",
+    "0.7mm head/plate gap requires axial tolerance and loaded deflection budget.",
+    "Slot/tongue width tolerances, edge radii and surface treatment allowances not released.",
+    "Nominal pitch margin0.009deg is less than coupling play screen; literal35deg limit remains unverified.",
+    "POM pressure/velocity, creep, wear, balance and fatigue at2640RPM require approved loads and tests."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "BP_Blade_skin": {
+    "body_count": 1,
+    "volume_mm3": 4173.69281560193,
+    "box_m": [
+      0.0,
+      -0.0022799950484403034,
+      0.0,
+      0.038,
+      0.0022799950484403034,
+      0.22
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_skin.SLDPRT",
+    "material": "BLADE_CFRP_1550_PROVISIONAL",
+    "material_database": "Bench_Blade_Densities",
+    "mass_g": 6.469223864182997,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "d1695b1aa2c9fac817e31d769ad3996591b838439bc20847b430994152657991"
+  },
+  "BP_Blade_UD_upper": {
+    "body_count": 1,
+    "volume_mm3": 881.2018123866959,
+    "box_m": [
+      0.012,
+      0.0011462495858480446,
+      0.0,
+      0.022,
+      0.0020278744174907887,
+      0.22
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_UD_upper.SLDPRT",
+    "material": "BLADE_CFRP_1550_PROVISIONAL",
+    "material_database": "Bench_Blade_Densities",
+    "mass_g": 1.3658628091993783,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "4362f225aba715452b5fb17e8585802b2f3b15cdd52ae4ac4c523cc2a4cb5bbe"
+  },
+  "BP_Blade_UD_lower": {
+    "body_count": 1,
+    "volume_mm3": 881.2018123866957,
+    "box_m": [
+      0.012,
+      -0.0020278744174907887,
+      0.0,
+      0.022,
+      -0.0011462495858480446,
+      0.22
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_UD_lower.SLDPRT",
+    "material": "BLADE_CFRP_1550_PROVISIONAL",
+    "material_database": "Bench_Blade_Densities",
+    "mass_g": 1.365862809199378,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "a51dc59039c196b31a2a04a545887b06408319333659339e35fac9add872d1e0"
+  },
+  "BP_Blade_spar": {
+    "body_count": 1,
+    "volume_mm3": 1036.459136039412,
+    "box_m": [
+      0.00775,
+      -0.00175,
+      0.0,
+      0.01125,
+      0.00175,
+      0.22
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_spar.SLDPRT",
+    "material": "BLADE_CFRP_1550_PROVISIONAL",
+    "material_database": "Bench_Blade_Densities",
+    "mass_g": 1.6065116608610883,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "e7468111103877d312972fa6fdcdc57481f527476b0537d061fe69a41d2782d6"
+  },
+  "BP_Blade_core": {
+    "body_count": 1,
+    "volume_mm3": 17934.43745263789,
+    "box_m": [
+      0.00025153932939783166,
+      -0.0020299949507477117,
+      0.0,
+      0.03650824321305157,
+      0.0020299949507477117,
+      0.22
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_core.SLDPRT",
+    "material": "BLADE_CORE_52_PROVISIONAL",
+    "material_database": "Bench_Blade_Densities",
+    "mass_g": 0.9325907475371702,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "49903c8e3e03812007bfac19c4ce5151a431e4f2d121ac59d260b28886e38337"
+  },
+  "BP_Blade_Lower_Metal_Trunnion": {
+    "body_count": 1,
+    "volume_mm3": 213.27312020804777,
+    "box_m": [
+      0.008,
+      -0.0015000000000000055,
+      -0.012,
+      0.011000000000000069,
+      0.0015000000000000055,
+      0.03
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_Lower_Metal_Trunnion.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.6741939936331751,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "c2356220dded97287d0ce922dee9cca351095dc7fbe22efb6899ab887a66cb90"
+  },
+  "BP_Blade_Upper_Metal_Trunnion": {
+    "body_count": 1,
+    "volume_mm3": 220.14396360765102,
+    "box_m": [
+      0.008,
+      -0.0015000000000000055,
+      0.19,
+      0.011000000000000097,
+      0.0015000000000000055,
+      0.23199999999999976
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_Upper_Metal_Trunnion.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.728130114320061,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "0305da69f8a75af268d9235a89a1321e5aa484ae7f40ad5bbb71395d44716ec7"
+  }
+}

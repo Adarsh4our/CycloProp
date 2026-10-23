@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-21",
+  "status": "PROVISIONAL",
+  "scope": "Requested connection points1-4",
+  "checks": {
+    "current_pose_static_intersections": "passed",
+    "full_travel_sweep": "not performed",
+    "strength_and_tolerances": "not performed",
+    "native_assembly_mates": "passed",
+    "saved_xy_pose_preserved": "passed",
+    "physical_spline_fit": "not performed - supplier nominal4.8mm conflicts STEP crown5.0mm"
+  },
+  "native_boolean_checks": 451,
+  "intersections": [],
+  "intentional_thread_envelope_contacts": [
+    {
+      "components": [
+        "Custom_M2x2p5_UpperBlock_LowHead_REFERENCE-2",
+        "MGN5C-1"
+      ],
+      "body_indices": [
+        0,
+        0
+      ],
+      "overlap_mm3": 1.2302476831457605,
+      "reason": "Guide block CAD shows tap pilot rather than thread-major clearance; intended M2 thread envelope"
+    },
+    {
+      "components": [
+        "Custom_M2x2p5_UpperBlock_LowHead_REFERENCE-1",
+        "MGN5C-1"
+      ],
+      "body_indices": [
+        0,
+        0
+      ],
+      "overlap_mm3": 1.2302476831457605,
+      "reason": "Guide block CAD shows tap pilot rather than thread-major clearance; intended M2 thread envelope"
+    },
+    {
+      "components": [
+        "M2x2_Socket_Cap_REFERENCE-4",
+        "MGN5C-2"
+      ],
+      "body_indices": [
+        0,
+        0
+      ],
+      "overlap_mm3": 1.2917600673030543,
+      "reason": "Guide block CAD shows tap pilot rather than thread-major clearance; intended M2 thread envelope"
+    },
+    {
+      "components": [
+        "M2x2_Socket_Cap_REFERENCE-3",
+        "MGN5C-2"
+      ],
+      "body_indices": [
+        0,
+        0
+      ],
+      "overlap_mm3": 1.2917600673030543,
+      "reason": "Guide block CAD shows tap pilot rather than thread-major clearance; intended M2 thread envelope"
+    },
+    {
+      "components": [
+        "Savox_Output_Spline_NATIVE_REFERENCE-2",
+        "M2x3_Horn_Retaining_Screw_REFERENCE-2"
+      ],
+      "body_indices": [
+        0,
+        0
+      ],
+      "overlap_mm3": 2.133771555482234,
+      "reason": "Servo output body shows internal-thread/pilot geometry; intended M2 retaining-screw thread envelope, delivered thread depth unverified"
+    },
+    {
+      "components": [
+        "Savox_Output_Spline_NATIVE_REFERENCE-1",
+        "M2x3_Horn_Retaining_Screw_REFERENCE-1"
+      ],
+      "body_indices": [
+        0,
+        0
+      ],
+      "overlap_mm3": 2.1337715554822756,
+      "reason": "Servo output body shows internal-thread/pilot geometry; intended M2 retaining-screw thread envelope, delivered thread depth unverified"
+    }
+  ],
+  "excluded_pairs": [
+    "same-component imported bodies",
+    "unchanged-existing pairs",
+    "supplier rail/block internal imported geometry"
+  ],
+  "added_components": {
+    "YTab1Screw": "M2p5x8_CSK_REFERENCE-9",
+    "YTab1Washer": "M2p5_Washer_2p7x6x0p5_REFERENCE-11",
+    "YTab1Nut": "M2p5_Nut_AF5_H2_REFERENCE-11",
+    "YTab2Screw": "M2p5x8_CSK_REFERENCE-10",
+    "YTab2Washer": "M2p5_Washer_2p7x6x0p5_REFERENCE-12",
+    "YTab2Nut": "M2p5_Nut_AF5_H2_REFERENCE-12",
+    "Pivot1Washer": "M1p6_Washer_REFERENCE-1",
+    "Pivot1Nut": "M1p6_Nut_REFERENCE-1",
+    "Pivot2Washer": "M1p6_Washer_REFERENCE-2",
+    "Pivot2Nut": "M1p6_Nut_REFERENCE-2",
+    "Pivot3Washer": "M1p6_Washer_REFERENCE-3",
+    "Pivot3Nut": "M1p6_Nut_REFERENCE-3",
+    "Pivot4Washer": "M1p6_Washer_REFERENCE-4",
+    "Pivot4Nut": "M1p6_Nut_REFERENCE-4",
+    "HornXRetainingScrew": "M2x3_Horn_Retaining_Screw_REFERENCE-1",
+    "HornYRetainingScrew": "M2x3_Horn_Retaining_Screw_REFERENCE-2",
+    "Rail1Screw1": "Custom_M2x9_Rail_LowHead_REFERENCE-1",
+    "Rail1Washer1": "M2_Washer_2p2x5x0p3_REFERENCE-9",
+    "Rail1Nut1": "M2_Nut_AF4_H1p6_REFERENCE-5",
+    "Rail1Screw2": "Custom_M2x9_Rail_LowHead_REFERENCE-2",
+    "Rail1Washer2": "M2_Washer_2p2x5x0p3_REFERENCE-10",
+    "Rail1Nut2": "M2_Nut_AF4_H1p6_REFERENCE-6",
+    "Rail1Screw3": "Custom_M2x9_Rail_LowHead_REFERENCE-3",
+    "Rail1Washer3": "M2_Washer_2p2x5x0p3_REFERENCE-11",
+    "Rail1Nut3": "M2_Nut_AF4_H1p6_REFERENCE-7",
+    "Rail2Screw1": "Custom_M2x9_Rail_LowHead_REFERENCE-4",
+    "Rail2Washer1": "M2_Washer_2p2x5x0p3_REFERENCE-12",
+    "Rail2Nut1": "M2_Nut_AF4_H1p6_REFERENCE-8",
+    "Rail2Screw2": "Custom_M2x9_Rail_LowHead_REFERENCE-5",
+    "Rail2Washer2": "M2_Washer_2p2x5x0p3_REFERENCE-13",
+    "Rail2Nut2": "M2_Nut_AF4_H1p6_REFERENCE-9",
+    "Rail2Screw3": "Custom_M2x9_Rail_LowHead_REFERENCE-6",
+    "Rail2Washer3": "M2_Washer_2p2x5x0p3_REFERENCE-14",
+    "Rail2Nut3": "M2_Nut_AF4_H1p6_REFERENCE-10",
+    "Block1Screw1": "M2x2_Socket_Cap_REFERENCE-1",
+    "Block1Screw2": "M2x2_Socket_Cap_REFERENCE-2",
+    "Block2Screw1": "M2x2_Socket_Cap_REFERENCE-3",
+    "Block2Screw2": "M2x2_Socket_Cap_REFERENCE-4",
+    "UpperBlockLowHead1": "Custom_M2x2p5_UpperBlock_LowHead_REFERENCE-1",
+    "UpperBlockLowHead2": "Custom_M2x2p5_UpperBlock_LowHead_REFERENCE-2",
+    "InnerRetSpacer1": "Inner_Retainer_Spacer_H1_REFERENCE-1",
+    "InnerRetWasher1": "M2_Washer_2p2x5x0p3_REFERENCE-15",
+    "InnerRetScrew1": "M2x6_Retainer_Screw_REFERENCE-1",
+    "InnerRetSpacer2": "Inner_Retainer_Spacer_H1_REFERENCE-2",
+    "InnerRetWasher2": "M2_Washer_2p2x5x0p3_REFERENCE-16",
+    "InnerRetScrew2": "M2x6_Retainer_Screw_REFERENCE-2",
+    "InnerRetSpacer3": "Inner_Retainer_Spacer_H1_REFERENCE-3",
+    "InnerRetWasher3": "M2_Washer_2p2x5x0p3_REFERENCE-17",
+    "InnerRetScrew3": "M2x6_Retainer_Screw_REFERENCE-3",
+    "OuterRetWasher1": "M2_Washer_2p2x5x0p3_REFERENCE-18",
+    "OuterRetScrew1": "Custom_M2x4_Retainer_LowHead_REFERENCE-1",
+    "OuterRetWasher2": "M2_Washer_2p2x5x0p3_REFERENCE-19",
+    "OuterRetScrew2": "Custom_M2x4_Retainer_LowHead_REFERENCE-2",
+    "OuterRetWasher3": "M2_Washer_2p2x5x0p3_REFERENCE-20",
+    "OuterRetScrew3": "Custom_M2x4_Retainer_LowHead_REFERENCE-3",
+    "YTabBlindScrew1": "M2p5x4_CSK_REFERENCE-1",
+    "YTabBlindScrew2": "M2p5x4_CSK_REFERENCE-2",
+    "RotatingServoOutputX": "Savox_Output_Spline_NATIVE_REFERENCE-1",
+    "RotatingServoOutputY": "Savox_Output_Spline_NATIVE_REFERENCE-2",
+    "RevisedFrame": "Frame_Mounting_RevA-1",
+    "FramePost1": "Stage_Support_L33-1",
+    "FrameBolt1": "M3x55_Frame_Screw_REFERENCE-1",
+    "FrameWasher1": "M3_Washer_REFERENCE-1",
+    "FrameNut1": "M3_Nut_REFERENCE-1",
+    "FramePost2": "Stage_Support_L27-1",
+    "FrameBolt2": "M3x55_Frame_Screw_REFERENCE-2",
+    "FrameWasher2": "M3_Washer_REFERENCE-2",
+    "FrameNut2": "M3_Nut_REFERENCE-2",
+    "FramePost3": "Stage_Support_L33-2",
+    "FrameBolt3": "M3x55_Frame_Screw_REFERENCE-3",
+    "FrameWasher3": "M3_Washer_REFERENCE-3",
+    "FrameNut3": "M3_Nut_REFERENCE-3",
+    "FramePost4": "Stage_Support_L27-2",
+    "FrameBolt4": "M3x55_Frame_Screw_REFERENCE-4",
+    "FrameWasher4": "M3_Washer_REFERENCE-4",
+    "FrameNut4": "M3_Nut_REFERENCE-4",
+    "MainBearing1": "686ZZ_6x13x5_ENVELOPE-1",
+    "MainBearing2": "686ZZ_6x13x5_ENVELOPE-2",
+    "LowerMainOuterSpacer": "Lower_MainBearing_OuterSpacer_L3p5-1",
+    "LowerMainCap": "Lower_MainBearing_Retainer-1",
+    "UpperMainCap": "Upper_MainBearing_Retainer-1",
+    "MainCap1Washer0": "M2_Washer_2p2x5x0p3_REFERENCE-21",
+    "MainCap1Screw0": "M2x4_MainCap_Screw_REFERENCE-1",
+    "MainCap1Washer1": "M2_Washer_2p2x5x0p3_REFERENCE-22",
+    "MainCap1Screw1": "M2x4_MainCap_Screw_REFERENCE-2",
+    "MainCap1Washer2": "M2_Washer_2p2x5x0p3_REFERENCE-23",
+    "MainCap1Screw2": "M2x4_MainCap_Screw_REFERENCE-3",
+    "MainCap2Washer0": "M2_Washer_2p2x5x0p3_REFERENCE-24",
+    "MainCap2Screw0": "M2x4_MainCap_Screw_REFERENCE-4",
+    "MainCap2Washer1": "M2_Washer_2p2x5x0p3_REFERENCE-25",
+    "MainCap2Screw1": "M2x4_MainCap_Screw_REFERENCE-5",
+    "MainCap2Washer2": "M2_Washer_2p2x5x0p3_REFERENCE-26",
+    "MainCap2Screw2": "M2x4_MainCap_Screw_REFERENCE-6",
+    "ShaftClip1": "DSH6_INSTALLED_CLEARANCE_REFERENCE-1",
+    "ShaftClip2": "DSH6_INSTALLED_CLEARANCE_REFERENCE-2",
+    "ShaftClip3": "DSH6_INSTALLED_CLEARANCE_REFERENCE-3",
+    "ShaftClip4": "DSH6_INSTALLED_CLEARANCE_REFERENCE-4",
+    "MechHub": "Shaft_Drive_Hub_RevA-1",
+    "MechEndplate": "Endplate_Hub_Interface_RevA-1",
+    "MechHubPin": "DIN1481_D2x14_INSTALLED_REFERENCE-1",
+    "MechHub0TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-13",
+    "MechHub0Bolt": "M2p5x8_Hub_Screw_REFERENCE-1",
+    "MechHub0BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-14",
+    "MechHub0Nut": "M2p5_Nut_AF5_H2_REFERENCE-13",
+    "MechHub1TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-15",
+    "MechHub1Bolt": "M2p5x8_Hub_Screw_REFERENCE-2",
+    "MechHub1BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-16",
+    "MechHub1Nut": "M2p5_Nut_AF5_H2_REFERENCE-14",
+    "MechHub2TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-17",
+    "MechHub2Bolt": "M2p5x8_Hub_Screw_REFERENCE-3",
+    "MechHub2BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-18",
+    "MechHub2Nut": "M2p5_Nut_AF5_H2_REFERENCE-15",
+    "MechHub3TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-19",
+    "MechHub3Bolt": "M2p5x8_Hub_Screw_REFERENCE-4",
+    "MechHub3BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-20",
+    "MechHub3Nut": "M2p5_Nut_AF5_H2_REFERENCE-16",
+    "DriveHub": "Shaft_Drive_Hub_RevA-2",
+    "DriveEndplate": "Endplate_Hub_Interface_RevA-2",
+    "DriveHubPin": "DIN1481_D2x14_INSTALLED_REFERENCE-2",
+    "DriveHub0TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-21",
+    "DriveHub0Bolt": "M2p5x8_Hub_Screw_REFERENCE-5",
+    "DriveHub0BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-22",
+    "DriveHub0Nut": "M2p5_Nut_AF5_H2_REFERENCE-17",
+    "DriveHub1TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-23",
+    "DriveHub1Bolt": "M2p5x8_Hub_Screw_REFERENCE-6",
+    "DriveHub1BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-24",
+    "DriveHub1Nut": "M2p5_Nut_AF5_H2_REFERENCE-18",
+    "DriveHub2TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-25",
+    "DriveHub2Bolt": "M2p5x8_Hub_Screw_REFERENCE-7",
+    "DriveHub2BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-26",
+    "DriveHub2Nut": "M2p5_Nut_AF5_H2_REFERENCE-19",
+    "DriveHub3TopWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-27",
+    "DriveHub3Bolt": "M2p5x8_Hub_Screw_REFERENCE-8",
+    "DriveHub3BottomWasher": "M2p5_Washer_2p7x6x0p5_REFERENCE-28",
+    "DriveHub3Nut": "M2p5_Nut_AF5_H2_REFERENCE-20",
+    "Pivot1LowerThrust": "Pivot_Thrust_Spacer_H0p5-1",
+    "Pivot1MiddleThrust": "Pivot_Thrust_Spacer_H0p5-2",
+    "Pivot2LowerThrust": "Pivot_Thrust_Spacer_H0p5-3",
+    "Pivot2MiddleThrust": "Pivot_Thrust_Spacer_H0p5-4",
+    "Pivot3LowerThrust": "Pivot_Thrust_Spacer_H0p5-5",
+    "Pivot3MiddleThrust": "Pivot_Thrust_Spacer_H0p5-6",
+    "Pivot4LowerThrust": "Pivot_Thrust_Spacer_H0p5-7",
+    "Pivot4MiddleThrust": "Pivot_Thrust_Spacer_H0p5-8",
+    "RevisedFramePost1": "Stage_Support_L35-1",
+    "RevisedFramePost2": "Stage_Support_L29-1",
+    "RevisedFramePost3": "Stage_Support_L35-2",
+    "RevisedFramePost4": "Stage_Support_L29-2"
+  },
+  "completed_batches": [
+    "Y tab nominal attachments",
+    "Four positive-shoulder pivot retainers",
+    "Custom spline-drive horn geometry and retaining screws",
+    "Guide rail and block nominal attachments",
+    "Inner and outer bearing retainer attachments with tapped-hole definitions",
+    "Y tab revised to blind tapped fastening below ring sweep",
+    "Revised frame, stage supports, main bearings, caps and shaft axial retention",
+    "Separate hubs, endplate attachment bolts and positive shaft crosspins",
+    "Retainer angular indexing and pivot thrust spacers"
+  ],
+  "pre_change_backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_connections_1_to_4_4p46a20_",
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "a5192e9094474b3a539fa0fae3b4ec7bd26508cb9f9458ddaaccc0e630663c41",
+    "CAD\\MGN5C.SLDPRT": "98f95bf08a49f9b4041ead5e519746d32cdf6ae60c4f244b8326ba28378b28e8",
+    "CAD\\Servo_Actuation_Prototype\\Servo_X_Mount_PROTOTYPE.SLDPRT": "756aaf2a191adc99eaaadb459bfffb2462557a9cc805907dac30826142ad502a",
+    "CAD\\Servo_Actuation_Prototype\\X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": "7e0d1cb02c30ef5e1e8a803f7d24694ed63a5dddcf5070ac9fcb577c1c4ea710",
+    "CAD\\4-Inner_Carriage_Plate.SLDPRT": "65717236b42df3ce3882aef81838e2bf1e6eab9b99b8c934fa97ced96eb6d759",
+    "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx13188\\IC~~\\6806 Ball.stp.SLDPRT": "583de612218b50bb653b6eda548ed373e6ffd3fc058cc711ce3e3e57cfa77190",
+    "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx13188\\IC~~\\6806 Inner ring.stp.SLDPRT": "41bb53dc6a9f533f29732a2804cee0d71edfff5acb7f0f03a5c398c6382e909f",
+    "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx13188\\IC~~\\6806 Outer ring.stp.SLDPRT": "828ba7cf611f775744f91fea916ac77008079504ab517e345d022429623098d0",
+    "CAD\\4-Outer_Control_Ring.SLDPRT": "378310ae604a93a11c961ff524717562cc18a0fe439def141b94d8a7b755d80c",
+    "CAD\\Inner_Race_Retainer.SLDPRT": "c47e1614f26df1b3e30cf7d1949b988912792ee158210ed729ccab6e2497effb",
+    "CAD\\Outer_Race_Retainer.SLDPRT": "2fc019573c3744ddd170ccdfeb3794a771653045f887d906044ac454756dd479",
+    "CAD\\3-Drive_Shaft.SLDPRT": "92e5d4268d6b0f4642dd2f984c43fffc6ad73e7851d0fdb3910e2888da982ba1",
+    "CAD\\MGNR05R.SLDPRT": "74b53af5f11fe94e5cda68a630e364bba4a284a4d5ca4c12c5de59f32248b758",
+    "CAD\\XY_Fixed_Base.SLDPRT": "c8d1883de65955884a6d7d8794a1939a9311ee4c2da57ece9e59672b77d21d09",
+    "CAD\\Intermediate_X_Slider.SLDPRT": "24e85e2971ea5729c3e84cbb251e993c2b0061c8c72544150b553900215ae759",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Y_Mount_PROTOTYPE.SLDPRT": "8f91dd3e5c0d97552747374caad2cb70da9718e729b790d4f27325ca08d3ae70",
+    "CAD\\Servo_Actuation_Prototype\\Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT": "f2ff77dd522fd68ace60d89af516145b31d21031b8656a14b9290bdb633ab556",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Horn_R12_LAYOUT.SLDPRT": "aac2db0cc0828268a7fee16fb32cfcf4ed103b0861379f1aec263cbd9bd07f16",
+    "CAD\\Servo_Actuation_Prototype\\Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": "ca9bfa4f86bdc302a9672cc4fc60d43b85aee098774e4fffe75e277d5d8c74c4",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Link_L40_PROTOTYPE.SLDPRT": "c04626bb3f18756d367d9223877edeb157b4d8e9b262997d209744170046fc1d",
+    "CAD\\Servo_Actuation_Prototype\\Pivot_Pin_D2_REFERENCE.SLDPRT": "bcaee066f3ffb325407b581547a1d904f309b9b8db0a09d38e487a41ca4bcb5c",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": "c240667247dc2a197afa4864127ea8beaad79eceaef95c0cadbcdb9071b519fe",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": "179356902bbdf1e664a39eb7e41bfc945435b535483f6818330469bd80717fd0",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": "5d01103757fb5f0264b80b7e0b16f8ee9acad8f22144ca52ae20c0888853f55d",
+    "CAD\\Travel_Stop_Prototype\\M2p5x8_CSK_REFERENCE.SLDPRT": "acebde96aab891bf6e63dcac99ca519b19b1a1aea5af210425308509abb2a595",
+    "CAD\\Travel_Stop_Prototype\\M2p5x10_CSK_REFERENCE.SLDPRT": "b2aa3c11627e6b554d257193172c0f3c1f16e5acec014415d05478251b40b43b",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": "263bacc20633a07893074844e3be506b6d1dd8207d01cb471c54af5d58e098f7",
+    "CAD\\Travel_Stop_Prototype\\M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": "8aa339789a1f461cf1564a4d3e720ecd94368d80c9358bdb8793a117723abd2d",
+    "CAD\\Travel_Stop_Prototype\\M4_Locknut_AF7_H5_REFERENCE.SLDPRT": "06651004d3ec6ac70402b89a544f0bb582ea99fd234fa682a67e2e7f88252656",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": "a156c278ff4ee5346b7c9af9c094593a0c20d111f4db7e541a7b4d227319adc2",
+    "CAD\\Servo_Mounting_Prototype\\M2_Nut_AF4_H1p6_REFERENCE.SLDPRT": "fd26e3e1284f4a6f4091025b248273e56ac46ab7e2f4e21590e2fe5b89702612",
+    "CAD\\Servo_Mounting_Prototype\\M2x12_Socket_Cap_REFERENCE.SLDPRT": "91c9f833e66ed7604203c09f3c47440cb3efa557eaa1d65146870655459261df",
+    "CAD\\Servo_Mounting_Prototype\\M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT": "1022f7f421f20a0cab209c7233e13f1eb21c5aef1fb4e945f895ea23c0d11a15",
+    "CAD\\Connections_Completion\\M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT": "154cca4485b58e4aa89a24d3c0cde75c9bdcc97e0d7015f1b3a893d765e83e66",
+    "CAD\\Connections_Completion\\M1p6_Washer_REFERENCE.SLDPRT": "598cb4695ba145dd3632b66a83c916d927d1c874c94bad740affcacf595d4da1",
+    "CAD\\Connections_Completion\\M1p6_Nut_REFERENCE.SLDPRT": "6cc0aec2f6ab1cec87a3f776ab4585c991ff75fda687bf870108f0a12b3bd541",
+    "CAD\\Connections_Completion\\Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT": "b9a2f2e3f7526852a765b8ec22cf6aea77747ea7b3d4dc31376c1a02915ac908",
+    "CAD\\Connections_Completion\\Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT": "3eb48ce78f2e26a03b109d48db41c7bcf0af5ea7571d58baaebefe71c71f1590",
+    "CAD\\Connections_Completion\\Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT": "275152ac3611c081c0328606c16f5c175c78e05f3c13c6eefebc9b9cbe3ddeb4",
+    "CAD\\Connections_Completion\\M2x2_Socket_Cap_REFERENCE.SLDPRT": "8601296faf0c9286bb82dfa7667ca3af7df1da98fcec284c568161c5a619ba37",
+    "CAD\\Connections_Completion\\M2x6_Retainer_Screw_REFERENCE.SLDPRT": "ca3f0a61a2990663413c73b699653cd2e13260f07e7bfaf336c0fc68c706258e",
+    "CAD\\Connections_Completion\\Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT": "b7336576e6e5cc6d07961c5165662260c8303b34f9d1ff17e95db763b0ff7e9d",
+    "CAD\\Connections_Completion\\M2p5x4_CSK_REFERENCE.SLDPRT": "a4ca6b066b940b3d33e69a287bec1da64afaf3072f54d517455172803151ead7",
+    "CAD\\Connections_Completion\\Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT": "44559523220f6f72c3f8536dada1b1f39b70225980b1f9822979bb428d018402",
+    "CAD\\Connections_Completion\\M3_Washer_REFERENCE.SLDPRT": "93f3c291047da1ff31827d896b660d5da922f0ecf79efecb99597ec7f8efd7e3",
+    "CAD\\Connections_Completion\\M3_Nut_REFERENCE.SLDPRT": "3e9e5507a442b1a7844acae462927655c42fc58398dde4138de4dee80edb7da2",
+    "CAD\\Connections_Completion\\M3x55_Frame_Screw_REFERENCE.SLDPRT": "d3a90f765c0cc460b7ca0fb4be38c92d79e4ceb81e3935306c523e5b942ec90f",
+    "CAD\\Connections_Completion\\Frame_Mounting_RevA.SLDPRT": "fcb8988fb79ac49280bacfb1dbd60ec5b71924b70984971944d0f64c9f59a588",
+    "CAD\\Connections_Completion\\686ZZ_6x13x5_ENVELOPE.SLDPRT": "4f9d4cbed00268684314146684367cd38336e828c2c19b5c9bc396af72d232ae",
+    "CAD\\Connections_Completion\\Lower_MainBearing_OuterSpacer_L3p5.SLDPRT": "90da842965f9254f6282626f42515ccba89dd88394fcfeb0cdff07ec58c3e470",
+    "CAD\\Connections_Completion\\Lower_MainBearing_Retainer.SLDPRT": "5ad59cbe8bbdc9fd9437287e29ac91a981fc27c61d23d0d0d73aa32734f90209",
+    "CAD\\Connections_Completion\\Upper_MainBearing_Retainer.SLDPRT": "a0d457489d4d10f8a4bb99a0b83966d90204ba17f59a436218cce6e556553aa3",
+    "CAD\\Connections_Completion\\M2x4_MainCap_Screw_REFERENCE.SLDPRT": "7e731ccb77e4bcdb87ffe1000b4d18424b86e609aafb2bb1fa2764a0edd643b0",
+    "CAD\\Connections_Completion\\DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT": "0b6c7a18e3c2c628d2753958a0d24955003c33ca6ebdeaafdc46d3ea1c177e2f",
+    "CAD\\Connections_Completion\\Shaft_Drive_Hub_RevA.SLDPRT": "d22ef2e5c3db7c7a8c0914e3c0c3d5ec539b3886de765854a05ba0bea46f6df3",
+    "CAD\\Connections_Completion\\M2p5x8_Hub_Screw_REFERENCE.SLDPRT": "114a345c4f0170fdc223d222ff8231ea5e06287220ff6614c098caa84b1d8459",
+    "CAD\\Connections_Completion\\Endplate_Hub_Interface_RevA.SLDPRT": "b920acc7bda57166270cce67f8c670fc52e4c88f12366a4a58e0578e2f5da29a",
+    "CAD\\Connections_Completion\\DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT": "9cec6e096a69ce74b69f4cb12c13641166b063fa125c3f1022f86be1e84c78db",
+    "CAD\\Connections_Completion\\Pivot_Thrust_Spacer_H0p5.SLDPRT": "0f7185c1dd8f6c5fa1b7e7243eaceb2a09d47f1144a8da55e63d6f31913b589d",
+    "CAD\\Connections_Completion\\Stage_Support_L35.SLDPRT": "392e8d21c85fdccdd26d34b6471f6a629c73fa0ff7d3b812105d8f6aeaa6b690",
+    "CAD\\Connections_Completion\\Stage_Support_L29.SLDPRT": "2c96491466eace5af5fcf330ac703fb5f18243d004d0c28006a6f12d3301383c",
+    "CAD\\Connections_Completion\\Manufacturer_References\\OFFICIAL_MODEL_FACES.json": "9e26a801112af884d1170db22eb5952623ceef677222390a44bf20cabb623fe8",
+    "CAD\\Connections_Completion\\Manufacturer_References\\sh-0257mgp.STEP": "14d6a50fd4884184e9a4f21c5b1429f94d944b455b27e3b10b7fe1d8da83a515",
+    "CAD\\Connections_Completion\\Manufacturer_References\\SH-0257MGP_3D.zip": "acf59b6052c7c4bdb56b7afeb9c755a02d1d9c5bf51a33613178e7332990d58a",
+    "CAD\\Connections_Completion\\Manufacturer_References\\SOURCE.json": "939fbf05b4291869e81f16588e0cd74764b30dcd9a0857f853e6d237d0c241e8",
+    "CAD\\Connections_Completion\\Savox_Official_21T_Output_REFERENCE.SLDPRT": "8cf753213fbb7d118283040cffab505d2ad960450d525daf9b6d5ee633a66044",
+    "CAD\\Connections_Completion\\CONNECTIONS_NOTES.md": "5267166903fb56d97c7e620e40274bedc3d4dd7e7f5a9e48685a22d87712320e",
+    "CAD\\Servo_Actuation_Prototype\\REVIEW_NOTES.md": "2ef557811c173d350b3f0eab7b2779454c87fe14e9ca5bd5dc6a0fe96fd4abd2",
+    "CAD\\Servo_Mounting_Prototype\\MOUNTING_NOTES.md": "4a66f033f50d19345a674505ee9cc03c8b4c924a9458d188747e3bad7ed15390",
+    "CAD\\Travel_Stop_Prototype\\MOUNTING_NOTES.md": "9df5e66a284200d02a29cf455133df1548f2075ae84eae197da5d5d3435551de",
+    "CAD\\Drive_Tab_Mounting_Prototype\\X_TAB_MOUNTING_NOTES.md": "82010976e63ed09458e243e9979f8f887b51be143e24d6a75f8cd6a1332975c0"
+  },
+  "interface_positions": {
+    "RevisedFrame": {
+      "component": "Frame_Mounting_RevA-1",
+      "origin_relative_to_base_mm": [
+        0.0,
+        0.0,
+        46.0
+      ]
+    },
+    "Rail2Nut2": {
+      "component": "M2_Nut_AF4_H1p6_REFERENCE-9",
+      "origin_relative_to_base_mm": [
+        0.0,
+        -24.00000000000002,
+        -1.899999999999999
+      ]
+    },
+    "RevisedFramePost1": {
+      "component": "Stage_Support_L35-1",
+      "origin_relative_to_base_mm": [
+        -24.00000000000002,
+        -52.00000000000004,
+        3.0000000000000027
+      ]
+    },
+    "RevisedFramePost2": {
+      "component": "Stage_Support_L29-1",
+      "origin_relative_to_base_mm": [
+        -24.00000000000002,
+        52.00000000000004,
+        3.0000000000000027
+      ]
+    },
+    "FrameWasher1": {
+      "component": "M3_Washer_REFERENCE-1",
+      "origin_relative_to_base_mm": [
+        -24.00000000000002,
+        -52.00000000000004,
+        49.0
+      ]
+    },
+    "FrameNut1": {
+      "component": "M3_Nut_REFERENCE-1",
+      "origin_relative_to_base_mm": [
+        -24.00000000000002,
+        -52.00000000000004,
+        49.5
+      ]
+    },
+    "MainBearing1": {
+      "component": "686ZZ_6x13x5_ENVELOPE-1",
+      "origin_relative_to_base_mm": [
+        0.0,
+        0.0,
+        41.5
+      ]
+    },
+    "MainBearing2": {
+      "component": "686ZZ_6x13x5_ENVELOPE-2",
+      "origin_relative_to_base_mm": [
+        0.0,
+        0.0,
+        294.7
+      ]
+    },
+    "MechEndplate": {
+      "component": "Endplate_Hub_Interface_RevA-1",
+      "origin_relative_to_base_mm": [
+        0.0,
+        0.0,
+        66.07499999999999
+      ]
+    },
+    "DriveEndplate": {
+      "component": "Endplate_Hub_Interface_RevA-2",
+      "origin_relative_to_base_mm": [
+        0.0,
+        0.0,
+        286.07500000000005
+      ]
+    },
+    "shaft": {
+      "origin_relative_to_base_mm": [
+        0.0,
+        0.0,
+        33.575
+      ],
+      "local_body_box_m": [
+        -0.0030000000000000087,
+        -0.0030000000000000087,
+        0.0,
+        0.0030000000000000087,
+        0.0030000000000000087,
+        0.275
+      ]
+    }
+  },
+  "mate_errors": {
+    "Assem20": [],
+    "Assem3": []
+  },
+  "saved_xy_offset_mm": [
+    -4.676226888467694,
+    -2.5944454287885055
+  ],
+  "supplier_spline_evidence": {
+    "official_step": "Manufacturer_References/sh-0257mgp.STEP",
+    "step_header_date": "2025-05-07",
+    "crown_faces": 21,
+    "spacing_deg": 17.142857142857142,
+    "step_crown_diameter_mm": 5.0,
+    "product_nominal_diameter_mm": 4.8,
+    "status": "Conflicting; toleranced drawing or physical fit evidence required"
+  },
+  "release_status": "PROVISIONAL - NOT FABRICATION RELEASED",
+  "remaining_work": [
+    "Resolve supplier nominal4.8 versusSTEP5.0 spline diameter and release toleranced production fit",
+    "Approve custom low-head fastener supply, grades, drive forms and short engagements",
+    "Release materials, tolerances, bearing fits/contact lands, preload/locking and structural loads",
+    "Integrate blades, pitch arms, pushrods and motor drive, then check full motion",
+    "Reconcile native CAD mass and issue manufacturing drawings"
+  ]
+}

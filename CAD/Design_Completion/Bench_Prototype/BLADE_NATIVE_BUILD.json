@@ -1,0 +1,18 @@
+{
+  "assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Manufactured_Blade_Candidate.SLDASM",
+  "parts": [
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_skin.SLDPRT",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_UD_upper.SLDPRT",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_UD_lower.SLDPRT",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_spar.SLDPRT",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_core.SLDPRT",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_Lower_Metal_Trunnion.SLDPRT",
+    "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\BP_Blade_Upper_Metal_Trunnion.SLDPRT"
+  ],
+  "native_mass_kg": 0.015142375998933255,
+  "analytical_mass_without_adhesive_allowance_kg": 0.015201565084260356,
+  "mass_scope": "Geometry/material estimate. Adhesive/seam allowance0.5g separate; not measured hardware.",
+  "representation": "Constituents fixed at common blade datums to represent bonded manufacture; bond strength not demonstrated.",
+  "status": "NATIVE MANUFACTURING CANDIDATE; NOT INSTALLED IN ROTOR / NOT FABRICATION RELEASED",
+  "sha256": "59808bde9005ad2eabd608fa0ecce4e6601f898a95c328c90413ef194e0ab010"
+}

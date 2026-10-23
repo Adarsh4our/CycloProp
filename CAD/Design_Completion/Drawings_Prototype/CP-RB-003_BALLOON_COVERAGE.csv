@@ -1,0 +1,88 @@
+﻿item_number,part,BOM_quantity,ballooned_sheets,attached_component_names,status
+1,RB_MGN5C.SLDPRT,2,Assembly_Side,RB_MGN5C-1,Verified native item/attachment
+2,RB_MGNR05R.SLDPRT,2,Assembly_Side,RB_MGNR05R-1,Verified native item/attachment
+3,RB_Intermediate_X_Slider.SLDPRT,1,Assembly_Isometric,RB_Intermediate_X_Slider-1,Verified native item/attachment
+4,RB_4-Inner_Carriage_Plate.SLDPRT,1,Assembly_Side,RB_Assem3-1/RB_4-Inner_Carriage_Plate-1,Verified native item/attachment
+5,6806 Outer ring^NSK_6806_RB_6806.SLDPRT,1,,,Not labelled in selected views; detail/section scope remains
+6,6806 Inner ring^NSK_6806_RB_6806.SLDPRT,1,,,Not labelled in selected views; detail/section scope remains
+7,6806 Ball^NSK_6806_RB_6806.SLDPRT,18,,,Not labelled in selected views; detail/section scope remains
+8,RB_4-Outer_Control_Ring.SLDPRT,1,Assembly_Side,RB_Assem3-1/RB_4-Outer_Control_Ring-1,Verified native item/attachment
+9,RB_Inner_Race_Retainer.SLDPRT,1,,,Not labelled in selected views; detail/section scope remains
+10,RB_Outer_Race_Retainer.SLDPRT,1,Assembly_Side,RB_Assem3-1/RB_Outer_Race_Retainer-1,Verified native item/attachment
+11,RB_XY_Fixed_Base.SLDPRT,1,Assembly_Isometric,RB_XY_Fixed_Base-1,Verified native item/attachment
+12,RB_3-Drive_Shaft.SLDPRT,1,Assembly_Isometric,RB_3-Drive_Shaft-1,Verified native item/attachment
+13,RB_Servo_X_Mount_PROTOTYPE.SLDPRT,1,Assembly_Side,RB_Servo_X_Mount_PROTOTYPE-1,Verified native item/attachment
+14,RB_Servo_Y_Mount_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_Servo_Y_Mount_PROTOTYPE-1,Verified native item/attachment
+15,RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_X_Slider_Drive_Tab_PROTOTYPE-1,Verified native item/attachment
+16,RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT,1,Assembly_Side,RB_Y_Carriage_Drive_Tab_PROTOTYPE-1,Verified native item/attachment
+17,RB_Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT,2,Assembly_Isometric,RB_Savox_SH0257MG_INTERFACE_REFERENCE-2,Verified native item/attachment
+18,RB_Servo_Horn_R12_LAYOUT.SLDPRT,2,,,Not labelled in selected views; detail/section scope remains
+19,RB_Servo_Link_L40_PROTOTYPE.SLDPRT,2,Assembly_Isometric,RB_Servo_Link_L40_PROTOTYPE-1,Verified native item/attachment
+20,RB_Pivot_Pin_D2_REFERENCE.SLDPRT,4,Assembly_Side,RB_Pivot_Pin_D2_REFERENCE-1,Verified native item/attachment
+21,RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_XY_Stop_Fixed_Bracket_PROTOTYPE-1,Verified native item/attachment
+22,RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_XY_Stop_Moving_Arm_PROTOTYPE-1,Verified native item/attachment
+23,RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_XY_Stop_Follower_D6_M4_PROTOTYPE-1,Verified native item/attachment
+24,RB_M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT,1,Assembly_Isometric,RB_M4_Washer_4p3x9x0p8_REFERENCE-1,Verified native item/attachment
+25,RB_M4_Locknut_AF7_H5_REFERENCE.SLDPRT,1,Assembly_Isometric,RB_M4_Locknut_AF7_H5_REFERENCE-1,Verified native item/attachment
+26,RB_M2p5x10_CSK_REFERENCE.SLDPRT,2,,,Not labelled in selected views; detail/section scope remains
+27,RB_M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT,26,Assembly_Isometric,RB_M2p5_Washer_2p7x6x0p5_REFERENCE-21,Verified native item/attachment
+28,RB_M2p5_Nut_AF5_H2_REFERENCE.SLDPRT,18,Assembly_Isometric,RB_M2p5_Nut_AF5_H2_REFERENCE-13,Verified native item/attachment
+29,RB_M2p5x8_CSK_REFERENCE.SLDPRT,8,,,Not labelled in selected views; detail/section scope remains
+30,RB_M2x12_Socket_Cap_REFERENCE.SLDPRT,8,Assembly_Isometric,RB_M2x12_Socket_Cap_REFERENCE-7,Verified native item/attachment
+31,RB_M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT,26,Assembly_Side,RB_M2_Washer_2p2x5x0p3_REFERENCE-4,Verified native item/attachment
+32,RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT,14,Assembly_Isometric,RB_M2_Nut_AF4_H1p6_REFERENCE-14,Verified native item/attachment
+33,RB_M1p6_Washer_REFERENCE.SLDPRT,4,Assembly_Isometric,RB_M1p6_Washer_REFERENCE-1,Verified native item/attachment
+34,RB_M1p6_Nut_REFERENCE.SLDPRT,4,Assembly_Isometric,RB_M1p6_Nut_REFERENCE-1,Verified native item/attachment
+35,RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT,2,Assembly_Side,RB_M2x3_Horn_Retaining_Screw_REFERENCE-2,Verified native item/attachment
+36,RB_Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT,6,,,Not labelled in selected views; detail/section scope remains
+37,RB_M2x2_Socket_Cap_REFERENCE.SLDPRT,2,,,Not labelled in selected views; detail/section scope remains
+38,RB_Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT,2,,,Not labelled in selected views; detail/section scope remains
+39,RB_Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT,3,,,Not labelled in selected views; detail/section scope remains
+40,RB_M2x6_Retainer_Screw_REFERENCE.SLDPRT,3,Assembly_Side,RB_M2x6_Retainer_Screw_REFERENCE-1,Verified native item/attachment
+41,RB_Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT,3,,,Not labelled in selected views; detail/section scope remains
+42,RB_M2p5x4_CSK_REFERENCE.SLDPRT,2,,,Not labelled in selected views; detail/section scope remains
+43,RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT,2,Assembly_Side,RB_Savox_Output_Spline_NATIVE_REFERENCE-2,Verified native item/attachment
+44,RB_M3_Washer_REFERENCE.SLDPRT,16,Assembly_Isometric,RB_M3_Washer_REFERENCE-8,Verified native item/attachment
+45,RB_M3_Nut_REFERENCE.SLDPRT,12,Assembly_Isometric,RB_M3_Nut_REFERENCE-6,Verified native item/attachment
+46,RB_686ZZ_6x13x5_ENVELOPE.SLDPRT,2,,,Not labelled in selected views; detail/section scope remains
+47,RB_Upper_MainBearing_Retainer.SLDPRT,1,Assembly_Isometric,RB_Upper_MainBearing_Retainer-1,Verified native item/attachment
+48,RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT,4,,,Not labelled in selected views; detail/section scope remains
+49,RB_Shaft_Drive_Hub_RevA.SLDPRT,2,Assembly_Isometric,RB_Shaft_Drive_Hub_RevA-1,Verified native item/attachment
+50,RB_Endplate_Hub_Interface_RevA.SLDPRT,2,Assembly_Isometric,RB_Endplate_Hub_Interface_RevA-2,Verified native item/attachment
+51,RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT,3,Assembly_Isometric,RB_DIN1481_D2x14_INSTALLED_REFERENCE-1,Verified native item/attachment
+52,RB_Pivot_Thrust_Spacer_H0p5.SLDPRT,8,Assembly_Side,RB_Pivot_Thrust_Spacer_H0p5-1,Verified native item/attachment
+53,RB_Part1.SLDPRT,4,Assembly_Isometric,RB_Part1-2,Verified native item/attachment
+54,RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT,4,Assembly_Isometric,RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-3,Verified native item/attachment
+55,RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT,8,,,Not labelled in selected views; detail/section scope remains
+56,RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT,8,Assembly_Isometric,RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-8,Verified native item/attachment
+57,RB_Ball_Mount_Spacer_H0p5.SLDPRT,12,,,Not labelled in selected views; detail/section scope remains
+58,RB_M2_Small_Washer_REFERENCE.SLDPRT,12,Assembly_Isometric,RB_M2_Small_Washer_REFERENCE-10,Verified native item/attachment
+59,RB_Ball_Mount_Spacer_H2p5.SLDPRT,4,Assembly_Side,RB_Ball_Mount_Spacer_H2p5-5,Verified native item/attachment
+60,RB_M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT,4,Assembly_Isometric,RB_M2x10_Ball_Compact_Screw_REFERENCE-6,Verified native item/attachment
+61,RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT,4,Assembly_Isometric,RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-4,Verified native item/attachment
+62,RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_Cage_Lower_Frame_PROTOTYPE-1,Verified native item/attachment
+63,RB_Cage_Upper_Support_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_Cage_Upper_Support_PROTOTYPE-1,Verified native item/attachment
+64,RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT,1,Assembly_Side,RB_Lower_Bearing_Pedestal_R2_PROTOTYPE-1,Verified native item/attachment
+65,RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT,1,,,Not labelled in selected views; detail/section scope remains
+66,RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT,4,Assembly_Isometric,RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE-3,Verified native item/attachment
+67,RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT,4,Assembly_Isometric,RB_Cage_TieRod_M3_L327_REFERENCE-2,Verified native item/attachment
+68,RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT,4,Assembly_Isometric,RB_Base_Spacer_OD6_ID3p4_L4-4,Verified native item/attachment
+69,RB_M3x16_Base_Screw_REFERENCE.SLDPRT,4,Assembly_Isometric,RB_M3x16_Base_Screw_REFERENCE-4,Verified native item/attachment
+70,RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT,3,Assembly_Side,RB_M2x8_Pedestal_Screw_REFERENCE-3,Verified native item/attachment
+71,RB_M2x5_Bearing_Cap_Screw_REFERENCE.SLDPRT,3,,,Not labelled in selected views; detail/section scope remains
+72,RB_Oldham_Output_PROTOTYPE.SLDPRT,1,Assembly_Side,RB_Oldham_Output_PROTOTYPE-1,Verified native item/attachment
+73,RB_Oldham_Input_PROTOTYPE.SLDPRT,1,Assembly_Side,RB_Oldham_Input_PROTOTYPE-1,Verified native item/attachment
+74,RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT,1,Assembly_Isometric,RB_Oldham_Floating_Disk_PROTOTYPE-1,Verified native item/attachment
+75,RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT,4,Assembly_Side,RB_Oldham_Output_Pilot_Standoff_L9-2,Verified native item/attachment
+76,RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT,4,Assembly_Isometric,RB_M2x18_Oldham_CSK_Screw_REFERENCE-2,Verified native item/attachment
+77,RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT,2,Assembly_Isometric,RB_Hub_Endplate_Shim_H0p65_PROTOTYPE-1,Verified native item/attachment
+78,RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT,8,Assembly_Isometric,RB_M2p5x10_Hub_Screw_REFERENCE-5,Verified native item/attachment
+79,RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT,8,Assembly_Isometric,RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/RB_Blade_Bearing_Cartridge_PROTOTYPE-1,Verified native item/attachment
+80,RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT,8,Assembly_Isometric,RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1,Verified native item/attachment
+81,RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT,8,Assembly_Isometric,RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1,Verified native item/attachment
+82,RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT,8,Assembly_Isometric,RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1,Verified native item/attachment
+83,RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT,8,Assembly_Isometric,RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1,Verified native item/attachment
+84,RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT,8,Assembly_Side,RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1,Verified native item/attachment
+85,RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT,3,Assembly_Isometric,RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE-1,Verified native item/attachment
+86,RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT,8,Assembly_Isometric,RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-5,Verified native item/attachment
+87,RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT,4,Assembly_Side,RB_ISO8750_D1x8_INSTALLED_REFERENCE-2,Verified native item/attachment

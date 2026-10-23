@@ -1,0 +1,18 @@
+{
+  "status": "SELECTED PROVISIONAL KINEMATIC REDESIGN - NOT FULL-MOTION CAD VALIDATED",
+  "rotor_radius_mm": 95.0,
+  "ring_connection_radius_mm": 40.0,
+  "horn_radius_mm": 12.0,
+  "eccentricity_max_mm": 6.88,
+  "rod_ball_centre_mm": 56.52665325007647,
+  "tube_cut_length_mm": 46.52665325007647,
+  "neutral_ring_hole_phase_deg": -15.825385589180533,
+  "sample_step_deg": 0.1,
+  "sampled_pitch_extrema_deg": [
+    -34.98965311675082,
+    34.991094277508445
+  ],
+  "sampled_closure_residual_max_mm": 2.1316282072803006e-14,
+  "branch_separation_min_deg": 89.20317629686227,
+  "claim": "Nominal +35/-35 extrema approximately; pitch is NOT an exact sinusoid. Fullcycle joint/socket/rod/cage clearance and physicaltiming are not established."
+}

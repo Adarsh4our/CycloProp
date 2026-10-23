@@ -1,0 +1,23 @@
+{
+  "status": "CURRENT PASS SAVED; overall design/manufacturing task remains incomplete",
+  "saved_utc": "2026-10-23T01:45:15.102403+00:00",
+  "working_assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+  "assembly_sha256": "24fbac52556632b0a794587b492d25e20c1d3071da5448a9377b8fa3d0b671e3",
+  "baseline_sha256": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+  "checkpoint_folder": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Checkpoints\\20261023T014513Z",
+  "archive": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Checkpoints\\20261023T014513Z\\SAVED_NATIVE_AND_DRAWINGS.zip",
+  "archive_sha256": "dcb6fefa2e9b12e262d6cb9d0b1cb9035684d18135d308fb779b57def2fc15db",
+  "native_model_files": 98,
+  "active_native_drawing_PDF_pairs": 31,
+  "mate_errors": [],
+  "motion_constraints": "Both construction angle holds suppressed; X/Y and existing radial advanced limits active; saved shaft/blade/carriage transforms preserved. No new full free-motion campaign.",
+  "remaining": [
+    "Adequately rated actuator/ratio and exact supplier servo/horn fit",
+    "Approved loads/life and actual blade mass/inertia",
+    "Composite blade/metal trunnion construction and bond; bearing/pin fits and validation",
+    "Joint/adhesive/locking qualification, remaining short guide threads and custom hardware release",
+    "Full legacy manufacturing definitions/drawings, native assembly BOM/balloons and tolerance release",
+    "Final moving-clearance/backlash verification on final frozen geometry; guarded physical tests"
+  ],
+  "resume_rule": "Read current report and saved integration states. Do not rerun completed mutators or revert to the historical paused323-root assembly."
+}

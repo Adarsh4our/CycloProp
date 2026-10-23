@@ -1,0 +1,242 @@
+{
+  "BD_IDS_C60AP_400W_CASE_ENVELOPE": {
+    "body_count": 1,
+    "volume_mm3": 477203.53947646584,
+    "box_m": [
+      -0.03725,
+      -0.03025,
+      -0.002,
+      0.03725,
+      0.03025,
+      0.10890000000000001
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1288.4495565864574,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "103da45a70d09c71b6d665eec2bc1d1b27f5b8be3e11abaa1308b20364a8e9d7"
+  },
+  "BD_IDS_OUTPUT_SHAFT_D14_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 4618.141200776996,
+    "box_m": [
+      -0.007,
+      -0.007,
+      0.0,
+      0.007,
+      0.007,
+      0.03
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_IDS_OUTPUT_SHAFT_D14_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 36.25240842609942,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "160cff8a77447b17d85dac98be3c7118ec042c7647941ea7339fdd80628db4ee"
+  },
+  "BD_MP3438_6_14_COUPLER_ENVELOPE": {
+    "body_count": 1,
+    "volume_mm3": 31089.20089992459,
+    "box_m": [
+      -0.017,
+      -0.017,
+      0.0,
+      0.017,
+      0.017,
+      0.038400000000000004
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_MP3438_6_14_COUPLER_ENVELOPE.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 83.94084242979639,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "5e22ecf42f94d8336a4e6eabf3404fce5896a81d42a8c00b2a30b87209bfdcc9"
+  },
+  "BD_Motor_Header_Crossbeam": {
+    "body_count": 1,
+    "volume_mm3": 15320.5062388024,
+    "box_m": [
+      -0.11,
+      -0.006,
+      0.0,
+      0.11,
+      0.006,
+      0.006
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Motor_Header_Crossbeam.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 41.36536684476648,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "f07cc148220f6f5be35c8d8ce5eb46cabe4eacafeecce848fd925c833be6908c"
+  },
+  "BD_Motor_Adapter_Plate": {
+    "body_count": 1,
+    "volume_mm3": 62374.09441703446,
+    "box_m": [
+      -0.05,
+      -0.05,
+      0.0,
+      0.05,
+      0.05,
+      0.008
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Motor_Adapter_Plate.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 168.41005492599302,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "05ed3e498b5877a651d23273c930b85f6df7d09c3953dbdb8ad887694bf336e3"
+  },
+  "BD_Motor_Standoff_OD12_ID6p4_L58": {
+    "body_count": 1,
+    "volume_mm3": 4693.790751875438,
+    "box_m": [
+      -0.006,
+      -0.006,
+      0.0,
+      0.006,
+      0.006,
+      0.058
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Motor_Standoff_OD12_ID6p4_L58.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 12.673235030063681,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "79df2540b0857573ed911f3a88c2446b1f3da445a44211e145ca96cd35349440"
+  },
+  "BD_M6x90_ISO4762_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 3015.9289474462007,
+    "box_m": [
+      -0.005,
+      -0.005,
+      -0.006,
+      0.005,
+      0.005,
+      0.09
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_M6x90_ISO4762_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 23.675042237452676,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "63638687de50209f88fbcc5ecd0a8b9e6acfc8f5c65c6c7f993bfec8d22c9e6d"
+  },
+  "BD_M6_Nut_AF10_H5_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 291.6410324806788,
+    "box_m": [
+      -0.005773502691896258,
+      -0.005,
+      0.0,
+      0.005773502691896258,
+      0.005000000000000001,
+      0.005
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_M6_Nut_AF10_H5_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 2.289382104973328,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "94c62fd69ef69197e702a995a5acc852bef3c7b5b3e8d0da6dcdecd190f1197d"
+  },
+  "BD_M6_Washer_6p4x12x1p6_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 129.48388281035693,
+    "box_m": [
+      -0.006,
+      -0.006,
+      0.0,
+      0.006,
+      0.006,
+      0.0016
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_M6_Washer_6p4x12x1p6_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.016448480061302,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "179d3c5a91fad710844e442395e0bc5d3c6a824f22b5af7e4a98f420ce9ddfb5"
+  },
+  "BD_M3x16_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 184.37221885755096,
+    "box_m": [
+      -0.00275,
+      -0.00275,
+      -0.003,
+      0.00275,
+      0.00275,
+      0.016
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_M3x16_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.4473219180317753,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "d25e9fa901eaab8389c63156446fafbf1964682c0135fa3367e2ab24d2f00970"
+  },
+  "BD_Coupling_Contact_Guard": {
+    "body_count": 1,
+    "volume_mm3": 30564.177935656662,
+    "box_m": [
+      -0.045,
+      -0.045,
+      0.0,
+      0.045,
+      0.045,
+      0.052000000000000005
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Coupling_Contact_Guard.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 239.92879679490466,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "c06c57586d6b95b1d3d223124ce45ffcca2b33f0f29c485b40a75b6c41dcaf14"
+  },
+  "BD_Guard_Spacer_OD6_ID3p4_L4": {
+    "body_count": 1,
+    "volume_mm3": 76.78052445373456,
+    "box_m": [
+      -0.003,
+      -0.003,
+      0.0,
+      0.003,
+      0.003,
+      0.004
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Guard_Spacer_OD6_ID3p4_L4.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.2073074160250833,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "604868f18506fc782548fafc797ac06c5317471a3cfb3365208deab3ae3b994a"
+  }
+}

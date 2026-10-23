@@ -1,0 +1,50 @@
+{
+  "scope": "Installed cartridge internals, moved endplates/head washers, shims and replacement screws against all resolved leaf solids at saved pose",
+  "body_count": 417,
+  "boolean_comparisons": 202,
+  "threshold_mm3": 1e-05,
+  "intersections": [],
+  "blade_axial_gaps": [
+    {
+      "blade": 1,
+      "nominal_thrust_film_gaps_mm": [
+        0.20000000000110207,
+        0.19999999999870122
+      ],
+      "total_endfloat_mm": 0.3999999999998033
+    },
+    {
+      "blade": 2,
+      "nominal_thrust_film_gaps_mm": [
+        0.20000000000034227,
+        0.19999999999945062
+      ],
+      "total_endfloat_mm": 0.39999999999979285
+    },
+    {
+      "blade": 3,
+      "nominal_thrust_film_gaps_mm": [
+        0.20000000000178902,
+        0.19999999999803508
+      ],
+      "total_endfloat_mm": 0.3999999999998241
+    },
+    {
+      "blade": 4,
+      "nominal_thrust_film_gaps_mm": [
+        0.2000000000003145,
+        0.19999999999947837
+      ],
+      "total_endfloat_mm": 0.39999999999979285
+    }
+  ],
+  "result": "passed",
+  "excluded": [
+    "unchanged pairs",
+    "same-component imported internals",
+    "motion between poses",
+    "loaded gaps/tolerances",
+    "actual bearing internals/contacts; purchased envelope is solid annulus"
+  ],
+  "assembly_sha256": "e7407e70246e44e92017d84f9f25d941372a271f047c6d65300177d327ed1a64"
+}

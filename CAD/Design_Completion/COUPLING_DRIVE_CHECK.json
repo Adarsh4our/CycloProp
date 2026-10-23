@@ -1,0 +1,752 @@
+{
+  "scope": "Native shaft angle mate drives assembly. Ring angle hold suppressed; no independently prescribed ring position.",
+  "poses": [
+    {
+      "shaft_increment_deg": 0.0,
+      "shaft_angle_deg": 75.9223267454249,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": 1.7527797664993535e-13,
+      "input_slide_error_mm": 2.0054803668482514e-13,
+      "floating_axial_error_mm": -2.2377932840100812e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007592,
+          "axial_error_mm": 9.71445146547012e-14,
+          "socket_errors_mm": [
+            2.2430902193060948e-11,
+            2.2525492813962438e-11
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.526653250076556,
+          "axial_error_mm": 6.418476861114186e-14,
+          "socket_errors_mm": [
+            1.1646196123975587e-11,
+            1.1861696770859562e-11
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007647,
+          "axial_error_mm": 4.163336342344337e-14,
+          "socket_errors_mm": [
+            6.4466852415401455e-12,
+            6.227873753021485e-12
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.526653250076315,
+          "axial_error_mm": 9.8879238130678e-14,
+          "socket_errors_mm": [
+            1.1103585416259206e-13,
+            2.2205138108521492e-13
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -32.68991606652318,
+        7.617673344162498,
+        32.3998167320924,
+        -11.076436972767283
+      ]
+    },
+    {
+      "shaft_increment_deg": 30,
+      "shaft_angle_deg": 105.92232674542488,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": 6.317903301740599e-13,
+      "input_slide_error_mm": 1.1191853041189122e-13,
+      "floating_axial_error_mm": -2.6020852139652106e-15,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.526653250076386,
+          "axial_error_mm": 1.3877787807814457e-14,
+          "socket_errors_mm": [
+            1.2339407930026159e-11,
+            1.226325582435972e-11
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007615,
+          "axial_error_mm": 4.85722573273506e-14,
+          "socket_errors_mm": [
+            3.911398315515659e-12,
+            3.789757836283049e-12
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.526653250076485,
+          "axial_error_mm": 3.2959746043559335e-14,
+          "socket_errors_mm": [
+            3.1402328324212616e-13,
+            0.0
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007587,
+          "axial_error_mm": 3.9898639947466563e-14,
+          "socket_errors_mm": [
+            6.002287387688476e-11,
+            5.990323848279579e-11
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -32.71039645566638,
+        -9.017701972674223,
+        32.50663413644258,
+        5.382591479753608
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 60,
+      "shaft_angle_deg": 135.9223267454249,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 3.3306690738754696e-16,
+      "output_slide_error_mm": 1.1954167252400288e-13,
+      "input_slide_error_mm": -1.5214361072541838e-13,
+      "floating_axial_error_mm": -2.6020852139652106e-15,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007631,
+          "axial_error_mm": 7.632783294297951e-14,
+          "socket_errors_mm": [
+            2.8457445783011025e-11,
+            2.857760398646324e-11
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007655,
+          "axial_error_mm": 1.3704315460216776e-13,
+          "socket_errors_mm": [
+            1.1151653235867746e-11,
+            1.1333629671576211e-11
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007617,
+          "axial_error_mm": 6.938893903907228e-14,
+          "socket_errors_mm": [
+            2.482594761251414e-13,
+            1.734723475976807e-15
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.526653250076045,
+          "axial_error_mm": 6.071532165918825e-14,
+          "socket_errors_mm": [
+            1.2531323969560364e-11,
+            1.2568645621347913e-11
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -24.581395581821354,
+        -23.759488726386333,
+        22.761298912348067,
+        21.667696181948592
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 90,
+      "shaft_angle_deg": 165.9223267454249,
+      "ring_phase_error_deg": -1.323110747488823e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": 3.6182797448384564e-13,
+      "input_slide_error_mm": -5.256787881891214e-13,
+      "floating_axial_error_mm": 8.673617379884035e-16,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007697,
+          "axial_error_mm": 1.0408340855860843e-13,
+          "socket_errors_mm": [
+            2.2031042303725354e-11,
+            2.2509244088362973e-11
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.526653250076365,
+          "axial_error_mm": 1.3357370765021415e-13,
+          "socket_errors_mm": [
+            1.226109829899981e-11,
+            1.24427278284735e-11
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007601,
+          "axial_error_mm": 9.71445146547012e-14,
+          "socket_errors_mm": [
+            1.1102230246251565e-13,
+            4.440892098500626e-13
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007605,
+          "axial_error_mm": 8.847089727481716e-14,
+          "socket_errors_mm": [
+            5.371242873952779e-12,
+            5.5794758772794234e-12
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -11.076436972762295,
+        -32.68991606652654,
+        7.617673344158427,
+        32.39981673209591
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 120,
+      "shaft_angle_deg": -164.0776732545751,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": -1.1414240058826153e-13,
+      "input_slide_error_mm": -3.5762693316343395e-14,
+      "floating_axial_error_mm": 8.673617379884035e-16,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007656,
+          "axial_error_mm": 6.938893903907228e-14,
+          "socket_errors_mm": [
+            0.0,
+            6.75322301446426e-13
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007663,
+          "axial_error_mm": 1.0408340855860843e-13,
+          "socket_errors_mm": [
+            9.746805099921501e-11,
+            9.768551180751494e-11
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007675,
+          "axial_error_mm": 6.765421556309548e-14,
+          "socket_errors_mm": [
+            7.464168406266694e-12,
+            7.391151889416899e-12
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007631,
+          "axial_error_mm": 6.245004513516506e-14,
+          "socket_errors_mm": [
+            4.975271910470668e-12,
+            4.993818164268661e-12
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        5.382591479753837,
+        -32.710396455665105,
+        -9.01770197267183,
+        32.5066341364439
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 150,
+      "shaft_angle_deg": -134.07767325457507,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": 2.958148925343262e-13,
+      "input_slide_error_mm": -1.7468864951290733e-13,
+      "floating_axial_error_mm": -2.2377932840100812e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007585,
+          "axial_error_mm": 1.3010426069826053e-13,
+          "socket_errors_mm": [
+            1.734723475976807e-15,
+            2.220446049250313e-13
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007646,
+          "axial_error_mm": 1.0234868508263162e-13,
+          "socket_errors_mm": [
+            2.220446049250313e-13,
+            0.0
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007667,
+          "axial_error_mm": 3.642919299551295e-14,
+          "socket_errors_mm": [
+            2.028429540258243e-11,
+            2.024171400065214e-11
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007573,
+          "axial_error_mm": 1.214306433183765e-14,
+          "socket_errors_mm": [
+            1.542371118540254e-11,
+            1.527595877598819e-11
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        21.66769618195457,
+        -24.58139558182385,
+        -23.759488726385012,
+        22.761298912351933
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 180,
+      "shaft_angle_deg": -104.07767325457513,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": 3.2884415753070875e-13,
+      "input_slide_error_mm": 1.6786710880111674e-13,
+      "floating_axial_error_mm": -4.458239333260394e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.526653250075704,
+          "axial_error_mm": 1.0755285551056204e-13,
+          "socket_errors_mm": [
+            1.3547641821598219e-11,
+            1.3645548888976143e-11
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007722,
+          "axial_error_mm": 8.847089727481716e-14,
+          "socket_errors_mm": [
+            8.950904182623619e-13,
+            0.0
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.5266532500769,
+          "axial_error_mm": 1.0928757898653885e-13,
+          "socket_errors_mm": [
+            0.0,
+            2.220446049250313e-13
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.526653250076755,
+          "axial_error_mm": 7.979727989493313e-14,
+          "socket_errors_mm": [
+            9.00715621190895e-12,
+            9.153083777023282e-12
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        32.39981673209642,
+        -11.076436972769013,
+        -32.68991606652504,
+        7.617673344166315
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 210,
+      "shaft_angle_deg": -74.07767325457506,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 1.6588293239028218e-16,
+      "output_slide_error_mm": -1.897518077837478e-13,
+      "input_slide_error_mm": 4.2232918885096936e-14,
+      "floating_axial_error_mm": -4.432218481120742e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.526653250075846,
+          "axial_error_mm": 1.0755285551056204e-13,
+          "socket_errors_mm": [
+            2.984993326184737e-10,
+            2.988774202103603e-10
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.526653250076535,
+          "axial_error_mm": 8.153200337090993e-14,
+          "socket_errors_mm": [
+            3.7898828974406685e-12,
+            3.484901875287048e-12
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007689,
+          "axial_error_mm": 1.4224732503009818e-13,
+          "socket_errors_mm": [
+            6.304898949727672e-12,
+            6.32344398627161e-12
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007674,
+          "axial_error_mm": 7.632783294297951e-14,
+          "socket_errors_mm": [
+            6.459362070070637e-12,
+            6.59064986407214e-12
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        32.50663413644324,
+        5.382591479752845,
+        -32.710396455665055,
+        -9.017701972669109
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 240,
+      "shaft_angle_deg": -44.07767325457511,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 1.140880570568072e-16,
+      "output_slide_error_mm": 6.754122048194177e-14,
+      "input_slide_error_mm": 1.2119068993394751e-14,
+      "floating_axial_error_mm": -4.4669129506402783e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.526653250075945,
+          "axial_error_mm": 7.806255641895632e-14,
+          "socket_errors_mm": [
+            6.221232346803524e-12,
+            6.097156214912717e-12
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.5266532500761,
+          "axial_error_mm": 5.204170427930421e-14,
+          "socket_errors_mm": [
+            1.734723475976807e-15,
+            1.734723475976807e-15
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007675,
+          "axial_error_mm": 8.153200337090993e-14,
+          "socket_errors_mm": [
+            3.738506181275497e-12,
+            3.611046405473786e-12
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007624,
+          "axial_error_mm": 5.377642775528102e-14,
+          "socket_errors_mm": [
+            5.420800748648196e-12,
+            5.6041535334226605e-12
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        22.761298912348472,
+        21.66769618194587,
+        -24.581395581820743,
+        -23.75948872637931
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 270,
+      "shaft_angle_deg": -14.077673254575133,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": 1.2344657404532307e-13,
+      "input_slide_error_mm": -1.0408337631507292e-13,
+      "floating_axial_error_mm": -4.423544863740858e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007627,
+          "axial_error_mm": 4.683753385137379e-14,
+          "socket_errors_mm": [
+            2.482594761251414e-13,
+            1.1102230246251565e-13
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007588,
+          "axial_error_mm": 5.551115123125783e-14,
+          "socket_errors_mm": [
+            5.3060949139200135e-12,
+            5.493177670823626e-12
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007664,
+          "axial_error_mm": 6.071532165918825e-14,
+          "socket_errors_mm": [
+            1.1701172643560115e-11,
+            1.1824819906552577e-11
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007626,
+          "axial_error_mm": 2.2551405187698492e-14,
+          "socket_errors_mm": [
+            6.447648629665921e-12,
+            6.320302329984824e-12
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        7.617673344162855,
+        32.39981673209341,
+        -11.076436972767308,
+        -32.68991606652283
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 300,
+      "shaft_angle_deg": 15.922326745424925,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": -1.052872022356906e-13,
+      "input_slide_error_mm": 1.9664358293071625e-13,
+      "floating_axial_error_mm": -4.458239333260394e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007583,
+          "axial_error_mm": 7.45931094670027e-14,
+          "socket_errors_mm": [
+            7.503530904928843e-11,
+            7.527279428906221e-11
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007613,
+          "axial_error_mm": 1.0408340855860843e-13,
+          "socket_errors_mm": [
+            4.848168226644421e-12,
+            5.056003271202027e-12
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007714,
+          "axial_error_mm": 4.85722573273506e-14,
+          "socket_errors_mm": [
+            2.482594761251414e-13,
+            1.734723475976807e-15
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007641,
+          "axial_error_mm": 3.9898639947466563e-14,
+          "socket_errors_mm": [
+            1.1103585416259206e-13,
+            0.0
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -9.017701972672238,
+        32.50663413643881,
+        5.382591479753964,
+        -32.71039645565997
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 330,
+      "shaft_angle_deg": 45.922326745424904,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": 2.124135380589276e-14,
+      "input_slide_error_mm": -2.4489433832352782e-14,
+      "floating_axial_error_mm": -4.432218481120742e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007602,
+          "axial_error_mm": 7.28583859910259e-14,
+          "socket_errors_mm": [
+            5.370546992196591e-12,
+            5.084048355496047e-12
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007626,
+          "axial_error_mm": 7.28583859910259e-14,
+          "socket_errors_mm": [
+            0.0,
+            1.1102230246251565e-13
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007676,
+          "axial_error_mm": 8.673617379884035e-14,
+          "socket_errors_mm": [
+            0.0,
+            2.220446049250313e-13
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007591,
+          "axial_error_mm": 3.469446951953614e-14,
+          "socket_errors_mm": [
+            1.734723475976807e-15,
+            2.482594761251414e-13
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -23.759488726384095,
+        22.76129891234659,
+        21.667696181946507,
+        -24.58139558181937
+      ],
+      "shaft_drive_flip_dimension": false
+    },
+    {
+      "shaft_increment_deg": 360,
+      "shaft_angle_deg": 75.92232674542487,
+      "ring_phase_error_deg": -1.323110747488823e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 2.220446049250313e-16,
+      "output_slide_error_mm": -1.8316913273911314e-13,
+      "input_slide_error_mm": 4.203904125959599e-15,
+      "floating_axial_error_mm": -4.4669129506402783e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007629,
+          "axial_error_mm": 7.806255641895632e-14,
+          "socket_errors_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007664,
+          "axial_error_mm": 7.28583859910259e-14,
+          "socket_errors_mm": [
+            1.6798026810578074e-11,
+            1.713468527415085e-11
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007688,
+          "axial_error_mm": 1.0408340855860843e-13,
+          "socket_errors_mm": [
+            1.1103585416259206e-13,
+            3.14018491736755e-13
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007607,
+          "axial_error_mm": 3.122502256758253e-14,
+          "socket_errors_mm": [
+            1.734723475976807e-15,
+            1.734723475976807e-15
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -32.689916066528475,
+        7.617673344162346,
+        32.39981673209367,
+        -11.076436972765043
+      ],
+      "shaft_drive_flip_dimension": false
+    }
+  ],
+  "thresholds": {
+    "angle_deg": 0.001,
+    "joint_position_mm": 0.001,
+    "rod_length_mm": 0.001
+  },
+  "excluded": [
+    "continuous collision clearance",
+    "loaded/contact backlash behavior",
+    "wear/thermal/dynamic rating"
+  ],
+  "resumed_after_increment_deg": 120,
+  "driving_reference": "Assembly Front Plane added to resolve shaft angle direction beyond180degrees; prior0..120poses retained.",
+  "result": "passed sampled native full revolution at construction XY offset",
+  "restored_shaft_transform": [
+    0.24323705820963143,
+    0.9699668723794255,
+    1.8303285158625312e-17,
+    -0.9699668723794255,
+    0.24323705820963143,
+    -3.140800427738698e-17,
+    -3.491676091417268e-17,
+    -1.0113989694913436e-17,
+    1.0,
+    0.783782501086058,
+    1.1848443308096597,
+    -0.01310137585035952,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "rotor_setup_hold_active_as_drive": true,
+  "ring_setup_hold_suppressed": true
+}

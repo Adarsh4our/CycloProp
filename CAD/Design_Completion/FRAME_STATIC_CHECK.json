@@ -1,0 +1,15 @@
+{
+  "scope": "All new frame components and relocated bearings/cap/base washers/nuts against all resolved leaf solids at construction pose",
+  "body_count": 358,
+  "boolean_comparisons": 163,
+  "positive_volume_threshold_mm3": 1e-05,
+  "intersections": [],
+  "result": "passed",
+  "excluded_scope": [
+    "unchanged-existing pairs",
+    "same-component imported internal bodies",
+    "motion between poses",
+    "running-gap and tolerance/deflection validation"
+  ],
+  "assembly_sha256": "92c59e88d494a958ee589d6e9db02b68266d6f1e2de0b5a05ce8a6591065c916"
+}

@@ -1,0 +1,287 @@
+{
+  "baseline_sha256": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+  "source_files_checked": [
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Assem20_Design_RevB.SLDASM",
+      "sha256": "e3b7bbb6d36c85acbd159518407d4cec37990fa721e33c5fe8f1c3d70d7222dd"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\MGN5C.SLDPRT",
+      "sha256": "181a2bf59fc08aff9941ee64565cd61dccbba0b0b3c41846279892db1425318e"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\MGNR05R.SLDPRT",
+      "sha256": "1be59f5e0c591095f8168ea4e496b173028d3869c744d615fed7bd300b7f18d8"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Assem20.SLDASM",
+      "sha256": "cfaa451bd20d85301fc8b0b24bb90840b0384f4ce4a8a0d83cf90982c65f50d2"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Intermediate_X_Slider.SLDPRT",
+      "sha256": "c4748152d353188af6349ae23a4abb87e484575b1c31b09a52528c261aa380ef"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\4-Inner_Carriage_Plate.SLDPRT",
+      "sha256": "f75a55e59a53180042c7f7a844ef7996da09a4f6a37d52c84e97efc6b1682e54"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\6806.SLDASM",
+      "sha256": "5aa16ad5459926699d7f25cafb780d3946eb2019080bd191db4dbdcb3c6d27c3"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\4-Outer_Control_Ring.SLDPRT",
+      "sha256": "ac0556ecbba4247a094532d3382569143e527abd6c2d4c1a7333e6aacbf58a8d"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Inner_Race_Retainer.SLDPRT",
+      "sha256": "e4b96b54be3b6ee50f595f7f5c79442c9a0512c92a8bd80ddd0d77cbcacbe05f"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Outer_Race_Retainer.SLDPRT",
+      "sha256": "2e645ff5f96dc2fcd3a14919119c40b395b4f579daf9a5688fb14fe8536613fd"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Assem3.SLDASM",
+      "sha256": "c7914e7b11f344ae513198bf8080ade6f6e9f1a82d6f032e60c97c916ec0590c"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\XY_Fixed_Base.SLDPRT",
+      "sha256": "a44abbcf7ddacc43837de086208d0371c65ba5220a199e0abb1c938fe04837c1"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\3-Drive_Shaft.SLDPRT",
+      "sha256": "b17572783d56a0ad973011c3847e6ffef14bccd50d3cb1cdf3b21829b87ca52d"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\Servo_X_Mount_PROTOTYPE.SLDPRT",
+      "sha256": "a147fd4d56a358b80c7234671d4b37fb16fbe515cdc9b9a342aafe1f70d74e14"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\Servo_Y_Mount_PROTOTYPE.SLDPRT",
+      "sha256": "9ffba6ac3aa962157ee6cef1c3290b9c621e22263c206f78be1e8bb4e4e9517c"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\X_Slider_Drive_Tab_PROTOTYPE.SLDPRT",
+      "sha256": "ecbfbd569e20802a93977902a1211d21a92945ac5e7497a623ff45208b73ad68"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT",
+      "sha256": "d80712674f8dbac0a8b3b297cd968853b0c5439fe320b0eafc9e812210082c81"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT",
+      "sha256": "94bd6862356cfd23c10ad45f7bdf7107750cf381efd6c66ea01c857f6ee52d04"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\Servo_Horn_R12_LAYOUT.SLDPRT",
+      "sha256": "f23ed501967836cf67a380045f65b64b9f0a5ccdc75510563301cb0782be02bf"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\Servo_Link_L40_PROTOTYPE.SLDPRT",
+      "sha256": "e4c78a5f310925f485aa9c40cb106308f0f0de0f31b0b5d7800e48db125d5925"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Actuation_Prototype\\Pivot_Pin_D2_REFERENCE.SLDPRT",
+      "sha256": "20016379a2d48ee2aa7d7eb6f367c1b40b6839db1111f5ec419bb2756ac47183"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT",
+      "sha256": "104f8478827e82f03222febadb5bdeb7b72e4b2c043d02c685ddb5d121b0b745"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT",
+      "sha256": "e75665cd4af50575ef9b53a1b58599e389f996d8aa6385de57d8933151b65ee4"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT",
+      "sha256": "15c540ba9d11e4d5f19b67a787a9f50ff39c06b8ba5574a99f83e2b68018c4f4"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT",
+      "sha256": "b2f6e4b76c79f6c993c02753f181588e0f5d808f6e793e53e785bd24167daa66"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\M4_Locknut_AF7_H5_REFERENCE.SLDPRT",
+      "sha256": "5ddc2766a0fb24097fed018d3c8156aea28574a60989dc0531b3092b3ded0b60"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\M2p5x10_CSK_REFERENCE.SLDPRT",
+      "sha256": "0066f58cdb74f28c747735b65fec6f9d30b5e02915fb017b85e18d86fbc5286f"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT",
+      "sha256": "6f078dd3751332970201a694bde0f1d559c2b1a6d5de416e79063c836ae68b58"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\M2p5_Nut_AF5_H2_REFERENCE.SLDPRT",
+      "sha256": "3b6022653286692d38b92456fbc1020137cf23d2aea4391eb23e699ef0915eb3"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Travel_Stop_Prototype\\M2p5x8_CSK_REFERENCE.SLDPRT",
+      "sha256": "ceaddfd9269dcec45bb8cb2b61eea737035d54f0e19e7785e52419ee1fdd00a3"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Mounting_Prototype\\M2x12_Socket_Cap_REFERENCE.SLDPRT",
+      "sha256": "5302e5e3e4a6d3d28baf171575cfbc60844d3c778f327061de60fc274d6bd30d"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Mounting_Prototype\\M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT",
+      "sha256": "840fcac66e484e17696dc7f09a51f908986443e9a91dad279b22c812d737fa52"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Servo_Mounting_Prototype\\M2_Nut_AF4_H1p6_REFERENCE.SLDPRT",
+      "sha256": "4c01a79ad4ae168495840b4d7c7f75c9640c415e0bc6d22d7b00b3515219f316"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M1p6_Washer_REFERENCE.SLDPRT",
+      "sha256": "53cbe107a77aab06d7a2974b67b0a1b7dbe52a28a29f25a4cbdc6c85a5b6e28a"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M1p6_Nut_REFERENCE.SLDPRT",
+      "sha256": "0c69073404c2286733bbc865351e8dceed174cbab2c058067439c2de2d3fddcb"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT",
+      "sha256": "37fc2a2e4f545589aa0eb2bfe0da28b205c602f68c48fbba30154c813f1d446a"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Custom_M2x9_Rail_LowHead_REFERENCE.SLDPRT",
+      "sha256": "96c0c99524e38f8d1865bf16877b39ab8031991da3f3f211dfef3e796ad60a20"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M2x2_Socket_Cap_REFERENCE.SLDPRT",
+      "sha256": "4d0d361c8ee158cc92b7b1b86a39d62ab17b7a9439dc52af9d4f3cec809a61dd"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Custom_M2x2p5_UpperBlock_LowHead_REFERENCE.SLDPRT",
+      "sha256": "971e4009d33f1eab60a5e38886e1af5173be1626f1de7d8b3ed53b2c9303650c"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Inner_Retainer_Spacer_H1_REFERENCE.SLDPRT",
+      "sha256": "e44c36042de91a6db3ce5eab4086474a712dfd741e442fb07b755b9e9c6fde5f"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M2x6_Retainer_Screw_REFERENCE.SLDPRT",
+      "sha256": "0a22bd134d90b8600f5f558299436030dd45596e61ed21527986271fb77410e8"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Custom_M2x4_Retainer_LowHead_REFERENCE.SLDPRT",
+      "sha256": "c04f80a76550a96d4bf22239db52a13422203763555622ce6d92c56d2e5728ef"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M2p5x4_CSK_REFERENCE.SLDPRT",
+      "sha256": "a6082ce79d2db3486637d8345ee57db034068e558bd1fedba73b00c4483a7a8e"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT",
+      "sha256": "100749abe21745990cca9aabb05fcbfa4b0bd089beea71b59b2f8c01ff4b6749"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Frame_Mounting_RevA.SLDPRT",
+      "sha256": "8298f84fd81bd99d9337fdd862b662243073325a3051ade042d9ca3469a1367f"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M3x55_Frame_Screw_REFERENCE.SLDPRT",
+      "sha256": "86674e4a09d3b8287de2d76119b72cdca1b66181410c821d16e9b2399f240006"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M3_Washer_REFERENCE.SLDPRT",
+      "sha256": "e2982dfabf18c7baea0b8f71310caf662d9e9d69468e98a2ef13d312f7b5f98c"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M3_Nut_REFERENCE.SLDPRT",
+      "sha256": "1a8dc43189071d0f3e5c358c6a424a9b3b4aac80106a3ca3f6ac2d57740e6e68"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\686ZZ_6x13x5_ENVELOPE.SLDPRT",
+      "sha256": "c87634508b1bcf236bbcac8d0aab3594724962ad25c53a8bc952d275e520f5a6"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Lower_MainBearing_OuterSpacer_L3p5.SLDPRT",
+      "sha256": "0f2be85142ce328907ef571fbbe18e7226644bf6e8731a07d50de6983e0ba1c9"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Lower_MainBearing_Retainer.SLDPRT",
+      "sha256": "18ea3d45ae41003fbebcc2a6ad42c77db509d6e6423d9a0128cb80e74ea65ffa"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Upper_MainBearing_Retainer.SLDPRT",
+      "sha256": "dc54d4cf71863364a6b68e53e43980873906cb7c20483a1e98b5573bad2d48ab"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M2x4_MainCap_Screw_REFERENCE.SLDPRT",
+      "sha256": "4cbdf533fe65baa411e4ec2e1034a236934439ec3afd077296ea2dfbf99fecf6"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT",
+      "sha256": "5510047d0159b3b730932b60dc17826cc0a38619facc100900192bb8407f9a10"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Shaft_Drive_Hub_RevA.SLDPRT",
+      "sha256": "76caf5f5287a6aa61eebf37c9cad78a425588ca6875c89049ab9796803bcf9f0"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Endplate_Hub_Interface_RevA.SLDPRT",
+      "sha256": "d122f6811449608f17c08c6b2566538c2ce4d81d42ab77103c922436c5a6d814"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT",
+      "sha256": "37a9b677db0a64682edfd04a6d3934c3b00a26d30ee48f7d9c78b0e3a1903382"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M2p5x8_Hub_Screw_REFERENCE.SLDPRT",
+      "sha256": "95ecc923d69ad2c0a62949c38e877ba36f8df3dadc80f4a93d7b805f3c7fcaec"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Pivot_Thrust_Spacer_H0p5.SLDPRT",
+      "sha256": "6de28ff28e96ccdbfddbf78aea20930858fe24b5fd1cddd96734e7e55cd4e55f"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Part1.SLDPRT",
+      "sha256": "16056d929617abef525abc9dd12a078bb018aac5e664f31f4913c1298385d3bb"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+      "sha256": "12194c04548b9a6a35670eade72e8f5d548cd6e3bbb4add6fbfc204b509a1745"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+      "sha256": "e65b9773c937b5207b51ca4f2c0f72af3d45bb1c6593fa9a9f8abf64fcefe0c8"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H2p5.SLDPRT",
+      "sha256": "8c89d124ad8c22e7f37c687145fc7920351ab7cb0afc5caa556a7ecb9a0468a1"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\M2_Small_Washer_REFERENCE.SLDPRT",
+      "sha256": "d38c56852f047462c017e0c7c4645e46b5c733b5692c0559563fde8eb2b619fa"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "sha256": "d1b2b54468059651ad4a9f84c524fe9ffa74bf86db8ee60ab0c76c1f1f322435"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H0p5.SLDPRT",
+      "sha256": "4425229f86db05381cff83d8d37381c617238814db530ff4e31d53bc4af6b729"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\M2x10_Ball_Compact_Screw_REFERENCE.SLDPRT",
+      "sha256": "f8bca992b86aac9283a5f22f9ed58e45f4eba69dc6598349ef57a566e2cbc0dc"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Stage_Support_L36p5.SLDPRT",
+      "sha256": "157bdfcbcba691a4fc8daa3ec74d9f42b8a5acb4031890cf4487f3d8d47c798d"
+    },
+    {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+      "sha256": "bea244396aba9cd5550b9173ee2e4f7be976697bfd35ef0964be581f1d59bea7"
+    }
+  ],
+  "changed_sources": [],
+  "missing_historical_sources": [
+    "C:\\Users\\Adarsh Singh\\Downloads\\MGN05CZ0HM_FILE_1.stp",
+    "C:\\Users\\Adarsh Singh\\Downloads\\MGNR05R40HM_FILE_1.stp"
+  ],
+  "scope": "Compared all surviving isolation source snapshot files; missing temporary/virtual paths do not prove missing references in the isolated assembly."
+}

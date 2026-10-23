@@ -1,0 +1,23 @@
+# First articulated pushrod prototype
+
+This is provisional native CAD, not a purchased ball-link model or a fabrication release. The original5-Pushrod_Linkage.SLDPRT remains unchanged. Its partly mated third instance and Concentric9 are suppressed as history; the other three legacy instances remain as the user's existing reference work.
+
+The replacement contains an85mm OD2/ID1 tube, two separate socket housings and two separate ball inserts. Each ball insert is a true5mm sphere truncated to3mm between flats, with a2.1mm mounting bore. The socket has a5.05mm spherical cavity,4.4mm axial mouths,7mm outside eye diameter and4.4mm eye thickness. Its neck accepts the tube with2.5mm nominal insertion and0.05mm radial adhesive clearance. Ball centres remain95mm apart, matching the original part's inspected centre distance rather than its100mm overall envelope.
+
+The final selected pair is pitch arm4 on Part1 blade2 and the control-ring hole at ring-local(X=0,Z=-40)mm. Nominal joint inclination is10.97degrees at the saved pose. The associated blade pitch is approximately-4.71degrees relative to the local tangent. These are assembly-position values, not proof of the required35degree cyclic amplitude throughout rotation.
+
+Each ball is clamped independently of its socket using OD3/ID2.1 spacers2.5mm and1.5mm long. The arm end uses anM2x14 screw envelope, small washers and a plain nut; nominal protrusion is1.3mm. The ring end uses anM2x12 screw envelope with4.7mm nominal engagement in the existingM2 thread-major envelope. Manufacturing requires a suitableM2x0.4 thread andD1.6 tap drill, not drilling the model'sD2 major-envelope diameter as a pilot. Grades, fits, torque, locking, supplier availability and thread strength are unreleased.
+
+The socket housings are rigidly attached to the tube; the balls are fixed relative to their mounting parts. Two spherical-centre mates connect balls to sockets and allow joint articulation. No cylindrical-hole mate constrains the rod's tilt. The selected pitch arm uses explicit concentric journal, coincident drive-flat and coincident axial-seat mates to its blade. Extra CAD datum mates represent fixed mounting relationships; they do not simulate preload, friction, adhesive strength or ball pullout resistance.
+
+An alternative attachment position failed a focused static check: its ring-side screw head overlapped Frame_Mounting_RevA by20.414mm3. That rejected result is retained in FRAME_CLEARANCE_REJECTED_POSE.json. Moving the first linkage to a clear pair does not remove this whole-module limitation. Frame clearance for the other links and full rotor rotation must be resolved before claiming a functioning complete module.
+
+Ball insertion/assembly, socket retention and pullout, contact pressure, wear, lubrication, manufacturing method, materials and tolerance stack remain unverified. The socket is a geometry prototype; it must not be treated as a proven snap-fit. The other three articulated linkages are not installed by this step. Blade bushings, axial running allowance, blade retention, full control-ring/rotor timing and complete-motion checks remain outstanding. No calculation baseline, project state or original blade/pushrod geometry is changed.
+
+Final check results and saved hashes are recorded in BALL_LINK_VALIDATION.json. Earlier rotor/connection reports remain tied to their earlier source hashes.
+
+Later planar revision: the inclined layout and selected flat arm are now suppressed. The active first linkage uses an offset arm to align the ball centres axially and shorter mounting stacks. See [planar revision](PLANAR_REVISION.md) and [current evidence](PLANAR_VALIDATION.json). BALL_LINK_VALIDATION.json describes the earlier inclined revision only.
+
+Final focused checks passed at the original pose, atX+0.5mm and after return: no active new-mate errors, ball/socket centres coincident within numerical precision, centre distance95mm, and no intersections in31 native solid comparisons per pose. Existing parts checked are listed explicitly in the JSON; other hardware and existing-existing intersections were outside this scope. The originalX/Y offset was restored and the temporary rotor-clocking setup mate was suppressed. This small movement does not establish complete rotor rotation, full carriage travel or35degree cyclic pitch.
+
+During assembly, the earlier arm2 and arm4 component-lock proposals were superseded by explicit journal/flat/axial mates. Intermediate ball-link lock mates and incorrect setup-datum proposals are suppressed history; active attachments use datum-plane mates and the two spherical joints. Neither source part geometry nor the older user parts were trimmed to hide clashes.

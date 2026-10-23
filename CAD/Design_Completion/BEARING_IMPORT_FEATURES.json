@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Comments",
+    "type": "CommentsFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Favorites",
+    "type": "FavoriteFolder",
+    "interconnect": false
+  },
+  {
+    "name": "History",
+    "type": "HistoryFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Selection Sets",
+    "type": "SelectionSetFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Sensors",
+    "type": "SensorFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Live Section Planes",
+    "type": "LiveSectionFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Design Binder",
+    "type": "DocsFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Annotations",
+    "type": "DetailCabinet",
+    "interconnect": false
+  },
+  {
+    "name": "Lights and Cameras",
+    "type": "EnvFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Markups",
+    "type": "InkMarkupFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Equations",
+    "type": "EqnFolder",
+    "interconnect": false
+  },
+  {
+    "name": "Front Plane",
+    "type": "RefPlane",
+    "interconnect": false
+  },
+  {
+    "name": "Top Plane",
+    "type": "RefPlane",
+    "interconnect": false
+  },
+  {
+    "name": "Right Plane",
+    "type": "RefPlane",
+    "interconnect": false
+  },
+  {
+    "name": "Origin",
+    "type": "OriginProfileFeature",
+    "interconnect": false
+  },
+  {
+    "name": "NSK_6806.stp-1",
+    "type": "Reference",
+    "interconnect": true
+  },
+  {
+    "name": "Mates",
+    "type": "MateGroup",
+    "interconnect": false
+  }
+]

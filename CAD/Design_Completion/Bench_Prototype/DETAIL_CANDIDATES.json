@@ -1,0 +1,22 @@
+{
+  "changes": {
+    "post": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+      "sha256": "fc1d7b1cee6d4a304d7fbf9f9b2fce0324498d7a877d1d8e758e7f59a5ab82e7",
+      "definition": "One-piece normalized4340 candidate: D12 stem rootZ0..8.5 and D10 collarZ12.5..17.5; retainD5.5 elsewhere/head/seat. Added native bosses represent machined one-piece stock, not bonded collars.",
+      "holds": "Nominal adjacent plate Zgaps0.5mm; fillets must stay within these bands. Actual post free-body load, stress/fatigue and moving clearance not verified."
+    },
+    "timing": {
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+      "sha256": "ddf9a2c624107618cab7535b0d8f5998952af3b50cd7f3d75e72e15e40473fe0",
+      "definition": "Active slide padsR24..44 nowW4.030 nominal; central relieved portions retain oldW4.1. Slot depth2 unchanged. Proposed finished padwidth4.030+/-0.005 against finishedtongue4.000+/-0.005; measure all four pads.",
+      "pilot_fit": "Unchanged nominalD3/D3.02 CAD. Proposed selective finished pin3.000..3.003,pocket3.015..3.020: diametricgap0.012..0.020. These limits require manufacturing approval.",
+      "holds": "POM thermal/creep/friction and surface treatment not qualified. No sliding, motion, backlash or collision tests run."
+    }
+  },
+  "status": "GEOMETRY CANDIDATES SAVED; TESTS NOT RUN AT USER REQUEST",
+  "assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_Bench_Development_Source.SLDASM",
+  "assembly_sha256": "bd6b03a18aff272e8693f623b215b65bbdefc349d28ee112b81b216cd24728d4",
+  "verification": "No final mate/rebuild-error inspection, motion, collision or physical test campaign performed. Construction/save operations only.",
+  "release": "HOLD"
+}

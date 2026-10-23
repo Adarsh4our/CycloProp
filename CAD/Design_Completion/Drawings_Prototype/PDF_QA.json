@@ -1,0 +1,535 @@
+{
+  "scope": "All indexed PDFs/pages rendered; bounds, captured source identity and release marks checked. Current source freshness reported separately; historical mismatches do not establish current drawing currency. Visual review tracked separately; not fabrication certification.",
+  "drawings": [
+    {
+      "drawing": "CP-RB-108",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "77f4411f89bf14dae7984f4784ed59b36551ef5137c6f48bf65a634509aff28b",
+      "current_source_sha256": "77f4411f89bf14dae7984f4784ed59b36551ef5137c6f48bf65a634509aff28b",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-108.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-108.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-201",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "525219445aee49edf40464e46f36d96a183a1a0cf5c57537a00bf1a18f8e93e9",
+      "current_source_sha256": "525219445aee49edf40464e46f36d96a183a1a0cf5c57537a00bf1a18f8e93e9",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-201.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-201.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-202",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "6f0bb63643a20873cd94ac16186599c5066aa39acea2230a5227e1b415e28b7d",
+      "current_source_sha256": "6f0bb63643a20873cd94ac16186599c5066aa39acea2230a5227e1b415e28b7d",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-202.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-202.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-203",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "dfefe0a6cb04f448ed9db94b8dbaf293d42a51bc7582bc7aef3dbea3558760a4",
+      "current_source_sha256": "dfefe0a6cb04f448ed9db94b8dbaf293d42a51bc7582bc7aef3dbea3558760a4",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.12348461151123,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-203.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-203.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-204",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "caab05effc685a5b8ac4d28fc83d0a0a8bbf9a5baee23496ad8f4d464d2a68fc",
+      "current_source_sha256": "caab05effc685a5b8ac4d28fc83d0a0a8bbf9a5baee23496ad8f4d464d2a68fc",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-204.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-204.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-205",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "a1b4565e4ce1e3798514975f92227b9c96762e78da9d9de0cd1eb2e9755731cc",
+      "current_source_sha256": "a1b4565e4ce1e3798514975f92227b9c96762e78da9d9de0cd1eb2e9755731cc",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-205.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-205.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-207",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "d54e49329b391d8ca3e446b88298c04803e40dd530d986a99ff1c618e43c11b3",
+      "current_source_sha256": "d54e49329b391d8ca3e446b88298c04803e40dd530d986a99ff1c618e43c11b3",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-207.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-207.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-208",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "b7fadda78bfb949f1abc7ed0b473b0bb0874503c5696fde1c32c938425c72768",
+      "current_source_sha256": "b7fadda78bfb949f1abc7ed0b473b0bb0874503c5696fde1c32c938425c72768",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-208.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-208.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-209",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "2172dfd015a71f8b4adb39929c44f8a237675698534bd7fe263410e1e7053bca",
+      "current_source_sha256": "2172dfd015a71f8b4adb39929c44f8a237675698534bd7fe263410e1e7053bca",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-209.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-209.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-210",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "b3a73026056a272d45c40c3fbb07aecd233c3358371758e7201a8bec341a1c9b",
+      "current_source_sha256": "b3a73026056a272d45c40c3fbb07aecd233c3358371758e7201a8bec341a1c9b",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-210.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-210.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-211",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "9f1d66fc8ac49e3d2f21b268ef83ef01b1771b1433f8b993be6a6d3049c82937",
+      "current_source_sha256": "9f1d66fc8ac49e3d2f21b268ef83ef01b1771b1433f8b993be6a6d3049c82937",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-211.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-211.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-212",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "c359840527fcadabef7829157b1bdfc8fb6e592db45ae5bc943f26cddeaae74a",
+      "current_source_sha256": "c359840527fcadabef7829157b1bdfc8fb6e592db45ae5bc943f26cddeaae74a",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-212.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-212.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-213",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "b744e072a17bc109a3389d8b6fd8adf17b7daac492e3fdf00141de73b5638587",
+      "current_source_sha256": "b744e072a17bc109a3389d8b6fd8adf17b7daac492e3fdf00141de73b5638587",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-213.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-213.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-214",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "af9dae8ba203cda27d077effe4c6a3d284f7a604c0311ca75ebfaee0574e8c81",
+      "current_source_sha256": "af9dae8ba203cda27d077effe4c6a3d284f7a604c0311ca75ebfaee0574e8c81",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-214.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-214.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-215",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "96ab51e470bd16aba78f958647a3159bd53ba4ab737cc6946a0357b888b36d09",
+      "current_source_sha256": "96ab51e470bd16aba78f958647a3159bd53ba4ab737cc6946a0357b888b36d09",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-215.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-215.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-216",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "ef232857dba9f9cef10ec9c3cf4d10844a3c6f527c264898faa572578da2eb9e",
+      "current_source_sha256": "ef232857dba9f9cef10ec9c3cf4d10844a3c6f527c264898faa572578da2eb9e",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-216.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-216.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-217",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "94a5a0b908380d4cbd0a544a57eceb664615340e6157a9a228a39082c5150cd3",
+      "current_source_sha256": "94a5a0b908380d4cbd0a544a57eceb664615340e6157a9a228a39082c5150cd3",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-217.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-217.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-218",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "e0231053896f06e372ff1fb47f16ed791932588311991b5aef80a00b002393a7",
+      "current_source_sha256": "e0231053896f06e372ff1fb47f16ed791932588311991b5aef80a00b002393a7",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-218.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-218.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-219",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "d4b454ac54c4ce877cd0aa50ab67a52e7e7da51bf732d63d5f8af1cb55200a23",
+      "current_source_sha256": "d4b454ac54c4ce877cd0aa50ab67a52e7e7da51bf732d63d5f8af1cb55200a23",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-219.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-219.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-220",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "576c9847b859cc01dd92e9a8d2b6c642cbb40442f583d00836284f9fb3e5db79",
+      "current_source_sha256": "576c9847b859cc01dd92e9a8d2b6c642cbb40442f583d00836284f9fb3e5db79",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-220.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-220.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-222",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "5b6f20392b9f61a251c164214fa424fa2d91af07d6501546d7b796f444e3f999",
+      "current_source_sha256": "5b6f20392b9f61a251c164214fa424fa2d91af07d6501546d7b796f444e3f999",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-222.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-222.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-223",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "6ed90e3d5e9858dbf7e95eb535a99b5280362a9b0b103cee7d97561eb62bfc1c",
+      "current_source_sha256": "6ed90e3d5e9858dbf7e95eb535a99b5280362a9b0b103cee7d97561eb62bfc1c",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-223.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-223.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-224",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "402743b50d024ab886836a4bf0e60bef18d12575cd4aa19bda19be0157ed0b2b",
+      "current_source_sha256": "402743b50d024ab886836a4bf0e60bef18d12575cd4aa19bda19be0157ed0b2b",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-224.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-224.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-225",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "a46870302f3594054b80c69b032b40f2f8eac9c9f63bbd3879c23e91f32ca398",
+      "current_source_sha256": "a46870302f3594054b80c69b032b40f2f8eac9c9f63bbd3879c23e91f32ca398",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-225.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-225.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-226",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "829f4e9b9bc9691195ccbc9a6c34c168b84d92c4ab90d631c6074c3dc3ff4b28",
+      "current_source_sha256": "829f4e9b9bc9691195ccbc9a6c34c168b84d92c4ab90d631c6074c3dc3ff4b28",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-226.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-226.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-227",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "9d69947e967479a1c38dbd1bd65f76e22bd3035fb836fecba7abe5f24c009126",
+      "current_source_sha256": "9d69947e967479a1c38dbd1bd65f76e22bd3035fb836fecba7abe5f24c009126",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-227.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-227.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-228",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "2f9b5c7a55bd391f1272b3e97a744b38dfc3f204246c67c0f31973eb3c5577c6",
+      "current_source_sha256": "2f9b5c7a55bd391f1272b3e97a744b38dfc3f204246c67c0f31973eb3c5577c6",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-228.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-228.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-229",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "e0d89d44fe3d58e7391acbb8e027c670aaded872806eb85eb2ec74635d8f95bb",
+      "current_source_sha256": "e0d89d44fe3d58e7391acbb8e027c670aaded872806eb85eb2ec74635d8f95bb",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-229.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-229.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-230",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "307c69991c806a91667790808a894c4f3dd664da54fc12866c6c53c838fdeb80",
+      "current_source_sha256": "307c69991c806a91667790808a894c4f3dd664da54fc12866c6c53c838fdeb80",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-230.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-230.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-231",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "7a893a0440386394aaeadfecc09a10f49ab5c0e6f002502e521369e09fbaa078",
+      "current_source_sha256": "7a893a0440386394aaeadfecc09a10f49ab5c0e6f002502e521369e09fbaa078",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.123554229736328,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-231.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-231.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-001",
+      "page_count": 1,
+      "source_freshness": "historical source differs; geometry and drawing currency not reverified",
+      "recorded_source_sha256": "24fbac52556632b0a794587b492d25e20c1d3071da5448a9377b8fa3d0b671e3",
+      "current_source_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 10.12397575378418,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-001.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-001.png"
+      ],
+      "visual_review": "Rendered contact-sheet layout inspected; representative socket cap inspected at full page. All-page native PDF text bounds and source identity checked; not a manufacturing-completeness sign-off."
+    },
+    {
+      "drawing": "CP-RB-002",
+      "page_count": 1,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+      "current_source_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 8.956603050231934,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-002.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-002.png"
+      ],
+      "visual_review": "Full-sheet layout and enlarged table detail visually inspected. Table text readable, no clipped text detected; native reference/prototype scope marked."
+    },
+    {
+      "drawing": "CP-RB-003",
+      "page_count": 3,
+      "source_freshness": "matches recorded drawing source",
+      "recorded_source_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+      "current_source_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+      "text_bounds": "passed",
+      "identity_and_model_sha256": "passed",
+      "release_status": "present",
+      "minimum_right_notes_size_pt": 8.956603050231934,
+      "render": "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_PAGE_1.png",
+      "renders": [
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_PAGE_1.png",
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_PAGE_2.png",
+        "CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_PAGE_3.png"
+      ],
+      "visual_review": "All3sheets rendered and text bounds checked; two balloon sheets visually inspected. Native label/attachment and BOM reconciliation in ASSEMBLY_BALLOON_DRAWING_STATE.json."
+    }
+  ]
+}

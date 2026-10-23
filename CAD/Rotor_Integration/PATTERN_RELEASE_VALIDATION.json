@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-21",
+  "scope": "Dissolve blade and arm patterns, independently locate four Part1 blades, retain arm-to-blade relationships, insert one unmated pushrod",
+  "backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_blade_pattern_release_m3lahoz2",
+  "dissolved_patterns": [
+    "LocalCirPattern2",
+    "LocalCirPattern1"
+  ],
+  "mate_checks": [
+    {
+      "mate": "Independent_Part1_2_Axis",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Part1_2_Span_Centre",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Part1_3_Axis",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Part1_3_Span_Centre",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Part1_4_Axis",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Part1_4_Span_Centre",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Blade_Pitch_Arm_2_To_Part1_4",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Blade_Pitch_Arm_3_To_Part1_1",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Independent_Blade_Pitch_Arm_4_To_Part1_2",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Concentric4",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Width1",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Concentric5",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Coincident13",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "Coincident14",
+      "error_code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    }
+  ],
+  "pose_deltas": {
+    "Blade_Pitch_Arm-2": {
+      "translation_change_mm": 0.0,
+      "rotation_matrix_max_change": 0.0
+    },
+    "Blade_Pitch_Arm-4": {
+      "translation_change_mm": 0.0,
+      "rotation_matrix_max_change": 0.0
+    },
+    "Blade_Pitch_Arm-3": {
+      "translation_change_mm": 0.0,
+      "rotation_matrix_max_change": 0.0
+    },
+    "Part1-1": {
+      "translation_change_mm": 0.0,
+      "rotation_matrix_max_change": 0.0
+    },
+    "Blade_Pitch_Arm-1": {
+      "translation_change_mm": 0.0,
+      "rotation_matrix_max_change": 0.0
+    },
+    "Part1-3": {
+      "translation_change_mm": 0.0,
+      "rotation_matrix_max_change": 0.0
+    },
+    "Part1-2": {
+      "translation_change_mm": 5.3157775219700834e-11,
+      "rotation_matrix_max_change": 0.0
+    },
+    "Part1-4": {
+      "translation_change_mm": 5.266718293191105e-11,
+      "rotation_matrix_max_change": 0.0
+    }
+  },
+  "components_after": {
+    "Blade_Pitch_Arm-2": [
+      -0.7858161328109019,
+      0.6184601890292689,
+      6.309748490036885e-31,
+      -0.6184601890292689,
+      -0.7858161328109019,
+      -5.650742105338901e-30,
+      -2.998928814878524e-30,
+      -4.830677133116685e-30,
+      1.0,
+      0.8753908488352357,
+      1.1596866158367694,
+      0.009898624149640767,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Blade_Pitch_Arm-4": [
+      0.7858161328108976,
+      -0.6184601890292744,
+      6.309748490036885e-31,
+      0.6184601890292744,
+      0.7858161328108976,
+      -5.650742105338901e-30,
+      2.9989288148785576e-30,
+      4.830677133116664e-30,
+      1.0,
+      0.6921741533368078,
+      1.2100020457825824,
+      0.009898624149640767,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Blade_Pitch_Arm-3": [
+      0.6184601890292716,
+      0.7858161328108997,
+      6.309748490036885e-31,
+      -0.7858161328108997,
+      0.6184601890292716,
+      -5.650742105338901e-30,
+      -4.830677133116675e-30,
+      2.9989288148785408e-30,
+      1.0,
+      0.758624786113115,
+      1.0932359830604617,
+      0.009898624149640767,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-1": [
+      0.7858161328109083,
+      -0.618460189029261,
+      0.0,
+      0.618460189029261,
+      0.7858161328109083,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.7511595328514853,
+      1.099111354856208,
+      0.019398624149640636,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Blade_Pitch_Arm-1": [
+      -0.6184601890292661,
+      -0.785816132810904,
+      6.309748490036885e-31,
+      0.785816132810904,
+      -0.6184601890292661,
+      -5.650742105338901e-30,
+      4.830677133116696e-30,
+      -2.998928814878507e-30,
+      1.0,
+      0.8089402160589276,
+      1.2764526785588899,
+      0.009898624149640767,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-3": [
+      -0.785816132810904,
+      0.6184601890292665,
+      0.0,
+      -0.6184601890292665,
+      -0.785816132810904,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.816405469320622,
+      1.2705773067631057,
+      0.019398624149640623,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-2": [
+      -0.6184601890292636,
+      -0.785816132810906,
+      0.0,
+      0.785816132810906,
+      -0.6184601890292636,
+      0.0,
+      0.0,
+      0.0,
+      0.9999999999999999,
+      0.6980495251326045,
+      1.2174672990442283,
+      0.019398624149640636,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Part1-4": [
+      0.6184601890292692,
+      0.7858161328109019,
+      0.0,
+      -0.7858161328109019,
+      0.6184601890292692,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.8695154770395108,
+      1.1522213625750903,
+      0.019398624149640636,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "pushrod": "5-Pushrod_Linkage-1",
+  "checks": {
+    "affected_native_mates": "passed",
+    "component_pose_preserved": "passed",
+    "full_motion": "not performed",
+    "physical_running_clearance_and_bushing_fit": "not performed - no geometry change in this step"
+  },
+  "physical_interface_notes": [
+    "Part1 aerodynamic span220mm, endplate inner-face separation220mm: no nominal axial running allowance yet",
+    "Blade journalsD3 and endplate holesD6: bushings/retention still required",
+    "Existing arm flat/orientation retained; no new clamp hardware designed"
+  ],
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "fe43f3aa254486fffe90a72576669f715669317294daa571d11268ebda237aec",
+    "CAD\\Part1.SLDPRT": "12271093adef9eafb2d526ab4ca860ea6445138395cf4c66735770bcdc7e5db9",
+    "CAD\\Blade_Pitch_Arm.SLDPRT": "19d524266c783de380ec7bd0ab3aec9d65f8821744ca09553a6d36e87d24f817",
+    "CAD\\5-Pushrod_Linkage.SLDPRT": "933bde4c5457c3850821421ee2d4951b9f68cf2d8ded1e28d9a9680e83c76f06"
+  }
+}

@@ -25,6 +25,15 @@ groove*.png
 *~recover~*
 *.sldrep
 ~$*
+*.swj
+*.sldlog
+*.slderr
+
+# Local checkpoint archives and transient CAD screenshots
+# Keep native assemblies, parts, drawings, supplier archives and evidence records.
+/CAD/Design_Completion/Checkpoints/**/*.zip
+/CAD/**/live_screen.png
+/CAD/**/LIVE_SCREEN.png
 
 # OS
 .DS_Store

@@ -1,0 +1,30 @@
+{
+  "task": "Native BOM-linked ballooned assembly drawing",
+  "status": "Verified complete for two visible views; remaining19 items need detail views; not fabrication release",
+  "saved_utc": "2026-10-23T04:01:04.089212+00:00",
+  "archive": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Checkpoints\\BALLOONS_20261023T040104Z\\ASSEMBLY_BALLOON_TASK.zip",
+  "archive_sha256": "d59144a617aed5acaa3d0fe558b67f7d80ad538db6cef867679128e3ed5a4923",
+  "balloons": 68,
+  "pages": 3,
+  "native_BOM_items": 87,
+  "native_leaf_instances": 405,
+  "unlabelled_items": 19,
+  "source_assembly_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+  "source_native_files_unchanged": 98,
+  "baseline_unchanged": true,
+  "live_source_recovery": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Balloon_Task_Final_Live_Source\\LIVE_SOURCE_ASSOCIATIONS_PRESERVED.SLDASM",
+  "source_freshness_note": "New drawing matches current source bytes. Historical drawing source differences reported separately in PDF_QA; no new motion check. Live unsaved assembly preserved without overwriting source.",
+  "files": {
+    "Drawings_Prototype\\CP-RB-003_BALLOONED_ASSEMBLY.SLDDRW": "f4a9a1ec42a32927bd0030eca634dc0d6639c4e43fd14fa832519b74d06fcc4c",
+    "Drawings_Prototype\\CP-RB-003_BALLOONED_ASSEMBLY.pdf": "cc6e0edd3b0f9683220555515337cdffa9f7594a49e1d8bfe248edc693dfef80",
+    "Drawings_Prototype\\CP-RB-003_BALLOON_COVERAGE.csv": "10de65d15538bf2bab5d94267b34f1f02239a472941cc72feb295b23037aa109",
+    "ASSEMBLY_BALLOON_DRAWING_STATE.json": "62a6591d6f2a514205a7e522b154029fa8c64d7294c2a22511cf62e1d586ee83",
+    "Drawings_Prototype\\DRAWING_INDEX.json": "608c90da9e2391d4a8e22c983cbcf97df4c0e0bf2f89fab780aeae2c4053143d",
+    "Drawings_Prototype\\PDF_QA.json": "02be69c702bbc3f9d985e6f7d290a4e7ebd1519a091af1bbb27359df230cc84f",
+    "MECHANICAL_COMPLETION_REPORT.md": "7d148818ac40f6977450aeed5bf3cbf165a0bdb7cbb3c2495c3a19beb4b93dc8",
+    "CURRENT_RESUME_NOTES.md": "ee1961670b9cc0487419dcb78bb4b1313f2a6fa162fcea010d2126dd8c149877",
+    "automation\\create_ballooned_assembly.py": "b843417e8d30337de6d8634027da82827e1e10745b50d77057b8f44d7026708b",
+    "automation\\finalize_ballooned_assembly.py": "fad100f77dede52bb4223ea4d86d5162cfe7e187e4f99aa2f2091b5a9ec38543",
+    "automation\\review_drawing_exports.py": "348de1074cc18e5b7537ac1585a311f788049a5aac54f08a8ae0bba877e54bc5"
+  }
+}

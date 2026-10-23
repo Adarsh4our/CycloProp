@@ -1,0 +1,17 @@
+{
+  "part": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+  "spherical_tool_source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Cavity_Tool_D5p05.SLDPRT",
+  "tool_sha256": "e3a5885f611f8211078ee84913c6f9208e4831b57d89ef46e13d3fef5170f918",
+  "assembly_sequence": [
+    "Remove cap; insert ballD5 through bodyD6opening.",
+    "Screw cap onto female thread until flange seats; verify specified spherical clearance and free articulation.",
+    "Apply qualified anti-loosening process and proof-mark; no qualifying torque/process is yet established.",
+    "Install existing ball mounting bolt/spacers without clamping the socket."
+  ],
+  "limits": [
+    "Cap is built but not installed until SOCKET_CAP_INTEGRATION_STATE.json reports completion.",
+    "7075-T6 replaces unspecified/PA12 candidate intent to enable precision machined thin fine threads; wear/lubrication qualification pending.",
+    "M6x0.35 is a custom fine thread, not an assumed off-the-shelf component.",
+    "Spherical surface retains misalignment freedom required by blade axial running clearance."
+  ]
+}

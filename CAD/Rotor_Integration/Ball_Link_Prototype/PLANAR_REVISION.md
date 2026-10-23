@@ -1,0 +1,15 @@
+# Planar first-linkage revision
+
+The inclined first-linkage layout is superseded by a separate offset pitch-arm prototype. The original Blade_Pitch_Arm.SLDPRT and its former instance remain available; the old selected arm and inclined-link components are suppressed. The other three blade stations are not redesigned in this step.
+
+The replacement retains the original D3 journal/flat interface and the12mm effective arm. Two side webs bridge to a lower eye platform. The joint centre is22.075mm below the original arm datum, placing it in the same axial plane as the ring-side ball centre. The tube retains95mm between ball centres and85mm cut length; no airfoil or blade geometry changes.
+
+At the arm joint, two0.5mm spacers replace the previous2.5mm/1.5mm spacer pair. AnM2x10 screw, two0.3mm washers andM2 nut clamp the ball insert and3.5mm eye platform, with0.3mm nominal screw protrusion. At the ring joint, the existing2.5mm mounting spacer remains necessary to clear the socket; its outer spacer reduces to0.5mm and its screw reduces toM2x10, giving3.7mm nominal blind engagement. These are dimensional CAD envelopes, not released hardware selections.
+
+The socket eye needs clearance below its outer lip. An annular recess, outerD8 and innerD3.2, is0.4mm deep around the arm's joint hole. The central island retains theOD3 spacer's clamping seat. This leaves3.1mm nominal platform thickness in the recessed region and0.2mm nominal axial clearance to the socket lip at the initial flat position. The bolt stack is unchanged because the central clamping island remains full height. The initial unrecessed revision showed4.656mm3 of socket/platform overlap; that is corrected geometry, not an ignored contact.
+
+This addresses the visible rod inclination and exposed fastener stack at the selected station. It does not remove the known frame obstruction at other rotor angles. No complete-rotation clearance is claimed. The dogleg arm adds a substantial bending lever and requires material selection, stress/fatigue assessment, clamp/retention definition, manufacturability and tolerances before production. Socket insertion and pullout retention remain unverified, as in the earlier prototype.
+
+The temporary setup constraints are released after the focused checks and the carriage position is restored. Check results, exclusions, saved native file hashes and the revision backup are recorded in PLANAR_VALIDATION.json. Earlier validation files describe their recorded source hashes only.
+
+The recessed revision passed the focused checks at the saved position, atX+0.5mm, and after return. Each pose used34 native solid comparisons involving the new parts and explicitly listed surrounding components; no intersections or active revised-mate errors remained. Both ball/socket centres coincided within numerical precision and the95mm centre distance was preserved. The originalX/Y offset was restored. This does not cover the remaining existing hardware, full rotor rotation or full carriage travel. A native side-view image, PLANAR_SIDE_VIEW.bmp, was inspected to confirm the visible rod alignment and compact mounting stacks.

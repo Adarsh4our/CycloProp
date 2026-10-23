@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-21",
+  "assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Assem20_Design_RevB.SLDASM",
+  "dirty": false,
+  "root_count": 276,
+  "changed_transforms_from_handoff": {},
+  "selected_components": {
+    "XY_Fixed_Base-1": {
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.783782501086058,
+        1.1848443308096597,
+        -0.04667637585035938,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\XY_Fixed_Base.SLDPRT",
+      "suppression": 2
+    },
+    "3-Drive_Shaft-1": {
+      "transform": [
+        0.2432370582096309,
+        0.9699668723794254,
+        1.8303285159061392e-17,
+        -0.9699668723794255,
+        0.24323705820963096,
+        -3.14080042772262e-17,
+        -3.4916760914378776e-17,
+        -1.0113989695169442e-17,
+        0.9999999999999999,
+        0.783782501086058,
+        1.1848443308096597,
+        -0.013101375850359342,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\3-Drive_Shaft.SLDPRT",
+      "suppression": 2
+    },
+    "Part1-1": {
+      "transform": [
+        0.6849593542980056,
+        -0.7285812809561188,
+        5.3155274476456977e-17,
+        0.7285812809561188,
+        0.6849593542980056,
+        -1.977809296240014e-17,
+        -2.1999254177512535e-17,
+        5.2275127752402645e-17,
+        0.9999999999999998,
+        0.7541678666903051,
+        1.0996190001027015,
+        0.019398624149640623,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Part1.SLDPRT",
+      "suppression": 2
+    },
+    "Part1-2": {
+      "transform": [
+        -0.11250954067480437,
+        -0.993650644470754,
+        1.5228065019791503e-17,
+        0.9936506444707539,
+        -0.11250954067480426,
+        -6.1212368424463595e-19,
+        7.123803644532572e-17,
+        1.1762100903374542e-16,
+        0.9999999999999998,
+        0.6927044888464118,
+        1.2173915324620543,
+        0.019398624149640657,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Part1.SLDPRT",
+      "suppression": 2
+    },
+    "Part1-3": {
+      "transform": [
+        -0.9493040560060816,
+        -0.3143593632300498,
+        -6.754634373214577e-17,
+        0.31435936323004987,
+        -0.9493040560060816,
+        1.0607183962516425e-18,
+        -6.387000538612228e-17,
+        -2.0375132571934996e-17,
+        1.0,
+        0.8159084101480227,
+        1.2799775976363947,
+        0.01939862414964061,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Part1.SLDPRT",
+      "suppression": 2
+    },
+    "Part1-4": {
+      "transform": [
+        0.42505445409344167,
+        0.9051677806104934,
+        1.4505709073560988e-19,
+        -0.9051677806104934,
+        0.42505445409344167,
+        2.8496346410075034e-21,
+        -5.907776505145598e-20,
+        -1.3251225477966613e-19,
+        1.0,
+        0.8718913366482091,
+        1.1531377163639505,
+        0.019398624149640616,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Part1.SLDPRT",
+      "suppression": 2
+    },
+    "Assem3-1": {
+      "transform": [
+        -1.0,
+        5.900231800766098e-36,
+        1.766858108422411e-18,
+        1.766858108422366e-18,
+        -6.625199008692091e-32,
+        1.0,
+        -3.617682195579882e-51,
+        1.0,
+        0.0,
+        1.7788896728243495,
+        0.1908393187591118,
+        -1.0276565535636413,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Assem3.SLDASM",
+      "suppression": 2
+    },
+    "Frame_Mounting_RevA-1": {
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.783782501086058,
+        1.1848443308096597,
+        -0.00067637585035938,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Connections_Completion\\Frame_Mounting_RevA.SLDPRT",
+      "suppression": 2
+    },
+    "Assem3-1/4-Outer_Control_Ring-1": {
+      "transform": [
+        -0.49853401996901514,
+        -0.8668701349876656,
+        -1.69925880138573e-18,
+        -3.0968441360641444e-17,
+        1.9770066672472177e-17,
+        -1.0,
+        0.8668701349876656,
+        -0.49853401996901514,
+        -3.670166775593987e-17,
+        0.7835587971664622,
+        1.1915289122261974,
+        -0.01617637585035947,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\4-Outer_Control_Ring.SLDPRT"
+    },
+    "Assem3-1/4-Inner_Carriage_Plate-1": {
+      "transform": [
+        -1.0,
+        5.900231800766098e-36,
+        1.766858108422411e-18,
+        1.766858108422366e-18,
+        -6.625199008692091e-32,
+        1.0,
+        -3.617682195579882e-51,
+        1.0,
+        0.0,
+        0.7835587971664622,
+        1.1915289122261974,
+        -0.028676375850359315,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\4-Inner_Carriage_Plate.SLDPRT"
+    }
+  },
+  "links": {
+    "1": {
+      "Tube": {
+        "name": "Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-1",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT"
+      },
+      "ArmBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-3",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "RingBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-4",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "ArmSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-3",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      },
+      "RingSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-4",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      }
+    },
+    "2": {
+      "Tube": {
+        "name": "Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-2",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT"
+      },
+      "ArmBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-5",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "RingBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-6",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "ArmSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-6",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      },
+      "RingSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-7",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      }
+    },
+    "3": {
+      "Tube": {
+        "name": "Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-3",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT"
+      },
+      "ArmBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-7",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "RingBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-8",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "ArmSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-8",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      },
+      "RingSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-9",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      }
+    },
+    "4": {
+      "Tube": {
+        "name": "Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-4",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT"
+      },
+      "ArmBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-9",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "RingBall": {
+        "name": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-10",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT"
+      },
+      "ArmSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-10",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      },
+      "RingSocket": {
+        "name": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-11",
+        "exists": true,
+        "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT"
+      }
+    }
+  },
+  "constraints": {
+    "RevB_SETUP_Rotor_Angle": {
+      "exists": true,
+      "suppressed": false
+    },
+    "RevB_SETUP_Ring_Angle": {
+      "exists": true,
+      "suppressed": false
+    },
+    "LimitDistance3": {
+      "exists": true,
+      "suppressed": false,
+      "advanced": false
+    },
+    "LimitDistance1": {
+      "exists": true,
+      "suppressed": false,
+      "advanced": false
+    }
+  },
+  "baseline_hash": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f"
+}

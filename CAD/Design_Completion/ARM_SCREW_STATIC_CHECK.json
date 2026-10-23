@@ -1,0 +1,16 @@
+{
+  "scope": "Four replacement arm-sideM2x12 screws against all resolved leaf solids at saved pose; existing head positions preserved,2mm extra shank protrusion. Ring-side blind screws unchanged.",
+  "body_count": 429,
+  "boolean_comparisons": 36,
+  "threshold_mm3": 1e-05,
+  "intersections": [],
+  "result": "passed",
+  "excluded": [
+    "unchanged pairs",
+    "same-component imported internals",
+    "motion between poses",
+    "loaded gaps/tolerances",
+    "Unmodelled helical threads, loaded deformation and physical wear"
+  ],
+  "assembly_sha256": "24fbac52556632b0a794587b492d25e20c1d3071da5448a9377b8fa3d0b671e3"
+}

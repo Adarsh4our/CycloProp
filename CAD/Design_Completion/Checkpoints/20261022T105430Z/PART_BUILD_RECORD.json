@@ -1,0 +1,583 @@
+{
+  "RB_Cage_Lower_Frame_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 40285.95717308534,
+    "box_m": [
+      -0.11,
+      -0.09,
+      -0.008,
+      0.11,
+      0.09,
+      -0.004
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 108.7720843673304,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "e2392206283d0c71e175d4894585fcd8d34085c1f418dd8442bcd592654268a3"
+  },
+  "RB_Cage_Upper_Support_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 38997.53642488746,
+    "box_m": [
+      -0.11,
+      -0.09,
+      0.2945,
+      0.11,
+      0.09,
+      0.308
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Upper_Support_PROTOTYPE.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 105.29334834719614,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "8bd16254fde6063d4c2bcb12f734b40aab636c596b63693e9aeeaf473cd3e52e"
+  },
+  "RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 6773.273761139594,
+    "box_m": [
+      -0.004,
+      -0.004,
+      0.0,
+      0.004,
+      0.004,
+      0.308
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 18.287839155076906,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "4e4b1e60d4c68087cf653f7e176138180a8890bcc15e768ecbe411eda1181e05"
+  },
+  "RB_Cage_TieRod_M3_L327_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 2311.4267948786905,
+    "box_m": [
+      -0.0015,
+      -0.0015,
+      0.0,
+      0.0015,
+      0.0015,
+      0.327
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 18.144700339797723,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "82ddac6af0c50c428ba6202ccf67e7651def3cb03f0b83c78c7f9db507ea607e"
+  },
+  "RB_Base_Spacer_OD6_ID3p4_L4": {
+    "body_count": 1,
+    "volume_mm3": 76.78052445373454,
+    "box_m": [
+      -0.003,
+      -0.003,
+      0.0,
+      0.003,
+      0.003,
+      0.004
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.2073074160250833,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "836c2f62eee4f35869c03541130a1c1c31c1fe36ce2a0efd06b317345c84c03e"
+  },
+  "RB_Lower_Bearing_Pedestal_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 5520.791455988047,
+    "box_m": [
+      -0.011,
+      -0.011,
+      -0.004,
+      0.011,
+      0.011,
+      0.0465
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_PROTOTYPE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 43.33821292950618,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "5737b02617328e660412b73bb81f79a0785af7476faa452824de9c8c51124b5c"
+  },
+  "RB_Lower_Bearing_Top_Cap_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 266.65838443670157,
+    "box_m": [
+      -0.011,
+      -0.011,
+      0.0,
+      0.011,
+      0.011,
+      0.001
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.7199776379790943,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "efb620761cde6ccff13efd533c4dffc279c1548b35e574d7f8a1515cf3fcf064"
+  },
+  "RB_Lower_Bearing_Pedestal_R2_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 5198.440487784835,
+    "box_m": [
+      -0.011,
+      -0.011,
+      -0.004,
+      0.011,
+      0.011,
+      0.0465
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 40.80775782911096,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "04e153c19eabf0bf2d38060149f8317ddf2b5109301d8c50a59123975ed68a1d",
+    "base_thread_revision": "M2x0.4 THROUGH 4mm flange. M2x8 plus0.3washer gives3.7mm nominal engagement and0.3mm recess."
+  },
+  "RB_M3x16_Base_Screw_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 184.37221885755096,
+    "box_m": [
+      -0.00275,
+      -0.00275,
+      -0.003,
+      0.00275,
+      0.00275,
+      0.016
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3x16_Base_Screw_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.4473219180317753,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "978e55d76212188574d263337f272777d12395a2d74fafb184227bc79795ebdd"
+  },
+  "RB_M2x8_Pedestal_Screw_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 47.815040187636654,
+    "box_m": [
+      -0.0019,
+      -0.0019,
+      -0.002,
+      0.0019,
+      0.0019,
+      0.008
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.3753480654729477,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "13f5cac91258962e8587c436c903b7510f543e859b5a97a16ec814344181537a"
+  },
+  "RB_M2x5_Bearing_Cap_Screw_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 38.39026222686727,
+    "box_m": [
+      -0.0019,
+      -0.0019,
+      -0.002,
+      0.0019,
+      0.0019,
+      0.005
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x5_Bearing_Cap_Screw_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.30136355848090807,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "4548ee166f0d2420a6a2ebbec212748492d22043992f990dffaaa160f3d38b3d"
+  },
+  "RB_Oldham_Output_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 9566.872721730217,
+    "box_m": [
+      -0.034,
+      -0.038,
+      0.0,
+      0.034,
+      0.038,
+      0.006
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_PROTOTYPE.SLDPRT",
+    "material": "7075-T6 (SN)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 26.882912348061915,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "c359840527fcadabef7829157b1bdfc8fb6e592db45ae5bc943f26cddeaae74a"
+  },
+  "RB_Oldham_Floating_Disk_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 4997.143001875194,
+    "box_m": [
+      -0.044,
+      -0.044,
+      0.0,
+      0.044,
+      0.044,
+      0.004
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+    "material": "POM Acetal Copolymer",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 6.94602877260652,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "b744e072a17bc109a3389d8b6fd8adf17b7daac492e3fdf00141de73b5638587"
+  },
+  "RB_Oldham_Input_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 14418.91322068399,
+    "box_m": [
+      -0.038,
+      -0.034,
+      -0.002,
+      0.038,
+      0.034,
+      0.0121
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Input_PROTOTYPE.SLDPRT",
+    "material": "7075-T6 (SN)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 40.51714615012201,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "af9dae8ba203cda27d077effe4c6a3d284f7a604c0311ca75ebfaee0574e8c81"
+  },
+  "RB_Oldham_Output_Pilot_Standoff_L9": {
+    "body_count": 1,
+    "volume_mm3": 149.03715548629978,
+    "box_m": [
+      -0.0025,
+      -0.0025,
+      -0.001,
+      0.0025,
+      0.0025,
+      0.009999999999999998
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.1699416705674532,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "96ab51e470bd16aba78f958647a3159bd53ba4ab737cc6946a0357b888b36d09"
+  },
+  "RB_M2x18_Oldham_CSK_Screw_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 60.73955236450488,
+    "box_m": [
+      -0.002,
+      -0.002,
+      -0.018,
+      0.002,
+      0.002,
+      0.0
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.4768054860613633,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "ef232857dba9f9cef10ec9c3cf4d10844a3c6f527c264898faa572578da2eb9e"
+  },
+  "RB_Blade_Bearing_Cartridge_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 238.8924753123388,
+    "box_m": [
+      -0.007,
+      -0.007,
+      -0.0025,
+      0.007,
+      0.007,
+      0.0018
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT",
+    "material": "7075-T6 (SN)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.6712878556276719,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "94a5a0b908380d4cbd0a544a57eceb664615340e6157a9a228a39082c5150cd3",
+    "axial_refinement": "Implemented before integration; bearing moved inward0.5mm and cap shortened accordingly. Pin-wrench holes added to custom retention parts.",
+    "exact_box_m": [
+      -0.007,
+      -0.007,
+      -0.0025,
+      0.007,
+      0.007,
+      0.0018
+    ],
+    "description": "Proposed7075-T6 bearing cartridge. Endplate outside datumZ0, insideZ1.5. D10 pilot0..1.5 intoD10.02 plate hole. Inboard flangeOD14 H0.3, M10x0.5 external retaining threadZ-1..0. F693ZZ seatD8 Z-1.6..1.5, flange pocketD9.6 Z-2.5..-1.6, inner shoulderID7.4. M14x0.5 cap bossZ-2.5..-1. Thread solids are major envelopes; grooves/chamfers and fits require drawings. Outer-race shoulder contact land, housing fit, G10 crushing, nut torque and oscillatory bearing life await release."
+  },
+  "RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 73.13627697557037,
+    "box_m": [
+      -0.007,
+      -0.007,
+      -0.001,
+      0.007,
+      0.007,
+      0.0
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT",
+    "material": "7075-T6 (SN)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.20551293830135278,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "e0231053896f06e372ff1fb47f16ed791932588311991b5aef80a00b002393a7",
+    "exact_axial_extent_mm": [
+      -1.0,
+      0.0
+    ],
+    "axial_refinement": "Implemented before integration; bearing moved inward0.5mm and cap shortened accordingly. Pin-wrench holes added to custom retention parts.",
+    "exact_box_m": [
+      -0.007,
+      -0.007,
+      -0.001,
+      0.007,
+      0.007,
+      0.0
+    ],
+    "description": "Custom round OD14 M10x0.5 x1mm retaining nut, major-hole envelopeD10. Clamps1.5mm G10 between nutZ-1..0 and cartridge flangeZ1.5..1.8. Thread strip/preload and anti-loosening validation required; TwoD1.2 pin-wrench holes implemented; tooling engagement and torque remain provisional."
+  },
+  "RB_Blade_Bearing_Outer_Cap_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 129.54370984658877,
+    "box_m": [
+      -0.008,
+      -0.008,
+      -0.003,
+      0.008,
+      0.008,
+      -0.0013000000000000002
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT",
+    "material": "7075-T6 (SN)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.36401782466891436,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "d4b454ac54c4ce877cd0aa50ab67a52e7e7da51bf732d63d5f8af1cb55200a23",
+    "axial_refinement": "Implemented before integration; bearing moved inward0.5mm and cap shortened accordingly. Pin-wrench holes added to custom retention parts.",
+    "exact_box_m": [
+      -0.008,
+      -0.008,
+      -0.003,
+      0.008,
+      0.008,
+      -0.0013000000000000002
+    ],
+    "description": "OD16 M14x0.5 bearing retaining cap. Annular faceID8.2 contacts only F693ZZ flangeOD9.5 atZ-2.5, clear of nominalOD8 bearing body/shields. Nominal0.3mm gap to M10nut accommodates bearing-width tolerance. Thread geometry is envelope; twoD1.2 pin-wrench holes implemented; torque/locking and tolerances and actual outer-flange contact await release."
+  },
+  "RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE": {
+    "body_count": 1,
+    "volume_mm3": 191.34262755770334,
+    "box_m": [
+      -0.00475,
+      -0.00475,
+      -0.0025,
+      0.00475,
+      0.00475,
+      0.0015
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.5020396263279712,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "576c9847b859cc01dd92e9a8d2b6c642cbb40442f583d00836284f9fb3e5db79",
+    "axial_refinement": "Implemented before integration; bearing moved inward0.5mm and cap shortened accordingly. Pin-wrench holes added to custom retention parts.",
+    "exact_box_m": [
+      -0.00475,
+      -0.00475,
+      -0.0025,
+      0.00475,
+      0.00475,
+      0.0015
+    ],
+    "description": "Purchased bearing external envelope per retained SMB F693ZZ supplier drawing, 3x8x4 flange9.5x0.9. Source ratingsC55kgf C0 18kgf; not an oscillatory-duty approval. Internal rolling geometry omitted. 4340 library is a steel density proxy, NOT actual52100 material or reliable bearing mass. Do not fabricate this annulus. Supplier contact lands, delivered clearance class/lubricant and fitted life require verification."
+  },
+  "RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p8": {
+    "body_count": 1,
+    "volume_mm3": 4.20816335948353,
+    "box_m": [
+      -0.002,
+      -0.002,
+      0.001,
+      0.002,
+      0.002,
+      0.0018
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p8.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.03303408237194571,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "5cbe98e23976067e789a79de7b4335861dfc82a9ec2feec92f7cb5c7fc72f70b"
+  },
+  "RB_Blade_Thrust_Film_OD4_ID3p05_H0p15": {
+    "body_count": 1,
+    "volume_mm3": 0.7890306299031615,
+    "box_m": [
+      -0.002,
+      -0.002,
+      0.0018,
+      0.002,
+      0.002,
+      0.00195
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT",
+    "material": "PTFE (general)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.0018305510613753346,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "5b6f20392b9f61a251c164214fa424fa2d91af07d6501546d7b796f444e3f999",
+    "exact_box_m": [
+      -0.002,
+      -0.002,
+      0.0018,
+      0.002,
+      0.002,
+      0.00195
+    ],
+    "description": "PTFE film washerOD4 ID3.05 H0.15 Z1.8..1.95. Nominal blade/washer clearance0.2 each end after both endplates move outward0.65. PTFE grade, creep, wear and incoming thickness require qualification; library PTFE is only the provisional material basis."
+  },
+  "RB_Hub_Endplate_Shim_H0p65_PROTOTYPE": {
+    "body_count": 1,
+    "volume_mm3": 283.4536332871039,
+    "box_m": [
+      -0.014,
+      -0.014,
+      0.003,
+      0.014,
+      0.014,
+      0.00365
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+    "material": "6061-T6 (SS)",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.7653248098751806,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "6ed90e3d5e9858dbf7e95eb535a99b5280362a9b0b103cee7d97561eb62bfc1c",
+    "exact_box_m": [
+      -0.014,
+      -0.014,
+      0.003,
+      0.014,
+      0.014,
+      0.00365
+    ],
+    "description": "6061 annular hub shimOD28 ID14.05 H0.65, fourD2.8 PCD22 at45+90n. Moves each endplate outward0.65 while preserving shaft crosspin/hub/blade/arm stations. Remaining hub pilot engagement0.85; flatness/runout and bolted-stack tolerance require release."
+  },
+  "RB_M2p5x10_Hub_Screw_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 88.84816723433633,
+    "box_m": [
+      -0.00225,
+      -0.00225,
+      -0.01,
+      0.00225,
+      0.00225,
+      0.0025
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.6974581127895402,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "402743b50d024ab886836a4bf0e60bef18d12575cd4aa19bda19be0157ed0b2b",
+    "exact_box_m": [
+      -0.00225,
+      -0.00225,
+      -0.01,
+      0.00225,
+      0.00225,
+      0.0025
+    ],
+    "description": "ISO4762 M2.5x0.45x10 nominal envelope, head4.5x2.5, thread major solid. Replaces8mm reference after0.65mm hub shim, nominal nut protrusion1.85mm. 4340 density proxy only; availability, fastener grade, tolerances and locking not verified."
+  },
+  "RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3": {
+    "body_count": 1,
+    "volume_mm3": 1.578061259806323,
+    "box_m": [
+      -0.002,
+      -0.002,
+      0.0015,
+      0.002,
+      0.002,
+      0.0018
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.012387780889479635,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "a46870302f3594054b80c69b032b40f2f8eac9c9f63bbd3879c23e91f32ca398",
+    "exact_box_m": [
+      -0.002,
+      -0.002,
+      0.0015,
+      0.002,
+      0.002,
+      0.0018
+    ],
+    "description": "Steel inner-race-only spacerOD4 ID3.05 H0.3 Z1.5..1.8. Keeps blade thrust off shield/outer shoulder. Actual supplier inner-race contact land and journal fit must be verified; ground faces parallel and deburred before release."
+  }
+}

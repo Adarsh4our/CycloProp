@@ -1,0 +1,34 @@
+{
+  "closed": [
+    {
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Part1.SLDPRT",
+      "title": "RB_Part1.SLDPRT",
+      "dirty_before": true,
+      "preserved_live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Final_Window_Cleanup_20261023T014252Z\\0_RB_Part1.SLDPRT"
+    },
+    {
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Material_Reconciliation\\INSPECT_ORIGINAL_RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "title": "INSPECT_ORIGINAL_RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "dirty_before": false
+    },
+    {
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Material_Reconciliation\\INSPECT_ORIGINAL_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "title": "INSPECT_ORIGINAL_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "dirty_before": false
+    },
+    {
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Material_Reconciliation\\INSPECT_ORIGINAL_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+      "title": "INSPECT_ORIGINAL_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+      "dirty_before": false
+    },
+    {
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Material_Reconciliation\\INSPECT_ORIGINAL_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+      "title": "INSPECT_ORIGINAL_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+      "dirty_before": false
+    }
+  ],
+  "unrelated_windows_left": [],
+  "working_assembly_left_open": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+  "assembly_save_flag": false,
+  "assembly_sha256": "24fbac52556632b0a794587b492d25e20c1d3071da5448a9377b8fa3d0b671e3"
+}

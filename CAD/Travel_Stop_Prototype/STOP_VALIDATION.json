@@ -1,0 +1,506 @@
+{
+  "date": "2026-10-21",
+  "status": "PROVISIONAL",
+  "checks": {
+    "native_dimensions": "passed",
+    "settled_positions": "passed",
+    "overtravel_intersection_probes": "passed",
+    "full_continuous_motion": "not performed",
+    "impact_load_capacity": "not performed",
+    "tolerance_stack": "not performed",
+    "physical_mounting_fasteners": "nominal CAD attachment defined; strength and anti-loosening not verified"
+  },
+  "nominal_bore_diameter_mm": 19.759999999999998,
+  "nominal_follower_diameter_mm": 6.0,
+  "nominal_radial_allowance_mm": 6.88,
+  "follower_shank_length_mm": 24.0,
+  "ring_axial_thickness_mm": 3.0,
+  "sample_count": 25,
+  "sampled_positions": [
+    {
+      "offset_mm": [
+        0.0,
+        0.0
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        2.220446049250313e-13
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.14018491736755e-13
+    },
+    {
+      "offset_mm": [
+        3.44,
+        0.0
+      ],
+      "actual_offset_mm": [
+        3.4399999999996655,
+        2.220446049250313e-13
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4399999999996655
+    },
+    {
+      "offset_mm": [
+        2.4324473272817237,
+        2.4324473272817237
+      ],
+      "actual_offset_mm": [
+        2.4324473272814284,
+        2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.439999999999897
+    },
+    {
+      "offset_mm": [
+        2.1063924945334475e-16,
+        3.44
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        3.4399999999998876
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4399999999996655
+    },
+    {
+      "offset_mm": [
+        -2.4324473272817233,
+        2.4324473272817237
+      ],
+      "actual_offset_mm": [
+        -2.4324473272818725,
+        2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.440000000000211
+    },
+    {
+      "offset_mm": [
+        -3.44,
+        4.212784989066895e-16
+      ],
+      "actual_offset_mm": [
+        -3.4400000000001096,
+        0.0
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4400000000001096
+    },
+    {
+      "offset_mm": [
+        -2.4324473272817237,
+        -2.4324473272817233
+      ],
+      "actual_offset_mm": [
+        -2.4324473272818725,
+        -2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.439999999999897
+    },
+    {
+      "offset_mm": [
+        -6.319177483600342e-16,
+        -3.44
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        -3.4400000000003317
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4400000000001096
+    },
+    {
+      "offset_mm": [
+        2.432447327281723,
+        -2.4324473272817237
+      ],
+      "actual_offset_mm": [
+        2.4324473272814284,
+        -2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4399999999995825
+    },
+    {
+      "offset_mm": [
+        6.88,
+        0.0
+      ],
+      "actual_offset_mm": [
+        6.879999999999997,
+        0.0
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        6.356291183677653,
+        2.632862014671818
+      ],
+      "actual_offset_mm": [
+        6.356291183677643,
+        2.632862014671833
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999911
+    },
+    {
+      "offset_mm": [
+        4.8648946545634475,
+        4.8648946545634475
+      ],
+      "actual_offset_mm": [
+        4.864894654563523,
+        4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000107
+    },
+    {
+      "offset_mm": [
+        2.6328620146718182,
+        6.356291183677653
+      ],
+      "actual_offset_mm": [
+        2.632862014671611,
+        6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999911
+    },
+    {
+      "offset_mm": [
+        4.212784989066895e-16,
+        6.88
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        6.879999999999997
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        -2.6328620146718174,
+        6.356291183677653
+      ],
+      "actual_offset_mm": [
+        -2.632862014672055,
+        6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000082
+    },
+    {
+      "offset_mm": [
+        -4.864894654563447,
+        4.8648946545634475
+      ],
+      "actual_offset_mm": [
+        -4.864894654563523,
+        4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000107
+    },
+    {
+      "offset_mm": [
+        -6.356291183677653,
+        2.6328620146718187
+      ],
+      "actual_offset_mm": [
+        -6.356291183677643,
+        2.632862014671611
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000117
+    },
+    {
+      "offset_mm": [
+        -6.88,
+        8.42556997813379e-16
+      ],
+      "actual_offset_mm": [
+        -6.879999999999997,
+        2.220446049250313e-13
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        -6.356291183677653,
+        -2.632862014671817
+      ],
+      "actual_offset_mm": [
+        -6.356291183677643,
+        -2.632862014672055
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000082
+    },
+    {
+      "offset_mm": [
+        -4.8648946545634475,
+        -4.864894654563447
+      ],
+      "actual_offset_mm": [
+        -4.864894654563523,
+        -4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000107
+    },
+    {
+      "offset_mm": [
+        -2.632862014671822,
+        -6.3562911836776514
+      ],
+      "actual_offset_mm": [
+        -2.632862014672055,
+        -6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000082
+    },
+    {
+      "offset_mm": [
+        -1.2638354967200685e-15,
+        -6.88
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        -6.879999999999997
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        2.632862014671819,
+        -6.356291183677652
+      ],
+      "actual_offset_mm": [
+        2.632862014671611,
+        -6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999911
+    },
+    {
+      "offset_mm": [
+        4.864894654563446,
+        -4.8648946545634475
+      ],
+      "actual_offset_mm": [
+        4.864894654563079,
+        -4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999794
+    },
+    {
+      "offset_mm": [
+        6.3562911836776514,
+        -2.632862014671822
+      ],
+      "actual_offset_mm": [
+        6.356291183677643,
+        -2.632862014671611
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999911
+    }
+  ],
+  "overtravel_probes": [
+    {
+      "direction_offset_mm": [
+        6.88,
+        0.0
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463053316
+    },
+    {
+      "direction_offset_mm": [
+        6.356291183677653,
+        2.632862014671818
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463033143
+    },
+    {
+      "direction_offset_mm": [
+        4.8648946545634475,
+        4.8648946545634475
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546311611
+    },
+    {
+      "direction_offset_mm": [
+        2.6328620146718182,
+        6.356291183677653
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546298609
+    },
+    {
+      "direction_offset_mm": [
+        4.212784989066895e-16,
+        6.88
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546305272
+    },
+    {
+      "direction_offset_mm": [
+        -2.6328620146718174,
+        6.356291183677653
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546306821
+    },
+    {
+      "direction_offset_mm": [
+        -4.864894654563447,
+        4.8648946545634475
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546311237
+    },
+    {
+      "direction_offset_mm": [
+        -6.356291183677653,
+        2.6328620146718187
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546314915
+    },
+    {
+      "direction_offset_mm": [
+        -6.88,
+        8.42556997813379e-16
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546305328
+    },
+    {
+      "direction_offset_mm": [
+        -6.356291183677653,
+        -2.632862014671817
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463127123
+    },
+    {
+      "direction_offset_mm": [
+        -4.8648946545634475,
+        -4.864894654563447
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463111946
+    },
+    {
+      "direction_offset_mm": [
+        -2.632862014671822,
+        -6.3562911836776514
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463068204
+    },
+    {
+      "direction_offset_mm": [
+        -1.2638354967200685e-15,
+        -6.88
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463052444
+    },
+    {
+      "direction_offset_mm": [
+        2.632862014671819,
+        -6.356291183677652
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546298299
+    },
+    {
+      "direction_offset_mm": [
+        4.864894654563446,
+        -4.8648946545634475
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546293523
+    },
+    {
+      "direction_offset_mm": [
+        6.3562911836776514,
+        -2.632862014671822
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463033853
+    }
+  ],
+  "simultaneous_6p88_axes_corner_overlap_mm3": 42.46929516091819,
+  "native_boolean_checks": 63,
+  "active_mates": 113,
+  "final_mate_errors": [],
+  "restored_prior_offset_mm": [
+    5.335974549973477,
+    -6.825651155395462e-10
+  ],
+  "assumptions": [
+    "Rigid nominal geometry",
+    "Control ring held at saved angular position",
+    "Existing-existing component pairs excluded from new-stop checks",
+    "Threaded fasteners use envelopes, not modelled thread flanks",
+    "Coincident zero-volume contact is allowed",
+    "Fasteners use signed datum mates; commercial envelopes, not modelled threads. Joint load capacity, tightening, locking and actual tool access not verified"
+  ],
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "e6256044f77645c509ed178a4e588d3391bd7a5c8757efa5ff57024696383221",
+    "CAD\\XY_Fixed_Base.SLDPRT": "cc81991156820d145b99f6c4ff583ad80632c3e25ac6ae6576c7a109baaf9ef4",
+    "CAD\\4-Inner_Carriage_Plate.SLDPRT": "52fc19aea63028cd06dd6805918d406fb232da46b6e235cb1c8ed0af0406759c",
+    "CAD\\Travel_Stop_Prototype\\M2p5x10_CSK_REFERENCE.SLDPRT": "46603bdf8169d2b64c2f863a57a60357ad4d1f3120f91c1d225488ff7c643f6c",
+    "CAD\\Travel_Stop_Prototype\\M2p5x8_CSK_REFERENCE.SLDPRT": "59153a96a7b2ca5f4662d80bc723a35f22acb690c9da0fda983afb8a0747f268",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": "edc4fb0901418d30bb55fac9f2604d8127f2b2076f82c295556809734489e66a",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": "663ce8a4bcace95c4cf1a99d116ee43efd5148fe67a1f0b4070b469ead1b5fc0",
+    "CAD\\Travel_Stop_Prototype\\M4_Locknut_AF7_H5_REFERENCE.SLDPRT": "7f7d17179dad2c219a2bf774884e82c0b368fa503426cb5b768787b39e90ff7c",
+    "CAD\\Travel_Stop_Prototype\\M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": "26f97ff186241409ff22fb66c9d18e5c97d5de40ec36a000ec0c7a92a2e100f6",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": "5085f3c0a197ac5bb99903c1ffeb85e3bfce358695cb4e0f030ff8ff10689801",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": "c8ab766c5efbae4c80d9b89377cac5674b2796f3d31bd0f3bb895789a5cc7cec",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": "e29b8f3e2209e2f783bfa00373b46ac654ea9444c05078ec480faa201ac5f55f"
+  }
+}

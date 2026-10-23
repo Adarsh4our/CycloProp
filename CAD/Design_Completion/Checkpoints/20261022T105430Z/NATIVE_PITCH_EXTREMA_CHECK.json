@@ -1,0 +1,132 @@
+{
+  "scope": "Native physical coupling at dense-planar-analysis critical pitch positions, e6.88 along+X; no independent ring positioning.",
+  "poses": [
+    {
+      "shaft_increment_deg": 282.8376732545751,
+      "shaft_angle_deg": -1.2400000000000257,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 1.1102230246251565e-16,
+      "output_slide_error_mm": 8.489651480043933e-14,
+      "input_slide_error_mm": 2.148390217948917e-14,
+      "floating_axial_error_mm": -4.432218481120742e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.5266532500768,
+          "axial_error_mm": 1.2836953722228372e-13,
+          "socket_errors_mm": [
+            6.131460309343983e-12,
+            6.707486601664412e-12
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007585,
+          "axial_error_mm": -1.734723475976807e-15,
+          "socket_errors_mm": [
+            5.413927452623774e-12,
+            5.507600607227421e-12
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.526653250077494,
+          "axial_error_mm": -6.765421556309548e-14,
+          "socket_errors_mm": [
+            1.115038703118551e-11,
+            1.098949184084921e-11
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007739,
+          "axial_error_mm": 1.6132928326584306e-13,
+          "socket_errors_mm": [
+            1.6337006312472115e-10,
+            1.6362578275237923e-10
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -34.98966325252945,
+        -0.6571122633812141,
+        34.99061822940472,
+        -3.3448220008620106
+      ],
+      "predicted_Part1_1_pitch_deg": -34.98966325252594,
+      "native_prediction_error_deg": -3.510081114654895e-12
+    },
+    {
+      "shaft_increment_deg": 103.10767325457515,
+      "shaft_angle_deg": 179.03,
+      "ring_phase_error_deg": -1.323110747488823e-12,
+      "shaft_drive_error_deg": 0.0,
+      "coupling_rotation_error": 9.034034097324254e-17,
+      "output_slide_error_mm": 1.8368537954744418e-13,
+      "input_slide_error_mm": 4.5941794129025e-13,
+      "floating_axial_error_mm": -4.44956571588051e-13,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325007635,
+          "axial_error_mm": 1.3183898417423734e-13,
+          "socket_errors_mm": [
+            8.161095043054675e-12,
+            8.365685032897902e-12
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325007621,
+          "axial_error_mm": 8.326672684688674e-14,
+          "socket_errors_mm": [
+            5.687116766346677e-12,
+            5.730299746071283e-12
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007876,
+          "axial_error_mm": -6.245004513516506e-14,
+          "socket_errors_mm": [
+            9.889611524543416e-12,
+            9.23826380442211e-12
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007728,
+          "axial_error_mm": -7.112366251504909e-14,
+          "socket_errors_mm": [
+            5.438109918165951e-12,
+            5.531147509229095e-12
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        34.991098916121246,
+        -3.1914676568514904,
+        -34.98925669708845,
+        -0.8124084265265863
+      ],
+      "predicted_Part1_1_pitch_deg": 34.991098916126695,
+      "native_prediction_error_deg": -5.4498627832799684e-12
+    }
+  ],
+  "thresholds": {
+    "angle_deg": 0.001,
+    "joint_position_mm": 0.001,
+    "rod_length_mm": 0.001
+  },
+  "excluded": [
+    "continuous collision clearance",
+    "loaded/contact backlash behavior",
+    "wear/thermal/dynamic rating"
+  ],
+  "result": "passed native nominal extrema; does not include tolerance/backlash/loaded variation",
+  "restored_xy_mm": [
+    -0.22370391959602998,
+    6.684581416537716
+  ]
+}

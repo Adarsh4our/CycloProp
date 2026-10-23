@@ -1,0 +1,14 @@
+{
+  "NA23C60-T4A.pdf": {
+    "url": "https://www.zaber.com/fs/datasheets/NA23C60-T4A-Datasheet.pdf",
+    "sha256": "4a499fa8f7ba6c4befe3a443b54abb9f590dd7ae3a9cfa9a34feb3a6602e6311"
+  },
+  "NA23_thrust_speed.gif": {
+    "url": "https://www.zaber.com/fs/series/NA/2/charts/NA23Cxx-T4A-Thrust-Speed-Performance-19292%2C-39186.gif",
+    "sha256": "bbda8d951828aad043ad21bf76cbf11ea04ef09f93ae49c296b5db5a95422fd7"
+  },
+  "NA_dimensions.pdf": {
+    "url": "https://www.zaber.com/fs/series/NA/2/docs/NA.pdf",
+    "sha256": "8a4a7f722cd945320ccb5a6a02ee04052426716ff001cbee8ec025c899ca721f"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "status": "PROVISIONAL PACKAGING CALCULATIONS; NOT APPROVED OPERATING LOADS OR STRENGTH RELEASE",
+  "selected_dimensions_mm": {
+    "post_diameter": 5.5,
+    "post_straight_length": 32.8,
+    "post_head_start": 32.8,
+    "upper_frame_underside": 304.0,
+    "upper_frame_top": 308.0,
+    "cage_tube_length": 308.0,
+    "cage_tie_rod_length": 327.0,
+    "cage_tie_rod_bottom": -13.5,
+    "cage_tube_bottom": -4.0,
+    "pillar_centres": [
+      [
+        -105,
+        -85
+      ],
+      [
+        -105,
+        85
+      ],
+      [
+        105,
+        -85
+      ],
+      [
+        105,
+        85
+      ]
+    ]
+  },
+  "central_support": {
+    "housing_bore_mm": 20.5,
+    "maximum_offset_mm": 6.88,
+    "nominal_radial_gap_mm": 0.6200000000000001,
+    "adverse_radial_budget_mm": {
+      "bore_radius": 0.025,
+      "post_radius": 0.005,
+      "relative_position": 0.05,
+      "guide_play": 0.05,
+      "thermal": 0.02,
+      "deflection_allowance": 0.15
+    },
+    "remaining_gap_mm": 0.3200000000000001,
+    "assumed_transverse_force_N": 20.0,
+    "force_height_mm": 44.0,
+    "material_basis": "Installed SolidWorks AISI4340 normalized library: E205GPa,yield710MPa; product condition and fatigue not verified",
+    "elastic_tip_deflection_mm": 0.06066252289293018,
+    "root_nominal_bending_stress_MPa": 53.87592123176888,
+    "stress_concentration_factor_assumed": 2.0,
+    "static_yield_factor_assumed_Kt2": 6.5892144743627705
+  },
+  "rotor_frame": {
+    "conservative_transverse_blade_bound_mm": 123.58144874903472,
+    "pillar_inner_boundary_mm": 131.09256086106296,
+    "nominal_pillar_gap_mm": 7.511112112028243,
+    "required_gap_mm": 3.5,
+    "adverse_tolerance_deflection_budget_mm": 1.0,
+    "upper_blade_pin_end_mm": 298.075,
+    "upper_header_nominal_axial_gap_mm": 5.925000000000011,
+    "retention_allowance_not_yet_modelled_mm": 1.0
+  },
+  "timing_dynamic_screen": {
+    "omega_rad_s": 276.46015351590177,
+    "floating_centre_peak_acceleration_m_s2": 1051.6797787928151,
+    "full_OD92_ID40_H4_POM_disk_g": 29.973809844194072,
+    "full_disk_inertial_force_N": 31.522849706519924,
+    "decision": "Reject unrelieved full annulus for implementation: reduce moving mass before detailed contact/load checks. No commercial coupling rating inferred."
+  },
+  "cage_mass_screen": {
+    "four_M3_steel_327mm_rods_g": 72.57880135919086,
+    "four_OD8_ID6_CFRP_308mm_tubes_g": 41.99429731906548,
+    "density_assumptions_kg_m3": {
+      "steel": 7850,
+      "CFRP": 1550
+    },
+    "note": "Tie-rod cylinders overestimate thread material. Strength, preload, end crushing and vibration remain open."
+  },
+  "limits": [
+    "D5.5 proposal preserves D20.5 bores and retainer webs; actual guide play, runout and geometry require checks",
+    "20N radial support load is an engineering study assumption, not user-approved or measured; establish aerodynamic/imbalance/stop load envelope before release",
+    "Retention and timing parts must stay outside the stated moving envelopes",
+    "Nominal pitch extrema at e6.88 have almost no literal35deg margin; calibration/tolerance analysis remains required"
+  ]
+}

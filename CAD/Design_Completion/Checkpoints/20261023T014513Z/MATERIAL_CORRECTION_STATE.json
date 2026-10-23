@@ -1,0 +1,218 @@
+{
+  "status": "Listed native assignments/target overrides corrected; full register and physical validation remain separate",
+  "backup": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Before_Material_Reconciliation",
+  "parts": {
+    "RB_4-Outer_Control_Ring.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "Aluminum 7075-T6 (2)",
+        "material_database": "Custom Materials",
+        "mass_g": 9.0,
+        "mass_override": true,
+        "sha256": "513bdcfe1c975f1e77ce0d3e1fd424acd97bc0bd670ca7304e3e00ffd625567d"
+      },
+      "after_mass_g": 83.56931685817075,
+      "mass_override": false,
+      "effective_density_kg_m3": 2810.0,
+      "configuration": "Default",
+      "assigned_material": "7075-T6 (SN)",
+      "database_readback": "SOLIDWORKS Materials",
+      "reason": "Existing7075 intent retained using installed library; removes9g target override.",
+      "sha256": "493ccb0fffbf93677f651b47d5c959a366da032f3a2e70c35c9f96afe4567001"
+    },
+    "RB_4-Inner_Carriage_Plate.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 5.0,
+        "mass_override": true,
+        "sha256": "18e9e958eb9a2ee69e62faa620cb338f265a6eff7f41a8a650f9ae5015e6f127"
+      },
+      "after_mass_g": 33.11800804860179,
+      "mass_override": false,
+      "effective_density_kg_m3": 2810.0,
+      "configuration": "Default",
+      "assigned_material": "7075-T6 (SN)",
+      "database_readback": "SOLIDWORKS Materials",
+      "reason": "Rev3 inner-carriage7075 intent; provisional machining material, not supplied certificate.",
+      "sha256": "8577c6d39ebd3c030794ac6d34abca14ca8fbd6733bd51bbbf90a53543d5e67c"
+    },
+    "RB_Intermediate_X_Slider.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 9.624609177314529,
+        "mass_override": false,
+        "sha256": "6ca73f4cb20f684cfa53367b4ce215ba9539e4b1a2709d18a28d86cecf358bef"
+      },
+      "after_mass_g": 25.986444778749227,
+      "mass_override": false,
+      "effective_density_kg_m3": 2700.0,
+      "configuration": "Default",
+      "assigned_material": "6061-T6 (SS)",
+      "database_readback": "SOLIDWORKS Materials",
+      "reason": "Selected provisional bench-prototype aluminum; actual supplied stock/strength remain unverified.",
+      "sha256": "b65c1513de58f1803d531438c29c8bccab154289ecd57507fab83313130758a5"
+    },
+    "RB_XY_Fixed_Base.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 15.627930975603082,
+        "mass_override": false,
+        "sha256": "ddab635b5a7906653563d6c8baca95e056cb6f38e8c60b6f2e71a670b99e932a"
+      },
+      "after_mass_g": 42.19541363412833,
+      "mass_override": false,
+      "effective_density_kg_m3": 2700.0,
+      "configuration": "Default",
+      "assigned_material": "6061-T6 (SS)",
+      "database_readback": "SOLIDWORKS Materials",
+      "reason": "Selected provisional bench-prototype aluminum, consistent with the new cage; strength/fatigue not released.",
+      "sha256": "6c0218d6a25ea90cb4f0d3ff72f1ad7b3fc08c6a86a76e5508fe4eb4de8077cb"
+    },
+    "RB_Shaft_Drive_Hub_RevA.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 3.230767837312774,
+        "mass_override": false,
+        "sha256": "ebaeaaff7591014fcd024c634b3ca81d75566cafc59c22bdce8697afaacc95c9"
+      },
+      "after_mass_g": 9.078457622848894,
+      "mass_override": false,
+      "effective_density_kg_m3": 2810.0,
+      "configuration": "Default",
+      "assigned_material": "7075-T6 (SN)",
+      "database_readback": "SOLIDWORKS Materials",
+      "reason": "Selected provisional aluminum for machined pinned hub; does not resolve supplied material certification.",
+      "sha256": "fa45ab37f3a269f432346d0dbc7f6375b19e5772b0cafc789df13ccbe5268cbc"
+    },
+    "RB_Endplate_Hub_Interface_RevA.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 18.0,
+        "mass_override": true,
+        "sha256": "0a5e313cd1748940ea60b32a13d55505738e212db3ce32a68fe9e6512edb3d60"
+      },
+      "after_mass_g": 75.47342029088318,
+      "mass_override": false,
+      "effective_density_kg_m3": 1850.0,
+      "configuration": "Default",
+      "assigned_material": "G10_FR4_1850_DENSITY_ONLY_PROVISIONAL",
+      "database_readback": "CycloProp_Prototype_Densities",
+      "reason": "Rev3 specifies1.85g/cm3 G10; replaces18g target override with volume-based mass. Laminate/strength remain unverified.",
+      "sha256": "2f9b5c7a55bd391f1272b3e97a744b38dfc3f204246c67c0f31973eb3c5577c6"
+    },
+    "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "Aluminum 7075-T6 (2)",
+        "material_database": "Custom Materials",
+        "mass_g": 2.5,
+        "mass_override": true,
+        "sha256": "bb6d153c2a19c895ee9ef0afb8f7c110e6c33198f6c5280fed8a87ab69d6ea4a"
+      },
+      "after_mass_g": 2.511971150978725,
+      "mass_override": false,
+      "effective_density_kg_m3": 2810.0,
+      "configuration": "Default",
+      "assigned_material": "7075-T6 (SN)",
+      "database_readback": "SOLIDWORKS Materials",
+      "reason": "Existing7075 arm intent retained using installed library; removes2.5g target override.",
+      "sha256": "e0d89d44fe3d58e7391acbb8e027c670aaded872806eb85eb2ec74635d8f95bb"
+    },
+    "RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 0.04143987812390514,
+        "mass_override": false,
+        "sha256": "2c553ef078a8b9bf8162a86f61f2a98305a22bcb4af2e8df75480d3de2b7144d"
+      },
+      "after_mass_g": 0.32530304327265536,
+      "mass_override": false,
+      "effective_density_kg_m3": 7850.000000000001,
+      "configuration": "Default",
+      "assigned_material": "AISI 4340 Steel, normalized",
+      "database_readback": "SOLIDWORKS Materials",
+      "reason": "Steel density proxy for custom ball insert; finish/hardness/grade and wear require release.",
+      "sha256": "328a831292a95ff97c3581e073e09677c616b6f6fd4847719f3a906b5d22df9d"
+    },
+    "RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 0.10962584403491996,
+        "mass_override": false,
+        "sha256": "bea244396aba9cd5550b9173ee2e4f7be976697bfd35ef0964be581f1d59bea7"
+      },
+      "after_mass_g": 0.16992005825412596,
+      "mass_override": false,
+      "effective_density_kg_m3": 1550.0,
+      "configuration": "Default",
+      "assigned_material": "CFRP_TUBE_1550_DENSITY_ONLY_PROVISIONAL",
+      "database_readback": "CycloProp_Prototype_Densities",
+      "reason": "Documented CFRP density used for tube mass only. Fiber architecture, modulus, bond and supplied dimensions unverified.",
+      "sha256": "307c69991c806a91667790808a894c4f3dd664da54fc12866c6c53c838fdeb80"
+    }
+  },
+  "custom_density_database": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\custom materials\\CycloProp_Prototype_Densities.sldmat",
+  "limits": [
+    "Only listed parts/configurations corrected. Other unassigned parts and purchased-envelope proxies remain identified in revised BOM.",
+    "No actual hardware mass, certified material grade or strength approval is inferred.",
+    "Blade monolithic solid remains a geometry proxy without a composite manufacturing/material definition."
+  ],
+  "attempts": {
+    "RB_Endplate_Hub_Interface_RevA.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 18.0,
+        "mass_override": true,
+        "sha256": "0a5e313cd1748940ea60b32a13d55505738e212db3ce32a68fe9e6512edb3d60"
+      }
+    },
+    "RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "Aluminum 7075-T6 (2)",
+        "material_database": "Custom Materials",
+        "mass_g": 2.5,
+        "mass_override": true,
+        "sha256": "bb6d153c2a19c895ee9ef0afb8f7c110e6c33198f6c5280fed8a87ab69d6ea4a"
+      }
+    },
+    "RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 0.04143987812390514,
+        "mass_override": false,
+        "sha256": "2c553ef078a8b9bf8162a86f61f2a98305a22bcb4af2e8df75480d3de2b7144d"
+      }
+    },
+    "RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT": {
+      "before": {
+        "dirty_flag_before": true,
+        "material": "",
+        "material_database": "",
+        "mass_g": 0.10962584403491996,
+        "mass_override": false,
+        "sha256": "bea244396aba9cd5550b9173ee2e4f7be976697bfd35ef0964be581f1d59bea7"
+      }
+    }
+  },
+  "complete": true,
+  "assembly_sha256": "1ee61a876dafa5c93cc6bf64dc996f1252a316e0fbae7aa4b4c97477bb388dc9"
+}

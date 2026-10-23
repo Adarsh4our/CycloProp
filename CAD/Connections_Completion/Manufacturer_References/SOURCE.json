@@ -1,0 +1,14 @@
+{
+  "url": "https://web.teamsavox.com/wp-content/uploads/2025/05/SH-0257MGP_3D.zip",
+  "retrieved": "2026-10-21",
+  "sha256": "acf59b6052c7c4bdb56b7afeb9c755a02d1d9c5bf51a33613178e7332990d58a",
+  "product_page": "https://www.teamsavox.com/product/sh-0257mgp/",
+  "step_header_date": "2025-05-07",
+  "native_inspection": "Loaded official STEP in SolidWorks2026; extracted output body and inspected cylindrical crown faces",
+  "crown_faces": 21,
+  "crown_spacing_deg": 17.142857142857142,
+  "step_crown_diameter_mm": 5.0,
+  "product_nominal_diameter_mm": 4.8,
+  "fit_status": "Conflicting supplier diameters; manufacturing fit unverified",
+  "step_sha256": "14d6a50fd4884184e9a4f21c5b1429f94d944b455b27e3b10b7fe1d8da83a515"
+}

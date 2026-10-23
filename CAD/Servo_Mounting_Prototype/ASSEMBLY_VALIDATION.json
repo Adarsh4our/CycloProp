@@ -1,0 +1,605 @@
+{
+  "date": "2026-10-21",
+  "status": "PROVISIONAL",
+  "checks": {
+    "native_dimensions": "passed",
+    "settled_positions": "passed",
+    "overtravel_intersection_probes": "passed",
+    "full_continuous_motion": "not performed",
+    "impact_load_capacity": "not performed",
+    "tolerance_stack": "not performed",
+    "physical_mounting_fasteners": "nominal stop and servo attachments defined; grades, preload, locking and strength unverified"
+  },
+  "nominal_bore_diameter_mm": 19.759999999999998,
+  "nominal_follower_diameter_mm": 6.0,
+  "nominal_radial_allowance_mm": 6.88,
+  "follower_shank_length_mm": 24.0,
+  "ring_axial_thickness_mm": 3.0,
+  "sample_count": 25,
+  "sampled_positions": [
+    {
+      "offset_mm": [
+        0.0,
+        0.0
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        -2.220446049250313e-13
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.14018491736755e-13
+    },
+    {
+      "offset_mm": [
+        3.44,
+        0.0
+      ],
+      "actual_offset_mm": [
+        3.4399999999996655,
+        0.0
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4399999999996655
+    },
+    {
+      "offset_mm": [
+        2.4324473272817237,
+        2.4324473272817237
+      ],
+      "actual_offset_mm": [
+        2.4324473272814284,
+        2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4399999999995825
+    },
+    {
+      "offset_mm": [
+        2.1063924945334475e-16,
+        3.44
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        3.4399999999998876
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4400000000001096
+    },
+    {
+      "offset_mm": [
+        -2.4324473272817233,
+        2.4324473272817237
+      ],
+      "actual_offset_mm": [
+        -2.4324473272818725,
+        2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.439999999999897
+    },
+    {
+      "offset_mm": [
+        -3.44,
+        4.212784989066895e-16
+      ],
+      "actual_offset_mm": [
+        -3.4400000000001096,
+        0.0
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4400000000001096
+    },
+    {
+      "offset_mm": [
+        -2.4324473272817237,
+        -2.4324473272817233
+      ],
+      "actual_offset_mm": [
+        -2.4324473272818725,
+        -2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.440000000000211
+    },
+    {
+      "offset_mm": [
+        -6.319177483600342e-16,
+        -3.44
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        -3.4400000000003317
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.4400000000005537
+    },
+    {
+      "offset_mm": [
+        2.432447327281723,
+        -2.4324473272817237
+      ],
+      "actual_offset_mm": [
+        2.4324473272814284,
+        -2.4324473272816505
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 3.439999999999897
+    },
+    {
+      "offset_mm": [
+        6.88,
+        0.0
+      ],
+      "actual_offset_mm": [
+        6.879999999999997,
+        0.0
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        6.356291183677653,
+        2.632862014671818
+      ],
+      "actual_offset_mm": [
+        6.356291183677643,
+        2.632862014671833
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000082
+    },
+    {
+      "offset_mm": [
+        4.8648946545634475,
+        4.8648946545634475
+      ],
+      "actual_offset_mm": [
+        4.864894654563523,
+        4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000107
+    },
+    {
+      "offset_mm": [
+        2.6328620146718182,
+        6.356291183677653
+      ],
+      "actual_offset_mm": [
+        2.632862014671611,
+        6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999911
+    },
+    {
+      "offset_mm": [
+        4.212784989066895e-16,
+        6.88
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        6.879999999999997
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        -2.6328620146718174,
+        6.356291183677653
+      ],
+      "actual_offset_mm": [
+        -2.632862014672055,
+        6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000082
+    },
+    {
+      "offset_mm": [
+        -4.864894654563447,
+        4.8648946545634475
+      ],
+      "actual_offset_mm": [
+        -4.864894654563523,
+        4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000107
+    },
+    {
+      "offset_mm": [
+        -6.356291183677653,
+        2.6328620146718187
+      ],
+      "actual_offset_mm": [
+        -6.356291183677643,
+        2.632862014671611
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000117
+    },
+    {
+      "offset_mm": [
+        -6.88,
+        8.42556997813379e-16
+      ],
+      "actual_offset_mm": [
+        -6.879999999999997,
+        2.220446049250313e-13
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        -6.356291183677653,
+        -2.632862014671817
+      ],
+      "actual_offset_mm": [
+        -6.356291183677643,
+        -2.632862014672055
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000082
+    },
+    {
+      "offset_mm": [
+        -4.8648946545634475,
+        -4.864894654563447
+      ],
+      "actual_offset_mm": [
+        -4.864894654563523,
+        -4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000107
+    },
+    {
+      "offset_mm": [
+        -2.632862014671822,
+        -6.3562911836776514
+      ],
+      "actual_offset_mm": [
+        -2.632862014672055,
+        -6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.880000000000082
+    },
+    {
+      "offset_mm": [
+        -1.2638354967200685e-15,
+        -6.88
+      ],
+      "actual_offset_mm": [
+        -2.220446049250313e-13,
+        -6.879999999999997
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999997
+    },
+    {
+      "offset_mm": [
+        2.632862014671819,
+        -6.356291183677652
+      ],
+      "actual_offset_mm": [
+        2.632862014671611,
+        -6.356291183677643
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999911
+    },
+    {
+      "offset_mm": [
+        4.864894654563446,
+        -4.8648946545634475
+      ],
+      "actual_offset_mm": [
+        4.864894654563079,
+        -4.864894654563523
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999794
+    },
+    {
+      "offset_mm": [
+        6.3562911836776514,
+        -2.632862014671822
+      ],
+      "actual_offset_mm": [
+        6.356291183677643,
+        -2.632862014671611
+      ],
+      "mate_errors": [],
+      "interferences": [],
+      "stop_axis_separation_mm": 6.879999999999911
+    }
+  ],
+  "overtravel_probes": [
+    {
+      "direction_offset_mm": [
+        6.88,
+        0.0
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463053316
+    },
+    {
+      "direction_offset_mm": [
+        6.356291183677653,
+        2.632862014671818
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546312662
+    },
+    {
+      "direction_offset_mm": [
+        4.8648946545634475,
+        4.8648946545634475
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546311611
+    },
+    {
+      "direction_offset_mm": [
+        2.6328620146718182,
+        6.356291183677653
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546298609
+    },
+    {
+      "direction_offset_mm": [
+        4.212784989066895e-16,
+        6.88
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546305272
+    },
+    {
+      "direction_offset_mm": [
+        -2.6328620146718174,
+        6.356291183677653
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463068204
+    },
+    {
+      "direction_offset_mm": [
+        -4.864894654563447,
+        4.8648946545634475
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546311237
+    },
+    {
+      "direction_offset_mm": [
+        -6.356291183677653,
+        2.6328620146718187
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546314915
+    },
+    {
+      "direction_offset_mm": [
+        -6.88,
+        8.42556997813379e-16
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546305328
+    },
+    {
+      "direction_offset_mm": [
+        -6.356291183677653,
+        -2.632862014671817
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546312713
+    },
+    {
+      "direction_offset_mm": [
+        -4.8648946545634475,
+        -4.864894654563447
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546311194
+    },
+    {
+      "direction_offset_mm": [
+        -2.632862014671822,
+        -6.3562911836776514
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546306821
+    },
+    {
+      "direction_offset_mm": [
+        -1.2638354967200685e-15,
+        -6.88
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463052444
+    },
+    {
+      "direction_offset_mm": [
+        2.632862014671819,
+        -6.356291183677652
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546298299
+    },
+    {
+      "direction_offset_mm": [
+        4.864894654563446,
+        -4.8648946545634475
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.3675988546293523
+    },
+    {
+      "direction_offset_mm": [
+        6.3562911836776514,
+        -2.632862014671822
+      ],
+      "tested_radius_mm": 6.98,
+      "overlap_mm3": 0.36759885463033853
+    }
+  ],
+  "simultaneous_6p88_axes_corner_overlap_mm3": 42.46929516091819,
+  "native_boolean_checks": 482,
+  "active_mates": 197,
+  "final_mate_errors": [],
+  "restored_prior_offset_mm": [
+    4.055601452124025,
+    -6.661338147750939e-13
+  ],
+  "assumptions": [
+    "Rigid nominal geometry",
+    "Control ring held at saved angular position",
+    "Existing-existing component pairs excluded from new-stop checks",
+    "Threaded fasteners use envelopes, not modelled thread flanks",
+    "Coincident zero-volume contact is allowed",
+    "Nominal fastener envelopes positioned by datum mates; no bolt preload, friction or thread contact simulation"
+  ],
+  "servo_mount_feature_checks": [
+    {
+      "axis": "X",
+      "mount_part": "CAD\\Servo_Actuation_Prototype\\Servo_X_Mount_PROTOTYPE.SLDPRT",
+      "plate_part": "CAD\\XY_Fixed_Base.SLDPRT",
+      "plate_hole_centres_local_mm": [
+        [
+          -25.0,
+          18.0,
+          0.0
+        ],
+        [
+          -25.0,
+          25.0,
+          0.0
+        ]
+      ],
+      "support_height_mm": 2.2,
+      "through_hole_volume_removed_mm3": 26.42079421668859,
+      "countersink_extra_volume_removed_mm3": 15.234106376034106,
+      "changed_feature_errors": []
+    },
+    {
+      "axis": "Y",
+      "mount_part": "CAD\\Servo_Actuation_Prototype\\Servo_Y_Mount_PROTOTYPE.SLDPRT",
+      "plate_part": "CAD\\Intermediate_X_Slider.SLDPRT",
+      "plate_hole_centres_local_mm": [
+        [
+          -18.0,
+          -25.0,
+          0.0
+        ],
+        [
+          -25.0,
+          -25.0,
+          0.0
+        ]
+      ],
+      "support_height_mm": 2.2,
+      "through_hole_volume_removed_mm3": 26.4207942166895,
+      "countersink_extra_volume_removed_mm3": 15.234106376030468,
+      "changed_feature_errors": []
+    }
+  ],
+  "new_servo_hardware_components": {
+    "X_Pad1_Screw": "M2p5x8_CSK_REFERENCE-3",
+    "X_Pad1_Washer": "M2p5_Washer_2p7x6x0p5_REFERENCE-5",
+    "X_Pad1_Nut": "M2p5_Nut_AF5_H2_REFERENCE-5",
+    "X_Pad2_Screw": "M2p5x8_CSK_REFERENCE-4",
+    "X_Pad2_Washer": "M2p5_Washer_2p7x6x0p5_REFERENCE-6",
+    "X_Pad2_Nut": "M2p5_Nut_AF5_H2_REFERENCE-6",
+    "X_Ear1_Screw": "M2x12_Socket_Cap_REFERENCE-1",
+    "X_Ear1_TopWasher": "M2_Washer_2p2x5x0p3_REFERENCE-1",
+    "X_Ear1_BottomWasher": "M2_Washer_2p2x5x0p3_REFERENCE-2",
+    "X_Ear1_Nut": "M2_Nut_AF4_H1p6_REFERENCE-1",
+    "X_Ear2_Screw": "M2x12_Socket_Cap_REFERENCE-2",
+    "X_Ear2_TopWasher": "M2_Washer_2p2x5x0p3_REFERENCE-3",
+    "X_Ear2_BottomWasher": "M2_Washer_2p2x5x0p3_REFERENCE-4",
+    "X_Ear2_Nut": "M2_Nut_AF4_H1p6_REFERENCE-2",
+    "Y_Pad1_Screw": "M2p5x8_CSK_REFERENCE-5",
+    "Y_Pad1_Washer": "M2p5_Washer_2p7x6x0p5_REFERENCE-7",
+    "Y_Pad1_Nut": "M2p5_Nut_AF5_H2_REFERENCE-7",
+    "Y_Pad2_Screw": "M2p5x8_CSK_REFERENCE-6",
+    "Y_Pad2_Washer": "M2p5_Washer_2p7x6x0p5_REFERENCE-8",
+    "Y_Pad2_Nut": "M2p5_Nut_AF5_H2_REFERENCE-8",
+    "Y_Ear1_Screw": "M2x12_Socket_Cap_REFERENCE-3",
+    "Y_Ear1_TopWasher": "M2_Washer_2p2x5x0p3_REFERENCE-5",
+    "Y_Ear1_BottomWasher": "M2_Washer_2p2x5x0p3_REFERENCE-6",
+    "Y_Ear1_Nut": "M2_Nut_AF4_H1p6_REFERENCE-3",
+    "Y_Ear2_Screw": "M2x12_Socket_Cap_REFERENCE-4",
+    "Y_Ear2_TopWasher": "M2_Washer_2p2x5x0p3_REFERENCE-7",
+    "Y_Ear2_BottomWasher": "M2_Washer_2p2x5x0p3_REFERENCE-8",
+    "Y_Ear2_Nut": "M2_Nut_AF4_H1p6_REFERENCE-4"
+  },
+  "pre_change_backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_before_servo_mounting_a9sfy2dx",
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "915d44c4f12c591ef094f2cd4a6f41368cc4314a77236c396364cfcf9a6ec9dc",
+    "CAD\\Intermediate_X_Slider.SLDPRT": "500b2563809dfef5cf81f3e77d50abcdf9c50fef3b5286f8f40a11992461a41e",
+    "CAD\\MGN5C.SLDPRT": "f07f090467c5e54728849567db5661ab0c296a5fc55fc0359b868f63d0bd8b0a",
+    "CAD\\MGNR05R.SLDPRT": "56ae5460482b438f55aacc23b8db46da6282218b0ceabdeba67df7241bef7825",
+    "CAD\\Servo_Actuation_Prototype\\Savox_SH0257MG_INTERFACE_REFERENCE.SLDPRT": "3bdf8f60d454662b25257817dadaca9f9e0cc6ed994c466b11d5b13276440f94",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Y_Mount_PROTOTYPE.SLDPRT": "7dc9e5305e3143623c4bbbb94010d624092ddc049195dbc6151a85f943493346",
+    "CAD\\XY_Fixed_Base.SLDPRT": "4611488262f0a5172c876433fc4ab29975b9968522b4685d8c29471a5ab2789f",
+    "CAD\\Servo_Actuation_Prototype\\Servo_X_Mount_PROTOTYPE.SLDPRT": "36e2ba3127d18e0428ca3e45053e6c909c49cc4038e5864f52f039ca2634b194",
+    "CAD\\Servo_Actuation_Prototype\\X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": "03f87bd8e1003e8272af6bcccf3d52973776b5eb8ab3ce4d533f244bff702bf7",
+    "CAD\\Assem3.SLDASM": "24032db669c53b55173da8d32961f0243f62308b07d780479780359218155355",
+    "CAD\\6806.SLDASM": "394a5b0c9bdf8c50bce24d23ae7ebe5932f7ffbc6f25dbf556fde611c42c877b",
+    "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx11308\\IC~~\\NSK_6806.stp.SLDASM": "9139d92a8cb4ae24b588482383b5e238b5012be21dbff35ded2bde0a9dd52711",
+    "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx11308\\IC~~\\6806 Ball.stp.SLDPRT": "9460e22f8df96891de7576094a779cf40dcf59e5b36f1b1b34cce9e1d3c8eb8b",
+    "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx11308\\IC~~\\6806 Outer ring.stp.SLDPRT": "706db03a68df6b52a5829f7b00777aae461454d79b758aa1f0d78bd9222e7fb0",
+    "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx11308\\IC~~\\6806 Inner ring.stp.SLDPRT": "7fd75ee6f4bf866461c3420999be7e5837189f677c0a72c6e3378b7c04df4376",
+    "CAD\\4-Inner_Carriage_Plate.SLDPRT": "5dde5ee4142230296939029bce699900363efbfaeea42ea46b6a3948276fa1ad",
+    "CAD\\4-Outer_Control_Ring.SLDPRT": "554944b56c6d76fd47b23446b7b1f8bff3a0d3e376972044d1172fee8adea942",
+    "CAD\\Inner_Race_Retainer.SLDPRT": "bf5691e73c457d9593b406e2c18a2141686d86a7bbc23d46e6aa6df7d7e8d6fa",
+    "CAD\\Outer_Race_Retainer.SLDPRT": "50f3aedb59bb9ab48b62a035fe557eb1d19b809c6284b36a5e1eda877f80a5e4",
+    "CAD\\Servo_Actuation_Prototype\\Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT": "559a197bd783a137cf392ebfc7f44c108d33ee9a6fa8f1a5b07658e1729cd6ab",
+    "CAD\\3-Drive_Shaft.SLDPRT": "115cb7ab3bc7f2e6d393c7f046303055f417d895155db8ea5fae7fbff2774f8d",
+    "CAD\\Servo_Actuation_Prototype\\Pivot_Pin_D2_REFERENCE.SLDPRT": "f83f9f65f3e65772a5180f7be72fd4335033a0ecac9051bd46a464e0c59ce3aa",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Link_L40_PROTOTYPE.SLDPRT": "b0d6d515660ad8ac6c3213f79bf1674f3901e016a048ca32ae552c5b54535be4",
+    "CAD\\Servo_Actuation_Prototype\\Servo_Horn_R12_LAYOUT.SLDPRT": "cc59c1780f93e368cc80b59d65d05c0d592b5cd025678e0bb99639c4d5ccee7a",
+    "CAD\\Travel_Stop_Prototype\\M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": "5794b5e346fa4b7ae1d0b076ec0c6d8ea066330098adb69f19cac46af2dc82d5",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": "87534d7caec9e2b1c15f2125e396bc4ac43812ee246f56a5442ef1ab7ca3f2e5",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": "07e04110674df69cd85e0961e9dd2513889aaa9db6acb6b4defa48f37e7b18db",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": "f4c9182416ff23171a9ee4449a96bebcdd6f123bd51b35a4dd6e8990ac17ce17",
+    "CAD\\Travel_Stop_Prototype\\M4_Locknut_AF7_H5_REFERENCE.SLDPRT": "f843e9a4eb63ac0d330e532f0b470162b3f565ab375d6c926dfc4aece347f264",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": "d671035375a2b957b097bb00ec419b1af06928c78379e8179a37df0c8ba29b4a",
+    "CAD\\Travel_Stop_Prototype\\M2p5x8_CSK_REFERENCE.SLDPRT": "d159547318d0ad8ce78b51d3edcc674fb57a1db5a55e39ade90add9848b89373",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": "086ba078760598c4b212218601136a562fc8090bf2905c0e0e1faffe56b3d7ff",
+    "CAD\\Travel_Stop_Prototype\\M2p5x10_CSK_REFERENCE.SLDPRT": "266b498caa2f485adfae32b7359ea3d54548818ca9f385cd3c5c8c4e0bf6477f",
+    "CAD\\Servo_Mounting_Prototype\\M2x12_Socket_Cap_REFERENCE.SLDPRT": "7635198e87a6fe22c3e186795f48aedb205505721c38a4ac3beb40f55a856292",
+    "CAD\\Servo_Mounting_Prototype\\M2_Washer_2p2x5x0p3_REFERENCE.SLDPRT": "4a9b846a8259292f10d2889f00bc4653916ea294acb0353ea63d2a09a01c6323",
+    "CAD\\Servo_Mounting_Prototype\\M2_Nut_AF4_H1p6_REFERENCE.SLDPRT": "63d06aedbf669042544522e6d0c7906f23597eab8e5bff65b168472c938748f7"
+  }
+}

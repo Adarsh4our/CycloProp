@@ -1,0 +1,479 @@
+{
+  "date": "2026-10-21",
+  "scope": "Four planar articulated95mm pushrod CAD prototypes",
+  "backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_four_planar_links_79c98frs",
+  "status": "PROVISIONAL - NOT FABRICATION RELEASED",
+  "poses": [
+    {
+      "label": "current_pose",
+      "mate_errors": [],
+      "links": {
+        "1": {
+          "centre_distance_mm": 95.00000000000004,
+          "axial_offset_mm": 7.28583859910259e-14,
+          "ball_socket_centre_errors_mm": [
+            4.602490442393806e-12,
+            4.518974299538128e-12
+          ],
+          "pitch_from_tangent_deg": 30.584769632319063,
+          "components": {
+            "OffsetArm": "Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-2",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-3",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-4",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-3",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-4",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-1",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-2",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-4",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-1",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-5",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-12",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-3",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-3",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-6",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-2"
+          }
+        },
+        "2": {
+          "centre_distance_mm": 95.00000000000027,
+          "axial_offset_mm": 9.020562075079397e-14,
+          "ball_socket_centre_errors_mm": [
+            0.0,
+            0.0
+          ],
+          "pitch_from_tangent_deg": -20.921451700204745,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-3",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-5",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-6",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-6",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-7",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-4",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-5",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-7",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-3",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-8",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-13",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-4",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-6",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-9",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-4"
+          }
+        },
+        "3": {
+          "centre_distance_mm": 95.00000000000361,
+          "axial_offset_mm": 9.71445146547012e-14,
+          "ball_socket_centre_errors_mm": [
+            3.14018491736755e-13,
+            0.0
+          ],
+          "pitch_from_tangent_deg": -30.520233736931303,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-5",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-7",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-8",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-8",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-9",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-7",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-8",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-10",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-5",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-11",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-14",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-5",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-9",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-12",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-6"
+          }
+        },
+        "4": {
+          "centre_distance_mm": 95.00000000000048,
+          "axial_offset_mm": 1.3183898417423734e-13,
+          "ball_socket_centre_errors_mm": [
+            0.0,
+            1.1102230246251565e-13
+          ],
+          "pitch_from_tangent_deg": 16.81719868909049,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-6",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-9",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-10",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-10",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-11",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-10",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-11",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-13",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-7",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-14",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-15",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-6",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-12",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-15",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-8"
+          }
+        }
+      },
+      "kinematic_checks_passed": true,
+      "static_intersections": [],
+      "native_boolean_comparisons": 150
+    },
+    {
+      "label": "X_plus_0p5mm",
+      "mate_errors": [],
+      "links": {
+        "1": {
+          "centre_distance_mm": 95.00000000000001,
+          "axial_offset_mm": 1.3183898417423734e-13,
+          "ball_socket_centre_errors_mm": [
+            1.734723475976807e-15,
+            2.482594761251414e-13
+          ],
+          "pitch_from_tangent_deg": 28.437201485678983,
+          "components": {
+            "OffsetArm": "Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-2",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-3",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-4",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-3",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-4",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-1",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-2",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-4",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-1",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-5",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-12",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-3",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-3",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-6",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-2"
+          }
+        },
+        "2": {
+          "centre_distance_mm": 95.00000000000031,
+          "axial_offset_mm": 1.5265566588595902e-13,
+          "ball_socket_centre_errors_mm": [
+            0.0,
+            2.220446049250313e-13
+          ],
+          "pitch_from_tangent_deg": -23.055024647541757,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-3",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-5",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-6",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-6",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-7",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-4",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-5",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-7",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-3",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-8",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-13",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-4",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-6",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-9",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-4"
+          }
+        },
+        "3": {
+          "centre_distance_mm": 95.0000000000037,
+          "axial_offset_mm": 1.5959455978986625e-13,
+          "ball_socket_centre_errors_mm": [
+            1.734723475976807e-15,
+            1.734723475976807e-15
+          ],
+          "pitch_from_tangent_deg": -29.617910156772844,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-5",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-7",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-8",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-8",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-9",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-7",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-8",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-10",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-5",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-11",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-14",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-5",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-9",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-12",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-6"
+          }
+        },
+        "4": {
+          "centre_distance_mm": 95.00000000000048,
+          "axial_offset_mm": 1.8735013540549517e-13,
+          "ball_socket_centre_errors_mm": [
+            3.730667527015203e-12,
+            3.695813200447241e-12
+          ],
+          "pitch_from_tangent_deg": 20.329143246793183,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-6",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-9",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-10",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-10",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-11",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-10",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-11",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-13",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-7",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-14",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-15",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-6",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-12",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-15",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-8"
+          }
+        }
+      },
+      "kinematic_checks_passed": true
+    },
+    {
+      "label": "restored_pose",
+      "mate_errors": [],
+      "links": {
+        "1": {
+          "centre_distance_mm": 95.00000000000017,
+          "axial_offset_mm": 1.3183898417423734e-13,
+          "ball_socket_centre_errors_mm": [
+            0.0,
+            2.482534153247273e-13
+          ],
+          "pitch_from_tangent_deg": 30.584769632319954,
+          "components": {
+            "OffsetArm": "Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-2",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-3",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-4",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-3",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-4",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-1",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-2",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-4",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-1",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-5",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-12",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-3",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-3",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-6",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-2"
+          }
+        },
+        "2": {
+          "centre_distance_mm": 95.00000000000006,
+          "axial_offset_mm": 1.5265566588595902e-13,
+          "ball_socket_centre_errors_mm": [
+            1.734723475976807e-15,
+            1.1103585416259206e-13
+          ],
+          "pitch_from_tangent_deg": -20.921451700206067,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-3",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-5",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-6",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-6",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-7",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-4",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-5",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-7",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-3",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-8",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-13",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-4",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-6",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-9",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-4"
+          }
+        },
+        "3": {
+          "centre_distance_mm": 95.0000000000037,
+          "axial_offset_mm": 1.5959455978986625e-13,
+          "ball_socket_centre_errors_mm": [
+            1.1102230246251565e-13,
+            0.0
+          ],
+          "pitch_from_tangent_deg": -30.520233736930845,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-5",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-7",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-8",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-8",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-9",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-7",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-8",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-10",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-5",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-11",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-14",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-5",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-9",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-12",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-6"
+          }
+        },
+        "4": {
+          "centre_distance_mm": 95.00000000000068,
+          "axial_offset_mm": 1.8735013540549517e-13,
+          "ball_socket_centre_errors_mm": [
+            0.0,
+            1.1102230246251565e-13
+          ],
+          "pitch_from_tangent_deg": 16.8171986890924,
+          "components": {
+            "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-6",
+            "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-9",
+            "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-10",
+            "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-10",
+            "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-11",
+            "ArmMountSpacer": "Ball_Mount_Spacer_H0p5-10",
+            "ArmOuterSpacer": "Ball_Mount_Spacer_H0p5-11",
+            "ArmHeadWasher": "M2_Small_Washer_REFERENCE-13",
+            "ArmScrew": "M2x10_Ball_Compact_Screw_REFERENCE-7",
+            "ArmNutWasher": "M2_Small_Washer_REFERENCE-14",
+            "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-15",
+            "RingMountSpacer": "Ball_Mount_Spacer_H2p5-6",
+            "RingOuterSpacer": "Ball_Mount_Spacer_H0p5-12",
+            "RingHeadWasher": "M2_Small_Washer_REFERENCE-15",
+            "RingScrew": "M2x10_Ball_Compact_Screw_REFERENCE-8"
+          }
+        }
+      },
+      "kinematic_checks_passed": true
+    }
+  ],
+  "unassigned_linkage_components": [],
+  "checked_existing_components": [
+    "Endplate_Hub_Interface_RevA-2",
+    "Shaft_Drive_Hub_RevA-2",
+    "Part1-3",
+    "Part1-1",
+    "Part1-2",
+    "Part1-4",
+    "Frame_Mounting_RevA-1",
+    "M3_Nut_REFERENCE-2",
+    "M3x55_Frame_Screw_REFERENCE-1",
+    "M3_Nut_REFERENCE-1",
+    "M3_Washer_REFERENCE-1",
+    "M3x55_Frame_Screw_REFERENCE-2",
+    "M3_Washer_REFERENCE-2",
+    "M3x55_Frame_Screw_REFERENCE-3",
+    "Lower_MainBearing_OuterSpacer_L3p5-1",
+    "Upper_MainBearing_Retainer-1",
+    "686ZZ_6x13x5_ENVELOPE-1",
+    "M3_Washer_REFERENCE-4",
+    "M3_Washer_REFERENCE-3",
+    "M3x55_Frame_Screw_REFERENCE-4",
+    "M3_Nut_REFERENCE-4",
+    "686ZZ_6x13x5_ENVELOPE-2",
+    "M3_Nut_REFERENCE-3",
+    "Lower_MainBearing_Retainer-1",
+    "M2x4_MainCap_Screw_REFERENCE-1",
+    "M2x4_MainCap_Screw_REFERENCE-6",
+    "M2x4_MainCap_Screw_REFERENCE-3",
+    "M2x4_MainCap_Screw_REFERENCE-4",
+    "M2x4_MainCap_Screw_REFERENCE-2",
+    "M2x4_MainCap_Screw_REFERENCE-5",
+    "Shaft_Drive_Hub_RevA-1",
+    "DSH6_INSTALLED_CLEARANCE_REFERENCE-2",
+    "DSH6_INSTALLED_CLEARANCE_REFERENCE-3",
+    "DSH6_INSTALLED_CLEARANCE_REFERENCE-4",
+    "DSH6_INSTALLED_CLEARANCE_REFERENCE-1",
+    "Endplate_Hub_Interface_RevA-1",
+    "Y_Carriage_Drive_Tab_PROTOTYPE-1",
+    "Servo_Y_Mount_PROTOTYPE-1",
+    "Intermediate_X_Slider-1",
+    "XY_Fixed_Base-1",
+    "3-Drive_Shaft-1",
+    "Servo_X_Mount_PROTOTYPE-1",
+    "X_Slider_Drive_Tab_PROTOTYPE-1",
+    "Assem3-1/4-Outer_Control_Ring-1",
+    "Assem3-1/Inner_Race_Retainer-1",
+    "Assem3-1/Outer_Race_Retainer-1",
+    "Assem3-1/4-Inner_Carriage_Plate-1"
+  ],
+  "excluded_scope": [
+    "existing-existing contacts",
+    "same-component bodies",
+    "other existing hardware not listed",
+    "fullrotor/fullcarriage motion",
+    "physicaljointretention,manufacturingfitsandstrength"
+  ],
+  "physical_timing_drive": "Missing - ring-to-rotor angular timing is not defined in hardware; temporary assemblyangleconstraints released",
+  "ring_subassembly_solving": 1,
+  "provisional_ring_phase_shift_deg": -4.1,
+  "restored_xy_mm": [
+    0.7745176881301941,
+    6.2405296811500754
+  ],
+  "source_sha256": {
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": "7e0bb88a77d9e0c24f5059deb228dafa7c3d23e9320f1c0a2802eccec3d11393",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H0p5.SLDPRT": "1000adc63443e13e06030bc60c0f2f5ba0bb2a2bfc15d89c7c2f9ea03b98ffa9",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H1p5.SLDPRT": "926f91441945f265f899a1b481231d634ea2ad6805035c52fc05ec2a5192dd6f",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Ball_Mount_Spacer_H2p5.SLDPRT": "aa01bb1b6f8bd9ec2484d6842076146e2f6b4883dbe19fe9a23883adae6c4305",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": "45f0cdf315f7e2c5b1429a919ce3dae4215524746f7f89e13487ab4431cd782d",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Carbon_Tube_OD2_ID1_L85_REFERENCE.SLDPRT": "0ed6307e42d4c995de79790b5dcbc6456ba11036c7df62d36e58aeb6c5999cb4",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\M2_Small_Washer_REFERENCE.SLDPRT": "8fd1fb8f4ebe05e4f7d753ce86d14b6f0d392d0bdd3e0e917fe536cf5eccd7ae",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Cavity_Tool_D5p05.SLDPRT": "e3a5885f611f8211078ee84913c6f9208e4831b57d89ef46e13d3fef5170f918",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT": "805dff578da6c0f032f753d300e297899b1d7bd7c997907efa1cd2c573170047",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Ball_Mount_Spacer_H0p5.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Ball_Mount_Spacer_H2p5.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Carbon_Tube_OD2_ID1_L85_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$M2_Small_Washer_REFERENCE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Rotor_Integration\\Ball_Link_Prototype\\~$Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT": "2c48ff730659b263a306b45e817c541bbf861b27447b2707521a4bedbb6d2825",
+    "CAD\\Assem20.SLDASM": "1d727e56964cb6b0c1390a591ca21c47eee7b8b383a45a268d340d5552401e52",
+    "CAD\\Assem3.SLDASM": "d27f16826b1042ac8068d82f8ae3f3369da2b2ae827f3df9c31c2a8f96d902c5",
+    "CAD\\XY_Fixed_Base.SLDPRT": "f864723b6ff6adb6831766296497d4a00e0f39ebff3d4667d75be68b3c24eda4",
+    "CAD\\Connections_Completion\\Frame_Mounting_RevA.SLDPRT": "884a51fd541de0ef5d30d5d7a02fc47a1320b8c97c67c0318a8487def974e9ed",
+    "CAD\\Connections_Completion\\Stage_Support_L36p5.SLDPRT": "cf1c2e4e7c3a4ce413699e58ef916407ddf6818fd1ee67051a423bddc7d5741b"
+  },
+  "frame_clearance_revision": {
+    "underside_base_mm": 39.5,
+    "protected_central_radius_mm": 28.0,
+    "remaining_mount_foot_thickness_mm": 9.5,
+    "standoff_length_mm": 36.5,
+    "support_centres_mm": [
+      [
+        -24,
+        -70
+      ],
+      [
+        -24,
+        70
+      ],
+      [
+        24,
+        -70
+      ],
+      [
+        24,
+        70
+      ]
+    ],
+    "unchanged_hardware": "M3x55, washer/nut axialstations; movedtoY70",
+    "claim": "current-pose lowerhardware clearance only; fullrotation remains blocked"
+  },
+  "changed_support_body_counts": {
+    "XY_Fixed_Base-1": 1,
+    "Frame_Mounting_RevA-1": 1
+  },
+  "source_hash_scope": "All native prototype part files in this folder, main and carrier assemblies, modified fixed base/frame, new standoff. Some reference parts are unchanged.",
+  "checks": {
+    "active_affected_mates": "passed",
+    "joint_alignment_length_and_current_pitch": "passed",
+    "current_pose_focused_static": "passed",
+    "full_rotor_motion": "not performed - known frame/support obstruction",
+    "full_carriage_travel": "not performed",
+    "physical_phase_drive": "missing",
+    "fabrication_readiness": "not established"
+  },
+  "subsequent_assembly_cleanup": {
+    "report": "ASSEMBLY_CLEANUP.json",
+    "assembly_sha256": "1ce0d26853e2f5f708ed45f1b61c257ebb37b615b95b533c82e06d053f4df05f",
+    "active_components_and_poses_preserved": true,
+    "note": "Original source_sha256 and geometry/motion checks retained for their pre-cleanup revision. Cleanup removed obsolete suppressed items only; no new motion or interference sweep."
+  }
+}

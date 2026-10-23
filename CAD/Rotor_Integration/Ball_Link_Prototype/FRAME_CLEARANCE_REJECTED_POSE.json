@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-21",
+  "scope": "First articulated95mm ball-link prototype only",
+  "backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_ball_link_7molljnd",
+  "layout": {
+    "arm": "Blade_Pitch_Arm-2",
+    "blade": "Part1-4",
+    "ring": "Assem3-1/4-Outer_Control_Ring-1",
+    "ring_hole_local_m": [
+      0,
+      0,
+      0.04
+    ],
+    "A": [
+      0.8616855362591338,
+      1.1316207849170756,
+      0.005898624149640631
+    ],
+    "B": [
+      0.8091370850664831,
+      1.2086724211894717,
+      -0.012176375850359474
+    ],
+    "centre_distance_mm": 95.00000000000011,
+    "blade_pitch_from_tangent_deg": -6.734463081561637,
+    "arm_rotation_adjustment_deg": 82.12568541484949,
+    "socket_articulation_deg": 10.968142186586062
+  },
+  "added_components": {
+    "Tube": "Carbon_Tube_OD2_ID1_L85_REFERENCE-1",
+    "ArmBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-1",
+    "ArmSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-1",
+    "ArmMountSpacer": "Ball_Mount_Spacer_H2p5-1",
+    "ArmOuterSpacer": "Ball_Mount_Spacer_H1p5-1",
+    "ArmHeadWasher": "M2_Small_Washer_REFERENCE-1",
+    "ArmScrew": "M2x14_Ball_Arm_Screw_REFERENCE-1",
+    "ArmNutWasher": "M2_Small_Washer_REFERENCE-2",
+    "ArmNut": "M2_Nut_AF4_H1p6_REFERENCE-11",
+    "RingBall": "Ball_Insert_D5_Bore2p1_H3_REFERENCE-2",
+    "RingSocket": "Socket_Eye_D7_Sphere5p05_PROTOTYPE-2",
+    "RingMountSpacer": "Ball_Mount_Spacer_H2p5-2",
+    "RingOuterSpacer": "Ball_Mount_Spacer_H1p5-2",
+    "RingHeadWasher": "M2_Small_Washer_REFERENCE-3",
+    "RingScrew": "M2x12_Ball_Ring_Screw_REFERENCE-1"
+  },
+  "mate_checks": [
+    {
+      "mate": "BallLink1_Arm_To_Blade_Axis",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_Arm_To_Blade_Drive_Flat",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_Arm_To_Blade_Axial_Seat",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmBall_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmSocket_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_Arm_Spherical_Joint",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmMountSpacer_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmOuterSpacer_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmHeadWasher_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmScrew_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmNutWasher_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_ArmNut_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_RingBall_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_RingSocket_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_Ring_Spherical_Joint",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_RingMountSpacer_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_RingOuterSpacer_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_RingHeadWasher_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    },
+    {
+      "mate": "BallLink1_RingScrew_Rigid",
+      "code": 0,
+      "warning": false,
+      "suppressed": [
+        false
+      ]
+    }
+  ],
+  "checks": {
+    "new_native_mates": "passed",
+    "current_pose_interference": "failed",
+    "full_travel": "not performed",
+    "ball_insertion_pullout_loads_tolerances": "not performed"
+  },
+  "native_boolean_comparisons": 38,
+  "intersections": [
+    {
+      "components": [
+        "M2x12_Ball_Ring_Screw_REFERENCE-1",
+        "Frame_Mounting_RevA-1"
+      ],
+      "overlap_mm3": 20.414069063025426
+    }
+  ],
+  "excluded_pairs": [
+    "existing-existing geometry",
+    "same-component internal bodies"
+  ],
+  "source_sha256": {}
+}

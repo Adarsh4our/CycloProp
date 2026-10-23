@@ -1,0 +1,22 @@
+{
+  "task": "Native assembly BOM drawing and reviewed PDF",
+  "status": "Verified complete for stated BOM scope; no fabrication or procurement release",
+  "saved_utc": "2026-10-23T03:42:41.590809+00:00",
+  "archive": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Checkpoints\\BOM_20261023T034241Z\\ASSEMBLY_BOM_TASK.zip",
+  "archive_sha256": "e437b58ceefff98f7e17792403983d0a9815f5b34d30fea2e4c03982d8d14939",
+  "source_assembly_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+  "entries": 87,
+  "native_leaf_instances": 405,
+  "quantities_match_existing_inventory": true,
+  "files": {
+    "Drawings_Prototype\\CP-RB-002_ASSEMBLY_BOM.SLDDRW": "61ed5c6f0a39acfec646f073d0bbe02b6805d74847454356e664970e5697f391",
+    "Drawings_Prototype\\CP-RB-002_ASSEMBLY_BOM.pdf": "9270375e7b2106657b6c4f10e7244088af86e9b1b63b559d03016e1b1d75480e",
+    "Drawings_Prototype\\CP-RB-002_ASSEMBLY_BOM.csv": "9464029d7ac75f21ca665fc0e35e73c3d7d274371b661d0801992853443725a1",
+    "ASSEMBLY_BOM_DRAWING_STATE.json": "461770ea8286aeff0980761007caafe3d1fa726f2a162f5471730923747fc91f",
+    "Drawings_Prototype\\DRAWING_INDEX.json": "a78f6f53111855b58e015538d0ff5b04f3760c3625464c668b82fb35f514231a",
+    "Drawings_Prototype\\PDF_QA.json": "85a68feb4189d560084b9f7f4045a48fef41277abc1e2afb1cc4822f84b7e9a2",
+    "MECHANICAL_COMPLETION_REPORT.md": "72b73e0c98c2740c012bac8c3cfa6148e508cdc9475765c92702895b596deeb6",
+    "CURRENT_RESUME_NOTES.md": "3004a4c61cffba35bfc42fdda6c1acf6facec723bc71edb448400ce31e6571af"
+  },
+  "source_identity_note": "BOM generation changed no source model files. A different assembly-file hash was already present at task start; its cause/geometry differences were not inferred or reviewed."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PROVISIONAL INERTIA-INFORMED SUPPORT SCREEN; NOT APPROVED OPERATING LOADS",
+  "supersedes": "20N support-load study in PACKAGING_CALCULATIONS.json; nominal geometry unchanged",
+  "reason": "Subsequent blade pitch inertia and relieved floating-member mass give larger reaction scale than original20N assumption.",
+  "ring_pitch_inertia_peak_N": 29.7535920799255,
+  "floating_inertia_peak_N": 7.3049980030633535,
+  "triangle_sum_reaction_scale_N": 37.05859008298886,
+  "study_force_N": 50.0,
+  "force_height_mm": 44.0,
+  "post_diameter_mm": 5.5,
+  "elastic_tip_deflection_mm": 0.15165630723232545,
+  "nominal_gap_mm": 0.6200000000000001,
+  "adverse_budget_mm": {
+    "bore_radius": 0.025,
+    "post_radius": 0.005,
+    "relative_position": 0.05,
+    "guide_play": 0.05,
+    "thermal": 0.02,
+    "deflection_allowance": 0.2
+  },
+  "remaining_gap_mm": 0.27000000000000013,
+  "root_nominal_bending_stress_MPa": 134.68980307942218,
+  "assumed_Kt": 2.0,
+  "library_static_yield_factor": 2.6356857897451085,
+  "limits": [
+    "Reaction scale is a conservative triangle sum, not a complete coupled bearing-load solution.",
+    "Aero, imbalance, jams, fatigue and cage modes require approved load cases and physical validation.",
+    "The deflection allowance changed explicitly from0.15 to0.20mm; residual rigid clearance reduced from0.32 to0.27mm.",
+    "Library normalized4340 properties are provisional; supplied condition, post root fillet and machining tolerances require release."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PROVISIONAL MECHANISM SCREEN; NOT FATIGUE OR STRUCTURAL CERTIFICATION",
+  "source_load": "INERTIA_LOAD_SCREEN.json; baseline12.5g blade and uniform chord mass assumption,2640RPM, no aero/friction/jam loads",
+  "rod_force_scale_N": 15.95949617279804,
+  "hinge_torque_scale_Nm": 0.15783067353511132,
+  "web_assumption": "Two uninterrupted rectangular1.7x5.4mm webs. This excludes boss fillets, holes, recesses, local load entry and shear/torsional interaction; not a verified minimum-section/FEA result.",
+  "arm_offset_mm": 22.075,
+  "idealized_web_second_moment_mm4": 44.6148,
+  "idealized_web_section_modulus_mm3": 16.524,
+  "offset_bending_moment_Nmm": 352.30587801451674,
+  "idealized_web_bending_stress_MPa": 21.32085923593057,
+  "D3_UNDRILLED_round_journal_torsional_stress_MPa": 29.771297024753963,
+  "crosspin_equivalent_torque_force_at_radius1p5_N": 105.22044902340754,
+  "pin_supplier_double_shear_rating_N": 600.0,
+  "pin_rating_source": "https://www.spirol.com/assets/files/cldp-coiled-spring-pins-design-guide-us.pdf printed17 ISO8750D1; supplier ultimate-type test value, not allowable fatigue stress",
+  "pin_limits": "No reserve factor claimed: actual load sharing with D-flat, bending, press fit/host damage, axial pullout and cyclic duty are unverified. Installed solid reference is not actual coiled-section mass/geometry.",
+  "tube_OD_ID_length_mm": [
+    2,
+    1,
+    46.52665325007647
+  ],
+  "tube_E_required_GPa_for_3x_screen": 14.262089470183403,
+  "tube_E_assumption": "No actual modulus assigned. Euler pinned-pinned full tube length; required modulus for3x inertial-force screen only; end bonds, compression damage and imperfections require qualification. Three is a proposed screening multiplier, not approved design factor.",
+  "bond_cylindrical_area_each_mm2": 15.707963267948966,
+  "bond_mean_shear_at_inertia_force_MPa": 1.0160130820627975,
+  "bond_mean_shear_at_3x_screen_MPa": 3.0480392461883925,
+  "bond_limits": "No adhesive selected/qualified. Average shear ignores peel, end effects, preparation, gap, cure, fatigue and temperature. Tube insertion2.5mm preserved.",
+  "release_holds": [
+    "Approve operating/aerodynamic/imbalance/stop load cases and required cycles",
+    "Define metal trunnion and its bond into specified blade spar/core; monolithic Part1 is only a geometry proxy",
+    "Assess drilled D3 trunnion fatigue and actual D-flat/hole geometry; undrilled torsion formula is not applicable as acceptance criterion",
+    "Verify actual twin-web minimum sections, boss/fillet stress and combined loading",
+    "Qualify pin press retention, adhesive pullout/cyclic fatigue, joint wear and anti-loosening",
+    "Guarded physical proof, balance/vibration and staged speed validation"
+  ]
+}

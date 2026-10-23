@@ -1,0 +1,58 @@
+{
+  "scope": "Installed cartridge internals, moved endplates/head washers, shims and replacement screws against all resolved leaf solids at saved pose",
+  "body_count": 420,
+  "boolean_comparisons": 193,
+  "threshold_mm3": 1e-05,
+  "intersections": [
+    {
+      "components": [
+        "RB_M2p5x10_Hub_Screw_REFERENCE-8",
+        "RB_M2x4_MainCap_Screw_REFERENCE-4"
+      ],
+      "overlap_mm3": 0.0784865267535664
+    }
+  ],
+  "blade_axial_gaps": [
+    {
+      "blade": 1,
+      "nominal_thrust_film_gaps_mm": [
+        0.19999999999950613,
+        0.20000000000028328
+      ],
+      "total_endfloat_mm": 0.3999999999997894
+    },
+    {
+      "blade": 2,
+      "nominal_thrust_film_gaps_mm": [
+        0.20000000000186188,
+        0.19999999999792406
+      ],
+      "total_endfloat_mm": 0.39999999999978597
+    },
+    {
+      "blade": 3,
+      "nominal_thrust_film_gaps_mm": [
+        0.20000000000178902,
+        0.19999999999803508
+      ],
+      "total_endfloat_mm": 0.3999999999998241
+    },
+    {
+      "blade": 4,
+      "nominal_thrust_film_gaps_mm": [
+        0.2000000000012929,
+        0.19999999999847917
+      ],
+      "total_endfloat_mm": 0.3999999999997721
+    }
+  ],
+  "result": "failed",
+  "excluded": [
+    "unchanged pairs",
+    "same-component imported internals",
+    "motion between poses",
+    "loaded gaps/tolerances",
+    "actual bearing internals/contacts; purchased envelope is solid annulus"
+  ],
+  "assembly_sha256": "bebb76f7500c65fddc8851a1e02907437f5790d47e9305965ca1ce48e862554f"
+}

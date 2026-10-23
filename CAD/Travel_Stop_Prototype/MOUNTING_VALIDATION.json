@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-21",
+  "status": "PROVISIONAL",
+  "native_hole_alignment": "passed",
+  "changed_feature_rebuild": "passed",
+  "nominal_thread_protrusion_and_tip_gaps": "passed",
+  "active_mates": 113,
+  "final_mate_errors": [],
+  "part_checks": [
+    {
+      "component": "XY_Fixed_Base-1",
+      "hole_centres_plate_frame_mm": [
+        [
+          27.000000000000025,
+          26.999999999999915
+        ],
+        [
+          24.00000000000002,
+          20.999999999999908
+        ]
+      ],
+      "hole_diameter_mm": 2.9,
+      "countersink_diameter_mm": null,
+      "changed_feature_errors": []
+    },
+    {
+      "component": "XY_Stop_Fixed_Bracket_PROTOTYPE-1",
+      "hole_centres_plate_frame_mm": [
+        [
+          27.000000000000025,
+          26.999999999999915
+        ],
+        [
+          24.00000000000002,
+          20.999999999999908
+        ]
+      ],
+      "hole_diameter_mm": 2.9,
+      "countersink_diameter_mm": 5.2,
+      "changed_feature_errors": []
+    },
+    {
+      "component": "XY_Stop_Moving_Arm_PROTOTYPE-1",
+      "hole_centres_plate_frame_mm": [
+        [
+          27.000000000000025,
+          26.999999999999915
+        ],
+        [
+          24.00000000000002,
+          20.999999999999908
+        ]
+      ],
+      "hole_diameter_mm": 2.9,
+      "countersink_diameter_mm": null,
+      "changed_feature_errors": []
+    },
+    {
+      "component": "Assem3-1/4-Inner_Carriage_Plate-1",
+      "hole_centres_plate_frame_mm": [
+        [
+          27.000000000000025,
+          26.999999999999915
+        ],
+        [
+          24.00000000000002,
+          20.999999999999908
+        ]
+      ],
+      "hole_diameter_mm": 2.9,
+      "countersink_diameter_mm": 5.2,
+      "changed_feature_errors": []
+    }
+  ],
+  "native_cut_volume_checks": [
+    {
+      "part": "CAD\\Travel_Stop_Prototype\\XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT",
+      "through_hole_volume_removed_mm3": 39.631191325034706,
+      "countersink_extra_volume_removed_mm3": 15.234106376033196
+    },
+    {
+      "part": "CAD\\XY_Fixed_Base.SLDPRT",
+      "through_hole_volume_removed_mm3": 39.631191325037435,
+      "countersink_extra_volume_removed_mm3": null
+    },
+    {
+      "part": "CAD\\Travel_Stop_Prototype\\XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT",
+      "through_hole_volume_removed_mm3": 26.420794216690183,
+      "countersink_extra_volume_removed_mm3": null
+    },
+    {
+      "part": "CAD\\4-Inner_Carriage_Plate.SLDPRT",
+      "through_hole_volume_removed_mm3": 39.6311913250338,
+      "countersink_extra_volume_removed_mm3": 15.234106376032287
+    }
+  ],
+  "stack_checks": [
+    {
+      "screw": "M2p5x10_CSK_REFERENCE-1",
+      "tip_to_intermediate_plate_gap_mm": 1.899999999999992,
+      "nominal_protrusion_past_nut_mm": 1.5999999999999972
+    },
+    {
+      "screw": "M2p5x10_CSK_REFERENCE-2",
+      "tip_to_intermediate_plate_gap_mm": 1.899999999999992,
+      "nominal_protrusion_past_nut_mm": 1.5999999999999972
+    },
+    {
+      "screw": "M2p5x8_CSK_REFERENCE-1",
+      "tip_to_intermediate_plate_gap_mm": 0.900000000000005,
+      "nominal_protrusion_past_nut_mm": 0.5999999999999963
+    },
+    {
+      "screw": "M2p5x8_CSK_REFERENCE-2",
+      "tip_to_intermediate_plate_gap_mm": 0.900000000000005,
+      "nominal_protrusion_past_nut_mm": 0.5999999999999963
+    }
+  ],
+  "added_components": {
+    "Fixed_Screw1": "M2p5x10_CSK_REFERENCE-1",
+    "Fixed_Washer1": "M2p5_Washer_2p7x6x0p5_REFERENCE-1",
+    "Fixed_Nut1": "M2p5_Nut_AF5_H2_REFERENCE-1",
+    "Fixed_Screw2": "M2p5x10_CSK_REFERENCE-2",
+    "Fixed_Washer2": "M2p5_Washer_2p7x6x0p5_REFERENCE-2",
+    "Fixed_Nut2": "M2p5_Nut_AF5_H2_REFERENCE-2",
+    "Moving_Screw1": "M2p5x8_CSK_REFERENCE-1",
+    "Moving_Washer1": "M2p5_Washer_2p7x6x0p5_REFERENCE-3",
+    "Moving_Nut1": "M2p5_Nut_AF5_H2_REFERENCE-3",
+    "Moving_Screw2": "M2p5x8_CSK_REFERENCE-2",
+    "Moving_Washer2": "M2p5_Washer_2p7x6x0p5_REFERENCE-4",
+    "Moving_Nut2": "M2p5_Nut_AF5_H2_REFERENCE-4"
+  },
+  "restored_prior_offset_mm": [
+    5.335974549973477,
+    -6.825651155395462e-10
+  ],
+  "pre_change_backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_before_stop_mounts_a6yp9ery",
+  "pre_change_sources_sha256": {
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": "1c9da953a07e3adc84a99fa1b4f00b1c77330f895cc675059cdad26019eb7fc7",
+    "CAD\\XY_Fixed_Base.SLDPRT": "d3a824da33c1bd5083c62887446b779bb4cc8887448e7e693f7901b771248660",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": "27328b6f7431c2d8352da024d623510f88ef66707aa5111557f472c97287db4a",
+    "CAD\\4-Inner_Carriage_Plate.SLDPRT": "5acff3e800418ffeb8e292455f119c0a099faf815eb29a9646fb860f84dba35d"
+  },
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "e6256044f77645c509ed178a4e588d3391bd7a5c8757efa5ff57024696383221",
+    "CAD\\XY_Fixed_Base.SLDPRT": "cc81991156820d145b99f6c4ff583ad80632c3e25ac6ae6576c7a109baaf9ef4",
+    "CAD\\4-Inner_Carriage_Plate.SLDPRT": "52fc19aea63028cd06dd6805918d406fb232da46b6e235cb1c8ed0af0406759c",
+    "CAD\\Travel_Stop_Prototype\\M2p5x10_CSK_REFERENCE.SLDPRT": "46603bdf8169d2b64c2f863a57a60357ad4d1f3120f91c1d225488ff7c643f6c",
+    "CAD\\Travel_Stop_Prototype\\M2p5x8_CSK_REFERENCE.SLDPRT": "59153a96a7b2ca5f4662d80bc723a35f22acb690c9da0fda983afb8a0747f268",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": "edc4fb0901418d30bb55fac9f2604d8127f2b2076f82c295556809734489e66a",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": "663ce8a4bcace95c4cf1a99d116ee43efd5148fe67a1f0b4070b469ead1b5fc0",
+    "CAD\\Travel_Stop_Prototype\\M4_Locknut_AF7_H5_REFERENCE.SLDPRT": "7f7d17179dad2c219a2bf774884e82c0b368fa503426cb5b768787b39e90ff7c",
+    "CAD\\Travel_Stop_Prototype\\M4_Washer_4p3x9x0p8_REFERENCE.SLDPRT": "26f97ff186241409ff22fb66c9d18e5c97d5de40ec36a000ec0c7a92a2e100f6",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT": "5085f3c0a197ac5bb99903c1ffeb85e3bfce358695cb4e0f030ff8ff10689801",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT": "c8ab766c5efbae4c80d9b89377cac5674b2796f3d31bd0f3bb895789a5cc7cec",
+    "CAD\\Travel_Stop_Prototype\\XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT": "e29b8f3e2209e2f783bfa00373b46ac654ea9444c05078ec480faa201ac5f55f"
+  },
+  "not_performed": [
+    "Bolt preload and slip calculation",
+    "Stop impact and joint strength",
+    "Anti-loosening method verification",
+    "Worst-case tolerances and deflection",
+    "Actual tool access or assembly trial",
+    "Full continuous motion and complete-module clearance"
+  ],
+  "existing_extra_component_left_untouched": "XY_Stop_Fixed_Bracket_PROTOTYPE-2"
+}

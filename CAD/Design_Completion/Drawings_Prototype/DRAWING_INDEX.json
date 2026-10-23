@@ -1,0 +1,1234 @@
+{
+  "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+  "drawings": {
+    "CP-RB-108": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+      "model_sha256": "77f4411f89bf14dae7984f4784ed59b36551ef5137c6f48bf65a634509aff28b",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-108.SLDDRW",
+      "drawing_sha256": "1a742d7e1053b234603c4cef45e657daf7535cd2487e1a246a866357ead63334",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-108.pdf",
+      "pdf_sha256": "a8f36b6c33e1eac92a5628b7cea6028a27f13eb89bde9517a6c951141c943311",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.04116304676133968,
+            0.14606,
+            0.10883695323866031,
+            0.21394
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1814599999999999,
+            0.14606,
+            0.20854000000000011,
+            0.21394
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.058959863653481534,
+            0.041706856982682165,
+            0.12104013634651846,
+            0.12829314301731784
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-201": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT",
+      "model_sha256": "525219445aee49edf40464e46f36d96a183a1a0cf5c57537a00bf1a18f8e93e9",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-201.SLDDRW",
+      "drawing_sha256": "aca122216e2a7dd457eca314254ea15cc0be918d16d2b5a0a63aaf75ba2a45d8",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-201.pdf",
+      "pdf_sha256": "3ddf6678538948e14f50f4d3a91344999556565c4fb515241304819b70313985",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.02987845885938179,
+            0.14200237543040328,
+            0.12012154114061821,
+            0.2179976245695967
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18833272727272712,
+            0.14133272727272728,
+            0.2016672727272729,
+            0.2186672727272727
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.060688454241809284,
+            0.05388062724417532,
+            0.11931154575819071,
+            0.1361193727558247
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-202": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Upper_Support_PROTOTYPE.SLDPRT",
+      "model_sha256": "6f0bb63643a20873cd94ac16186599c5066aa39acea2230a5227e1b415e28b7d",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-202.SLDDRW",
+      "drawing_sha256": "1e43d391ede4213351c89978a25e5c447883d08ba8f982834a89e9916a7eaea5",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-202.pdf",
+      "pdf_sha256": "37a6be793461afce70cccdfd2b5f46747903a1d9b6d6058d134bc9d2b5b8241f",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.02987845885938179,
+            0.14200237543040328,
+            0.12012154114061821,
+            0.2179976245695967
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1866054545454544,
+            0.14133272727272728,
+            0.2033945454545456,
+            0.2186672727272727
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.0600408501516968,
+            0.053812639563661176,
+            0.11995914984830319,
+            0.13618736043633886
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-203": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT",
+      "model_sha256": "dfefe0a6cb04f448ed9db94b8dbaf293d42a51bc7582bc7aef3dbea3558760a4",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-203.SLDDRW",
+      "drawing_sha256": "7d05242454c5a85ed83c7d82c964e8976e26959481d86a67062d804835105ef6",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-203.pdf",
+      "pdf_sha256": "8db29d3fc1e43c1235c464e732c2bbf2c2f6be2048b6bde9f7c25053688daf70",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.06802103896103896,
+            0.17302103896103896,
+            0.08197896103896103,
+            0.18697896103896103
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1498784588593818,
+            0.1730422976327112,
+            0.2401215411406182,
+            0.18695770236728879
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.055041072356500076,
+            0.07145937556323717,
+            0.12495892764349992,
+            0.11854062443676283
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-204": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+      "model_sha256": "caab05effc685a5b8ac4d28fc83d0a0a8bbf9a5baee23496ad8f4d464d2a68fc",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-204.SLDDRW",
+      "drawing_sha256": "8401f1db44c1ab9d714dbb286c2770aadc4bca36fed270ce8493c73077d8249b",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-204.pdf",
+      "pdf_sha256": "8f0e7f8a18acd55a7f9acbcd18117a83bd65ce3c0f5a0f4be18012aa2935a044",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.06869302752293578,
+            0.17369302752293578,
+            0.08130697247706421,
+            0.1863069724770642
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1498784588593818,
+            0.17370053631981083,
+            0.2401215411406182,
+            0.18629946368018915
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.05551624002549711,
+            0.07228239010563865,
+            0.12448375997450288,
+            0.11771760989436135
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-205": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT",
+      "model_sha256": "a1b4565e4ce1e3798514975f92227b9c96762e78da9d9de0cd1eb2e9755731cc",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-205.SLDDRW",
+      "drawing_sha256": "697d9e632116cc72e1cd35ef68c369de8319ceb4a5c70868a1f1f79ef8462de2",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-205.pdf",
+      "pdf_sha256": "c70a4b6d96df0f037e9345bf10bc8a0aaf87fbfa153d06a47c6f499ed4ac7625",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.045059999999999996,
+            0.15006,
+            0.10494,
+            0.20994
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1730599999999999,
+            0.15006,
+            0.2169400000000001,
+            0.20994
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.05703582658577931,
+            0.05473536595431553,
+            0.12296417341422068,
+            0.13526463404568448
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-207": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT",
+      "model_sha256": "d54e49329b391d8ca3e446b88298c04803e40dd530d986a99ff1c618e43c11b3",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-207.SLDDRW",
+      "drawing_sha256": "662d25fbfad13061e6ae76a63d85437ab343b0b508a4b7c0a8229840a6892ef9",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-207.pdf",
+      "pdf_sha256": "28b45c7e211d5a7365f5dac3faa0e03e3635830863703b4c445f19f29f2f4d5a",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.0342319634305616,
+            0.1392319634305616,
+            0.1157680365694384,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18747690742866177,
+            0.1392319634305616,
+            0.20252309257133824,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.0628141827205015,
+            0.053327855810703505,
+            0.11718581727949849,
+            0.1366721441892965
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-208": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+      "model_sha256": "b7fadda78bfb949f1abc7ed0b473b0bb0874503c5696fde1c32c938425c72768",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-208.SLDDRW",
+      "drawing_sha256": "b3a464b2ea136af6fc7c50d6c2ffd1b53d395b22a8e9061a67cdef906e52a39d",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-208.pdf",
+      "pdf_sha256": "e2d486f10a68e0fe2353be95857075a153f1638c966798084d42c1902cb1f44b",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.05163425742574257,
+            0.15663425742574258,
+            0.09836574257425743,
+            0.2033657425742574
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1498784588593818,
+            0.1569908137605228,
+            0.2401215411406182,
+            0.2030091862394772
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.04681542466508182,
+            0.054508260315701176,
+            0.13318457533491818,
+            0.13549173968429884
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-209": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M3x16_Base_Screw_REFERENCE.SLDPRT",
+      "model_sha256": "2172dfd015a71f8b4adb39929c44f8a237675698534bd7fe263410e1e7053bca",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-209.SLDDRW",
+      "drawing_sha256": "3a6702a927ebb3e74c737bbddada6382049a2c4f498277670156904685caa329",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-209.pdf",
+      "pdf_sha256": "6f8d374bc49659b85c38b26687c32d2d9eea5fd57f1c829e821de9b7edf94458",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.05748105263157895,
+            0.16248105263157894,
+            0.09251894736842105,
+            0.19751894736842104
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1498784588593818,
+            0.16271797493297896,
+            0.2401215411406182,
+            0.19728202506702103
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.04758817654932541,
+            0.058550581399579374,
+            0.1324118234506746,
+            0.13144941860042064
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-210": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x8_Pedestal_Screw_REFERENCE.SLDPRT",
+      "model_sha256": "b3a73026056a272d45c40c3fbb07aecd233c3358371758e7201a8bec341a1c9b",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-210.SLDDRW",
+      "drawing_sha256": "157274b8ddf54948a8158386c0b0df1a6e2b4849a216e9c695b32df393356499",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-210.pdf",
+      "pdf_sha256": "6f8708080ca37ea80cff2b9de198104b9895d47811a7c351f627583d34c5f04e",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.05386,
+            0.15886,
+            0.09614,
+            0.20113999999999999
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1498784588593818,
+            0.1591710143665651,
+            0.2401215411406182,
+            0.20082898563343488
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.045871933304436785,
+            0.05487152402426706,
+            0.1341280666955632,
+            0.13512847597573294
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-211": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x5_Bearing_Cap_Screw_REFERENCE.SLDPRT",
+      "model_sha256": "9f1d66fc8ac49e3d2f21b268ef83ef01b1771b1433f8b993be6a6d3049c82937",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-211.SLDDRW",
+      "drawing_sha256": "284958c77baef0c75ef2992dca9fb7301bd0306ad0d470c386995202bac6801d",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-211.pdf",
+      "pdf_sha256": "0bd5d8f691bcb3f938b6d652e0fb5306e9bb4ad93fa11eed27684656dc5d8f27",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.05386,
+            0.15886,
+            0.09614,
+            0.20113999999999999
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.16105999999999995,
+            0.15886,
+            0.22894000000000006,
+            0.20113999999999999
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.05351298705274112,
+            0.059014164443966094,
+            0.12648701294725886,
+            0.1309858355560339
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-212": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_PROTOTYPE.SLDPRT",
+      "model_sha256": "c359840527fcadabef7829157b1bdfc8fb6e592db45ae5bc943f26cddeaae74a",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-212.SLDDRW",
+      "drawing_sha256": "19aa84100bd67d51b8fdf0e9b95478498a45a955094c531ba225935e6b0ff244",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-212.pdf",
+      "pdf_sha256": "f11e7eb8375a2118085ae4aa4e20f73e675b0f9d1894276cced7a697512d131b",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.03789807254313404,
+            0.13923196343056157,
+            0.11210192745686595,
+            0.22076803656943841
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18631041816557053,
+            0.13923196343056157,
+            0.20368958183442948,
+            0.22076803656943841
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.06384723329259256,
+            0.05341962452969661,
+            0.11615276670740743,
+            0.13658037547030338
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-213": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+      "model_sha256": "b744e072a17bc109a3389d8b6fd8adf17b7daac492e3fdf00141de73b5638587",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-213.SLDDRW",
+      "drawing_sha256": "db184021f0c385888049bd9b31238eb95559ad461cb89acd159d3c797a36efb0",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-213.pdf",
+      "pdf_sha256": "8ca571887461c242d947b3e4c4975a4be436961ee22bb45acef409a891d08065",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.0342319634305616,
+            0.1392319634305616,
+            0.1157680365694384,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18747690742866177,
+            0.1392319634305616,
+            0.20252309257133824,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.0628141827205015,
+            0.053327855810703505,
+            0.11718581727949849,
+            0.1366721441892965
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-214": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Input_PROTOTYPE.SLDPRT",
+      "model_sha256": "af9dae8ba203cda27d077effe4c6a3d284f7a604c0311ca75ebfaee0574e8c81",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-214.SLDDRW",
+      "drawing_sha256": "ae4a2593aa3ba6686cdc15ce62a7e78b94c6995464f17eb859d713ec3cba43e5",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-214.pdf",
+      "pdf_sha256": "d86bbf53599bb9a3f3539c2bf82a63bac29e82c16c7b67ec9edd5d4fadba2b73",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.030717795827762795,
+            0.13975381731957723,
+            0.1192822041722372,
+            0.22024618268042276
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18194651212067692,
+            0.13975381731957723,
+            0.2080534878793231,
+            0.22024618268042276
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.05945903651369372,
+            0.053417951264634556,
+            0.12054096348630627,
+            0.13658204873536545
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-215": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT",
+      "model_sha256": "96ab51e470bd16aba78f958647a3159bd53ba4ab737cc6946a0357b888b36d09",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-215.SLDDRW",
+      "drawing_sha256": "0f398e2cec0483ee83a992b8e28d0a0eff4126afcde1c363c4c8f92986b4f255",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-215.pdf",
+      "pdf_sha256": "9ad8b215b2bc83202eeb414d9d735a08ebd80901ae3d8ba6becee796af28969e",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.05087818181818181,
+            0.1558781818181818,
+            0.09912181818181819,
+            0.20412181818181818
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1498784588593818,
+            0.1562502085724463,
+            0.2401215411406182,
+            0.2037497914275537
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.0471096438359042,
+            0.054394979843211164,
+            0.13289035616409578,
+            0.13560502015678882
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-216": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x18_Oldham_CSK_Screw_REFERENCE.SLDPRT",
+      "model_sha256": "ef232857dba9f9cef10ec9c3cf4d10844a3c6f527c264898faa572578da2eb9e",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-216.SLDDRW",
+      "drawing_sha256": "970d9073a8b940fa442fbe148dfd2473bc060b42653c7e44eefc0bde4406f812",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-216.pdf",
+      "pdf_sha256": "192b4fa5cd51cbdacbf602e53b1d09c3aa52c72220f771aaabb2dd75aa099a26",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.060171111111111106,
+            0.1651711111111111,
+            0.08982888888888889,
+            0.19482888888888888
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1498784588593818,
+            0.1653529908576404,
+            0.2401215411406182,
+            0.19464700914235958
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.049490335141990964,
+            0.06184521671646047,
+            0.13050966485800902,
+            0.12815478328353952
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-217": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT",
+      "model_sha256": "94a5a0b908380d4cbd0a544a57eceb664615340e6157a9a228a39082c5150cd3",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-217.SLDDRW",
+      "drawing_sha256": "eb88af05bd6dd9824893fbff05a71af028cf3089ba4fa82e4ab0f70b3522ea02",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-217.pdf",
+      "pdf_sha256": "fbc06de91d4631bace9fd92a7a5f159ec426495346c63dc53f412da15a9e62a5",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.034231963430561604,
+            0.1392319634305616,
+            0.11576803656943839,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.17836281733938666,
+            0.1392319634305616,
+            0.21163718266061335,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.05938961121738155,
+            0.053023641720481886,
+            0.12061038878261844,
+            0.13697635827951812
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-218": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT",
+      "model_sha256": "e0231053896f06e372ff1fb47f16ed791932588311991b5aef80a00b002393a7",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-218.SLDDRW",
+      "drawing_sha256": "957b3cc3fd09fa6c1606c653f6618f5cea6549c54216dd77463989c241118ab0",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-218.pdf",
+      "pdf_sha256": "70254195f0520fcc87c61dee674d2e6b40a5413f84d07836896120e916612b38",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.034231963430561604,
+            0.1392319634305616,
+            0.11576803656943839,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18657228310218285,
+            0.1392319634305616,
+            0.20342771689781716,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.06245095363096634,
+            0.05329558917328206,
+            0.11754904636903366,
+            0.13670441082671794
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-219": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT",
+      "model_sha256": "d4b454ac54c4ce877cd0aa50ab67a52e7e7da51bf732d63d5f8af1cb55200a23",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-219.SLDDRW",
+      "drawing_sha256": "0775dfa23f2f786e1c4e574a67efd952dda5956fea85c76bf22571c5055071b1",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-219.pdf",
+      "pdf_sha256": "f2d2e1634e2abf9ce39f10ad5e4823f62ed195e8574a0147d77964ec2d977814",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.0342319634305616,
+            0.1392319634305616,
+            0.1157680365694384,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18535952111449705,
+            0.1392319634305616,
+            0.20464047888550296,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.06197253032065311,
+            0.053253089516914785,
+            0.11802746967934688,
+            0.1367469104830852
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-220": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT",
+      "model_sha256": "576c9847b859cc01dd92e9a8d2b6c642cbb40442f583d00836284f9fb3e5db79",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-220.SLDDRW",
+      "drawing_sha256": "2990bffe13e39b446964ebfc2a6bd468a78f5c5004afdd3ac879b685c2e18e20",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-220.pdf",
+      "pdf_sha256": "94a13563fc854ab8461429790daab4e3b6e79259211e2f23a29e534f2686ae27",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.03446737369139736,
+            0.13946737369139736,
+            0.11553262630860264,
+            0.22053262630860263
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1744946836595356,
+            0.13946737369139736,
+            0.2155053163404644,
+            0.22053262630860263
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.058177776383426666,
+            0.05308632908292244,
+            0.12182222361657333,
+            0.13691367091707757
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-222": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT",
+      "model_sha256": "5b6f20392b9f61a251c164214fa424fa2d91af07d6501546d7b796f444e3f999",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-222.SLDDRW",
+      "drawing_sha256": "12c5ecd9d67232f4d6c3f4d5a0934f38a373d233ecd4132d6bb73ceb600dc6fc",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-222.pdf",
+      "pdf_sha256": "bc372fa6541a526f46dc64f6191073b9f4745c9a507ee4973207f4d183b724f0",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.053059999999999996,
+            0.15805999999999998,
+            0.09694,
+            0.20194
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18845999999999996,
+            0.15805999999999998,
+            0.20154000000000005,
+            0.20194
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.07232202743230333,
+            0.0692191596816995,
+            0.10767797256769666,
+            0.1207808403183005
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-223": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+      "model_sha256": "6ed90e3d5e9858dbf7e95eb535a99b5280362a9b0b103cee7d97561eb62bfc1c",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-223.SLDDRW",
+      "drawing_sha256": "329c409f3ea2cb418b1aeca7adfc214daa5d76bd4681b2ce23ebe63830a3e9a5",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-223.pdf",
+      "pdf_sha256": "abf9b9359a67b2ec0d140ac939cac69f036c847f8cd01dd1bf57f3652aa99b15",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.034231963430561604,
+            0.1392319634305616,
+            0.11576803656943839,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18825149200820934,
+            0.1392319634305616,
+            0.20174850799179067,
+            0.2207680365694384
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.06312962452819554,
+            0.05335587737265894,
+            0.11687037547180446,
+            0.13664412262734105
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-224": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT",
+      "model_sha256": "402743b50d024ab886836a4bf0e60bef18d12575cd4aa19bda19be0157ed0b2b",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-224.SLDDRW",
+      "drawing_sha256": "01f0b39a1a00a826eb6bb30977bc8e1ed84bf72e4133a2ae9d12e89d2bb65e8a",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-224.pdf",
+      "pdf_sha256": "af510d991b00b44111a51c3094c647c3eeff6ee3ef5d3ca090f94e1be876bec4",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.05466,
+            0.15966,
+            0.09534,
+            0.20034
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.14987845885938178,
+            0.15995464518937746,
+            0.24012154114061823,
+            0.20004535481062252
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.045593391103451786,
+            0.05509551166726754,
+            0.1344066088965482,
+            0.13490448833273247
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-225": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT",
+      "model_sha256": "a46870302f3594054b80c69b032b40f2f8eac9c9f63bbd3879c23e91f32ca398",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-225.SLDDRW",
+      "drawing_sha256": "9143fdb0dd49d0ad97899fa04c76cbae4eaa8644ee1ca54e07b5352db3d450d0",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-225.pdf",
+      "pdf_sha256": "8719d6c2c9488416e0c215fbaf9c73fbdf8874925df1ec742cf0a1e9caf9f0fb",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.053059999999999996,
+            0.15805999999999998,
+            0.09694,
+            0.20194
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18785999999999994,
+            0.15805999999999998,
+            0.20214000000000007,
+            0.20194
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.0718977633635914,
+            0.06897423724815269,
+            0.1081022366364086,
+            0.12102576275184732
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-226": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT",
+      "model_sha256": "829f4e9b9bc9691195ccbc9a6c34c168b84d92c4ab90d631c6074c3dc3ff4b28",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-226.SLDDRW",
+      "drawing_sha256": "33b910145b29912504b2f5c2002ba48da8068e617172b34d8da80a8c751a807d",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-226.pdf",
+      "pdf_sha256": "2ea4ca60c3ec3221c2dd6b4e712924e3795bfa046da01d134b46388341904942",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.05506,
+            0.16005999999999998,
+            0.09494,
+            0.19994
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.16785999999999995,
+            0.16005999999999998,
+            0.22214000000000006,
+            0.19994
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.05916984130223352,
+            0.06325964586551983,
+            0.12083015869776648,
+            0.12674035413448018
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-227": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT",
+      "model_sha256": "9d69947e967479a1c38dbd1bd65f76e22bd3035fb836fecba7abe5f24c009126",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-227.SLDDRW",
+      "drawing_sha256": "fdd182d199fa226ce5508f9118c4c538f4fe090007860ffbd19652f57ed4c25f",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-227.pdf",
+      "pdf_sha256": "2cb19d6d236cd07450789246742bb3e5f51009b9215221159e7dcdd2b9a27bac",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.06505999999999999,
+            0.17006,
+            0.08494,
+            0.18994
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.15705999999999998,
+            0.17006,
+            0.23294000000000004,
+            0.18994
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.05860415587728425,
+            0.07109849073964826,
+            0.12139584412271574,
+            0.11890150926035174
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-228": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "model_sha256": "2f9b5c7a55bd391f1272b3e97a744b38dfc3f204246c67c0f31973eb3c5577c6",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-228.SLDDRW",
+      "drawing_sha256": "3431c9432c28694d9c7f2c642e0c5a0e880cbcd9342870239770b9e1ec5985c3",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-228.pdf",
+      "pdf_sha256": "6bc082f52970a59924a97664a11663ba54f76c59c98e74dbfce536b95ce32c63",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.03471849011669445,
+            0.13971849011669446,
+            0.11528150988330554,
+            0.22028150988330553
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18880994046201466,
+            0.13971849011669446,
+            0.20119005953798536,
+            0.22028150988330553
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.06360006287119792,
+            0.05379314258733894,
+            0.11639993712880208,
+            0.13620685741266106
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-229": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "model_sha256": "e0d89d44fe3d58e7391acbb8e027c670aaded872806eb85eb2ec74635d8f95bb",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-229.SLDDRW",
+      "drawing_sha256": "ec1763b05e9832df40e275bbfffcc20fe95a624b428f613e21402327ead0b072",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-229.pdf",
+      "pdf_sha256": "c590a4452402b209688bb67ceff95f0e90efbdd9d417396db80ca793fdecc1a6",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.06205999999999999,
+            0.15506,
+            0.08794,
+            0.20493999999999998
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.15790199999999832,
+            0.15506,
+            0.2320980000000017,
+            0.20493999999999998
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.057078219443482514,
+            0.05796947420870463,
+            0.12292178055651748,
+            0.13203052579129537
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-230": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+      "model_sha256": "307c69991c806a91667790808a894c4f3dd664da54fc12866c6c53c838fdeb80",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-230.SLDDRW",
+      "drawing_sha256": "d2d6479978a246c8cc02545c9a82d06d72273a5743d1e2a16be18ea4d861a61d",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-230.pdf",
+      "pdf_sha256": "0f6b54087710793b95b716710a07188dd2bc0287220e3320af6c17e682f6e291",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.06806,
+            0.17306,
+            0.08194,
+            0.18694
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.16579667337496176,
+            0.17306,
+            0.22420332662503825,
+            0.18694
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.06690323720929132,
+            0.0783390708498717,
+            0.11309676279070867,
+            0.1116609291501283
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-231": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+      "model_sha256": "7a893a0440386394aaeadfecc09a10f49ab5c0e6f002502e521369e09fbaa078",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-231.SLDDRW",
+      "drawing_sha256": "e317f0efb2a502c2880c5120aaa681457f2a9faf7d21469938742dcbadd78f80",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-231.pdf",
+      "pdf_sha256": "413024216418a05c85e35e3e4517da24d1e1b61f421804fcdd35db91b583ac08",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.06556,
+            0.16856,
+            0.08444,
+            0.19144
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.18686,
+            0.16856,
+            0.20314000000000002,
+            0.19144
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.08002949134723668,
+            0.08224226241593366,
+            0.09997050865276332,
+            0.10775773758406634
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-001": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+      "model_sha256": "24fbac52556632b0a794587b492d25e20c1d3071da5448a9377b8fa3d0b671e3",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-001.SLDDRW",
+      "drawing_sha256": "7ddc2b4a057ab43efb30cde4c87718b079f3e9b039477e3af5a463e7bee1d30e",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-001.pdf",
+      "pdf_sha256": "67324425ef20a5095c122f2279b7923fa37e18436d912d1c76698979cc418a83",
+      "view_outlines": [
+        {
+          "view": "*Front",
+          "outline_m": [
+            0.034865202989470524,
+            0.1398652029894705,
+            0.11513479701052945,
+            0.2201347970105295
+          ]
+        },
+        {
+          "view": "*Right",
+          "outline_m": [
+            0.1488910834620997,
+            0.14560312801342828,
+            0.24110891653790031,
+            0.2143968719865717
+          ]
+        },
+        {
+          "view": "*Isometric",
+          "outline_m": [
+            0.04944856202737943,
+            0.052505814019349034,
+            0.13055143797262056,
+            0.13749418598065102
+          ]
+        }
+      ],
+      "scope": "Native prototype inspection views and dimensional/interface notes. Scales explicitly marked DO NOT SCALE. Undimensioned fabrication details and release holds remain.",
+      "qa_corrected": true
+    },
+    "CP-RB-002": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+      "model_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-002_ASSEMBLY_BOM.SLDDRW",
+      "drawing_sha256": "61ed5c6f0a39acfec646f073d0bbe02b6805d74847454356e664970e5697f391",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-002_ASSEMBLY_BOM.pdf",
+      "pdf_sha256": "9270375e7b2106657b6c4f10e7244088af86e9b1b63b559d03016e1b1d75480e",
+      "scope": "Live native parts-only BOM:87 item entries,405 leaf instances. Exact quantity reconciliation passed. Includes purchased bearing internals; not a procurement or fabrication release.",
+      "qa_corrected": true
+    },
+    "CP-RB-003": {
+      "model": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Assem20_Design_RevB.SLDASM",
+      "model_sha256": "48d1dfa353f589461974f48067c0797338b8884cb181e370764859dcf5d74660",
+      "drawing": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_BALLOONED_ASSEMBLY.SLDDRW",
+      "drawing_sha256": "f4a9a1ec42a32927bd0030eca634dc0d6639c4e43fd14fa832519b74d06fcc4c",
+      "pdf": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Drawings_Prototype\\CP-RB-003_BALLOONED_ASSEMBLY.pdf",
+      "pdf_sha256": "cc6e0edd3b0f9683220555515337cdffa9f7594a49e1d8bfe248edc693dfef80",
+      "page_count": 3,
+      "scope": "Native87-entry BOM key plus two ballooned views.68 unique item callouts; each label/attached component and original BOM numbering/quantity verified.19items not labelled; no hidden-item or fabrication-release completeness claim."
+    }
+  }
+}

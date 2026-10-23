@@ -1,0 +1,141 @@
+{
+  "scope": "Shaft alone driven using IDragOperator relaxation; ring not independently positioned. Construction XY fixed.",
+  "poses": [
+    {
+      "shaft_increment_deg": 0.0,
+      "shaft_angle_deg": 75.9223267454249,
+      "ring_phase_error_deg": -1.2722218725854068e-12,
+      "coupling_rotation_error": 0.0,
+      "output_slide_error_mm": -3.390205865905167e-14,
+      "input_slide_error_mm": -7.148662423481551e-14,
+      "floating_axial_error_mm": 9.454242944073599e-14,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665325008097,
+          "axial_error_mm": 1.2663481374630692e-13,
+          "socket_errors_mm": [
+            2.944530218409917e-10,
+            2.998139742017647e-10
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665325008129,
+          "axial_error_mm": 1.249000902703301e-13,
+          "socket_errors_mm": [
+            9.128042534773542e-11,
+            9.931097592371614e-11
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665325007647,
+          "axial_error_mm": 1.0061396160665481e-13,
+          "socket_errors_mm": [
+            5.391721674204268e-11,
+            5.429900138231499e-11
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665325007998,
+          "axial_error_mm": 1.4224732503009818e-13,
+          "socket_errors_mm": [
+            1.568229616462741e-10,
+            1.5237034443754016e-10
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -32.68991606650296,
+        7.617673344129268,
+        32.399816732077284,
+        -11.076436972728912
+      ]
+    },
+    {
+      "shaft_increment_deg": 30,
+      "shaft_angle_deg": 105.92232674542488,
+      "ring_phase_error_deg": -30.00000000000129,
+      "coupling_rotation_error": 0.0,
+      "output_slide_error_mm": -3.390205865905167e-14,
+      "input_slide_error_mm": -7.148662423481551e-14,
+      "floating_axial_error_mm": 9.454242944073599e-14,
+      "links": [
+        {
+          "link": "1",
+          "centre_distance_mm": 56.52665324919113,
+          "axial_error_mm": -7.112366251504909e-14,
+          "socket_errors_mm": [
+            8.480260064383282e-10,
+            1.0222311433325405e-10
+          ]
+        },
+        {
+          "link": "2",
+          "centre_distance_mm": 56.52665324991736,
+          "axial_error_mm": 6.245004513516506e-14,
+          "socket_errors_mm": [
+            6.40039609481777e-10,
+            2.412095504563553e-10
+          ]
+        },
+        {
+          "link": "3",
+          "centre_distance_mm": 56.52665324908692,
+          "axial_error_mm": 6.591949208711867e-14,
+          "socket_errors_mm": [
+            9.792704709687258e-10,
+            4.76891336534803e-11
+          ]
+        },
+        {
+          "link": "4",
+          "centre_distance_mm": 56.52665324998123,
+          "axial_error_mm": 1.6132928326584306e-13,
+          "socket_errors_mm": [
+            5.238166618539779e-10,
+            1.9866075014230696e-10
+          ]
+        }
+      ],
+      "blade_pitch_deg": [
+        -32.6899160662779,
+        7.617673343972123,
+        32.399816732263844,
+        -11.076436972970354
+      ]
+    }
+  ],
+  "thresholds": {
+    "angle_deg": 0.001,
+    "joint_position_mm": 0.001,
+    "rod_length_mm": 0.001
+  },
+  "excluded": [
+    "continuous collision clearance",
+    "loaded/contact backlash behavior",
+    "wear/thermal/dynamic rating"
+  ],
+  "restored_shaft_transform": [
+    0.24323705820963085,
+    0.9699668723794255,
+    3.1555112059069556e-17,
+    -0.9699668723794255,
+    0.24323705820963085,
+    -1.804848700638887e-17,
+    -2.5181807121491036e-17,
+    -2.6217352466949215e-17,
+    1.0,
+    0.783782501086058,
+    1.1848443308096597,
+    -0.013101375850359344,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "rotor_setup_hold_restored": true,
+  "ring_setup_hold_suppressed": true
+}

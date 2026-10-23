@@ -1,0 +1,16 @@
+{
+  "scope": "Four new installed arm crosspin envelopes against all resolved leaf solids at saved pose. Arm/blade cuts only remove material; component positions unchanged by integration.",
+  "body_count": 429,
+  "boolean_comparisons": 8,
+  "threshold_mm3": 1e-05,
+  "intersections": [],
+  "result": "passed",
+  "excluded": [
+    "unchanged pairs",
+    "same-component imported internals",
+    "motion between poses",
+    "loaded gaps/tolerances",
+    "Unmodelled helical threads, loaded deformation and physical wear"
+  ],
+  "assembly_sha256": "8cfec4662ebbe2caa1c0a87ffbe5298dc36bcb8ab1ffc4c288106d8b1d0b9045"
+}

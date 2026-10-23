@@ -1,0 +1,18 @@
+{
+  "archive": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Checkpoints\\START_20261023T042432Z\\REQUIREMENTS_WORK.zip",
+  "sha256": "81ca8c586bfc8af68e53e6d111e044434253830d96fd19a22f05aa0836fb21fc",
+  "status": "INCOMPLETE: starting state preserved; numerical load/acceptance proposals prepared; no physical release",
+  "utc": "2026-10-23T04:40:24.037859+00:00",
+  "deliverables": {
+    "NUMERICAL_REQUIREMENTS_REGISTER.md": "fcb3f8b7534ca953952c264ecbf6661e94d52d6e653d4823389056f29d23cf6e",
+    "MECHANICAL_LOAD_ENVELOPE.json": "117a3f7ea48cc9ab48cf8bc4f499b6decdc5f9a397e96d57c57b0bc083767c11",
+    "CURRENT_RESUME_NOTES.md": "4b3d88a47cfc209ced63edb9a0f5e3111f3b906e006ff8c01276b9fb156cf19e",
+    "MECHANICAL_COMPLETION_REPORT.md": "d8ddccfa85eae7e77968ddeb3ba57a50b1a72c3ceb672c91c24e32bd421e91b8",
+    "STARTING_POINT_CHECKPOINT.json": "d5a60975109d8b206ea3d095b0466e3fc339d775dea427e66d89ce124b449e4a",
+    "STARTING_RECOVERY_COMPARISON.json": "f152a208d9d68a3fdce14946c4fd5818ac46a1056598942ad4be100c5f18e985",
+    "automation\\capture_starting_point.py": "0f6bd482d1342c6550ae41311e6eb6a8583b8489e707abce01bb2cf9bf0f910d",
+    "automation\\compare_starting_recovery.py": "4bcd1dd5297fa9b5bba704a7f8a0fc4d9ccc817ea4aa4966373f5dbb3fcd3e17",
+    "automation\\mechanical_load_envelope.py": "32672d434893b3ff7cef90404b307e3906a9a9341718770e2d44a92be66e013b",
+    "automation\\finalize_requirements_checkpoint.py": "da0cf69b4ff7e1d8cead5e84818edefee04a2951fa650eb7861a12d48303c342"
+  }
+}

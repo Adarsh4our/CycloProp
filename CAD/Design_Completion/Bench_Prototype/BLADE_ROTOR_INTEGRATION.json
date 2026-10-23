@@ -1,0 +1,279 @@
+{
+  "status": "GEOMETRY/MATES VERIFIED; MIXED-BODY MATERIAL READBACK AND FABRICATION/PHYSICAL QUALIFICATION REMAIN OPEN",
+  "assembly": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_Bench_Development_Source.SLDASM",
+  "part": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Part1.SLDPRT",
+  "backup": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Before_Blade_Integration",
+  "before_blade_transforms": {
+    "BD_RB_Part1-1": [
+      0.6393227035799005,
+      -0.7689385415540614,
+      2.0204599438011353e-16,
+      0.7689385415540614,
+      0.6393227035799005,
+      5.980799302929895e-17,
+      -1.7516126230780813e-16,
+      1.171243444463053e-16,
+      1.0,
+      0.7013891178532503,
+      1.1355781814764065,
+      0.019398624149641316,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BD_RB_Part1-4": [
+      0.674009022389154,
+      0.7387231130389904,
+      -2.926054577474541e-16,
+      -0.7387231130389904,
+      0.6740090223891542,
+      1.6619807497564133e-16,
+      3.1999307785631796e-16,
+      1.0413541260410498e-16,
+      1.0,
+      0.833950480851378,
+      1.10150664368699,
+      0.01939862414964833,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BD_RB_Part1-3": [
+      -0.5433193912492128,
+      0.8395260800550419,
+      1.81026282253106e-18,
+      -0.8395260800550419,
+      -0.5433193912492128,
+      -6.221259739946862e-17,
+      -5.124554713007973e-17,
+      -3.532107339838053e-17,
+      0.9999999999999999,
+      0.8652638528517249,
+      1.2334398985271533,
+      0.019398624149642076,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BD_RB_Part1-2": [
+      -0.9028864142009955,
+      -0.4298791958809692,
+      -9.710426309471549e-17,
+      0.4298791958809692,
+      -0.9028864142009955,
+      -4.4137594628384906e-16,
+      1.0206421696093383e-16,
+      -4.402554479909344e-16,
+      0.9999999999999999,
+      0.7357888565429531,
+      1.265248000719338,
+      0.019398624149640404,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "body_materials": [
+    {
+      "body": "Bench_Defined_spar",
+      "density_kg_m3": 1550.0,
+      "mass_kg": 0.0015992093351299,
+      "Jp_kgm2": 3.697221202064713e-09,
+      "COM_m": [
+        0.0095,
+        2.2733941798037115e-19,
+        0.11
+      ]
+    },
+    {
+      "body": "Bench_Metal_Thrust_Shoulder_219.5",
+      "density_kg_m3": 7850.0,
+      "mass_kg": 0.0017560669724290341,
+      "Jp_kgm2": 1.581904228593411e-09,
+      "COM_m": [
+        0.009500000000000001,
+        6.356468608161362e-36,
+        0.21314977933993323
+      ]
+    },
+    {
+      "body": "Bench_Defined_core",
+      "density_kg_m3": 52.0,
+      "mass_kg": 0.0009324828259755382,
+      "Jp_kgm2": 1.1638795988775046e-07,
+      "COM_m": [
+        0.01609317455557481,
+        2.3784652710225755e-20,
+        0.11000000000000001
+      ]
+    },
+    {
+      "body": "Bench_Defined_skin",
+      "density_kg_m3": 1550.0,
+      "mass_kg": 0.006469223864182987,
+      "Jp_kgm2": 1.3135532892903856e-06,
+      "COM_m": [
+        0.018530519707887272,
+        -2.299770447914618e-11,
+        0.10999999999999997
+      ]
+    },
+    {
+      "body": "Bench_Defined_UD_upper",
+      "density_kg_m3": 1550.0,
+      "mass_kg": 0.0013658628091993783,
+      "Jp_kgm2": 9.201445323008722e-08,
+      "COM_m": [
+        0.01700268372920526,
+        0.0016458784476997422,
+        0.11
+      ]
+    },
+    {
+      "body": "Bench_Defined_UD_lower",
+      "density_kg_m3": 1550.0,
+      "mass_kg": 0.0013658628091993783,
+      "Jp_kgm2": 9.201445323008722e-08,
+      "COM_m": [
+        0.01700268372920526,
+        -0.0016458784476997422,
+        0.11
+      ]
+    },
+    {
+      "body": "Bench_Metal_Thrust_Shoulder_0",
+      "density_kg_m3": 7850.0,
+      "mass_kg": 0.001702130851741887,
+      "Jp_kgm2": 1.506028013748743e-09,
+      "COM_m": [
+        0.009525210588772804,
+        -1.0610612387811164e-14,
+        0.007337805928523211
+      ]
+    }
+  ],
+  "root_support_revision": "OD3.85x0.5 metal thrust shoulders at span ends; spar relieved0.5mm each end. Keeps overall shoulder span220mm. Minimum spacer/metal contact annulus evaluated separately.",
+  "material_readback": {
+    "UD_upper": {
+      "return_code": 1,
+      "expected": "BLADE_CFRP_1550_PROVISIONAL",
+      "actual": ""
+    },
+    "UD_lower": {
+      "return_code": 1,
+      "expected": "BLADE_CFRP_1550_PROVISIONAL",
+      "actual": ""
+    },
+    "spar": {
+      "return_code": 1,
+      "expected": "BLADE_CFRP_1550_PROVISIONAL",
+      "actual": ""
+    },
+    "core": {
+      "return_code": 1,
+      "expected": "BLADE_CORE_52_PROVISIONAL",
+      "actual": ""
+    }
+  },
+  "calculated_mixed_material_mass_kg": 0.015190839467858102,
+  "native_unassigned_proxy_mass_kg": 0.02534074119118621,
+  "native_body_material_assignment_verified": false,
+  "adhesive_allowance_kg": 0.0005,
+  "mass_for_loads_kg": 0.0156908394678581,
+  "aft_COM_offset_for_loads_m": 0.005742628423246876,
+  "Jp_for_loads_kgm2": 1.6707553090827172e-06,
+  "assembly_rebuild_return": true,
+  "mate_errors": [],
+  "after_blade_transforms": {
+    "BD_RB_Part1-1": [
+      0.6393227035774103,
+      -0.7689385415561318,
+      2.020459943811932e-16,
+      0.7689385415561318,
+      0.6393227035774103,
+      5.980799302899942e-17,
+      -1.7516126230788877e-16,
+      1.1712434444789432e-16,
+      1.0,
+      0.701389117853279,
+      1.1355781814764268,
+      0.019398624149641268,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BD_RB_Part1-4": [
+      0.674009022389154,
+      0.7387231130389904,
+      -2.926054577474541e-16,
+      -0.7387231130389904,
+      0.6740090223891542,
+      1.6619807497564133e-16,
+      3.1999307785631796e-16,
+      1.0413541260410498e-16,
+      1.0,
+      0.833950480851378,
+      1.10150664368699,
+      0.01939862414964833,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BD_RB_Part1-3": [
+      -0.5433193912527806,
+      0.8395260800527329,
+      1.8102628222666678e-18,
+      -0.8395260800527329,
+      -0.5433193912527806,
+      -6.221259739947631e-17,
+      -5.124554713007973e-17,
+      -3.532107339838053e-17,
+      0.9999999999999999,
+      0.8652638528517625,
+      1.2334398985271777,
+      0.019398624149642572,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BD_RB_Part1-2": [
+      -0.9028864142035846,
+      -0.42987919587553114,
+      -9.710426309205711e-17,
+      0.42987919587553114,
+      -0.9028864142035846,
+      -4.413759462844339e-16,
+      1.0206421696093383e-16,
+      -4.402554479909344e-16,
+      0.9999999999999999,
+      0.7357888565429826,
+      1.265248000719276,
+      0.019398624149640463,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "max_pose_delta": 6.329331503351909e-11,
+  "assembly_sha256": "1f373e291009471430b2f4f55907099e14939a7575cc0ce85eae892eeab55b38",
+  "part_sha256": "98e482261c46cbed57c96ff0cbfed64d059f7986f89d766d23cd9a5333df40d8",
+  "complete": false,
+  "width_repair": {
+    "changed_tab_references": [
+      "Width1",
+      "Independent_Part1_2_Span_Centre",
+      "Independent_Part1_3_Span_Centre",
+      "Independent_Part1_4_Span_Centre"
+    ],
+    "scope": "Replaced deleted proxy span faces by metal shoulder faces at the same0/220mm planes; width references/constraint type unchanged."
+  },
+  "geometry_and_mates_complete": true
+}

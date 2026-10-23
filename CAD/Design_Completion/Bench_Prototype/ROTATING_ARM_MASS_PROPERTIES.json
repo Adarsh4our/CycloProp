@@ -1,0 +1,458 @@
+{
+  "status": "NATIVE GEOMETRY/DENSITY ESTIMATE; NOT MEASURED HARDWARE",
+  "stations": {
+    "1": {
+      "blade": "BD_RB_Part1-2",
+      "parts": [
+        {
+          "role": "OffsetArm",
+          "component": "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+          "mass_kg": 0.0025119711509787247,
+          "COM_in_blade_coordinates_m": [
+            -0.0033096476452401874,
+            8.224914859449179e-10,
+            -0.024374447148358475
+          ],
+          "Jp_kgm2": 8.538224695496586e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+          "density_kg_m3": 2810.0
+        },
+        {
+          "role": "ArmBall",
+          "component": "BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-3",
+          "mass_kg": 0.00032530304327265536,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999994572,
+            -1.1150848294949609e-15,
+            -0.03157499999999996
+          ],
+          "Jp_kgm2": 4.793424511095321e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.000000000001
+        },
+        {
+          "role": "ArmMountSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-1",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999994572,
+            -1.1143124215890174e-15,
+            -0.03332499999999994
+          ],
+          "Jp_kgm2": 2.0612514838918617e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmOuterSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-2",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999994572,
+            -1.1158572374009045e-15,
+            -0.029824999999999942
+          ],
+          "Jp_kgm2": 2.0612514838918617e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmHeadWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-4",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999994572,
+            -1.1160337877794059e-15,
+            -0.029424999999999937
+          ],
+          "Jp_kgm2": 2.715144821612098e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmScrew",
+          "component": "BD_RB_M2x12_Socket_Cap_REFERENCE-5",
+          "mass_kg": 0.00047399407479566715,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999994572,
+            -1.1146123597385501e-15,
+            -0.03264544745057226
+          ],
+          "Jp_kgm2": 6.872450694902206e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2x12_Socket_Cap_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNutWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-5",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999994572,
+            -1.1125910553986292e-15,
+            -0.03722499999999994
+          ],
+          "Jp_kgm2": 2.715144821612098e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNut",
+          "component": "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-12",
+          "mass_kg": 0.00013457806141543304,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999994572,
+            -1.1121717482496884e-15,
+            -0.038174999999999945
+          ],
+          "Jp_kgm2": 1.974625934226144e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT",
+          "density_kg_m3": 7849.999999999999
+        }
+      ],
+      "mass_kg": 0.0035112486346434426,
+      "first_chord_mass_moment_kgm": -2.030506920871922e-05,
+      "first_normal_mass_moment_kgm": 2.066073770984738e-12,
+      "Jp_kgm2": 2.3134005096821046e-07
+    },
+    "2": {
+      "blade": "BD_RB_Part1-1",
+      "parts": [
+        {
+          "role": "OffsetArm",
+          "component": "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-2",
+          "mass_kg": 0.0025119711509787247,
+          "COM_in_blade_coordinates_m": [
+            -0.0033096476452400543,
+            8.224914992288658e-10,
+            -0.024374447148358475
+          ],
+          "Jp_kgm2": 8.538224695496365e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+          "density_kg_m3": 2810.0
+        },
+        {
+          "role": "ArmBall",
+          "component": "BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-5",
+          "mass_kg": 0.00032530304327265536,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999914,
+            -1.039512640491952e-16,
+            -0.03157500000000058
+          ],
+          "Jp_kgm2": 4.793424511099491e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.000000000001
+        },
+        {
+          "role": "ArmMountSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-4",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999914,
+            -1.0405592803698691e-16,
+            -0.03332500000000059
+          ],
+          "Jp_kgm2": 2.0612514838936753e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmOuterSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-5",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999912,
+            -1.0384660006140348e-16,
+            -0.029825000000000584
+          ],
+          "Jp_kgm2": 2.061251483893675e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmHeadWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-7",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999912,
+            -1.0382267686419394e-16,
+            -0.029425000000000583
+          ],
+          "Jp_kgm2": 2.7151448216144756e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmScrew",
+          "component": "BD_RB_M2x12_Socket_Cap_REFERENCE-6",
+          "mass_kg": 0.00047399407479566715,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999914,
+            -1.0401528536285141e-16,
+            -0.03264544745057292
+          ],
+          "Jp_kgm2": 6.872450694908281e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2x12_Socket_Cap_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNutWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-8",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999914,
+            -1.0428917920977988e-16,
+            -0.0372250000000006
+          ],
+          "Jp_kgm2": 2.715144821614476e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNut",
+          "component": "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-13",
+          "mass_kg": 0.00013457806141543304,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999914,
+            -1.0434599680315252e-16,
+            -0.038175000000000604
+          ],
+          "Jp_kgm2": 1.9746259342278692e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT",
+          "density_kg_m3": 7849.999999999999
+        }
+      ],
+      "mass_kg": 0.0035112486346434426,
+      "first_chord_mass_moment_kgm": -2.030506920872422e-05,
+      "first_normal_mass_moment_kgm": 2.066074814024642e-12,
+      "Jp_kgm2": 2.3134005096833635e-07
+    },
+    "3": {
+      "blade": "BD_RB_Part1-4",
+      "parts": [
+        {
+          "role": "OffsetArm",
+          "component": "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-3",
+          "mass_kg": 0.0025119711509787247,
+          "COM_in_blade_coordinates_m": [
+            -0.003309647645240089,
+            8.224914780618784e-10,
+            -0.024374447148358472
+          ],
+          "Jp_kgm2": 8.538224695496424e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+          "density_kg_m3": 2810.0
+        },
+        {
+          "role": "ArmBall",
+          "component": "BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-7",
+          "mass_kg": 0.00032530304327265536,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999861,
+            8.125346331490013e-18,
+            -0.03157500000001272
+          ],
+          "Jp_kgm2": 4.79342451109945e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.000000000001
+        },
+        {
+          "role": "ArmMountSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-7",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.01199999999999986,
+            7.834499700321678e-18,
+            -0.03332500000001272
+          ],
+          "Jp_kgm2": 2.061251483893657e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmOuterSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-8",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999861,
+            8.416192962658348e-18,
+            -0.029825000000012713
+          ],
+          "Jp_kgm2": 2.0612514838936575e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmHeadWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-10",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.011999999999999861,
+            8.482672192639682e-18,
+            -0.029425000000012715
+          ],
+          "Jp_kgm2": 2.715144821614453e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmScrew",
+          "component": "BD_RB_M2x12_Socket_Cap_REFERENCE-7",
+          "mass_kg": 0.00047399407479566715,
+          "COM_in_blade_coordinates_m": [
+            -0.01199999999999986,
+            7.94744002586619e-18,
+            -0.032645447450585036
+          ],
+          "Jp_kgm2": 6.872450694908222e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2x12_Socket_Cap_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNutWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-11",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.01199999999999986,
+            7.186327208003676e-18,
+            -0.03722500000001271
+          ],
+          "Jp_kgm2": 2.7151448216144524e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNut",
+          "component": "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-14",
+          "mass_kg": 0.00013457806141543304,
+          "COM_in_blade_coordinates_m": [
+            -0.01199999999999986,
+            7.028439036798008e-18,
+            -0.03817500000001272
+          ],
+          "Jp_kgm2": 1.974625934227852e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT",
+          "density_kg_m3": 7849.999999999999
+        }
+      ],
+      "mass_kg": 0.0035112486346434426,
+      "first_chord_mass_moment_kgm": -2.0305069208724255e-05,
+      "first_normal_mass_moment_kgm": 2.066074872694027e-12,
+      "Jp_kgm2": 2.3134005096833566e-07
+    },
+    "4": {
+      "blade": "BD_RB_Part1-3",
+      "parts": [
+        {
+          "role": "OffsetArm",
+          "component": "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-4",
+          "mass_kg": 0.0025119711509787247,
+          "COM_in_blade_coordinates_m": [
+            -0.0033096476452400304,
+            8.224915618097731e-10,
+            -0.024374447148358486
+          ],
+          "Jp_kgm2": 8.538224695496326e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+          "density_kg_m3": 2810.0
+        },
+        {
+          "role": "ArmBall",
+          "component": "BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-9",
+          "mass_kg": 0.00032530304327265536,
+          "COM_in_blade_coordinates_m": [
+            -0.012000000000000195,
+            -1.862857916348481e-16,
+            -0.03157499999999934
+          ],
+          "Jp_kgm2": 4.79342451109971e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.000000000001
+        },
+        {
+          "role": "ArmMountSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-10",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.012000000000000195,
+            -1.86176919589398e-16,
+            -0.033324999999999334
+          ],
+          "Jp_kgm2": 2.061251483893771e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmOuterSpacer",
+          "component": "BD_RB_Ball_Mount_Spacer_H0p5-11",
+          "mass_kg": 1.4149536962227576e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.012000000000000195,
+            -1.863946636802982e-16,
+            -0.029824999999999338
+          ],
+          "Jp_kgm2": 2.061251483893771e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmHeadWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-13",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.012000000000000195,
+            -1.8641954871925825e-16,
+            -0.029424999999999334
+          ],
+          "Jp_kgm2": 2.715144821614601e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmScrew",
+          "component": "BD_RB_M2x12_Socket_Cap_REFERENCE-8",
+          "mass_kg": 0.00047399407479566715,
+          "COM_in_blade_coordinates_m": [
+            -0.012000000000000195,
+            -1.8621919631856773e-16,
+            -0.03264544745057166
+          ],
+          "Jp_kgm2": 6.872450694908601e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2x12_Socket_Cap_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNutWasher",
+          "component": "BD_RB_M2_Small_Washer_REFERENCE-14",
+          "mass_kg": 1.8551615128253932e-05,
+          "COM_in_blade_coordinates_m": [
+            -0.012000000000000195,
+            -1.8593429045953777e-16,
+            -0.037224999999999335
+          ],
+          "Jp_kgm2": 2.715144821614601e-09,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Small_Washer_REFERENCE.SLDPRT",
+          "density_kg_m3": 7850.0
+        },
+        {
+          "role": "ArmNut",
+          "component": "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-15",
+          "mass_kg": 0.00013457806141543304,
+          "COM_in_blade_coordinates_m": [
+            -0.012000000000000195,
+            -1.858751884920077e-16,
+            -0.03817499999999934
+          ],
+          "Jp_kgm2": 1.97462593422796e-08,
+          "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2_Nut_AF4_H1p6_REFERENCE.SLDPRT",
+          "density_kg_m3": 7849.999999999999
+        }
+      ],
+      "mass_kg": 0.0035112486346434426,
+      "first_chord_mass_moment_kgm": -2.0305069208724444e-05,
+      "first_normal_mass_moment_kgm": 2.0660748891292513e-12,
+      "Jp_kgm2": 2.3134005096834273e-07
+    }
+  },
+  "basis": "Pitch arm plus clamped arm-end ball/spacers/bolt/washers/nut. Positions mapped into the blade chord frame. Socket/tube mass belongs to the distributed rod calculation."
+}

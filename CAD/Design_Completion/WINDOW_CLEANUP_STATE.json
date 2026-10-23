@@ -1,0 +1,73 @@
+{
+  "closed": [
+    {
+      "title": "RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "dirty": true,
+      "source_disk_sha256": "0a5e313cd1748940ea60b32a13d55505738e212db3ce32a68fe9e6512edb3d60",
+      "live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z\\RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "live_copy_sha256": "85e0cca697da74a914b872ecad435ebd11e106654a3d5684930602efd6e5b552"
+    },
+    {
+      "title": "RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+      "dirty": true,
+      "source_disk_sha256": "7a893a0440386394aaeadfecc09a10f49ab5c0e6f002502e521369e09fbaa078",
+      "live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z\\RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+      "live_copy_sha256": "bf9f90c1536ea30fdad8fdbe303351d229427c0d23ad8c9e38fcb0e873dbdba2"
+    },
+    {
+      "title": "RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+      "dirty": true,
+      "source_disk_sha256": "6ed90e3d5e9858dbf7e95eb535a99b5280362a9b0b103cee7d97561eb62bfc1c",
+      "live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z\\RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+      "live_copy_sha256": "623c95f702566e4660e7b49a13118767875b6e0110459dce8c7e9db70e39fa09"
+    },
+    {
+      "title": "RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT",
+      "dirty": true,
+      "source_disk_sha256": "402743b50d024ab886836a4bf0e60bef18d12575cd4aa19bda19be0157ed0b2b",
+      "live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z\\RB_M2p5x10_Hub_Screw_REFERENCE.SLDPRT",
+      "live_copy_sha256": "e0e7a3f9f72ab596ad1623e97a2cbe6c2364e005ff998f6ec4f908ac558a555d"
+    },
+    {
+      "title": "RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT",
+      "dirty": true,
+      "source_disk_sha256": "829f4e9b9bc9691195ccbc9a6c34c168b84d92c4ab90d631c6074c3dc3ff4b28",
+      "live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z\\RB_M2x4_Button_Head_D3p5_H1p3_REFERENCE.SLDPRT",
+      "live_copy_sha256": "4b63d19639ad1686b3295ca16e377eb8847cfd9ac1f731394b81d1138cb781ce"
+    },
+    {
+      "title": "Socket_Cavity_Tool_D5p05.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Rotor_Integration\\Ball_Link_Prototype\\Socket_Cavity_Tool_D5p05.SLDPRT",
+      "dirty": false,
+      "source_disk_sha256": "e3a5885f611f8211078ee84913c6f9208e4831b57d89ef46e13d3fef5170f918"
+    },
+    {
+      "title": "RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+      "dirty": true,
+      "source_disk_sha256": "77f4411f89bf14dae7984f4784ed59b36551ef5137c6f48bf65a634509aff28b",
+      "live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z\\RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+      "live_copy_sha256": "fe49a7f114b214f83d5f19a7b0552d8745c47a1960143636e1de92db81a19bf4"
+    },
+    {
+      "title": "RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT",
+      "dirty": false,
+      "source_disk_sha256": "9d69947e967479a1c38dbd1bd65f76e22bd3035fb836fecba7abe5f24c009126"
+    },
+    {
+      "title": "RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM",
+      "source": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\RevB_Isolated\\RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM",
+      "dirty": true,
+      "source_disk_sha256": "028f26de0c1623d6d96193b7272f808626a5303e5e8564b167ee9d1a9913756e",
+      "live_copy": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z\\RB_Blade_Bearing_Cartridge_Set_PROTOTYPE.SLDASM",
+      "live_copy_sha256": "049655a05f00e7e9064802fd32dba4dd5258d00ba05f79874a2c539335015ea5"
+    }
+  ],
+  "recovery": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Recovery\\Window_Cleanup_20261023T005357Z"
+}

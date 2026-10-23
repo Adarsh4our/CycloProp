@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-21",
+  "status": "PROVISIONAL",
+  "scope": "X moving drive-tab fasteners only",
+  "hardware_count": 6,
+  "mate_count_added": 12,
+  "new_mate_types": [
+    "concentric with rotation locked",
+    "axial distance between component datum planes"
+  ],
+  "checks": {
+    "native_hole_alignment": "passed",
+    "one_assembly_rebuild": "passed",
+    "new_hardware_positions": "passed",
+    "preserved_plate_pose": "passed",
+    "single_position_intersection_check": "passed",
+    "full_travel_sweep": "not performed",
+    "strength_and_tolerances": "not performed"
+  },
+  "initial_mate_errors": [],
+  "final_mate_errors": [],
+  "native_boolean_checks": 8,
+  "intersections": [],
+  "added_components": {
+    "Fastener1_Screw": {
+      "component": "M2p5x8_CSK_REFERENCE-7",
+      "expected_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.7561062741975902,
+        1.2118443308096596,
+        -0.03957637585035938,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Fastener1_Washer": {
+      "component": "M2p5_Washer_2p7x6x0p5_REFERENCE-9",
+      "expected_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.7561062741975902,
+        1.2118443308096596,
+        -0.034676375850359376,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Fastener1_Nut": {
+      "component": "M2p5_Nut_AF5_H2_REFERENCE-9",
+      "expected_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.7561062741975902,
+        1.2118443308096596,
+        -0.034176375850359375,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Fastener2_Screw": {
+      "component": "M2p5x8_CSK_REFERENCE-8",
+      "expected_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.7621062741975902,
+        1.2118443308096596,
+        -0.03957637585035938,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Fastener2_Washer": {
+      "component": "M2p5_Washer_2p7x6x0p5_REFERENCE-10",
+      "expected_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.7621062741975902,
+        1.2118443308096596,
+        -0.034676375850359376,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Fastener2_Nut": {
+      "component": "M2p5_Nut_AF5_H2_REFERENCE-10",
+      "expected_transform": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.7621062741975902,
+        1.2118443308096596,
+        -0.034176375850359375,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "source_sha256": {
+    "CAD\\Assem20.SLDASM": "aa8f37308785052cd8af7dee6fea99bcf665d0d732adb82e12f994550f7718e1",
+    "CAD\\Intermediate_X_Slider.SLDPRT": "e052ea2b6f422b971d5f71e60924b77f7656fb6d46223603a8d9eb01f4adb307",
+    "CAD\\Servo_Actuation_Prototype\\X_Slider_Drive_Tab_PROTOTYPE.SLDPRT": "887e8e5f300e9f812585334a04bb3cf01aae4547435a36f2b52b403ff1b9077e",
+    "CAD\\Travel_Stop_Prototype\\M2p5x8_CSK_REFERENCE.SLDPRT": "d159547318d0ad8ce78b51d3edcc674fb57a1db5a55e39ade90add9848b89373",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Washer_2p7x6x0p5_REFERENCE.SLDPRT": "87534d7caec9e2b1c15f2125e396bc4ac43812ee246f56a5442ef1ab7ca3f2e5",
+    "CAD\\Travel_Stop_Prototype\\M2p5_Nut_AF5_H2_REFERENCE.SLDPRT": "086ba078760598c4b212218601136a562fc8090bf2905c0e0e1faffe56b3d7ff"
+  },
+  "pre_change_backup": "C:\\Users\\ADARSH~1\\AppData\\Local\\Temp\\CycloProp_before_X_tab_fasteners_g5g2hrux",
+  "pre_change_assembly_sha256": "5659fe155b5a81d3c57a9965e7586d8aeedffdf6df6a8af44896bfe7e94772fd"
+}

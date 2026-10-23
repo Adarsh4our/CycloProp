@@ -1,0 +1,600 @@
+[
+  {
+    "name": "BD_RB_Savox_Output_Spline_NATIVE_REFERENCE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT",
+    "pos_mm": [
+      -59.99999999998895,
+      23.99999999999336,
+      -10.99999999999999
+    ],
+    "R": [
+      0.06309735203202707,
+      0.998007376809684,
+      5.226459621047637e-29,
+      -0.998007376809684,
+      0.06309735203202707,
+      1.7286544447282304e-27,
+      1.7219121301677177e-27,
+      -1.6123397060478035e-28,
+      0.9999999999999999
+    ],
+    "mates": [
+      "Conn_RotatingServoOutputX_Right_Plane",
+      "Conn_RotatingServoOutputX_Top_Plane",
+      "Conn_RotatingServoOutputX_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Savox_Output_Spline_NATIVE_REFERENCE-2",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Savox_Output_Spline_NATIVE_REFERENCE.SLDPRT",
+    "pos_mm": [
+      -23.24283892262402,
+      -59.99999999998495,
+      -10.999999999999996
+    ],
+    "R": [
+      -0.9815473247797747,
+      -0.19121937458758653,
+      1.4782700080606446e-17,
+      0.19121937458758653,
+      -0.9815473247797747,
+      3.3057942498912388e-18,
+      1.3877787808161565e-17,
+      6.071532166382537e-18,
+      0.9999999999999998
+    ],
+    "mates": [
+      "Conn_RotatingServoOutputY_Right_Plane",
+      "Conn_RotatingServoOutputY_Top_Plane",
+      "Conn_RotatingServoOutputY_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Servo_X_Mount_PROTOTYPE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Servo_X_Mount_PROTOTYPE.SLDPRT",
+    "pos_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "mountX_Rigid_Right_Plane",
+      "mountX_Rigid_Top_Plane",
+      "mountX_Rigid_Front_Plane",
+      "ServoMount_X_Pad1_Screw_Right_Plane",
+      "ServoMount_X_Pad1_Screw_Top_Plane",
+      "ServoMount_X_Pad1_Screw_Front_Plane",
+      "ServoMount_X_Pad1_Washer_Right_Plane",
+      "ServoMount_X_Pad1_Washer_Top_Plane",
+      "ServoMount_X_Pad1_Washer_Front_Plane",
+      "ServoMount_X_Pad1_Nut_Right_Plane",
+      "ServoMount_X_Pad1_Nut_Top_Plane",
+      "ServoMount_X_Pad1_Nut_Front_Plane",
+      "ServoMount_X_Pad2_Screw_Right_Plane",
+      "ServoMount_X_Pad2_Screw_Top_Plane",
+      "ServoMount_X_Pad2_Screw_Front_Plane",
+      "ServoMount_X_Pad2_Washer_Right_Plane",
+      "ServoMount_X_Pad2_Washer_Top_Plane",
+      "ServoMount_X_Pad2_Washer_Front_Plane",
+      "ServoMount_X_Pad2_Nut_Right_Plane",
+      "ServoMount_X_Pad2_Nut_Top_Plane",
+      "ServoMount_X_Pad2_Nut_Front_Plane",
+      "ServoMount_X_Ear1_Screw_Right_Plane",
+      "ServoMount_X_Ear1_Screw_Top_Plane",
+      "ServoMount_X_Ear1_Screw_Front_Plane",
+      "ServoMount_X_Ear1_TopWasher_Right_Plane",
+      "ServoMount_X_Ear1_TopWasher_Top_Plane",
+      "ServoMount_X_Ear1_TopWasher_Front_Plane",
+      "ServoMount_X_Ear1_BottomWasher_Right_Plane",
+      "ServoMount_X_Ear1_BottomWasher_Top_Plane",
+      "ServoMount_X_Ear1_BottomWasher_Front_Plane",
+      "ServoMount_X_Ear1_Nut_Right_Plane",
+      "ServoMount_X_Ear1_Nut_Top_Plane",
+      "ServoMount_X_Ear1_Nut_Front_Plane",
+      "ServoMount_X_Ear2_Screw_Right_Plane",
+      "ServoMount_X_Ear2_Screw_Top_Plane",
+      "ServoMount_X_Ear2_Screw_Front_Plane",
+      "ServoMount_X_Ear2_TopWasher_Right_Plane",
+      "ServoMount_X_Ear2_TopWasher_Top_Plane",
+      "ServoMount_X_Ear2_TopWasher_Front_Plane",
+      "ServoMount_X_Ear2_BottomWasher_Right_Plane",
+      "ServoMount_X_Ear2_BottomWasher_Top_Plane",
+      "ServoMount_X_Ear2_BottomWasher_Front_Plane",
+      "ServoMount_X_Ear2_Nut_Right_Plane",
+      "ServoMount_X_Ear2_Nut_Top_Plane",
+      "ServoMount_X_Ear2_Nut_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Intermediate_X_Slider-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Intermediate_X_Slider.SLDPRT",
+    "pos_mm": [
+      0.7571610773986492,
+      0.0,
+      8.999999999999995
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "Coincident2",
+      "Distance5",
+      "Distance6",
+      "Coincident10",
+      "Distance13",
+      "Lower_Block_Actual_Outer_Side",
+      "mountY_Rigid_Right_Plane",
+      "mountY_Rigid_Top_Plane",
+      "mountY_Rigid_Front_Plane",
+      "tabX_Rigid_Right_Plane",
+      "tabX_Rigid_Top_Plane",
+      "tabX_Rigid_Front_Plane",
+      "servoY_Rigid_Right_Plane",
+      "servoY_Rigid_Top_Plane",
+      "servoY_Rigid_Front_Plane",
+      "XTab_Fastener1_Screw_Concentric",
+      "XTab_Fastener1_Screw_Axial",
+      "XTab_Fastener1_Washer_Concentric",
+      "XTab_Fastener1_Washer_Axial",
+      "XTab_Fastener1_Nut_Concentric",
+      "XTab_Fastener1_Nut_Axial",
+      "XTab_Fastener2_Screw_Concentric",
+      "XTab_Fastener2_Screw_Axial",
+      "XTab_Fastener2_Washer_Concentric",
+      "XTab_Fastener2_Washer_Axial",
+      "XTab_Fastener2_Nut_Concentric",
+      "XTab_Fastener2_Nut_Axial",
+      "Conn_Block2Screw1_Right_Plane",
+      "Conn_Block2Screw1_Top_Plane",
+      "Conn_Block2Screw1_Front_Plane",
+      "Conn_Block2Screw2_Right_Plane",
+      "Conn_Block2Screw2_Top_Plane",
+      "Conn_Block2Screw2_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Servo_Y_Mount_PROTOTYPE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Servo_Y_Mount_PROTOTYPE.SLDPRT",
+    "pos_mm": [
+      0.7571610773986492,
+      0.0,
+      8.999999999999995
+    ],
+    "R": [
+      6.123233995736766e-17,
+      1.0,
+      0.0,
+      -1.0,
+      6.123233995736766e-17,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "mountY_Rigid_Right_Plane",
+      "mountY_Rigid_Top_Plane",
+      "mountY_Rigid_Front_Plane",
+      "ServoMount_Y_Pad1_Screw_Right_Plane",
+      "ServoMount_Y_Pad1_Screw_Top_Plane",
+      "ServoMount_Y_Pad1_Screw_Front_Plane",
+      "ServoMount_Y_Pad1_Washer_Right_Plane",
+      "ServoMount_Y_Pad1_Washer_Top_Plane",
+      "ServoMount_Y_Pad1_Washer_Front_Plane",
+      "ServoMount_Y_Pad1_Nut_Right_Plane",
+      "ServoMount_Y_Pad1_Nut_Top_Plane",
+      "ServoMount_Y_Pad1_Nut_Front_Plane",
+      "ServoMount_Y_Pad2_Screw_Right_Plane",
+      "ServoMount_Y_Pad2_Screw_Top_Plane",
+      "ServoMount_Y_Pad2_Screw_Front_Plane",
+      "ServoMount_Y_Pad2_Washer_Right_Plane",
+      "ServoMount_Y_Pad2_Washer_Top_Plane",
+      "ServoMount_Y_Pad2_Washer_Front_Plane",
+      "ServoMount_Y_Pad2_Nut_Right_Plane",
+      "ServoMount_Y_Pad2_Nut_Top_Plane",
+      "ServoMount_Y_Pad2_Nut_Front_Plane",
+      "ServoMount_Y_Ear1_Screw_Right_Plane",
+      "ServoMount_Y_Ear1_Screw_Top_Plane",
+      "ServoMount_Y_Ear1_Screw_Front_Plane",
+      "ServoMount_Y_Ear1_TopWasher_Right_Plane",
+      "ServoMount_Y_Ear1_TopWasher_Top_Plane",
+      "ServoMount_Y_Ear1_TopWasher_Front_Plane",
+      "ServoMount_Y_Ear1_BottomWasher_Right_Plane",
+      "ServoMount_Y_Ear1_BottomWasher_Top_Plane",
+      "ServoMount_Y_Ear1_BottomWasher_Front_Plane",
+      "ServoMount_Y_Ear1_Nut_Right_Plane",
+      "ServoMount_Y_Ear1_Nut_Top_Plane",
+      "ServoMount_Y_Ear1_Nut_Front_Plane",
+      "ServoMount_Y_Ear2_Screw_Right_Plane",
+      "ServoMount_Y_Ear2_Screw_Top_Plane",
+      "ServoMount_Y_Ear2_Screw_Front_Plane",
+      "ServoMount_Y_Ear2_TopWasher_Right_Plane",
+      "ServoMount_Y_Ear2_TopWasher_Top_Plane",
+      "ServoMount_Y_Ear2_TopWasher_Front_Plane",
+      "ServoMount_Y_Ear2_BottomWasher_Right_Plane",
+      "ServoMount_Y_Ear2_BottomWasher_Top_Plane",
+      "ServoMount_Y_Ear2_BottomWasher_Front_Plane",
+      "ServoMount_Y_Ear2_Nut_Right_Plane",
+      "ServoMount_Y_Ear2_Nut_Top_Plane",
+      "ServoMount_Y_Ear2_Nut_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_X_Slider_Drive_Tab_PROTOTYPE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_X_Slider_Drive_Tab_PROTOTYPE.SLDPRT",
+    "pos_mm": [
+      0.7571610773986492,
+      0.0,
+      8.999999999999995
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "X_Link_Slider_Pivot",
+      "tabX_Rigid_Right_Plane",
+      "tabX_Rigid_Top_Plane",
+      "tabX_Rigid_Front_Plane",
+      "pinXSlider_Rigid_Right_Plane",
+      "pinXSlider_Rigid_Top_Plane",
+      "pinXSlider_Rigid_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Y_Carriage_Drive_Tab_PROTOTYPE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Y_Carriage_Drive_Tab_PROTOTYPE.SLDPRT",
+    "pos_mm": [
+      0.7571610773985382,
+      -2.2952454019475876,
+      18.000000000000064
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "Y_Link_Slider_Pivot",
+      "tabY_Rigid_Right_Plane",
+      "tabY_Rigid_Top_Plane",
+      "tabY_Rigid_Front_Plane",
+      "pinYSlider_Rigid_Right_Plane",
+      "pinYSlider_Rigid_Top_Plane",
+      "pinYSlider_Rigid_Front_Plane",
+      "Conn_YTabBlindScrew1_Right_Plane",
+      "Conn_YTabBlindScrew1_Top_Plane",
+      "Conn_YTabBlindScrew1_Front_Plane",
+      "Conn_YTabBlindScrew2_Right_Plane",
+      "Conn_YTabBlindScrew2_Top_Plane",
+      "Conn_YTabBlindScrew2_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Servo_Horn_R12_LAYOUT-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Servo_Horn_R12_LAYOUT.SLDPRT",
+    "pos_mm": [
+      -59.99999999998895,
+      23.99999999999336,
+      -10.49999999999999
+    ],
+    "R": [
+      0.06309735203202707,
+      0.998007376809684,
+      5.226459621047637e-29,
+      -0.998007376809684,
+      0.06309735203202707,
+      1.7286544447282304e-27,
+      1.7219121301677177e-27,
+      -1.6123397060478035e-28,
+      0.9999999999999999
+    ],
+    "mates": [
+      "X_Horn_Axial_Envelope",
+      "X_Horn_Link_Pivot",
+      "X_Link_Stack_Gap",
+      "pinXHorn_Rigid_Right_Plane",
+      "pinXHorn_Rigid_Top_Plane",
+      "pinXHorn_Rigid_Front_Plane",
+      "Conn_HornXRetainingScrew_Right_Plane",
+      "Conn_HornXRetainingScrew_Top_Plane",
+      "Conn_HornXRetainingScrew_Front_Plane",
+      "Conn_RotatingServoOutputX_Right_Plane",
+      "Conn_RotatingServoOutputX_Top_Plane",
+      "Conn_RotatingServoOutputX_Front_Plane",
+      "X_Official21T_Reference_Axes"
+    ]
+  },
+  {
+    "name": "BD_RB_Servo_Link_L40_PROTOTYPE-2",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Servo_Link_L40_PROTOTYPE.SLDPRT",
+    "pos_mm": [
+      -35.021406819955914,
+      -62.29463249505285,
+      -8.0
+    ],
+    "R": [
+      -0.005535802566061562,
+      0.9999846773275827,
+      -2.0733795085605016e-28,
+      -0.9999846773275827,
+      -0.005535802566061562,
+      -9.837356801786301e-29,
+      -9.951984263229662e-29,
+      2.067901972342836e-28,
+      1.0
+    ],
+    "mates": [
+      "Y_Horn_Link_Pivot",
+      "Y_Link_Stack_Gap",
+      "Y_Link_Slider_Pivot"
+    ]
+  },
+  {
+    "name": "BD_RB_Servo_Horn_R12_LAYOUT-2",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Servo_Horn_R12_LAYOUT.SLDPRT",
+    "pos_mm": [
+      -23.24283892262402,
+      -59.99999999998495,
+      -10.499999999999995
+    ],
+    "R": [
+      -0.9815473247797747,
+      -0.19121937458758653,
+      1.4782700080606446e-17,
+      0.19121937458758653,
+      -0.9815473247797747,
+      3.3057942498912388e-18,
+      1.3877787808161565e-17,
+      6.071532166382537e-18,
+      0.9999999999999998
+    ],
+    "mates": [
+      "Y_Horn_Axial_Envelope",
+      "Y_Horn_Link_Pivot",
+      "Y_Link_Stack_Gap",
+      "pinYHorn_Rigid_Right_Plane",
+      "pinYHorn_Rigid_Top_Plane",
+      "pinYHorn_Rigid_Front_Plane",
+      "Conn_HornYRetainingScrew_Right_Plane",
+      "Conn_HornYRetainingScrew_Top_Plane",
+      "Conn_HornYRetainingScrew_Front_Plane",
+      "Conn_RotatingServoOutputY_Right_Plane",
+      "Conn_RotatingServoOutputY_Top_Plane",
+      "Conn_RotatingServoOutputY_Front_Plane",
+      "Y_Official21T_Reference_Axes"
+    ]
+  },
+  {
+    "name": "BD_RB_Servo_Link_L40_PROTOTYPE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Servo_Link_L40_PROTOTYPE.SLDPRT",
+    "pos_mm": [
+      -59.242831775615734,
+      35.976088521716186,
+      -7.999999999999945
+    ],
+    "R": [
+      0.9999998213253612,
+      0.0005977869570988565,
+      4.955852150766226e-19,
+      -0.0005977869570988565,
+      0.9999998213253612,
+      2.2766627242886708e-17,
+      -4.819755337051845e-19,
+      -2.2766919429445517e-17,
+      1.0
+    ],
+    "mates": [
+      "X_Horn_Link_Pivot",
+      "X_Link_Stack_Gap",
+      "X_Link_Slider_Pivot"
+    ]
+  },
+  {
+    "name": "BD_RB_M2x3_Horn_Retaining_Screw_REFERENCE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT",
+    "pos_mm": [
+      -59.99999999998895,
+      23.99999999999336,
+      -9.999999999999988
+    ],
+    "R": [
+      0.06309735203202707,
+      0.998007376809684,
+      5.226459621047637e-29,
+      -0.998007376809684,
+      0.06309735203202707,
+      1.7286544447282304e-27,
+      1.7219121301677177e-27,
+      -1.6123397060478035e-28,
+      0.9999999999999999
+    ],
+    "mates": [
+      "Conn_HornXRetainingScrew_Right_Plane",
+      "Conn_HornXRetainingScrew_Top_Plane",
+      "Conn_HornXRetainingScrew_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_M2x3_Horn_Retaining_Screw_REFERENCE-2",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_M2x3_Horn_Retaining_Screw_REFERENCE.SLDPRT",
+    "pos_mm": [
+      -23.24283892262402,
+      -59.99999999998495,
+      -9.999999999999995
+    ],
+    "R": [
+      -0.9815473247797747,
+      -0.19121937458758653,
+      1.4782700080606446e-17,
+      0.19121937458758653,
+      -0.9815473247797747,
+      3.3057942498912388e-18,
+      1.3877787808161565e-17,
+      6.071532166382537e-18,
+      0.9999999999999998
+    ],
+    "mates": [
+      "Conn_HornYRetainingScrew_Right_Plane",
+      "Conn_HornYRetainingScrew_Top_Plane",
+      "Conn_HornYRetainingScrew_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Cage_TieRod_M3_L327_REFERENCE-2",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+    "pos_mm": [
+      -104.99999999999999,
+      84.99999999999997,
+      -13.499999999999998
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "RevB_Frame_TieRod2_Right_Plane",
+      "RevB_Frame_TieRod2_Top_Plane",
+      "RevB_Frame_TieRod2_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Cage_TieRod_M3_L327_REFERENCE-3",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+    "pos_mm": [
+      104.99999999999999,
+      -84.99999999999997,
+      -13.499999999999998
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "RevB_Frame_TieRod3_Right_Plane",
+      "RevB_Frame_TieRod3_Top_Plane",
+      "RevB_Frame_TieRod3_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Cage_TieRod_M3_L327_REFERENCE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+    "pos_mm": [
+      -104.99999999999999,
+      -84.99999999999997,
+      -13.499999999999998
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "RevB_Frame_TieRod1_Right_Plane",
+      "RevB_Frame_TieRod1_Top_Plane",
+      "RevB_Frame_TieRod1_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Cage_TieRod_M3_L327_REFERENCE-4",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Cage_TieRod_M3_L327_REFERENCE.SLDPRT",
+    "pos_mm": [
+      104.99999999999999,
+      84.99999999999997,
+      -13.499999999999998
+    ],
+    "R": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "mates": [
+      "RevB_Frame_TieRod4_Right_Plane",
+      "RevB_Frame_TieRod4_Top_Plane",
+      "RevB_Frame_TieRod4_Front_Plane"
+    ]
+  },
+  {
+    "name": "BD_RB_Oldham_Floating_Disk_PROTOTYPE-1",
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+    "pos_mm": [
+      -0.09724023905410828,
+      -0.036786353389883786,
+      43.69999322593651
+    ],
+    "R": [
+      -0.9353093387602591,
+      -0.3538310908157269,
+      1.0309734927112526e-17,
+      0.3538310908157269,
+      -0.9353093387602591,
+      -4.072277007668763e-17,
+      2.4051773514743548e-17,
+      -3.444048239763156e-17,
+      1.0
+    ],
+    "mates": [
+      "RevB_Oldham_Output_Y_Slide_Centre",
+      "RevB_Oldham_Floating_Axial_Station",
+      "RevB_Oldham_Input_X_Slide_Centre"
+    ]
+  }
+]
