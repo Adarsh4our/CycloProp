@@ -1,0 +1,1292 @@
+{
+  "unique_part_count": 67,
+  "active_leaf_instance_count": 211,
+  "top_assembly_mass_g": 18971.947469271327,
+  "rotor_subassembly_mass_g": 2798.086391865332,
+  "sum_leaf_masses_g": 18744.703106000008,
+  "rows": [
+    {
+      "part_filename": "6806 Ball^NSK_6806_BD_RB_6806.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx26864\\VC~~\\NSK_6806_BD_RB_6806\\6806 Ball^NSK_6806_BD_RB_6806.SLDPRT",
+      "configuration": "Default",
+      "quantity": 18,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 22.4493,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.176227,
+      "total_mass_g": 3.172086,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-3",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-12",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-14",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-10",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-13",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-4",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-6",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-8",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-7",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-5",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-9",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-11",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-17",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-18",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-15",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-16",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-2",
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Ball^NSK_6806_BD_RB_6806-1"
+      ]
+    },
+    {
+      "part_filename": "6806 Inner ring^NSK_6806_BD_RB_6806.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx26864\\VC~~\\NSK_6806_BD_RB_6806\\6806 Inner ring^NSK_6806_BD_RB_6806.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 1106.384,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 8.685115,
+      "total_mass_g": 8.685115,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Inner ring^NSK_6806_BD_RB_6806-1"
+      ]
+    },
+    {
+      "part_filename": "6806 Outer ring^NSK_6806_BD_RB_6806.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\AppData\\Local\\Temp\\swx26864\\VC~~\\NSK_6806_BD_RB_6806\\6806 Outer ring^NSK_6806_BD_RB_6806.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 1520.5542,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 11.936351,
+      "total_mass_g": 11.936351,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_6806-1/NSK_6806^BD_RB_6806-1/6806 Outer ring^NSK_6806_BD_RB_6806-1"
+      ]
+    },
+    {
+      "part_filename": "BA_Bench_Plate_650_12.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Bench_Plate_650_12.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 5063933.0819,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 13672.619321,
+      "total_mass_g": 13672.619321,
+      "instances": [
+        "BA_Bench_Plate_650_12-1"
+      ]
+    },
+    {
+      "part_filename": "BA_Bronze_Bush_10_8_L15.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Bronze_Bush_10_8_L15.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "Commercial Bronze, UNS C22000 (90-10 Bronze)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 420.3404,
+      "effective_density_kg_m3": 8800.0,
+      "unit_mass_g": 3.698995,
+      "total_mass_g": 7.397991,
+      "instances": [
+        "BA_Bronze_Bush_10_8_L15-2",
+        "BA_Bronze_Bush_10_8_L15-1"
+      ]
+    },
+    {
+      "part_filename": "BA_D8_Guide_Shaft_L126.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_D8_Guide_Shaft_L126.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 6333.4508,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 49.717589,
+      "total_mass_g": 99.435177,
+      "instances": [
+        "BA_D8_Guide_Shaft_L126-1",
+        "BA_D8_Guide_Shaft_L126-2"
+      ]
+    },
+    {
+      "part_filename": "BA_Frame_Bench_Column_L102.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Frame_Bench_Column_L102.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 16387.6154,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 44.246562,
+      "total_mass_g": 176.986247,
+      "instances": [
+        "BA_Frame_Bench_Column_L102-4",
+        "BA_Frame_Bench_Column_L102-2",
+        "BA_Frame_Bench_Column_L102-3",
+        "BA_Frame_Bench_Column_L102-1"
+      ]
+    },
+    {
+      "part_filename": "BA_Guide_Support_Post.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Guide_Support_Post.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 8766.6726,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 23.670016,
+      "total_mass_g": 94.680065,
+      "instances": [
+        "BA_Guide_Support_Post-2",
+        "BA_Guide_Support_Post-1",
+        "BA_Guide_Support_Post-4",
+        "BA_Guide_Support_Post-3"
+      ]
+    },
+    {
+      "part_filename": "BA_NA23C60_T4A_CASE_REFERENCE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_NA23C60_T4A_CASE_REFERENCE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 220057.4093,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 594.155005,
+      "total_mass_g": 1188.31001,
+      "instances": [
+        "BA_NA23C60_T4A_CASE_REFERENCE-1",
+        "BA_NA23C60_T4A_CASE_REFERENCE-2"
+      ]
+    },
+    {
+      "part_filename": "BA_NA23C60_T4A_ROD_REFERENCE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_NA23C60_T4A_ROD_REFERENCE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 5415.4456,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 42.511248,
+      "total_mass_g": 85.022496,
+      "instances": [
+        "BA_NA23C60_T4A_ROD_REFERENCE-2",
+        "BA_NA23C60_T4A_ROD_REFERENCE-1"
+      ]
+    },
+    {
+      "part_filename": "BA_NEMA23_Bench_Bracket.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_NEMA23_Bench_Bracket.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 82171.8559,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 221.864011,
+      "total_mass_g": 443.728022,
+      "instances": [
+        "BA_NEMA23_Bench_Bracket-1",
+        "BA_NEMA23_Bench_Bracket-2"
+      ]
+    },
+    {
+      "part_filename": "BA_X_Actuator_Drop_Link.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_X_Actuator_Drop_Link.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 20479.7839,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 57.548193,
+      "total_mass_g": 57.548193,
+      "instances": [
+        "BA_X_Actuator_Drop_Link-1"
+      ]
+    },
+    {
+      "part_filename": "BA_Y_Bronze_Sliding_Shoe.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Y_Bronze_Sliding_Shoe.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "Commercial Bronze, UNS C22000 (90-10 Bronze)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 697.8219,
+      "effective_density_kg_m3": 8800.0,
+      "unit_mass_g": 6.140833,
+      "total_mass_g": 6.140833,
+      "instances": [
+        "BA_Y_Bronze_Sliding_Shoe-1"
+      ]
+    },
+    {
+      "part_filename": "BA_Y_Cross_Slot_Drop_Link.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Y_Cross_Slot_Drop_Link.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 24822.2496,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 69.750521,
+      "total_mass_g": 69.750521,
+      "instances": [
+        "BA_Y_Cross_Slot_Drop_Link-1"
+      ]
+    },
+    {
+      "part_filename": "BA_Y_Guided_Crosshead.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Actuation_Models\\BA_Y_Guided_Crosshead.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 16013.4651,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 44.997837,
+      "total_mass_g": 44.997837,
+      "instances": [
+        "BA_Y_Guided_Crosshead-1"
+      ]
+    },
+    {
+      "part_filename": "BD_Coupling_Contact_Guard.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Coupling_Contact_Guard.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 30564.1779,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 239.928797,
+      "total_mass_g": 239.928797,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_Coupling_Contact_Guard-1"
+      ]
+    },
+    {
+      "part_filename": "BD_Guard_Spacer_OD6_ID3p4_L4.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Guard_Spacer_OD6_ID3p4_L4.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 76.7805,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 0.207307,
+      "total_mass_g": 0.82923,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_Guard_Spacer_OD6_ID3p4_L4-1",
+        "BD_Bench_Development_Source-1/BD_Guard_Spacer_OD6_ID3p4_L4-2",
+        "BD_Bench_Development_Source-1/BD_Guard_Spacer_OD6_ID3p4_L4-3",
+        "BD_Bench_Development_Source-1/BD_Guard_Spacer_OD6_ID3p4_L4-4"
+      ]
+    },
+    {
+      "part_filename": "BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 415460.7302,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 1121.743971,
+      "total_mass_g": 1121.743971,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_IDS_C60AP_400W_CASE_ENVELOPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_IDS_OUTPUT_SHAFT_D14_REFERENCE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_IDS_OUTPUT_SHAFT_D14_REFERENCE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 4618.1412,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 36.252408,
+      "total_mass_g": 36.252408,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_IDS_OUTPUT_SHAFT_D14_REFERENCE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_MP3438_6_14_COUPLER_ENVELOPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_MP3438_6_14_COUPLER_ENVELOPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 31089.2009,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 83.940842,
+      "total_mass_g": 83.940842,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_MP3438_6_14_COUPLER_ENVELOPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_Motor_Adapter_Plate.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Motor_Adapter_Plate.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 62374.0944,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 168.410055,
+      "total_mass_g": 168.410055,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_Motor_Adapter_Plate-1"
+      ]
+    },
+    {
+      "part_filename": "BD_Motor_Header_Crossbeam.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Motor_Header_Crossbeam.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 15211.5558,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 41.071201,
+      "total_mass_g": 82.142401,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_Motor_Header_Crossbeam-1",
+        "BD_Bench_Development_Source-1/BD_Motor_Header_Crossbeam-2"
+      ]
+    },
+    {
+      "part_filename": "BD_Motor_Standoff_OD12_ID6p4_L58.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_Motor_Standoff_OD12_ID6p4_L58.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 4693.7908,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 12.673235,
+      "total_mass_g": 50.69294,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_Motor_Standoff_OD12_ID6p4_L58-1",
+        "BD_Bench_Development_Source-1/BD_Motor_Standoff_OD12_ID6p4_L58-2",
+        "BD_Bench_Development_Source-1/BD_Motor_Standoff_OD12_ID6p4_L58-3",
+        "BD_Bench_Development_Source-1/BD_Motor_Standoff_OD12_ID6p4_L58-4"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_3-Drive_Shaft.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_3-Drive_Shaft.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 8773.9838,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 68.875773,
+      "total_mass_g": 68.875773,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_3-Drive_Shaft-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_4-Inner_Carriage_Plate.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_4-Inner_Carriage_Plate.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 11785.768,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 33.118008,
+      "total_mass_g": 33.118008,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_4-Inner_Carriage_Plate-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_4-Outer_Control_Ring.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_4-Outer_Control_Ring.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 29654.9463,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 83.330399,
+      "total_mass_g": 83.330399,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_4-Outer_Control_Ring-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_686ZZ_6x13x5_ENVELOPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_686ZZ_6x13x5_ENVELOPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 522.2898,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 4.099975,
+      "total_mass_g": 8.19995,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_686ZZ_6x13x5_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_686ZZ_6x13x5_ENVELOPE-2"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 41.4399,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.325303,
+      "total_mass_g": 2.602424,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-3",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-4",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-5",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-6",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-8",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-7",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-10",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Insert_D5_Bore2p1_H3_REFERENCE-9"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H0p5.SLDPRT",
+      "configuration": "Default",
+      "quantity": 12,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 1.8025,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.01415,
+      "total_mass_g": 0.169794,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-1",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-2",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-3",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-5",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-7",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-4",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-6",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-8",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-9",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-11",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-10",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H0p5-12"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Ball_Mount_Spacer_H2p5.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Mount_Spacer_H2p5.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 9.0124,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.070748,
+      "total_mass_g": 0.282991,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H2p5-3",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H2p5-4",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H2p5-5",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Mount_Spacer_H2p5-6"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 29.0665,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 0.081677,
+      "total_mass_g": 0.653415,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-2",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-8",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-3",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-4",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-5",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-6",
+        "BD_Bench_Development_Source-1/BD_RB_Ball_Socket_Threaded_Retaining_Cap_PROTOTYPE-7"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Base_Spacer_OD6_ID3p4_L4.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 76.7805,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 0.207307,
+      "total_mass_g": 0.82923,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Base_Spacer_OD6_ID3p4_L4-2",
+        "BD_Bench_Development_Source-1/BD_RB_Base_Spacer_OD6_ID3p4_L4-1",
+        "BD_Bench_Development_Source-1/BD_RB_Base_Spacer_OD6_ID3p4_L4-3",
+        "BD_Bench_Development_Source-1/BD_RB_Base_Spacer_OD6_ID3p4_L4-4"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Bearing_Cartridge_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 238.8925,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 0.671288,
+      "total_mass_g": 5.370303,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-3/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-2/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-5/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-8/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/BD_RB_Blade_Bearing_Cartridge_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 129.5437,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 0.364018,
+      "total_mass_g": 2.912143,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-3/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-2/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-5/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-8/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/BD_RB_Blade_Bearing_Outer_Cap_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 73.1363,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 0.205513,
+      "total_mass_g": 1.644104,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-3/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-2/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-5/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-8/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/BD_RB_Blade_Cartridge_M10_Retaining_Nut_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 1.5781,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.012388,
+      "total_mass_g": 0.099102,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-3/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-2/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-5/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-8/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/BD_RB_Blade_Inner_Race_Spacer_OD4_ID3p05_H0p3-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 890.638,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 2.502693,
+      "total_mass_g": 10.010771,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-2",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-3",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE-4"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "PTFE (general)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 0.789,
+      "effective_density_kg_m3": 2320.0,
+      "unit_mass_g": 0.001831,
+      "total_mass_g": 0.014644,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-3/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-2/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-5/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-8/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/BD_RB_Blade_Thrust_Film_OD4_ID3p05_H0p15-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Cage_Lower_Frame_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 40285.9572,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 108.772084,
+      "total_mass_g": 108.772084,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Cage_Lower_Frame_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 6773.2738,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 18.287839,
+      "total_mass_g": 73.151357,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE-2",
+        "BD_Bench_Development_Source-1/BD_RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE-3",
+        "BD_Bench_Development_Source-1/BD_RB_Cage_Tube_OD8_ID6_L308_PROTOTYPE-4"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Cage_Upper_Support_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Cage_Upper_Support_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 38852.2692,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 104.901127,
+      "total_mass_g": 104.901127,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Cage_Upper_Support_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "CFRP_TUBE_1550_DENSITY_ONLY_PROVISIONAL",
+      "material_db": "CycloProp_Prototype_Densities",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 109.6258,
+      "effective_density_kg_m3": 1550.0,
+      "unit_mass_g": 0.16992,
+      "total_mass_g": 0.67968,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-2",
+        "BD_Bench_Development_Source-1/BD_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-3",
+        "BD_Bench_Development_Source-1/BD_RB_Carbon_Tube_OD2_ID1_L46p527_PROTOTYPE-4"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_DIN1481_D2x14_INSTALLED_REFERENCE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 3,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 28.1487,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.220967,
+      "total_mass_g": 0.662901,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_DIN1481_D2x14_INSTALLED_REFERENCE-1",
+        "BD_Bench_Development_Source-1/BD_RB_DIN1481_D2x14_INSTALLED_REFERENCE-2",
+        "BD_Bench_Development_Source-1/BD_RB_DIN1481_D2x14_INSTALLED_REFERENCE-3"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_DSH6_INSTALLED_CLEARANCE_REFERENCE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 38.9504,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.305761,
+      "total_mass_g": 1.223042,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_DSH6_INSTALLED_CLEARANCE_REFERENCE-4",
+        "BD_Bench_Development_Source-1/BD_RB_DSH6_INSTALLED_CLEARANCE_REFERENCE-1",
+        "BD_Bench_Development_Source-1/BD_RB_DSH6_INSTALLED_CLEARANCE_REFERENCE-3",
+        "BD_Bench_Development_Source-1/BD_RB_DSH6_INSTALLED_CLEARANCE_REFERENCE-2"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Endplate_Hub_Interface_RevA.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "G10_FR4_1850_DENSITY_ONLY_PROVISIONAL",
+      "material_db": "CycloProp_Prototype_Densities",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 40796.4434,
+      "effective_density_kg_m3": 1850.0,
+      "unit_mass_g": 75.47342,
+      "total_mass_g": 150.946841,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Endplate_Hub_Interface_RevA-1",
+        "BD_Bench_Development_Source-1/BD_RB_Endplate_Hub_Interface_RevA-2"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 191.3426,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 1.50204,
+      "total_mass_g": 12.016317,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-1/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-3/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-2/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-7/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-5/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-8/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-4/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1",
+        "BD_Bench_Development_Source-1/BD_RB_Blade_Bearing_Cartridge_Set_PROTOTYPE-6/BD_RB_F693ZZ_3x8x4_FLANGE9p5x0p9_ENVELOPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Hub_Endplate_Shim_H0p65_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 283.4536,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 0.765325,
+      "total_mass_g": 1.53065,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Hub_Endplate_Shim_H0p65_PROTOTYPE-2",
+        "BD_Bench_Development_Source-1/BD_RB_Hub_Endplate_Shim_H0p65_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_ISO8750_D1x8_INSTALLED_REFERENCE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 6.2832,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 0.049323,
+      "total_mass_g": 0.197292,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_ISO8750_D1x8_INSTALLED_REFERENCE-3",
+        "BD_Bench_Development_Source-1/BD_RB_ISO8750_D1x8_INSTALLED_REFERENCE-4",
+        "BD_Bench_Development_Source-1/BD_RB_ISO8750_D1x8_INSTALLED_REFERENCE-1",
+        "BD_Bench_Development_Source-1/BD_RB_ISO8750_D1x8_INSTALLED_REFERENCE-2"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Inner_Race_Retainer.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Inner_Race_Retainer.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 462.7802,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 1.300412,
+      "total_mass_g": 1.300412,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_Inner_Race_Retainer-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Intermediate_X_Slider.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Intermediate_X_Slider.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 9570.134,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 25.839362,
+      "total_mass_g": 25.839362,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Intermediate_X_Slider-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 6232.7555,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 48.927131,
+      "total_mass_g": 48.927131,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Lower_Bearing_Top_Cap_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 266.6584,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 0.719978,
+      "total_mass_g": 0.719978,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Lower_Bearing_Top_Cap_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_MGN5C.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_MGN5C.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 638.4098,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 5.011517,
+      "total_mass_g": 10.023033,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_MGN5C-1",
+        "BD_Bench_Development_Source-1/BD_RB_MGN5C-2"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_MGNR05R.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_MGNR05R.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 610.2428,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 4.790406,
+      "total_mass_g": 9.580812,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_MGNR05R-1",
+        "BD_Bench_Development_Source-1/BD_RB_MGNR05R-2"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "POM Acetal Copolymer",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 5008.343,
+      "effective_density_kg_m3": 1390.0,
+      "unit_mass_g": 6.961597,
+      "total_mass_g": 6.961597,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Oldham_Floating_Disk_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Oldham_Input_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Oldham_Input_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 14418.9132,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 40.517146,
+      "total_mass_g": 40.517146,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Oldham_Input_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Oldham_Output_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Oldham_Output_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 9566.8727,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 26.882912,
+      "total_mass_g": 26.882912,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Oldham_Output_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Oldham_Output_Pilot_Standoff_L9.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 149.0372,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 1.169942,
+      "total_mass_g": 4.679767,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Oldham_Output_Pilot_Standoff_L9-1",
+        "BD_Bench_Development_Source-1/BD_RB_Oldham_Output_Pilot_Standoff_L9-2",
+        "BD_Bench_Development_Source-1/BD_RB_Oldham_Output_Pilot_Standoff_L9-4",
+        "BD_Bench_Development_Source-1/BD_RB_Oldham_Output_Pilot_Standoff_L9-3"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Outer_Race_Retainer.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Outer_Race_Retainer.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 270.7582,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 0.76083,
+      "total_mass_g": 0.76083,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Assem3-1/BD_RB_Outer_Race_Retainer-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Part1.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Part1.SLDPRT",
+      "configuration": "Default",
+      "quantity": 4,
+      "material": "Multi-Body Override (7075-T6 + CFRP + Rohacell)",
+      "material_db": "",
+      "body_count": 7,
+      "mass_override": true,
+      "unit_volume_mm3": 25340.7412,
+      "effective_density_kg_m3": 619.19,
+      "unit_mass_g": 15.690839,
+      "total_mass_g": 62.763358,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Part1-4",
+        "BD_Bench_Development_Source-1/BD_RB_Part1-3",
+        "BD_Bench_Development_Source-1/BD_RB_Part1-2",
+        "BD_Bench_Development_Source-1/BD_RB_Part1-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Shaft_Drive_Hub_RevA.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Shaft_Drive_Hub_RevA.SLDPRT",
+      "configuration": "Default",
+      "quantity": 2,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 3230.7678,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 9.078458,
+      "total_mass_g": 18.156915,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Shaft_Drive_Hub_RevA-1",
+        "BD_Bench_Development_Source-1/BD_RB_Shaft_Drive_Hub_RevA-2"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 8,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 134.6944,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 0.378491,
+      "total_mass_g": 3.027929,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-3",
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-4",
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-6",
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-7",
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-8",
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-9",
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-11",
+        "BD_Bench_Development_Source-1/BD_RB_Socket_Eye_D7_Sphere5p05_PROTOTYPE-10"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_Upper_MainBearing_Retainer.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_Upper_MainBearing_Retainer.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 266.6584,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 0.74931,
+      "total_mass_g": 0.74931,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_Upper_MainBearing_Retainer-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_XY_Fixed_Base.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_XY_Fixed_Base.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "6061-T6 (SS)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 15627.931,
+      "effective_density_kg_m3": 2700.0,
+      "unit_mass_g": 42.195414,
+      "total_mass_g": 42.195414,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_XY_Fixed_Base-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_XY_Stop_Fixed_Bracket_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 2216.7447,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 6.229053,
+      "total_mass_g": 6.229053,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_XY_Stop_Fixed_Bracket_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_XY_Stop_Follower_D6_M4_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "AISI 4340 Steel, normalized",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 804.2477,
+      "effective_density_kg_m3": 7850.0,
+      "unit_mass_g": 6.313345,
+      "total_mass_g": 6.313345,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_XY_Stop_Follower_D6_M4_PROTOTYPE-1"
+      ]
+    },
+    {
+      "part_filename": "BD_RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT",
+      "full_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Bench_Rotor\\BD_RB_XY_Stop_Moving_Arm_PROTOTYPE.SLDPRT",
+      "configuration": "Default",
+      "quantity": 1,
+      "material": "7075-T6 (SN)",
+      "material_db": "SOLIDWORKS Materials",
+      "body_count": 1,
+      "mass_override": false,
+      "unit_volume_mm3": 900.1961,
+      "effective_density_kg_m3": 2810.0,
+      "unit_mass_g": 2.529551,
+      "total_mass_g": 2.529551,
+      "instances": [
+        "BD_Bench_Development_Source-1/BD_RB_XY_Stop_Moving_Arm_PROTOTYPE-1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task_id": "MFG-001",
+  "status": "PAUSED_CHECKPOINT_SAVED",
+  "timestamp_local": "2026-10-26T16:48:00+05:30",
+  "guardrails_verified": {
+    "state_hashes": {
+      "config/baseline.json": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+      "CAD003C_COMPLETION_STATE.json": "af42f57f1466e353c81360135de9f40ddaa63bc9ac5eb25dd71f53783e118094",
+      "SIM001A_MOTION_STATE.json": "4744354ef8a6a1894978e44f4af6a9541b78cda35140ee0c21699b923b0261c8",
+      "SIM001B_STRUCTURAL_STATE.json": "1f0a04503c8cf3555b070ed575e1a2c9165a7b32153aa182ef436bfc4e23698c"
+    },
+    "sldprt_verified_count": 123,
+    "sldprt_modified_count": 0,
+    "all_123_sldprt_untouched": true
+  },
+  "completed_artifacts": {
+    "step_ap214_count": 18,
+    "step_ap214_files": {
+      "BA_Bench_Actuation_Layout.STEP": {
+        "size_bytes": 7277755,
+        "sha256": "d63ab5beb21b4f4b202a29e5d3e42f89a6c3ca7e6cd1fdddb8886f91dbe3b136"
+      },
+      "BA_X_Actuator_Drop_Link.STEP": {
+        "size_bytes": 84342,
+        "sha256": "238618d531c9c672f8f45fb501b34fa847a2ae8360017c85e58568c372ea3c1c"
+      },
+      "BA_Y_Bronze_Sliding_Shoe.STEP": {
+        "size_bytes": 26987,
+        "sha256": "547182062b640b902df9ad963bb4638c665850f8b7681cb179d622ada625bd27"
+      },
+      "BA_Y_Cross_Slot_Drop_Link.STEP": {
+        "size_bytes": 58730,
+        "sha256": "372660fe9d9f912f88363d0812b5c367bc53211dc6e69abc67e43ca62fa38920"
+      },
+      "BA_Y_Guided_Crosshead.STEP": {
+        "size_bytes": 89260,
+        "sha256": "efab5df1924b1793285eb490fa2f2be275f9943a70fbf8b92e7493f3233bb80f"
+      },
+      "BD_Bench_Development_Source.STEP": {
+        "size_bytes": 6212142,
+        "sha256": "6531be8c64e2e89e0a326417380eac8effcf330e9dc3b5dfab84146640243edf"
+      },
+      "BD_RB_3-Drive_Shaft.STEP": {
+        "size_bytes": 112433,
+        "sha256": "326a5128d8190cd48b5f3edcbfa40edfc83d75ffd888e1cdf17e39757920b6d7"
+      },
+      "BD_RB_4-Inner_Carriage_Plate.STEP": {
+        "size_bytes": 145405,
+        "sha256": "5453b5bd898d242bccd413e299a28320e459afebe31f87141399e99a1f346303"
+      },
+      "BD_RB_4-Outer_Control_Ring.STEP": {
+        "size_bytes": 205051,
+        "sha256": "902d95f4bebcde749f3ce04855f8097352e03596db49bc2f6f0569f949f06771"
+      },
+      "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.STEP": {
+        "size_bytes": 91376,
+        "sha256": "bcc8f0a279efe1c2d0f76009f9cf4a849acd37b8fe024a0f677300002b05916d"
+      },
+      "BD_RB_Intermediate_X_Slider.STEP": {
+        "size_bytes": 96299,
+        "sha256": "20aef9a5292cdf5cd3e2a00e9cba9871a6c6cf279f96085b1b0595c557b4870f"
+      },
+      "BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.STEP": {
+        "size_bytes": 98157,
+        "sha256": "2fc01a6cac966a85c3c7f5a74914fc224d43380352620f9b23445911ee71a317"
+      },
+      "BD_RB_Oldham_Floating_Disk_PROTOTYPE.STEP": {
+        "size_bytes": 124191,
+        "sha256": "c360c74934ecd0b1255df4bea02ee7c3cb8e75db642ad1151e03069bbba15380"
+      },
+      "BD_RB_Oldham_Input_PROTOTYPE.STEP": {
+        "size_bytes": 118851,
+        "sha256": "2ae6fca0aa11141ef6b721d2387e6024e31f3643818e9572de2263ada2297543"
+      },
+      "BD_RB_Oldham_Output_PROTOTYPE.STEP": {
+        "size_bytes": 105188,
+        "sha256": "f3860a3cea599705df34873b7111677c1af1a7d7a1b2366594dd3a05f21752c5"
+      },
+      "BD_RB_Part1.STEP": {
+        "size_bytes": 2100381,
+        "sha256": "f848d3d7b95cd35062b25786f9a0433d8b8671691660e670c0391cc167db39d1"
+      },
+      "BD_RB_XY_Fixed_Base.STEP": {
+        "size_bytes": 195948,
+        "sha256": "90a59f3aeb108100824a90189509088ac5be5e7d034d407f4e0664eaa98dac67"
+      },
+      "RevB_Bench_Development_Source.STEP": {
+        "size_bytes": 7412960,
+        "sha256": "a89b68670491fe4ebded752dc88ef29f11b0c1ced5fc31e07a9c9638296140d0"
+      }
+    },
+    "dxf_flat_patterns_count": 5,
+    "dxf_flat_patterns_files": {
+      "BA_Bench_Plate_650_12.dxf": {
+        "size_bytes": 7098,
+        "sha256": "2fe9158e32ac7f18493687cc882ef7371d26bc7a75582b05ab3c151d550d8b08"
+      },
+      "BD_Motor_Adapter_Plate.dxf": {
+        "size_bytes": 4557,
+        "sha256": "67a1ce1c98e7f5bd2a185b5d299a5c3612905dbaa0daaa7564de50212f1a4e92"
+      },
+      "BD_RB_4-Inner_Carriage_Plate.dxf": {
+        "size_bytes": 9884,
+        "sha256": "a539dcbaa3df890c20d5f37407ce61e679b0a06cc00a5fe57211694ed9335480"
+      },
+      "BD_RB_Intermediate_X_Slider.dxf": {
+        "size_bytes": 6790,
+        "sha256": "06fd81d151b32c5dd3d9da388bd32d4e443abc70afe325c3d87294648430b359"
+      },
+      "BD_RB_XY_Fixed_Base.dxf": {
+        "size_bytes": 11967,
+        "sha256": "bfbe3aeabdb67411b97788d2a33548856641e36ca47ecd84ba4f5b04853b3907"
+      }
+    },
+    "cad_renders_count": 6,
+    "cad_renders_files": {
+      "Fig_D1_Bench_Assembly_Front_Elevation.png": {
+        "size_bytes": 178909,
+        "sha256": "efde4cd7a4a8926cc59cdfbc40674785fbfc41e0647e28fce30e05e62c205101"
+      },
+      "Fig_D1_Bench_Assembly_Isometric.png": {
+        "size_bytes": 443763,
+        "sha256": "dc2d669c87b58da7e2c237933c85c38a05037e11fae712fa104eec830752c842"
+      },
+      "Fig_D1_Bench_Assembly_Right_Side.png": {
+        "size_bytes": 372317,
+        "sha256": "6aaa8f1768f5d3dac8045a54ac58b6e8992ff033a46d3aa93602101b60bd6483"
+      },
+      "Fig_D1_Bench_Assembly_Top_Plan.png": {
+        "size_bytes": 363634,
+        "sha256": "04613064a8283f1c642fe19800d1704dbe384d6051083257b53e7f29c3bbe8cf"
+      },
+      "Fig_D1_Rotor_Eccentric_Mechanism_CloseUp.png": {
+        "size_bytes": 383798,
+        "sha256": "f485e52f0de01139ee17d08a51a639144b9d7f6c557c4931a48dc59a6d2eaaf3"
+      },
+      "Fig_D1_UnderBench_Zaber_Actuation_CloseUp.png": {
+        "size_bytes": 383798,
+        "sha256": "f485e52f0de01139ee17d08a51a639144b9d7f6c557c4931a48dc59a6d2eaaf3"
+      }
+    },
+    "part_renders_count": 22,
+    "geometry_dump_json": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\d1_cad_geometry_dump.json",
+    "dxf_manifest_json": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\dxf_manifest_raw.json",
+    "step_manifest_json": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\step_manifest_raw.json",
+    "bom_raw_dump_json": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\d1_bom_raw_dump.json"
+  },
+  "remaining_steps_to_continue": [
+    "1. Finish running scratch_fix_default_486_and_renders.py to finalize the 486-part Default BOM dump and centered Z-up close-up renders (Fig_D1_Rotor_Eccentric_Mechanism_CloseUp.png & Fig_D1_UnderBench_Zaber_Actuation_CloseUp.png).",
+    "2. Generate the 10-Sheet A3 Production Engineering Drawing Package (Sheet_01..10_*.png + CycloProp_Stage2_D1_Production_Drawings_A3.pdf) in Engineering_Drawings/ using d1_cad_geometry_dump.json and part_renders/.",
+    "3. Generate CycloProp_D1_Bench_Master_BOM.csv, CycloProp_D1_Flight_vs_Bench_Mass_Reconciliation.csv, MFG001_D1_COMPLETION_STATE.json in BOM_and_Mass_Reconciliation/, and D1_CAD_DRAWINGS_AND_BOM_REPORT.md in Deliverable_D1_Manufacturing/."
+  ]
+}

@@ -1,0 +1,1558 @@
+{
+  "task_id": "CAD-003B",
+  "title": "Zaber Bench Actuation Kinematic Mating, Hardware Detailing & Coupled Motion Readiness",
+  "status": "COMPLETED",
+  "pre_task_sha256": {
+    "BA_Bench_Actuation_Layout.SLDASM": "7b1a450b7c5641ada83d8b3a5ccd164e88ea93c2573df66e7b0c165f609896f3",
+    "BD_Bench_Development_Source.SLDASM": "4ad5e6ae49a4fe81638864b994cd893f92b72a781fe3daedf845216184258ed9",
+    "Actuation_Models/BA_Bench_Plate_650_12.SLDPRT": "7cc5c59218f950b5a29088bdfa5f71238b8c01c4cf11861dca2ae10e3318ea6d",
+    "Actuation_Models/BA_Bronze_Bush_10_8_L15.SLDPRT": "22ea1ace39ab2aeb0626e5e625f47c553049229f1aabb5fd3e688de51b561fa2",
+    "Actuation_Models/BA_D8_Guide_Shaft_L126.SLDPRT": "6d1bdef9e09da8b760481bcf78f22529bdb9335a01ce23f4f3c4760796992a74",
+    "Actuation_Models/BA_Frame_Bench_Column_L102.SLDPRT": "d4e11fc9b03835a124383988496df75342e3b24cf470fd4a2bc881ad09d75ee6",
+    "Actuation_Models/BA_Guide_Support_Post.SLDPRT": "edf5584b770da059a70fe45fa9c1efaebeef2484912dfb5698bec06d2b451eab",
+    "Actuation_Models/BA_NA23C60_T4A_CASE_REFERENCE.SLDPRT": "9d7c9a734660524975d75ebc7913063a3c908fe95a444489c9e606c749741c7c",
+    "Actuation_Models/BA_NA23C60_T4A_ROD_REFERENCE.SLDPRT": "1d9fc074d3c6214d40d9083a5e65f2ace758936ba0ff64716d3a54e0e3a7d8d5",
+    "Actuation_Models/BA_NEMA23_Bench_Bracket.SLDPRT": "bfdc3e54f6eccd19d7e871eafac72527ee9ae38e612b7b2ff0fa7ef307830e38",
+    "Actuation_Models/BA_X_Actuator_Drop_Link.SLDPRT": "82973d99b1de5e411d39d390fbfb8f266c9d4982955a4fda604effe34fde4f1b",
+    "Actuation_Models/BA_Y_Bronze_Sliding_Shoe.SLDPRT": "2ee2e2d29d919287f53abe1ab1f9aea911cd8d0f5eb4f21d846cad1f7064c669",
+    "Actuation_Models/BA_Y_Cross_Slot_Drop_Link.SLDPRT": "b23721e808c77397e4a014429c3e4d8c20542815b819f2e7e7ace4149ce428d6",
+    "Actuation_Models/BA_Y_Guided_Crosshead.SLDPRT": "5e16ddd9e5470040f775fd984f147ea34437d3e29385096b4f8fb91a0bb497f0",
+    "config/baseline.json": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f"
+  },
+  "post_task_sha256": {
+    "BA_Bench_Actuation_Layout.SLDASM": "3a4db5e82addcfa6ea25b03cf32fd2b5683c00d1563778b4a4e9253962790be0",
+    "BD_Bench_Development_Source.SLDASM": "1e4de8dfda73c99bbf856131056966169b1b3b5942ddd5fbb1ecf3d90b3230de",
+    "config/baseline.json": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+    "Actuation_Models/BA_Bench_Plate_650_12.SLDPRT": "89ba7a0ad98d63d395ad7589b2f3480e4bfa82d9afe93645361977b9cecde4af",
+    "Actuation_Models/BA_Bronze_Bush_10_8_L15.SLDPRT": "ff7b6fba105ee65b10d54596f51e6656a62abb0bfe208249b55ac44bfc5a3322",
+    "Actuation_Models/BA_D8_Guide_Shaft_L126.SLDPRT": "6d1bdef9e09da8b760481bcf78f22529bdb9335a01ce23f4f3c4760796992a74",
+    "Actuation_Models/BA_Frame_Bench_Column_L102.SLDPRT": "d4e11fc9b03835a124383988496df75342e3b24cf470fd4a2bc881ad09d75ee6",
+    "Actuation_Models/BA_Guide_Support_Post.SLDPRT": "edf5584b770da059a70fe45fa9c1efaebeef2484912dfb5698bec06d2b451eab",
+    "Actuation_Models/BA_NA23C60_T4A_CASE_REFERENCE.SLDPRT": "9d7c9a734660524975d75ebc7913063a3c908fe95a444489c9e606c749741c7c",
+    "Actuation_Models/BA_NA23C60_T4A_ROD_REFERENCE.SLDPRT": "1d9fc074d3c6214d40d9083a5e65f2ace758936ba0ff64716d3a54e0e3a7d8d5",
+    "Actuation_Models/BA_NEMA23_Bench_Bracket.SLDPRT": "bfdc3e54f6eccd19d7e871eafac72527ee9ae38e612b7b2ff0fa7ef307830e38",
+    "Actuation_Models/BA_X_Actuator_Drop_Link.SLDPRT": "56fc17c5df4ecbf3a924c86efe73583b563dff091db138cad08d74ed1dc03dfc",
+    "Actuation_Models/BA_Y_Bronze_Sliding_Shoe.SLDPRT": "f7a8787dc4dd513ea410271ffbebb074dbcb53cbc0b6cf3b7924dfa8776033fa",
+    "Actuation_Models/BA_Y_Cross_Slot_Drop_Link.SLDPRT": "b78f74eb7b6966630eb7173fc8be8cf2bc1c3cab2d2a78964c60987b5860ea7b",
+    "Actuation_Models/BA_Y_Guided_Crosshead.SLDPRT": "d93036fec7f4b90e10692cd62c40d9a9255e29326bb957c25fd25303849b5933",
+    "Actuation_Models/BA_M4x12_ISO4762_REFERENCE.SLDPRT": "e6431368291734f2b3021c3b5258a13afa7597c890786118d1572ef8ddd9bf27",
+    "Actuation_Models/BA_D8_Shaft_Collar_OD16_W8_REFERENCE.SLDPRT": "534849c0687c8d8d9cf613288ff1ce5014fc7cb7404ed6b201398a11c3e8309f",
+    "Actuation_Models/BA_M3x12_ISO4762_REFERENCE.SLDPRT": "228b1d0c55927ee799c686740bcf16ba13145cde9246f41c6a68c6884d74b0cb",
+    "Actuation_Models/BA_M3x10_ISO4762_REFERENCE.SLDPRT": "8e820b87a3e709fd2aa892544251222992e46400e18c032761b4cc414a9920ca",
+    "Actuation_Models/BA_M3_Washer_3p2x7x0p5_REFERENCE.SLDPRT": "5f8c59fd6e1154626a273f053a6adaa7b9536192f6db6462da4fc3ecefb054ab",
+    "Actuation_Models/BA_M3_Nut_AF5p5_H2p4_REFERENCE.SLDPRT": "af451dc439fc1bb78ff7a4f2dda7acfc0296e9bd393fb6a0bd618964d6c9bfa4",
+    "Actuation_Models/BA_M6x35_ISO4762_REFERENCE.SLDPRT": "188488eccec379bac26cdb4f4a40422020f8bbe37771d5e388d0edee35e4257c",
+    "Actuation_Models/BA_M6x25_ISO4762_REFERENCE.SLDPRT": "d7e63611886ada29b32b4ec84fa7b40bef81353fa0a87aa4f1a9431c6e40b795",
+    "Actuation_Models/BA_M6_Washer_6p4x12x1p6_REFERENCE.SLDPRT": "4cd716f0b83b7f1ab13263cf801e29b86081210e3538137c8ccf170358251920",
+    "Actuation_Models/BA_M6_Nut_AF10_H5_REFERENCE.SLDPRT": "91311648448e0a3e83036183de18cb460fb42f2b8f343b29d9f6b284cbe19be5",
+    "Actuation_Models/BA_M5x20_ISO4762_REFERENCE.SLDPRT": "96ba796585afc1b118989a018e4d5baedf830b1fb0774bc4cdcce17396be2cc1",
+    "Actuation_Models/BA_M5_Washer_5p3x10x1_REFERENCE.SLDPRT": "1ec3b5d852c336e0aa2796d43f666df22adcd2c5a3523e22602a3110067208d6"
+  },
+  "backup_directory": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Before_CAD003B_Backup",
+  "step1_materials_and_subassembly_grounding": {
+    "actuation_models_materials": {
+      "BA_Bench_Plate_650_12.SLDPRT": {
+        "material": "6061-T6 (SS)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2700.0,
+        "mass_g": 13672.619321213951,
+        "volume_mm3": 5063933.081931093
+      },
+      "BA_Bronze_Bush_10_8_L15.SLDPRT": {
+        "material": "Commercial Bronze, UNS C22000 (90-10 Bronze)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 8800.0,
+        "mass_g": 3.698995385019741,
+        "volume_mm3": 420.3403846613342
+      },
+      "BA_D8_Guide_Shaft_L126.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 49.71758869865064,
+        "volume_mm3": 6333.450789637023
+      },
+      "BA_Frame_Bench_Column_L102.SLDPRT": {
+        "material": "6061-T6 (SS)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2700.0,
+        "mass_g": 44.24656164109177,
+        "volume_mm3": 16387.615422626583
+      },
+      "BA_Guide_Support_Post.SLDPRT": {
+        "material": "6061-T6 (SS)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2700.0,
+        "mass_g": 23.670016149604113,
+        "volume_mm3": 8766.672648001522
+      },
+      "BA_NA23C60_T4A_CASE_REFERENCE.SLDPRT": {
+        "material": "6061-T6 (SS)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2700.0,
+        "mass_g": 594.1550050668401,
+        "volume_mm3": 220057.40928401484
+      },
+      "BA_NA23C60_T4A_ROD_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 42.51124801991487,
+        "volume_mm3": 5415.445607632469
+      },
+      "BA_NEMA23_Bench_Bracket.SLDPRT": {
+        "material": "6061-T6 (SS)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2700.0,
+        "mass_g": 221.8640108717366,
+        "volume_mm3": 82171.85587842096
+      },
+      "BA_X_Actuator_Drop_Link.SLDPRT": {
+        "material": "7075-T6 (SN)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2810.0,
+        "mass_g": 57.54819275619068,
+        "volume_mm3": 20479.783899000242
+      },
+      "BA_Y_Bronze_Sliding_Shoe.SLDPRT": {
+        "material": "Commercial Bronze, UNS C22000 (90-10 Bronze)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 8800.0,
+        "mass_g": 6.1408329034053395,
+        "volume_mm3": 697.8219208415159
+      },
+      "BA_Y_Cross_Slot_Drop_Link.SLDPRT": {
+        "material": "7075-T6 (SN)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2810.0,
+        "mass_g": 69.75052128263353,
+        "volume_mm3": 24822.2495667735
+      },
+      "BA_Y_Guided_Crosshead.SLDPRT": {
+        "material": "7075-T6 (SN)",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 2810.0,
+        "mass_g": 44.99783685005874,
+        "volume_mm3": 16013.46507119528
+      }
+    },
+    "created_hardware_materials": {
+      "BA_M4x12_ISO4762_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.000000000001,
+        "mass_g": 2.392165726075948,
+        "volume_mm3": 304.7344873982099
+      },
+      "BA_D8_Shaft_Collar_OD16_W8_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 9.470016894981073,
+        "volume_mm3": 1206.3715789784806
+      },
+      "BA_M3x12_ISO4762_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 1.0388657856798895,
+        "volume_mm3": 132.33959053247
+      },
+      "BA_M3x10_ISO4762_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 1.1143916365675968,
+        "volume_mm3": 141.96071803408876
+      },
+      "BA_M3_Washer_3p2x7x0p5_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 0.119484978792144,
+        "volume_mm3": 15.221016406642548
+      },
+      "BA_M3_Nut_AF5p5_H2p4_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 0.36038442528511805,
+        "volume_mm3": 45.90884398536536
+      },
+      "BA_M6x35_ISO4762_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 11.467598583766144,
+        "volume_mm3": 1460.840583919254
+      },
+      "BA_M6x25_ISO4762_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 9.248063374004953,
+        "volume_mm3": 1178.0972450961724
+      },
+      "BA_M6_Washer_6p4x12x1p6_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 1.016448480061302,
+        "volume_mm3": 129.48388281035693
+      },
+      "BA_M6_Nut_AF10_H5_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.000000000001,
+        "mass_g": 2.289382104973328,
+        "volume_mm3": 291.64103248067875
+      },
+      "BA_M5x20_ISO4762_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.000000000001,
+        "mass_g": 5.3099297205745115,
+        "volume_mm3": 676.4241682260523
+      },
+      "BA_M5_Washer_5p3x10x1_REFERENCE.SLDPRT": {
+        "material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "density_kg_m3": 7850.0,
+        "mass_g": 0.4433521581497976,
+        "volume_mm3": 56.47798192991053
+      }
+    },
+    "zero_1000kgm3_defaults_verified": true,
+    "rotor_subassembly_state": {
+      "BD_Bench_Development_Source-1_Solving": "Flexible (swComponentFlexibleSolving = 1)",
+      "BD_RB_Assem3-1_Solving": "Flexible (swComponentFlexibleSolving = 1)",
+      "grounding_mates": [
+        "Bench_RotorBase_Right_Plane",
+        "Bench_RotorBase_Top_Plane",
+        "Bench_RotorBase_Front_Plane"
+      ]
+    },
+    "total_bench_assembly_mass_kg": 19.401367312010507,
+    "total_bench_assembly_mass_g": 19401.36731201051
+  },
+  "step2_kinematic_mates": {
+    "floated_moving_components": [
+      "BA_X_Actuator_Drop_Link-1",
+      "BA_Y_Cross_Slot_Drop_Link-1",
+      "BA_NA23C60_T4A_ROD_REFERENCE-1",
+      "BA_Y_Guided_Crosshead-1",
+      "BA_Y_Bronze_Sliding_Shoe-1",
+      "BA_Bronze_Bush_10_8_L15-1",
+      "BA_Bronze_Bush_10_8_L15-2",
+      "BA_NA23C60_T4A_ROD_REFERENCE-2"
+    ],
+    "added_kinematic_mate_count": 29,
+    "added_kinematic_mates": [
+      "Bench_RotorBase_Right_Plane",
+      "Bench_RotorBase_Top_Plane",
+      "Bench_RotorBase_Front_Plane",
+      "Bench_XDrop_Right_Plane",
+      "Bench_XDrop_Top_Plane",
+      "Bench_XDrop_Front_Plane",
+      "Bench_YDrop_Right_Plane",
+      "Bench_YDrop_Top_Plane",
+      "Bench_YDrop_Front_Plane",
+      "Bench_YShoe_Right_Plane",
+      "Bench_YShoe_Top_Plane",
+      "Bench_YShoe_Front_Plane",
+      "Bench_YBush0_Right_Plane",
+      "Bench_YBush0_Top_Plane",
+      "Bench_YBush0_Front_Plane",
+      "Bench_YBush1_Right_Plane",
+      "Bench_YBush1_Top_Plane",
+      "Bench_YBush1_Front_Plane",
+      "Bench_YRod_Right_Plane",
+      "Bench_YRod_Top_Plane",
+      "Bench_YRod_Front_Plane",
+      "Bench_XRod_Right_Plane",
+      "Bench_XRod_Top_Plane",
+      "Bench_XRod_Front_Plane",
+      "Bench_YHead_Guide_Right_Plane",
+      "Bench_YHead_Guide_Front_Plane",
+      "Bench_CrossSlot_Y_Coupling",
+      "Bench_X_Actuator_Stroke",
+      "Bench_Y_Actuator_Stroke"
+    ],
+    "initial_pose_drift_m": 0.0,
+    "active_axis_drivers": [
+      "Bench_X_Actuator_Stroke",
+      "Bench_Y_Actuator_Stroke"
+    ],
+    "retained_rotor_limit_mates": [
+      "LimitDistance1",
+      "LimitDistance3",
+      "Combined_XY_Radial_Limit_6p88mm"
+    ]
+  },
+  "step3_hardware_and_detailing": {
+    "part_geometry_refinements": {
+      "BA_X_Actuator_Drop_Link.SLDPRT": "Added Fixed_Base_Window_Relief so Deep_Actuator_Web passes through the Y=[30..48] mm window of BD_RB_XY_Fixed_Base with 1.0 mm radial and 2.0 mm axial clearance, plus XDrop_M3_Through_Recut (D3.4 mm) and XDrop_M3_Bottom_Counterbore_H2 (D7.5x2.0 mm) at (-27,28),(-13,28) so M3x12 low-head screws and bottom washers clear both BD_RB_XY_Fixed_Base and BD_RB_4-Inner_Carriage_Plate by 0.50 mm.",
+      "BA_Y_Cross_Slot_Drop_Link.SLDPRT": "Added Outboard_Clearance_Web (X=-58..-44 mm), Fixed_Base_Ear_Clearance_Cut (X=-50..-31 mm, Z=-20..-13 mm) clearing BD_RB_XY_Fixed_Base ear by >=1.12 mm radially, Outboard_Foot_Web_Bridge + YDrop_M3_Fastener_Underfoot_Relief + YDrop_M3_Through_Recut at (-35,-23),(-35,-17) for M3x10 screws/washers, and Slot_Bottom_Upriser_Opening (Y=-29.51..-10.49 mm, Z=-85..-74 mm) allowing YHead Shoe_Upriser entry from below.",
+      "BA_Y_Guided_Crosshead.SLDPRT": "Cut coaxial D4.0x11 mm M4_Shoe_Thread_Major_Envelope bore in Shoe_Upriser and added Cross_Slot_Bottom_Clearance trimming Shoe_Upriser to Y=[-9.5..+9.5] mm and Adapter_Bridge top to Z=18.0 mm (1.0 mm below YDrop Cross_Slot_Block).",
+      "BA_Bench_Plate_650_12.SLDPRT": "Cut 12x D6.6 mm through-holes (Bench_M6_Anchor_Holes_12x_D6p6 for 4 frame columns and 8 NEMA 23 bracket foot holes) and 4x D5.5 mm through-holes (Bench_M5_SupportPost_Holes_4x_D5p5 for 4 Y-guide support posts)."
+    },
+    "added_hardware_instance_count": 65,
+    "added_hardware_instances": {
+      "YShoe_M4Screw": "BA_M4x12_ISO4762_REFERENCE-1",
+      "YShaftCollar_00": "BA_D8_Shaft_Collar_OD16_W8_REFERENCE-1",
+      "YShaftCollar_01": "BA_D8_Shaft_Collar_OD16_W8_REFERENCE-2",
+      "YShaftCollar_10": "BA_D8_Shaft_Collar_OD16_W8_REFERENCE-3",
+      "YShaftCollar_11": "BA_D8_Shaft_Collar_OD16_W8_REFERENCE-4",
+      "XDrop_BotWasher1": "BA_M3_Washer_3p2x7x0p5_REFERENCE-1",
+      "XDrop_Screw1": "BA_M3x12_ISO4762_REFERENCE-1",
+      "XDrop_TopWasher1": "BA_M3_Washer_3p2x7x0p5_REFERENCE-2",
+      "XDrop_Nut1": "BA_M3_Nut_AF5p5_H2p4_REFERENCE-1",
+      "XDrop_BotWasher2": "BA_M3_Washer_3p2x7x0p5_REFERENCE-3",
+      "XDrop_Screw2": "BA_M3x12_ISO4762_REFERENCE-2",
+      "XDrop_TopWasher2": "BA_M3_Washer_3p2x7x0p5_REFERENCE-4",
+      "XDrop_Nut2": "BA_M3_Nut_AF5p5_H2p4_REFERENCE-2",
+      "YDrop_Washer1": "BA_M3_Washer_3p2x7x0p5_REFERENCE-5",
+      "YDrop_Screw1": "BA_M3x10_ISO4762_REFERENCE-1",
+      "YDrop_Washer2": "BA_M3_Washer_3p2x7x0p5_REFERENCE-6",
+      "YDrop_Screw2": "BA_M3x10_ISO4762_REFERENCE-2",
+      "FrameCol_Washer1": "BA_M6_Washer_6p4x12x1p6_REFERENCE-1",
+      "FrameCol_Bolt1": "BA_M6x35_ISO4762_REFERENCE-1",
+      "FrameCol_Washer2": "BA_M6_Washer_6p4x12x1p6_REFERENCE-2",
+      "FrameCol_Bolt2": "BA_M6x35_ISO4762_REFERENCE-2",
+      "FrameCol_Washer3": "BA_M6_Washer_6p4x12x1p6_REFERENCE-3",
+      "FrameCol_Bolt3": "BA_M6x35_ISO4762_REFERENCE-3",
+      "FrameCol_Washer4": "BA_M6_Washer_6p4x12x1p6_REFERENCE-4",
+      "FrameCol_Bolt4": "BA_M6x35_ISO4762_REFERENCE-4",
+      "BrkFoot_TopWasher1": "BA_M6_Washer_6p4x12x1p6_REFERENCE-5",
+      "BrkFoot_Bolt1": "BA_M6x25_ISO4762_REFERENCE-1",
+      "BrkFoot_BotWasher1": "BA_M6_Washer_6p4x12x1p6_REFERENCE-6",
+      "BrkFoot_Nut1": "BA_M6_Nut_AF10_H5_REFERENCE-1",
+      "BrkFoot_TopWasher2": "BA_M6_Washer_6p4x12x1p6_REFERENCE-7",
+      "BrkFoot_Bolt2": "BA_M6x25_ISO4762_REFERENCE-2",
+      "BrkFoot_BotWasher2": "BA_M6_Washer_6p4x12x1p6_REFERENCE-8",
+      "BrkFoot_Nut2": "BA_M6_Nut_AF10_H5_REFERENCE-2",
+      "BrkFoot_TopWasher3": "BA_M6_Washer_6p4x12x1p6_REFERENCE-9",
+      "BrkFoot_Bolt3": "BA_M6x25_ISO4762_REFERENCE-3",
+      "BrkFoot_BotWasher3": "BA_M6_Washer_6p4x12x1p6_REFERENCE-10",
+      "BrkFoot_Nut3": "BA_M6_Nut_AF10_H5_REFERENCE-3",
+      "BrkFoot_TopWasher4": "BA_M6_Washer_6p4x12x1p6_REFERENCE-11",
+      "BrkFoot_Bolt4": "BA_M6x25_ISO4762_REFERENCE-4",
+      "BrkFoot_BotWasher4": "BA_M6_Washer_6p4x12x1p6_REFERENCE-12",
+      "BrkFoot_Nut4": "BA_M6_Nut_AF10_H5_REFERENCE-4",
+      "BrkFoot_TopWasher5": "BA_M6_Washer_6p4x12x1p6_REFERENCE-13",
+      "BrkFoot_Bolt5": "BA_M6x25_ISO4762_REFERENCE-5",
+      "BrkFoot_BotWasher5": "BA_M6_Washer_6p4x12x1p6_REFERENCE-14",
+      "BrkFoot_Nut5": "BA_M6_Nut_AF10_H5_REFERENCE-5",
+      "BrkFoot_TopWasher6": "BA_M6_Washer_6p4x12x1p6_REFERENCE-15",
+      "BrkFoot_Bolt6": "BA_M6x25_ISO4762_REFERENCE-6",
+      "BrkFoot_BotWasher6": "BA_M6_Washer_6p4x12x1p6_REFERENCE-16",
+      "BrkFoot_Nut6": "BA_M6_Nut_AF10_H5_REFERENCE-6",
+      "BrkFoot_TopWasher7": "BA_M6_Washer_6p4x12x1p6_REFERENCE-17",
+      "BrkFoot_Bolt7": "BA_M6x25_ISO4762_REFERENCE-7",
+      "BrkFoot_BotWasher7": "BA_M6_Washer_6p4x12x1p6_REFERENCE-18",
+      "BrkFoot_Nut7": "BA_M6_Nut_AF10_H5_REFERENCE-7",
+      "BrkFoot_TopWasher8": "BA_M6_Washer_6p4x12x1p6_REFERENCE-19",
+      "BrkFoot_Bolt8": "BA_M6x25_ISO4762_REFERENCE-8",
+      "BrkFoot_BotWasher8": "BA_M6_Washer_6p4x12x1p6_REFERENCE-20",
+      "BrkFoot_Nut8": "BA_M6_Nut_AF10_H5_REFERENCE-8",
+      "YPost_Washer1": "BA_M5_Washer_5p3x10x1_REFERENCE-1",
+      "YPost_Bolt1": "BA_M5x20_ISO4762_REFERENCE-1",
+      "YPost_Washer2": "BA_M5_Washer_5p3x10x1_REFERENCE-2",
+      "YPost_Bolt2": "BA_M5x20_ISO4762_REFERENCE-2",
+      "YPost_Washer3": "BA_M5_Washer_5p3x10x1_REFERENCE-3",
+      "YPost_Bolt3": "BA_M5x20_ISO4762_REFERENCE-3",
+      "YPost_Washer4": "BA_M5_Washer_5p3x10x1_REFERENCE-4",
+      "YPost_Bolt4": "BA_M5x20_ISO4762_REFERENCE-4"
+    },
+    "added_hardware_mate_count": 195
+  },
+  "step4_coupled_kinematic_and_clearance_audit": {
+    "tested_pose_count": 38,
+    "total_native_boolean_checks": 25755,
+    "max_unexpected_boolean_overlap_mm3": 0.0,
+    "classified_intentional_fastener_overlaps": [
+      {
+        "pair": [
+          "BA_M3x12_ISO4762_REFERENCE-1",
+          "BD_Bench_Development_Source-1/BD_RB_Intermediate_X_Slider-1"
+        ],
+        "overlap_mm3": 21.2058,
+        "classification": "Intentional reference fastener shank envelope through undrilled BD_RB_Intermediate_X_Slider at (-27,28) and (-13,28) mm (rotor part preserved untouched per scope)."
+      },
+      {
+        "pair": [
+          "BA_M3x12_ISO4762_REFERENCE-2",
+          "BD_Bench_Development_Source-1/BD_RB_Intermediate_X_Slider-1"
+        ],
+        "overlap_mm3": 21.2058,
+        "classification": "Intentional reference fastener shank envelope through undrilled BD_RB_Intermediate_X_Slider at (-27,28) and (-13,28) mm (rotor part preserved untouched per scope)."
+      }
+    ],
+    "active_mate_error_count_top_level": 0,
+    "active_mate_error_count_rotor_subassembly": 0,
+    "cross_slot_x_sliding_range_verified_mm": [
+      -6.88,
+      6.88
+    ],
+    "pitch_extrema_at_+6p88_0_deg": [
+      -34.9897,
+      34.9911
+    ],
+    "minimum_clearances": {
+      "YShoe_in_YDrop_X_slot_lateral_mm": 0.01,
+      "YShoe_in_YDrop_X_slot_axial_top_mm": 1.0,
+      "YHead_Adapter_Bridge_to_YDrop_bottom_mm": 1.0,
+      "XDrop_web_to_Fixed_Base_window_radial_mm": 1.0,
+      "XDrop_foot_to_Fixed_Base_axial_mm": 1.0,
+      "YDrop_web_to_Fixed_Base_ear_radial_at_+6p88_mm": 1.12,
+      "YDrop_web_to_X_Slider_edge_radial_mm": 2.0
+    },
+    "restored_initial_pose_deltas": {
+      "x_slider_max_tf_delta": 9.318934512947408e-15,
+      "inner_carriage_max_tf_delta": 3.9968028886505635e-15,
+      "shaft_max_tf_delta": 2.3080495847871418e-14
+    },
+    "poses": [
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "blade_pitch_deg": [
+          -0.0,
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 6.88,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -28.051,
+          -21.1522,
+          26.6138,
+          18.3988
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 6.88,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "blade_pitch_deg": [
+          18.3988,
+          -28.051,
+          -21.1522,
+          26.6138
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 6.88,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          26.6138,
+          18.3988,
+          -28.051,
+          -21.1522
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 6.88,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -21.1522,
+          26.6138,
+          18.3988,
+          -28.051
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "pitch_extrema_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_angle_deg": -1.2400000000003264,
+        "Part1_1_pitch_deg": -34.98966325254177,
+        "predicted_pitch_deg": -34.98966325252594,
+        "prediction_error_deg": -1.582378672537743e-11,
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "pitch_extrema_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_angle_deg": 179.0299999999996,
+        "Part1_1_pitch_deg": 34.99109891611199,
+        "predicted_pitch_deg": 34.991098916126695,
+        "prediction_error_deg": -1.4708234630234074e-11,
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -13.12,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -21.1522,
+          26.6138,
+          18.3988,
+          -28.051
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -13.12,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -28.051,
+          -21.1522,
+          26.6138,
+          18.3988
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -13.12,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          18.3988,
+          -28.051,
+          -21.1522,
+          26.6138
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -13.12,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          26.6138,
+          18.3988,
+          -28.051,
+          -21.1522
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -6.88,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          26.6138,
+          18.3988,
+          -28.051,
+          -21.1522
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -6.88,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -21.1522,
+          26.6138,
+          18.3988,
+          -28.051
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -6.88,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -28.051,
+          -21.1522,
+          26.6138,
+          18.3988
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "x_slider_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -20.0,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -6.88,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          18.3988,
+          -28.051,
+          -21.1522,
+          26.6138
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          -6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -26.88,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          18.3988,
+          -28.051,
+          -21.1522,
+          26.6138
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          -6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -26.88,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          26.6138,
+          18.3988,
+          -28.051,
+          -21.1522
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          -6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -26.88,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -21.1522,
+          26.6138,
+          18.3988,
+          -28.051
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "x_slider_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -0.0,
+          -6.88
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -26.88,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -0.0,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -28.051,
+          -21.1522,
+          26.6138,
+          18.3988
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -34.7041,
+          3.4882,
+          34.6097,
+          -7.379
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -7.379,
+          -34.7041,
+          3.4882,
+          34.6097
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          34.6097,
+          -7.379,
+          -34.7041,
+          3.4882
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          3.4882,
+          34.6097,
+          -7.379,
+          -34.7041
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          3.4882,
+          34.6097,
+          -7.379,
+          -34.7041
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -34.7041,
+          3.4882,
+          34.6097,
+          -7.379
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -7.379,
+          -34.7041,
+          3.4882,
+          34.6097
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -15.1351,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          34.6097,
+          -7.379,
+          -34.7041,
+          3.4882
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          34.6097,
+          -7.379,
+          -34.7041,
+          3.4882
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          3.4882,
+          34.6097,
+          -7.379,
+          -34.7041
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -34.7041,
+          3.4882,
+          34.6097,
+          -7.379
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          -4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": -4.8649,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -7.379,
+          -34.7041,
+          3.4882,
+          34.6097
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 36.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -7.379,
+          -34.7041,
+          3.4882,
+          34.6097
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 126.5472,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          34.6097,
+          -7.379,
+          -34.7041,
+          3.4882
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -143.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          3.4882,
+          34.6097,
+          -7.379,
+          -34.7041
+        ],
+        "unexpected_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "x_slider_xy_mm": [
+          4.8649,
+          0.0
+        ],
+        "inner_carriage_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "yshoe_world_rel_base_mm": [
+          -38.0,
+          -24.8649,
+          -63.0
+        ],
+        "cross_slot_x_slide_offset_mm": 4.8649,
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -53.4528,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "blade_pitch_deg": [
+          -34.7041,
+          3.4882,
+          34.6097,
+          -7.379
+        ],
+        "unexpected_boolean_overlaps": []
+      }
+    ]
+  }
+}

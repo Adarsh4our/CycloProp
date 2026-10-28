@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CycloProp SIM-001A Interactive 4-Bar & Oldham Line Simulation</title>
+<style>
+  body { margin: 0; background: #0f172a; color: #f8fafc; font-family: system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; padding: 16px; }
+  h2 { margin: 4px 0 12px 0; color: #38bdf8; }
+  .controls { display: flex; gap: 20px; background: #1e293b; padding: 12px 20px; border-radius: 8px; border: 1px solid #334155; margin-bottom: 14px; flex-wrap: wrap; }
+  .ctrl { display: flex; flex-direction: column; font-size: 13px; }
+  .row { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+  canvas { background: #1e293b; border: 1px solid #334155; border-radius: 8px; }
+  .readout { font-family: monospace; font-size: 13px; color: #a5f3fc; margin-top: 8px; }
+</style>
+</head>
+<body>
+  <h2>CycloProp SIM-001A — Interactive 4-Bar & Oldham 2&Omega; Line Simulation</h2>
+  <div class="controls">
+    <div class="ctrl"><label>Ex [mm]: <span id="exVal">+6.88</span></label><input type="range" id="ex" min="-6.88" max="6.88" step="0.05" value="6.88"></div>
+    <div class="ctrl"><label>Ey [mm]: <span id="eyVal">0.00</span></label><input type="range" id="ey" min="-6.88" max="6.88" step="0.05" value="0.00"></div>
+    <div class="ctrl"><label>Rotor Speed [RPM]: <span id="rpmVal">1900</span></label><input type="range" id="rpm" min="1000" max="2100" step="50" value="1900"></div>
+    <div class="ctrl"><label>Sim Playback Speed: <span id="spdVal">1.0x</span></label><input type="range" id="spd" min="0" max="3" step="0.1" value="1.0"></div>
+  </div>
+  <div class="row">
+    <canvas id="mechCanvas" width="520" height="520"></canvas>
+    <canvas id="plotCanvas" width="560" height="520"></canvas>
+  </div>
+  <div class="readout" id="telemetry"></div>
+<script>
+const R = 95.0, Rc = 40.0, r_arm = 12.0, L_link = 56.52665325, delta = -15.82538559 * Math.PI / 180.0;
+const m_blade = 0.01569084, Jp_total = 1.9804e-6, x_cg = 0.00574263;
+let phi = 0.0;
+const mechC = document.getElementById('mechCanvas'), mCtx = mechC.getContext('2d');
+const plotC = document.getElementById('plotCanvas'), pCtx = plotC.getContext('2d');
+
+function solveBlade(psi, ex, ey) {
+  const Px = R * Math.cos(psi), Py = R * Math.sin(psi);
+  const Ax = ex + Rc * Math.cos(psi + delta), Ay = ey + Rc * Math.sin(psi + delta);
+  const dx = Ax - Px, dy = Ay - Py, d = Math.hypot(dx, dy);
+  const k = Math.max(-1, Math.min(1, (r_arm*r_arm + d*d - L_link*L_link) / (2*r_arm*d)));
+  const a0 = Math.atan2(dy, dx), g = Math.acos(k);
+  const c1 = a0 + g, c2 = a0 - g;
+  const ref = psi - 0.5*Math.PI;
+  const wrap = a => ((a + Math.PI) % (2*Math.PI) + 2*Math.PI) % (2*Math.PI) - Math.PI;
+  const p1 = wrap(c1 - ref), p2 = wrap(c2 - ref);
+  const theta = Math.abs(p1) < Math.abs(p2) ? p1 : p2;
+  const alpha = ref + theta;
+  const Bx = Px + r_arm * Math.cos(alpha), By = Py + r_arm * Math.sin(alpha);
+  return {Px, Py, Ax, Ay, Bx, By, theta, alpha};
+}
+
+function draw() {
+  let ex = parseFloat(document.getElementById('ex').value);
+  let ey = parseFloat(document.getElementById('ey').value);
+  const r_e = Math.hypot(ex, ey);
+  if (r_e > 6.88) { ex *= 6.88/r_e; ey *= 6.88/r_e; }
+  const rpm = parseFloat(document.getElementById('rpm').value);
+  const spd = parseFloat(document.getElementById('spd').value);
+  document.getElementById('exVal').textContent = ex.toFixed(2);
+  document.getElementById('eyVal').textContent = ey.toFixed(2);
+  document.getElementById('rpmVal').textContent = rpm.toFixed(0);
+  document.getElementById('spdVal').textContent = spd.toFixed(1) + 'x';
+
+  phi = (phi + 0.025 * spd) % (2*Math.PI);
+  const scale = 2.1, cx = mechC.width/2, cy = mechC.height/2;
+  const tx = x => cx + x*scale, ty = y => cy - y*scale;
+
+  mCtx.clearRect(0, 0, mechC.width, mechC.height);
+  // Grid & axes
+  mCtx.strokeStyle = '#334155'; mCtx.lineWidth = 1;
+  mCtx.beginPath(); mCtx.moveTo(0, cy); mCtx.lineTo(mechC.width, cy); mCtx.moveTo(cx, 0); mCtx.lineTo(cx, mechC.height); mCtx.stroke();
+
+  // Rotor circle & eccentric ring circle
+  mCtx.strokeStyle = '#38bdf8'; mCtx.setLineDash([5, 5]);
+  mCtx.beginPath(); mCtx.arc(cx, cy, R*scale, 0, 2*Math.PI); mCtx.stroke();
+  mCtx.strokeStyle = '#f59e0b'; mCtx.setLineDash([8, 4]);
+  mCtx.beginPath(); mCtx.arc(tx(ex), ty(ey), Rc*scale, 0, 2*Math.PI); mCtx.stroke();
+  mCtx.setLineDash([]);
+
+  // Oldham 2-Omega floating disk orbit & current position
+  const od_x = 0.5*(ex*(1 + Math.cos(2*phi)) + ey*Math.sin(2*phi));
+  const od_y = 0.5*(ex*Math.sin(2*phi) + ey*(1 - Math.cos(2*phi)));
+  mCtx.strokeStyle = '#a855f7'; mCtx.lineWidth = 1.8;
+  mCtx.beginPath(); mCtx.arc(tx(0.5*ex), ty(0.5*ey), 0.5*Math.hypot(ex,ey)*scale, 0, 2*Math.PI); mCtx.stroke();
+  mCtx.fillStyle = '#a855f7'; mCtx.beginPath(); mCtx.arc(tx(od_x), ty(od_y), 5, 0, 2*Math.PI); mCtx.fill();
+
+  const colors = ['#22c55e', '#38bdf8', '#f43f5e', '#eab308'];
+  let b1_deg = 0;
+  for (let k=0; k<4; k++) {
+    const psi_k = phi + k*0.5*Math.PI;
+    const s = solveBlade(psi_k, ex, ey);
+    if (k === 0) b1_deg = s.theta * 180 / Math.PI;
+    // Spoke & ring spoke
+    mCtx.strokeStyle = '#475569'; mCtx.lineWidth = 1;
+    mCtx.beginPath(); mCtx.moveTo(cx, cy); mCtx.lineTo(tx(s.Px), ty(s.Py)); mCtx.stroke();
+    mCtx.strokeStyle = '#b45309';
+    mCtx.beginPath(); mCtx.moveTo(tx(ex), ty(ey)); mCtx.lineTo(tx(s.Ax), ty(s.Ay)); mCtx.stroke();
+    // Link A->B
+    mCtx.strokeStyle = colors[k]; mCtx.lineWidth = 2.5;
+    mCtx.beginPath(); mCtx.moveTo(tx(s.Ax), ty(s.Ay)); mCtx.lineTo(tx(s.Bx), ty(s.By)); mCtx.stroke();
+    // Pitch horn P->B
+    mCtx.strokeStyle = '#f8fafc'; mCtx.lineWidth = 2.8;
+    mCtx.beginPath(); mCtx.moveTo(tx(s.Px), ty(s.Py)); mCtx.lineTo(tx(s.Bx), ty(s.By)); mCtx.stroke();
+    // Blade airfoil chord (LE +9.5 mm, TE -28.5 mm)
+    const lex = s.Px + 9.5*Math.cos(s.alpha), ley = s.Py + 9.5*Math.sin(s.alpha);
+    const tex = s.Px - 28.5*Math.cos(s.alpha), tey = s.Py - 28.5*Math.sin(s.alpha);
+    mCtx.strokeStyle = colors[k]; mCtx.lineWidth = 5;
+    mCtx.beginPath(); mCtx.moveTo(tx(tex), ty(tey)); mCtx.lineTo(tx(lex), ty(ley)); mCtx.stroke();
+    // Joints
+    mCtx.fillStyle = '#f8fafc';
+    for (const [jx, jy] of [[s.Px, s.Py], [s.Bx, s.By], [s.Ax, s.Ay]]) {
+      mCtx.beginPath(); mCtx.arc(tx(jx), ty(jy), 3.5, 0, 2*Math.PI); mCtx.fill();
+    }
+  }
+
+  // Plot 360-deg pitch curve on right canvas
+  pCtx.clearRect(0, 0, plotC.width, plotC.height);
+  pCtx.strokeStyle = '#334155'; pCtx.lineWidth = 1;
+  pCtx.beginPath(); pCtx.moveTo(40, plotC.height/2); pCtx.lineTo(plotC.width-20, plotC.height/2); pCtx.stroke();
+  pCtx.strokeStyle = '#22c55e'; pCtx.lineWidth = 2.2; pCtx.beginPath();
+  for (let i=0; i<=360; i+=2) {
+    const rad = i * Math.PI / 180;
+    const th = solveBlade(rad, ex, ey).theta * 180 / Math.PI;
+    const px = 40 + (i/360)*(plotC.width-60);
+    const py = plotC.height/2 - th * 4.5;
+    if (i===0) pCtx.moveTo(px, py); else pCtx.lineTo(px, py);
+  }
+  pCtx.stroke();
+  const cur_deg = ((phi * 180 / Math.PI) % 360 + 360) % 360;
+  const cpx = 40 + (cur_deg/360)*(plotC.width-60);
+  const cpy = plotC.height/2 - b1_deg * 4.5;
+  pCtx.fillStyle = '#f43f5e'; pCtx.beginPath(); pCtx.arc(cpx, cpy, 6, 0, 2*Math.PI); pCtx.fill();
+
+  document.getElementById('telemetry').textContent =
+    `Shaft Angle ψ = ${cur_deg.toFixed(1)}° | Blade 1 Pitch θp = ${b1_deg.toFixed(2)}° | Oldham Disk Center = (${od_x.toFixed(2)}, ${od_y.toFixed(2)}) mm | e_mag = ${Math.hypot(ex,ey).toFixed(2)} mm`;
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "task_id": "SIM-001C",
+  "status": "COMPLETED",
+  "timestamp_iso": "2026-10-25T17:20:00+05:30",
+  "guardrail_verification": {
+    "baseline_json_sha256": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+    "verified_sldprt_count": 123,
+    "zero_sldprt_modified": true,
+    "backups_created": {
+      "BA_Bench_Actuation_Layout.SLDASM": "1cbf3166364813e508064d95a655f0d2f7d242ce4df03811b0a4bcfbf61308df",
+      "BD_Bench_Development_Source.SLDASM": "58e9b5612a95bb9111f3c3bdfb6e5ff1794b11b72b2caafea3bc0dd19811da35"
+    }
+  },
+  "single_window_and_configuration_summary": {
+    "visible_solidworks_windows_count": 1,
+    "visible_window_title": "BA_Bench_Actuation_Layout.SLDASM",
+    "saved_to_disk": true,
+    "default_configuration": {
+      "active_leaf_components": 486,
+      "active_mates_total": 1133,
+      "top_assembly_mates_active": 224,
+      "sub_assembly_mates_active": 909,
+      "mate_errors": 0
+    },
+    "motion_fast_playback_configuration": {
+      "active_leaf_components": 211,
+      "suppressed_decorative_fasteners_top": 65,
+      "suppressed_decorative_fasteners_sub": 210,
+      "total_suppressed_decorative_fasteners": 275,
+      "active_kinematic_and_structural_mates": 498,
+      "bypassed_fastener_mates": 635,
+      "mate_errors": 0,
+      "BD_Bench_Development_Source_1_flexible_solving": -1,
+      "BD_RB_Assem3_1_flexible_solving": 1,
+      "RevB_SETUP_Rotor_Angle_suppressed_for_free_rotation": true,
+      "eccentricity_x_mm": 6.88
+    }
+  },
+  "native_motion_study_1_summary": {
+    "study_name": "Motion Study 1",
+    "study_type": "Animation (swMotionStudyTypeAssembly = 1)",
+    "duration_s": 4.0,
+    "frame_rate_fps": 15,
+    "total_cached_frames": 61,
+    "active_motion_features_count": 1,
+    "active_motors": [
+      "RotaryMotor1 (swFmAEMRotationalMotor = 78, ConstantSpeedMotor 30.0 RPM on BD_RB_3-Drive_Shaft-1 with RevB_SETUP_Rotor_Angle suppressed and e_x = 6.88 mm)"
+    ],
+    "calculate_succeeded": true,
+    "calculate_wall_time_s": 0.168,
+    "play_mode": "Loop (PlayMode = 2)",
+    "exported_videos": {
+      "mp4_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Motion_Study\\sim001c_solidworks_native_motion.mp4",
+      "mp4_sha256": "2ee1f7d8a7834dac49280e2ec53c471f39260269e317d3346f99e1a3427241df",
+      "avi_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Motion_Study\\sim001c_solidworks_native_motion.avi",
+      "avi_sha256": "ced812214f3851a7133a2034672cf6a83ffaa7095d8282bfe09fbc7d05b6c0d5"
+    }
+  }
+}

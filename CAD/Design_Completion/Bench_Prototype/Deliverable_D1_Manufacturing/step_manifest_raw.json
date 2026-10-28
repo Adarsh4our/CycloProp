@@ -1,0 +1,92 @@
+{
+  "BA_Bench_Actuation_Layout.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BA_Bench_Actuation_Layout.STEP",
+    "size_bytes": 7277755,
+    "sha256": "d63ab5beb21b4f4b202a29e5d3e42f89a6c3ca7e6cd1fdddb8886f91dbe3b136"
+  },
+  "BA_X_Actuator_Drop_Link.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BA_X_Actuator_Drop_Link.STEP",
+    "size_bytes": 84342,
+    "sha256": "238618d531c9c672f8f45fb501b34fa847a2ae8360017c85e58568c372ea3c1c"
+  },
+  "BA_Y_Bronze_Sliding_Shoe.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BA_Y_Bronze_Sliding_Shoe.STEP",
+    "size_bytes": 26987,
+    "sha256": "547182062b640b902df9ad963bb4638c665850f8b7681cb179d622ada625bd27"
+  },
+  "BA_Y_Cross_Slot_Drop_Link.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BA_Y_Cross_Slot_Drop_Link.STEP",
+    "size_bytes": 58730,
+    "sha256": "372660fe9d9f912f88363d0812b5c367bc53211dc6e69abc67e43ca62fa38920"
+  },
+  "BA_Y_Guided_Crosshead.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BA_Y_Guided_Crosshead.STEP",
+    "size_bytes": 89260,
+    "sha256": "efab5df1924b1793285eb490fa2f2be275f9943a70fbf8b92e7493f3233bb80f"
+  },
+  "BD_Bench_Development_Source.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_Bench_Development_Source.STEP",
+    "size_bytes": 6212142,
+    "sha256": "6531be8c64e2e89e0a326417380eac8effcf330e9dc3b5dfab84146640243edf"
+  },
+  "BD_RB_3-Drive_Shaft.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_3-Drive_Shaft.STEP",
+    "size_bytes": 112433,
+    "sha256": "326a5128d8190cd48b5f3edcbfa40edfc83d75ffd888e1cdf17e39757920b6d7"
+  },
+  "BD_RB_4-Inner_Carriage_Plate.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_4-Inner_Carriage_Plate.STEP",
+    "size_bytes": 145405,
+    "sha256": "5453b5bd898d242bccd413e299a28320e459afebe31f87141399e99a1f346303"
+  },
+  "BD_RB_4-Outer_Control_Ring.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_4-Outer_Control_Ring.STEP",
+    "size_bytes": 205051,
+    "sha256": "902d95f4bebcde749f3ce04855f8097352e03596db49bc2f6f0569f949f06771"
+  },
+  "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.STEP",
+    "size_bytes": 91376,
+    "sha256": "bcc8f0a279efe1c2d0f76009f9cf4a849acd37b8fe024a0f677300002b05916d"
+  },
+  "BD_RB_Intermediate_X_Slider.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_Intermediate_X_Slider.STEP",
+    "size_bytes": 96299,
+    "sha256": "20aef9a5292cdf5cd3e2a00e9cba9871a6c6cf279f96085b1b0595c557b4870f"
+  },
+  "BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.STEP",
+    "size_bytes": 98157,
+    "sha256": "2fc01a6cac966a85c3c7f5a74914fc224d43380352620f9b23445911ee71a317"
+  },
+  "BD_RB_Oldham_Floating_Disk_PROTOTYPE.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_Oldham_Floating_Disk_PROTOTYPE.STEP",
+    "size_bytes": 124191,
+    "sha256": "c360c74934ecd0b1255df4bea02ee7c3cb8e75db642ad1151e03069bbba15380"
+  },
+  "BD_RB_Oldham_Input_PROTOTYPE.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_Oldham_Input_PROTOTYPE.STEP",
+    "size_bytes": 118851,
+    "sha256": "2ae6fca0aa11141ef6b721d2387e6024e31f3643818e9572de2263ada2297543"
+  },
+  "BD_RB_Oldham_Output_PROTOTYPE.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_Oldham_Output_PROTOTYPE.STEP",
+    "size_bytes": 105188,
+    "sha256": "f3860a3cea599705df34873b7111677c1af1a7d7a1b2366594dd3a05f21752c5"
+  },
+  "BD_RB_Part1.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_Part1.STEP",
+    "size_bytes": 2100381,
+    "sha256": "f848d3d7b95cd35062b25786f9a0433d8b8671691660e670c0391cc167db39d1"
+  },
+  "BD_RB_XY_Fixed_Base.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\BD_RB_XY_Fixed_Base.STEP",
+    "size_bytes": 195948,
+    "sha256": "90a59f3aeb108100824a90189509088ac5be5e7d034d407f4e0664eaa98dac67"
+  },
+  "RevB_Bench_Development_Source.STEP": {
+    "step_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\STEP_AP214\\RevB_Bench_Development_Source.STEP",
+    "size_bytes": 7412960,
+    "sha256": "a89b68670491fe4ebded752dc88ef29f11b0c1ced5fc31e07a9c9638296140d0"
+  }
+}

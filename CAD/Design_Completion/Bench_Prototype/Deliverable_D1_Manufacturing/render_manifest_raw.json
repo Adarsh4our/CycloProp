@@ -1,0 +1,44 @@
+{
+  "Fig_D1_Bench_Assembly_Isometric.png": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\CAD_Renders\\Fig_D1_Bench_Assembly_Isometric.png",
+    "width_px": 2400,
+    "height_px": 1800,
+    "size_bytes": 443763,
+    "sha256": "dc2d669c87b58da7e2c237933c85c38a05037e11fae712fa104eec830752c842"
+  },
+  "Fig_D1_Bench_Assembly_Front_Elevation.png": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\CAD_Renders\\Fig_D1_Bench_Assembly_Front_Elevation.png",
+    "width_px": 2400,
+    "height_px": 1800,
+    "size_bytes": 178909,
+    "sha256": "efde4cd7a4a8926cc59cdfbc40674785fbfc41e0647e28fce30e05e62c205101"
+  },
+  "Fig_D1_Bench_Assembly_Right_Side.png": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\CAD_Renders\\Fig_D1_Bench_Assembly_Right_Side.png",
+    "width_px": 2400,
+    "height_px": 1800,
+    "size_bytes": 372317,
+    "sha256": "6aaa8f1768f5d3dac8045a54ac58b6e8992ff033a46d3aa93602101b60bd6483"
+  },
+  "Fig_D1_Bench_Assembly_Top_Plan.png": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\CAD_Renders\\Fig_D1_Bench_Assembly_Top_Plan.png",
+    "width_px": 2400,
+    "height_px": 1800,
+    "size_bytes": 363634,
+    "sha256": "04613064a8283f1c642fe19800d1704dbe384d6051083257b53e7f29c3bbe8cf"
+  },
+  "Fig_D1_Rotor_Eccentric_Mechanism_CloseUp.png": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\CAD_Renders\\Fig_D1_Rotor_Eccentric_Mechanism_CloseUp.png",
+    "width_px": 2400,
+    "height_px": 1800,
+    "size_bytes": 383798,
+    "sha256": "f485e52f0de01139ee17d08a51a639144b9d7f6c557c4931a48dc59a6d2eaaf3"
+  },
+  "Fig_D1_UnderBench_Zaber_Actuation_CloseUp.png": {
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\CAD_Renders\\Fig_D1_UnderBench_Zaber_Actuation_CloseUp.png",
+    "width_px": 2400,
+    "height_px": 1800,
+    "size_bytes": 383798,
+    "sha256": "f485e52f0de01139ee17d08a51a639144b9d7f6c557c4931a48dc59a6d2eaaf3"
+  }
+}

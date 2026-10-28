@@ -1,0 +1,612 @@
+{
+  "BD_RB_Intermediate_X_Slider.dxf": {
+    "dxf_filename": "BD_RB_Intermediate_X_Slider.dxf",
+    "dxf_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\Engineering_Drawings\\DXF_Flat_Patterns\\BD_RB_Intermediate_X_Slider.dxf",
+    "size_bytes": 6790,
+    "sha256": "06fd81d151b32c5dd3d9da388bd32d4e443abc70afe325c3d87294648430b359",
+    "envelope_mm": [
+      60.0,
+      60.0,
+      3.0
+    ],
+    "material": "6061-T6 Aluminum Plate (t = 3.00 mm)",
+    "cad_mass_g": 25.839362,
+    "entity_count": 52,
+    "unique_hole_count": 14,
+    "holes": [
+      {
+        "x_mm": -24.0,
+        "y_mm": -15.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": 0.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": 15.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": -28.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 0.95,
+        "is_through": false
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": -20.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 0.95,
+        "is_through": false
+      },
+      {
+        "x_mm": -25.0,
+        "y_mm": -25.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -23.0,
+        "y_mm": 27.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -18.0,
+        "y_mm": -25.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -17.0,
+        "y_mm": 27.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -27.0,
+        "y_mm": 28.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -13.0,
+        "y_mm": 28.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": -28.0,
+        "diameter_mm": 4.2,
+        "depth_mm": 2.05,
+        "is_through": false
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": -20.0,
+        "diameter_mm": 4.2,
+        "depth_mm": 2.05,
+        "is_through": false
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 20.5,
+        "depth_mm": 3.0,
+        "is_through": true
+      }
+    ]
+  },
+  "BD_RB_4-Inner_Carriage_Plate.dxf": {
+    "dxf_filename": "BD_RB_4-Inner_Carriage_Plate.dxf",
+    "dxf_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\Engineering_Drawings\\DXF_Flat_Patterns\\BD_RB_4-Inner_Carriage_Plate.dxf",
+    "size_bytes": 9884,
+    "sha256": "a539dcbaa3df890c20d5f37407ce61e679b0a06cc00a5fe57211694ed9335480",
+    "envelope_mm": [
+      60.0,
+      60.0,
+      10.0
+    ],
+    "material": "7075-T6 Aluminum Machined Plate (t = 10.00 mm)",
+    "cad_mass_g": 33.118008,
+    "entity_count": 79,
+    "unique_hole_count": 20,
+    "holes": [
+      {
+        "x_mm": -20.0,
+        "y_mm": -24.0,
+        "diameter_mm": 2.0,
+        "depth_mm": 3.0,
+        "is_through": false
+      },
+      {
+        "x_mm": -20.0,
+        "y_mm": 24.0,
+        "diameter_mm": 2.0,
+        "depth_mm": 3.0,
+        "is_through": false
+      },
+      {
+        "x_mm": -9.399,
+        "y_mm": 8.24,
+        "diameter_mm": 2.0,
+        "depth_mm": 4.3,
+        "is_through": false
+      },
+      {
+        "x_mm": -2.437,
+        "y_mm": -12.26,
+        "diameter_mm": 2.0,
+        "depth_mm": 4.3,
+        "is_through": false
+      },
+      {
+        "x_mm": 11.836,
+        "y_mm": 4.02,
+        "diameter_mm": 2.0,
+        "depth_mm": 4.3,
+        "is_through": false
+      },
+      {
+        "x_mm": 20.0,
+        "y_mm": -24.0,
+        "diameter_mm": 2.0,
+        "depth_mm": 3.0,
+        "is_through": false
+      },
+      {
+        "x_mm": 20.0,
+        "y_mm": 24.0,
+        "diameter_mm": 2.0,
+        "depth_mm": 3.0,
+        "is_through": false
+      },
+      {
+        "x_mm": 20.0,
+        "y_mm": -0.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 1.5,
+        "is_through": false
+      },
+      {
+        "x_mm": 28.0,
+        "y_mm": -0.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 1.5,
+        "is_through": false
+      },
+      {
+        "x_mm": 27.0,
+        "y_mm": -23.0,
+        "diameter_mm": 2.5,
+        "depth_mm": 2.6,
+        "is_through": false
+      },
+      {
+        "x_mm": 27.0,
+        "y_mm": -17.0,
+        "diameter_mm": 2.5,
+        "depth_mm": 2.6,
+        "is_through": false
+      },
+      {
+        "x_mm": -27.0,
+        "y_mm": 27.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 1.85,
+        "is_through": false
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": 21.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 1.85,
+        "is_through": false
+      },
+      {
+        "x_mm": 20.0,
+        "y_mm": -0.0,
+        "diameter_mm": 4.2,
+        "depth_mm": 1.5,
+        "is_through": false
+      },
+      {
+        "x_mm": 28.0,
+        "y_mm": -0.0,
+        "diameter_mm": 4.2,
+        "depth_mm": 1.5,
+        "is_through": false
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 20.5,
+        "depth_mm": 10.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 30.0,
+        "depth_mm": 6.0,
+        "is_through": false
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 32.0,
+        "depth_mm": 1.0,
+        "is_through": false
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 40.0,
+        "depth_mm": 0.7,
+        "is_through": false
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 51.0,
+        "depth_mm": 0.7,
+        "is_through": false
+      }
+    ]
+  },
+  "BD_RB_XY_Fixed_Base.dxf": {
+    "dxf_filename": "BD_RB_XY_Fixed_Base.dxf",
+    "dxf_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\Engineering_Drawings\\DXF_Flat_Patterns\\BD_RB_XY_Fixed_Base.dxf",
+    "size_bytes": 11967,
+    "sha256": "bfbe3aeabdb67411b97788d2a33548856641e36ca47ecd84ba4f5b04853b3907",
+    "envelope_mm": [
+      72.0,
+      148.0,
+      3.0
+    ],
+    "material": "6061-T6 Aluminum Plate (t = 3.00 mm)",
+    "cad_mass_g": 42.195414,
+    "entity_count": 94,
+    "unique_hole_count": 16,
+    "holes": [
+      {
+        "x_mm": -15.0,
+        "y_mm": -24.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": -24.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 15.0,
+        "y_mm": -24.0,
+        "diameter_mm": 2.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -25.0,
+        "y_mm": 18.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -25.0,
+        "y_mm": 25.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 24.0,
+        "y_mm": 21.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 27.0,
+        "y_mm": 27.0,
+        "diameter_mm": 2.9,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": -70.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": -52.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": 52.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": 70.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 24.0,
+        "y_mm": -70.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 24.0,
+        "y_mm": -52.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 24.0,
+        "y_mm": 52.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 24.0,
+        "y_mm": 70.0,
+        "diameter_mm": 3.4,
+        "depth_mm": 3.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 20.5,
+        "depth_mm": 3.0,
+        "is_through": true
+      }
+    ]
+  },
+  "BD_Motor_Adapter_Plate.dxf": {
+    "dxf_filename": "BD_Motor_Adapter_Plate.dxf",
+    "dxf_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\Engineering_Drawings\\DXF_Flat_Patterns\\BD_Motor_Adapter_Plate.dxf",
+    "size_bytes": 4557,
+    "sha256": "67a1ce1c98e7f5bd2a185b5d299a5c3612905dbaa0daaa7564de50212f1a4e92",
+    "envelope_mm": [
+      100.0,
+      100.0,
+      8.0
+    ],
+    "material": "6061-T6 Aluminum Plate (t = 8.00 mm)",
+    "cad_mass_g": 168.410055,
+    "entity_count": 33,
+    "unique_hole_count": 9,
+    "holes": [
+      {
+        "x_mm": -24.749,
+        "y_mm": -24.749,
+        "diameter_mm": 5.5,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.749,
+        "y_mm": 24.749,
+        "diameter_mm": 5.5,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 24.749,
+        "y_mm": -24.749,
+        "diameter_mm": 5.5,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 24.749,
+        "y_mm": 24.749,
+        "diameter_mm": 5.5,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -42.0,
+        "y_mm": -36.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -42.0,
+        "y_mm": 36.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 42.0,
+        "y_mm": -36.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 42.0,
+        "y_mm": 36.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 8.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "diameter_mm": 50.1,
+        "depth_mm": 8.0,
+        "is_through": true
+      }
+    ]
+  },
+  "BA_Bench_Plate_650_12.dxf": {
+    "dxf_filename": "BA_Bench_Plate_650_12.dxf",
+    "dxf_path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Deliverable_D1_Manufacturing\\Engineering_Drawings\\DXF_Flat_Patterns\\BA_Bench_Plate_650_12.dxf",
+    "size_bytes": 7098,
+    "sha256": "2fe9158e32ac7f18493687cc882ef7371d26bc7a75582b05ab3c151d550d8b08",
+    "envelope_mm": [
+      650.0,
+      650.0,
+      12.0
+    ],
+    "material": "6061-T6 Aluminum Tooling Plate (650 x 650 x 12.00 mm)",
+    "cad_mass_g": 13672.619321,
+    "entity_count": 54,
+    "unique_hole_count": 16,
+    "holes": [
+      {
+        "x_mm": -52.0,
+        "y_mm": -70.0,
+        "diameter_mm": 5.5,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -52.0,
+        "y_mm": 20.0,
+        "diameter_mm": 5.5,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": -70.0,
+        "diameter_mm": 5.5,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -24.0,
+        "y_mm": 20.0,
+        "diameter_mm": 5.5,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -149.943,
+        "y_mm": 8.5,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -149.943,
+        "y_mm": 64.5,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -105.0,
+        "y_mm": -85.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -105.0,
+        "y_mm": 85.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -101.943,
+        "y_mm": 8.5,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -101.943,
+        "y_mm": 64.5,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -66.0,
+        "y_mm": -174.995,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -66.0,
+        "y_mm": -126.995,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -10.0,
+        "y_mm": -174.995,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": -10.0,
+        "y_mm": -126.995,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 105.0,
+        "y_mm": -85.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      },
+      {
+        "x_mm": 105.0,
+        "y_mm": 85.0,
+        "diameter_mm": 6.6,
+        "depth_mm": 12.0,
+        "is_through": true
+      }
+    ]
+  }
+}

@@ -238,5 +238,65 @@
     "override_mass": false,
     "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
     "sha256": "604868f18506fc782548fafc797ac06c5317471a3cfb3365208deab3ae3b994a"
+  },
+  "BD_M5x16_ISO4762_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 597.8843518863075,
+    "box_m": [
+      -0.00425,
+      -0.00425,
+      -0.005,
+      0.00425,
+      0.00425,
+      0.016
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_M5x16_ISO4762_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 4.693392162307514,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "293e9b6abe9c1da309503c816b1daf56d3ae2891037cc591fa27bbc57fca07cb"
+  },
+  "BD_M5_Washer_5p3x10x1_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 56.47798192991052,
+    "box_m": [
+      -0.005,
+      -0.005,
+      0.0,
+      0.005,
+      0.005,
+      0.001
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_M5_Washer_5p3x10x1_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 0.44335215814979756,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "92d790dc4f4152841290e25f4d9f3399c02d3c58f8a93edbf041a85a37fb4847"
+  },
+  "BD_M5_Nut_AF8_H4_REFERENCE": {
+    "body_count": 1,
+    "volume_mm3": 143.16268702907155,
+    "box_m": [
+      -0.004618802153517006,
+      -0.004,
+      0.0,
+      0.004618802153517006,
+      0.004000000000000001,
+      0.004
+    ],
+    "feature_errors": [],
+    "path": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Hardware_Models\\BD_M5_Nut_AF8_H4_REFERENCE.SLDPRT",
+    "material": "AISI 4340 Steel, normalized",
+    "material_database": "SOLIDWORKS Materials",
+    "mass_g": 1.1238270931782117,
+    "override_mass": false,
+    "status": "PROTOTYPE / NOT RELEASED FOR FABRICATION",
+    "sha256": "847452682ef09780a2af44316a484bdede10962647ba636195dc09323cfd70f9"
   }
 }

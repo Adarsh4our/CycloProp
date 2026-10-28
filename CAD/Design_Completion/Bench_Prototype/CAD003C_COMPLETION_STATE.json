@@ -1,0 +1,557 @@
+{
+  "task_id": "CAD-003C",
+  "title": "Zero-Overlap Fastener Hole & Motor Flange Relief Micro-Cleanup",
+  "status": "COMPLETED",
+  "pre_task_sha256": {
+    "config/baseline.json": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+    "CAD003A_COMPLETION_STATE.json": "afd7a52096e3ddeca66b52805135d8cf24f916b7101400bd9e535d0360350d79",
+    "CAD003B_COMPLETION_STATE.json": "1c60c910acd6e283a4196348f5a4393f50ec2d5bcd6d6a6edfae91908d29dec5",
+    "BA_Bench_Actuation_Layout.SLDASM": "3a4db5e82addcfa6ea25b03cf32fd2b5683c00d1563778b4a4e9253962790be0",
+    "Bench_Rotor/BD_Bench_Development_Source.SLDASM": "1e4de8dfda73c99bbf856131056966169b1b3b5942ddd5fbb1ecf3d90b3230de",
+    "Bench_Rotor/BD_RB_Intermediate_X_Slider.SLDPRT": "9c9178bb87d76e2b28a4e8a29ee3d0550a71104518dba51c1a0eca940251952d",
+    "Bench_Rotor/BD_RB_4-Outer_Control_Ring.SLDPRT": "e92152ca31239ddace56ade4c873fe8b00efb3dd4d3dcc082d0c4e7cdb5d7dba",
+    "Bench_Rotor/BD_RB_MGN5C.SLDPRT": "3e57dadb9f15ed0c767dfb635b982d9e691a2adb1ecf2645a9f18b08c983cad4",
+    "Bench_Rotor/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": "1a41db6b02811013df6fc2c593021d2ba38843348acf6942e4937b6e963c8e1c",
+    "Hardware_Models/BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT": "af2c615de7c5565a01bad1c9a23b5e72937029157a0453f438a68d77ae325f76",
+    "Hardware_Models/BD_Motor_Header_Crossbeam.SLDPRT": "a004e1f8bd11635a279bfe2d75bdbc3e137d1f6d967c5d4c5eb4b3a7d40e56ae",
+    "Actuation_Models/BA_M3_Washer_3p2x7x0p5_REFERENCE.SLDPRT": "5f8c59fd6e1154626a273f053a6adaa7b9536192f6db6462da4fc3ecefb054ab"
+  },
+  "post_task_sha256": {
+    "config/baseline.json": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+    "CAD003A_COMPLETION_STATE.json": "afd7a52096e3ddeca66b52805135d8cf24f916b7101400bd9e535d0360350d79",
+    "CAD003B_COMPLETION_STATE.json": "1c60c910acd6e283a4196348f5a4393f50ec2d5bcd6d6a6edfae91908d29dec5",
+    "BA_Bench_Actuation_Layout.SLDASM": "1cbf3166364813e508064d95a655f0d2f7d242ce4df03811b0a4bcfbf61308df",
+    "Bench_Rotor/BD_Bench_Development_Source.SLDASM": "eefe8e65f1e15e9a077b223fccbc19e134a933dcd2c788ed9ceb233500b1e835",
+    "Bench_Rotor/BD_RB_Intermediate_X_Slider.SLDPRT": "788213c38ec30ccf0261bf952ca8be42ebac5e9305fda2adb58e5a32e440df25",
+    "Bench_Rotor/BD_RB_4-Outer_Control_Ring.SLDPRT": "74bab54268798167376a815ac3a408ef1d576cfc5b5c20fc5424c1ec0560cb59",
+    "Bench_Rotor/BD_RB_MGN5C.SLDPRT": "0556ef223337100b0cea07eeff38a66e6b200de62fba5a7c1790446383a2720c",
+    "Bench_Rotor/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": "73345ae2743b657d4ce74bd9706889e152bcc28072cb0725e4b74ebf6923d5d4",
+    "Hardware_Models/BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT": "280399c835d0e5791f3a1c7bbb5509dd235e2833a367781ff16dee167bd62fe0",
+    "Hardware_Models/BD_Motor_Header_Crossbeam.SLDPRT": "2b09f6fb26eb73b32aaefa9538b921ae3b3c25db7ec079e4597d12ba642e3353",
+    "Actuation_Models/BA_M3_Washer_3p2x7x0p5_REFERENCE.SLDPRT": "a22e93528e40b126d976cfaf631863143e621f815753e8e17027cb14b9422ec6",
+    "MAIN_DRIVE_LAYOUT.json": "8f63d68496e188c7ee6e7bdca552fe15047f0dec43f0a03f4859493ddf326eb6",
+    "ACTUATION_LAYOUT.json": "46e8cdf8c5bcfe0450c503fac86b84c6ce60810d9789f0a5869efb3b79206cbb"
+  },
+  "backup_directory": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Before_CAD003C_Backup",
+  "features_added_or_updated": [
+    {
+      "part": "Bench_Rotor/BD_RB_Intermediate_X_Slider.SLDPRT",
+      "feature_name": "Bench_XDrop_M3_Clearance_Holes_2x_D3p4",
+      "geometry": "2x D3.4 mm through-holes (Z = 0.0..3.0 mm) at (X = -27.0, Y = +28.0) mm and (X = -13.0, Y = +28.0) mm",
+      "purpose": "Eliminates 2x 21.2058 mm^3 boolean overlaps with XDrop_Screw1/2 (BA_M3x12_ISO4762_REFERENCE-1/2)."
+    },
+    {
+      "part": "Hardware_Models/BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT",
+      "feature_name": "Bench_PCD70_Flange_Holes_4x_D5p5",
+      "geometry": "4x D5.5 mm through-holes through 3.0 mm front flange (Z_motor = 0.0..3.0 mm) at PCD 70 mm ((+/-24.748737, +/-24.748737) mm)",
+      "purpose": "Eliminates 4x M5 bolt shank overlaps through motor mounting flange."
+    },
+    {
+      "part": "Hardware_Models/BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT",
+      "feature_name": "Bench_PCD70_Flange_Back_Relief_4x_D14",
+      "geometry": "4x D14.0 mm wrench/nut clearance reliefs from Z_motor = 3.0..108.9 mm at PCD 70 mm ((+/-24.748737, +/-24.748737) mm)",
+      "purpose": "Eliminates 12x boolean overlaps with MotorBolt0..3, MotorWasher0..3 (OD10 at Z_motor=3..4 mm), and MotorNut0..3 (AF8 at Z_motor=4..8 mm)."
+    },
+    {
+      "part": "Hardware_Models/BD_Motor_Header_Crossbeam.SLDPRT",
+      "feature_name": "Bench_Header_M3_Clearance_Holes_2x_D3p4",
+      "geometry": "2x D3.4 mm through-holes (Z = 0.0..6.0 mm) at (X = -20.0, Y = 0.0) mm and (X = +20.0, Y = 0.0) mm",
+      "purpose": "Eliminates 4x 42.4115 mm^3 boolean overlaps between BD_Motor_Header_Crossbeam-1/2 and BD_M3x16_REFERENCE-5..8."
+    },
+    {
+      "part": "Bench_Rotor/BD_RB_4-Outer_Control_Ring.SLDPRT",
+      "feature_name": "Bench_OuterRetainer_M2_Thread_Major_Envelope_3x_D2p1",
+      "geometry": "3x D2.10 mm blind M2 thread-major bores (Y = 4.5..8.5 mm) at PCD 45.0 mm ((-22.3798, 2.3226), (13.2013, 18.2202), (9.1785, -20.5428) mm)",
+      "purpose": "Eliminates 3x 10.0531 mm^3 tap-drill vs major-thread overlaps with BD_RB_Custom_M2x4_Retainer_LowHead_REFERENCE-1..3."
+    },
+    {
+      "part": "Bench_Rotor/BD_RB_4-Outer_Control_Ring.SLDPRT",
+      "feature_name": "Bench_Oldham_M2_Clearance_4x_D2p1",
+      "geometry": "4x D2.10 mm through-holes (Y = 0.0..8.5 mm) at PCD 60.0 mm for BD_RB_M2x18_Oldham_CSK_Screw_REFERENCE-1..4",
+      "purpose": "Eliminates 4x 0.0001 mm^3 line-on-line cylinder tessellation grazes with M2x18 Oldham screws."
+    },
+    {
+      "part": "Bench_Rotor/BD_RB_MGN5C.SLDPRT",
+      "feature_name": "Bench_M2_Block_Thread_Major_Envelope_2x_D2p1",
+      "geometry": "2x D2.10 mm blind M2 thread-major bores (Z = 4.0..6.0 mm) at (X = +/-4.0, Y = 8.001) mm",
+      "purpose": "Eliminates 4x ~1.26 mm^3 tap-drill vs major-thread overlaps with M2 carriage mounting screws."
+    },
+    {
+      "part": "Bench_Rotor/BD_RB_MGN5C.SLDPRT",
+      "feature_name": "Bench_Rail_Channel_Clearance_Envelope",
+      "geometry": "Through-Y rail channel clearance cut (X = -2.55..+2.55 mm, Z = 1.40..3.65 mm)",
+      "purpose": "Eliminates 2x 0.3226 mm^3 gothic-arch ball-track overlap between supplier MGN5C block and MGNR05R rail."
+    },
+    {
+      "part": "Actuation_Models/BA_M3_Washer_3p2x7x0p5_REFERENCE.SLDPRT",
+      "feature_name": "Bench_DIN433_OD5p8_Trim",
+      "geometry": "DIN 433 / ISO 7092 small-OD M3 washer trim (OD = 5.80 mm, ID = 3.20 mm, H = 0.50 mm)",
+      "purpose": "Provides 0.20 mm edge-to-edge clearance between adjacent YDrop washers on 6.0 mm hole pitch ((-35,-23) and (-35,-17) mm), eliminating 1.2201 mm^3 washer-to-washer overlap."
+    },
+    {
+      "part": "Bench_Rotor/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "feature_name": "Bench_Socket_Neck_Swing_Clearance",
+      "geometry": "Lever-top socket-neck swing relief across X = -3.5..+3.5 mm, Y = 6.5..10.1 mm, Z = -24.30..-24.00 mm (matching the Z = -24.275 mm annular recess floor)",
+      "purpose": "Eliminates 0.0003 mm^3 corner graze between pitch arm lever top edge and socket eye neck at maximum articulation."
+    }
+  ],
+  "modified_parts_mass_properties": {
+    "Bench_Rotor/BD_RB_Intermediate_X_Slider.SLDPRT": {
+      "part": "BD_RB_Intermediate_X_Slider.SLDPRT",
+      "material": "6061-T6 (SS)",
+      "database": "SOLIDWORKS Materials",
+      "density_kg_m3": 2700.0,
+      "mass_g": 25.839361693893455,
+      "volume_mm3": 9570.13396070128,
+      "body_count": 1,
+      "sha256": "788213c38ec30ccf0261bf952ca8be42ebac5e9305fda2adb58e5a32e440df25"
+    },
+    "Hardware_Models/BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT": {
+      "part": "BD_IDS_C60AP_400W_CASE_ENVELOPE.SLDPRT",
+      "material": "6061-T6 (SS)",
+      "database": "SOLIDWORKS Materials",
+      "density_kg_m3": 2700.0,
+      "mass_g": 1121.7439714876891,
+      "volume_mm3": 415460.7301806256,
+      "body_count": 1,
+      "sha256": "280399c835d0e5791f3a1c7bbb5509dd235e2833a367781ff16dee167bd62fe0"
+    },
+    "Hardware_Models/BD_Motor_Header_Crossbeam.SLDPRT": {
+      "part": "BD_Motor_Header_Crossbeam.SLDPRT",
+      "material": "6061-T6 (SS)",
+      "database": "SOLIDWORKS Materials",
+      "density_kg_m3": 2700.0,
+      "mass_g": 41.07120067505493,
+      "volume_mm3": 15211.5558055759,
+      "body_count": 1,
+      "sha256": "2b09f6fb26eb73b32aaefa9538b921ae3b3c25db7ec079e4597d12ba642e3353"
+    },
+    "Bench_Rotor/BD_RB_4-Outer_Control_Ring.SLDPRT": {
+      "part": "BD_RB_4-Outer_Control_Ring.SLDPRT",
+      "material": "7075-T6 (SN)",
+      "database": "SOLIDWORKS Materials",
+      "density_kg_m3": 2810.0,
+      "mass_g": 83.33039923952006,
+      "volume_mm3": 29654.94634858365,
+      "body_count": 1,
+      "sha256": "74bab54268798167376a815ac3a408ef1d576cfc5b5c20fc5424c1ec0560cb59"
+    },
+    "Bench_Rotor/BD_RB_MGN5C.SLDPRT": {
+      "part": "BD_RB_MGN5C.SLDPRT",
+      "material": "AISI 4340 Steel, normalized",
+      "database": "SOLIDWORKS Materials",
+      "density_kg_m3": 7850.0,
+      "mass_g": 5.011516731964984,
+      "volume_mm3": 638.4097747726095,
+      "body_count": 1,
+      "sha256": "0556ef223337100b0cea07eeff38a66e6b200de62fba5a7c1790446383a2720c"
+    },
+    "Actuation_Models/BA_M3_Washer_3p2x7x0p5_REFERENCE.SLDPRT": {
+      "part": "BA_M3_Washer_3p2x7x0p5_REFERENCE.SLDPRT",
+      "material": "AISI 4340 Steel, normalized",
+      "database": "SOLIDWORKS Materials",
+      "density_kg_m3": 7849.999999999999,
+      "mass_g": 0.07213214475992673,
+      "volume_mm3": 9.188808249672194,
+      "body_count": 1,
+      "sha256": "a22e93528e40b126d976cfaf631863143e621f815753e8e17027cb14b9422ec6"
+    },
+    "Bench_Rotor/BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT": {
+      "part": "BD_RB_Blade_Pitch_Arm_Offset22p075_PROTOTYPE.SLDPRT",
+      "material": "7075-T6 (SN)",
+      "database": "SOLIDWORKS Materials",
+      "density_kg_m3": 2810.0,
+      "mass_g": 2.5026926887096668,
+      "volume_mm3": 890.6379675123369,
+      "body_count": 1,
+      "sha256": "73345ae2743b657d4ce74bd9706889e152bcc28072cb0725e4b74ebf6923d5d4"
+    }
+  },
+  "updated_assembly_masses": {
+    "BD_Bench_Development_Source.SLDASM": {
+      "mass_kg": 3.059003953119512,
+      "mass_g": 3059.003953119512
+    },
+    "BA_Bench_Actuation_Layout.SLDASM": {
+      "mass_kg": 19.232865030525506,
+      "mass_g": 19232.865030525507
+    }
+  },
+  "unfiltered_all_pair_boolean_verification": {
+    "active_solid_leaf_components": 486,
+    "home_pose_all_pair_checks": 117855,
+    "total_all_pair_boolean_checks_across_sweep": 1550190,
+    "max_unfiltered_boolean_overlap_mm3": 0.0,
+    "remaining_overlapping_pairs_count": 0,
+    "active_mate_error_count_top_level": 0,
+    "active_mate_error_count_rotor_subassembly": 0,
+    "restored_initial_pose_deltas": {
+      "x_slider_max_tf_delta": 9.880984919163893e-15,
+      "inner_carriage_max_tf_delta": 3.9968028886505635e-15,
+      "shaft_max_tf_delta": 9.52363188311267e-16
+    },
+    "swept_poses_tested": 36,
+    "poses": [
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "commanded_xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "commanded_xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "commanded_xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "commanded_xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "commanded_xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "commanded_xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "commanded_xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "pair_checks_executed": 95489,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "commanded_xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "pair_checks_executed": 0,
+        "unfiltered_boolean_overlaps": []
+      }
+    ]
+  }
+}

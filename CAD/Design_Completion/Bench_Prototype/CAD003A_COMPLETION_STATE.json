@@ -1,0 +1,1284 @@
+{
+  "task_id": "CAD-003A",
+  "title": "Bench Rotor Mass, Pedestal Fillet, Servo Suppression & Clearance Readiness",
+  "status": "COMPLETED",
+  "pre_task_sha256": {
+    "BD_Bench_Development_Source.SLDASM": "778378b72d2797f1a4d793e2a65e77d3d8026225b259e9081c2678fa9307942f",
+    "BD_RB_Part1.SLDPRT": "23b5fec90a971dd4edc544e611ee5558d9296341d75ab954d2c2ce46c10fb41a",
+    "BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT": "fc1d7b1cee6d4a304d7fbf9f9b2fce0324498d7a877d1d8e758e7f59a5ab82e7",
+    "BD_RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT": "ddf9a2c624107618cab7535b0d8f5998952af3b50cd7f3d75e72e15e40473fe0",
+    "BD_RB_MGNR05R.SLDPRT": "05ffb8613617798401208d72132a3470e2498aa6aec6d44e7a298571f704b8bd",
+    "BD_RB_MGN5C.SLDPRT": "def9865df657b1a75538ccc6ccd2fc108bb32b2980e64be7f8f4e58b42b5ca1d",
+    "BD_RB_6806.SLDASM": "b938e79c7aa8de2ca1ea7b5c8ef69c264b2076e42c17205f2c231717e53d3232",
+    "config/baseline.json": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f"
+  },
+  "post_task_sha256": {
+    "BD_Bench_Development_Source.SLDASM": "4ad5e6ae49a4fe81638864b994cd893f92b72a781fe3daedf845216184258ed9",
+    "BD_RB_Part1.SLDPRT": "c8fb7c69ba001c973c3d1f18af02f24901876ba6d19f50aad8130c51829252e2",
+    "BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT": "c14dab1d27e60a981940aad5967ca6b3e418675fbe84ef33a176ca905e75f9ff",
+    "BD_RB_Oldham_Floating_Disk_PROTOTYPE.SLDPRT": "ddf9a2c624107618cab7535b0d8f5998952af3b50cd7f3d75e72e15e40473fe0",
+    "BD_RB_MGNR05R.SLDPRT": "a09a356d0b4057f7b91e54a875387aca2c5ab3f7ea69b0be506f769f6cc20a7c",
+    "BD_RB_MGN5C.SLDPRT": "3e57dadb9f15ed0c767dfb635b982d9e691a2adb1ecf2645a9f18b08c983cad4",
+    "BD_RB_6806.SLDASM": "a1afe833820c20e2e05ab0c09f997608df9d4038ea749087884e342cb73aed97",
+    "config/baseline.json": "2445c7153775b1930e21b65a5d95e5b26c7632c273e1867abcc6c3a6d830fa7f",
+    "Hardware_Models/BD_M5x16_ISO4762_REFERENCE.SLDPRT": "293e9b6abe9c1da309503c816b1daf56d3ae2891037cc591fa27bbc57fca07cb",
+    "Hardware_Models/BD_M5_Washer_5p3x10x1_REFERENCE.SLDPRT": "92d790dc4f4152841290e25f4d9f3399c02d3c58f8a93edbf041a85a37fb4847",
+    "Hardware_Models/BD_M5_Nut_AF8_H4_REFERENCE.SLDPRT": "847452682ef09780a2af44316a484bdede10962647ba636195dc09323cfd70f9"
+  },
+  "backup_directory": "C:\\Users\\Adarsh Singh\\CycloProp\\CAD\\Design_Completion\\Bench_Prototype\\Before_CAD003A_Backup",
+  "step1_audit": {
+    "oldham_sliding_mates": {
+      "mates": [
+        "RevB_Oldham_Output_Y_Slide_Centre (MateCoincident: Output Right Plane <-> Floating Right Plane)",
+        "RevB_Oldham_Input_X_Slide_Centre (MateCoincident: Input Top Plane <-> Floating Top Plane)",
+        "RevB_Oldham_Floating_Axial_Station (MateDistanceDim: Output Front Plane <-> Floating Front Plane = 4.200 mm)"
+      ],
+      "active_pad_symmetry_verified": true,
+      "active_pad_width_mm": 4.03,
+      "tongue_width_mm": 4.0,
+      "symmetric_side_clearance_each_mm": 0.015,
+      "diametral_pad_clearance_mm": 0.03,
+      "note": "Oldham sliding constraints use cardinal symmetry datum planes (Right Plane, Top Plane), which are unaffected by narrowing the R24..44 active pads to 4.030 mm (+/-2.015 mm) and keep the 4.000 mm tongues (+/-2.000 mm) identically centered with 0.015 mm clearance per side."
+    },
+    "blade_d1_crosspin_check": {
+      "crosshole_station_z_blade_mm": -7.75,
+      "metal_trunnion_body": "Bench_Metal_Thrust_Shoulder_0 (z = -12.0..30.0 mm)",
+      "composite_spar_z_mm": [
+        0.5,
+        219.5
+      ],
+      "composite_core_z_mm": [
+        0.0,
+        220.0
+      ],
+      "internal_7body_pairwise_overlap_mm3": 0.0,
+      "installed_d1x8_pin_overlap_mm3": 0.0,
+      "result": "PASSED \u2014 D1 crosshole at Z_blade = -7.75 mm passes cleanly through the outboard metal journal (Z = -12..0 mm) clear of the composite spar/core (Z = 0..220 mm) with 0.0 mm^3 boolean overlap."
+    }
+  },
+  "step2_mass_properties": {
+    "BD_RB_Part1.SLDPRT": {
+      "method": "IMassProperty2 Override (SolidWorks 2026 drops IBody2 custom material assignment on rebuild)",
+      "body_material_readback_after_rebuild": {
+        "Bench_Defined_spar": {
+          "set_return_code": 1,
+          "actual_after_rebuild": "",
+          "db_after_rebuild": ""
+        },
+        "Bench_Metal_Thrust_Shoulder_219.5": {
+          "set_return_code": 1,
+          "actual_after_rebuild": "",
+          "db_after_rebuild": ""
+        },
+        "Bench_Metal_Thrust_Shoulder_0": {
+          "set_return_code": 1,
+          "actual_after_rebuild": "",
+          "db_after_rebuild": ""
+        },
+        "Bench_Defined_UD_lower": {
+          "set_return_code": 1,
+          "actual_after_rebuild": "",
+          "db_after_rebuild": ""
+        },
+        "Bench_Defined_core": {
+          "set_return_code": 1,
+          "actual_after_rebuild": "",
+          "db_after_rebuild": ""
+        },
+        "Bench_Defined_skin": {
+          "set_return_code": 1,
+          "actual_after_rebuild": "",
+          "db_after_rebuild": ""
+        },
+        "Bench_Defined_UD_upper": {
+          "set_return_code": 1,
+          "actual_after_rebuild": "",
+          "db_after_rebuild": ""
+        }
+      },
+      "override_flags": {
+        "OverrideMass": true,
+        "OverrideCenterOfMass": true,
+        "OverrideMomentsOfInertia": true
+      },
+      "mass_kg": 0.0156908394678581,
+      "mass_g": 15.690839467858101,
+      "COM_m": [
+        0.015242628423246876,
+        0.0,
+        0.11
+      ],
+      "COM_mm": [
+        15.242628423246876,
+        0.0,
+        110.0
+      ],
+      "aft_COM_offset_from_pivot_mm": 5.7426284232468765,
+      "moment_of_inertia_at_COM_kgm2": [
+        8.64549592693484e-05,
+        -1.0666325713643817e-15,
+        -5.037765727451115e-09,
+        -1.0666325713643817e-15,
+        8.755258062844919e-05,
+        2.792267729467449e-18,
+        -5.037765727451115e-09,
+        2.792267729467449e-18,
+        1.1533065356715465e-06
+      ],
+      "moment_of_inertia_at_origin_kgm2": [
+        0.0002763141168304314,
+        -1.0666325713643817e-15,
+        2.6303622156584103e-05,
+        -1.0666325713643817e-15,
+        0.00028105731207598097,
+        2.792267729467449e-18,
+        2.6303622156584103e-05,
+        2.792267729467449e-18,
+        4.7988804221202925e-06
+      ],
+      "Jp_about_quarter_chord_pivot_kgm2": 1.6707556066043083e-06
+    },
+    "linear_guides": {
+      "BD_RB_MGNR05R.SLDPRT": {
+        "assigned_material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "mass_g": 4.790405849950796,
+        "volume_mm3": 610.2427834332224,
+        "density_kg_m3": 7850.0
+      },
+      "BD_RB_MGN5C.SLDPRT": {
+        "assigned_material": "AISI 4340 Steel, normalized",
+        "database": "SOLIDWORKS Materials",
+        "mass_g": 5.262082976976354,
+        "volume_mm3": 670.3290416530388,
+        "density_kg_m3": 7850.0
+      }
+    },
+    "bearing_6806": {
+      "subassembly": "BD_RB_6806.SLDASM",
+      "total_mass_g": 23.79355129173483,
+      "effective_density_kg_m3": 7849.99999999999,
+      "virtual_parts": {
+        "6806 Ball^NSK_6806_BD_RB_6806.SLDPRT": {
+          "assigned_material": "AISI 4340 Steel, normalized",
+          "mass_g": 0.17622698540464998,
+          "density_kg_m3": 7850.0
+        },
+        "6806 Outer ring^NSK_6806_BD_RB_6806.SLDPRT": {
+          "assigned_material": "AISI 4340 Steel, normalized",
+          "mass_g": 11.936350804270644,
+          "density_kg_m3": 7850.0
+        },
+        "6806 Inner ring^NSK_6806_BD_RB_6806.SLDPRT": {
+          "assigned_material": "AISI 4340 Steel, normalized",
+          "mass_g": 8.68511475018052,
+          "density_kg_m3": 7850.0
+        }
+      }
+    },
+    "BD_Bench_Development_Source.SLDASM_total_mass_g": 3227.2221176003095
+  },
+  "step3_pedestal_and_motor_fasteners": {
+    "pedestal_fillets": {
+      "part": "BD_RB_Lower_Bearing_Pedestal_R2_PROTOTYPE.SLDPRT",
+      "feature_name": "Bench_Step_Transitions_Fillet_R0p30",
+      "fillet_radius_mm": 0.3,
+      "filleted_step_stations_z_mm": [
+        8.5,
+        12.5,
+        17.5
+      ],
+      "stem_radius_mm": 2.75,
+      "fillet_radial_extent_mm": 3.05,
+      "axial_clearance_bands_z_mm": [
+        [
+          8.5,
+          9.0
+        ],
+        [
+          12.0,
+          12.5
+        ],
+        [
+          17.5,
+          18.0
+        ]
+      ],
+      "part_inspection": {
+        "body_count": 1,
+        "volume_mm3": 6232.755516991271,
+        "box_m": [
+          -0.011,
+          -0.011,
+          -0.004,
+          0.011,
+          0.011,
+          0.0465
+        ],
+        "feature_errors": []
+      }
+    },
+    "motor_flange_fasteners": {
+      "pcd_mm": 70.0,
+      "fastener_count_sets": 4,
+      "parts_created": [
+        "BD_M5x16_ISO4762_REFERENCE.SLDPRT",
+        "BD_M5_Washer_5p3x10x1_REFERENCE.SLDPRT",
+        "BD_M5_Nut_AF8_H4_REFERENCE.SLDPRT"
+      ],
+      "installed_instances": {
+        "MotorBolt0": "BD_M5x16_ISO4762_REFERENCE-1",
+        "MotorWasher0": "BD_M5_Washer_5p3x10x1_REFERENCE-1",
+        "MotorNut0": "BD_M5_Nut_AF8_H4_REFERENCE-1",
+        "MotorBolt1": "BD_M5x16_ISO4762_REFERENCE-2",
+        "MotorWasher1": "BD_M5_Washer_5p3x10x1_REFERENCE-2",
+        "MotorNut1": "BD_M5_Nut_AF8_H4_REFERENCE-2",
+        "MotorBolt2": "BD_M5x16_ISO4762_REFERENCE-3",
+        "MotorWasher2": "BD_M5_Washer_5p3x10x1_REFERENCE-3",
+        "MotorNut2": "BD_M5_Nut_AF8_H4_REFERENCE-3",
+        "MotorBolt3": "BD_M5x16_ISO4762_REFERENCE-4",
+        "MotorWasher3": "BD_M5_Washer_5p3x10x1_REFERENCE-4",
+        "MotorNut3": "BD_M5_Nut_AF8_H4_REFERENCE-4"
+      },
+      "note": "Clamps BD_IDS_C60AP_400W_CASE_ENVELOPE (Z=380mm flange) to BD_Motor_Adapter_Plate (Z=372..380mm); locked to stationary base. Note that BD_IDS_C60AP_400W_CASE_ENVELOPE is a solid 74.5x60.5x108.9mm block without OEM ear reliefs/holes (preserved as out-of-scope for modification)."
+    }
+  },
+  "step4_savox_tab_suppression": {
+    "suppressed_component_count": 70,
+    "suppressed_mate_count": 186,
+    "suppressed_components": [
+      "BD_RB_M1p6_Nut_REFERENCE-1",
+      "BD_RB_M1p6_Nut_REFERENCE-2",
+      "BD_RB_M1p6_Nut_REFERENCE-3",
+      "BD_RB_M1p6_Nut_REFERENCE-4",
+      "BD_RB_M1p6_Washer_REFERENCE-1",
+      "BD_RB_M1p6_Washer_REFERENCE-2",
+      "BD_RB_M1p6_Washer_REFERENCE-3",
+      "BD_RB_M1p6_Washer_REFERENCE-4",
+      "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-1",
+      "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-2",
+      "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-3",
+      "BD_RB_M2_Nut_AF4_H1p6_REFERENCE-4",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-1",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-2",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-3",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-4",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-5",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-6",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-7",
+      "BD_RB_M2_Washer_2p2x5x0p3_REFERENCE-8",
+      "BD_RB_M2p5_Nut_AF5_H2_REFERENCE-10",
+      "BD_RB_M2p5_Nut_AF5_H2_REFERENCE-5",
+      "BD_RB_M2p5_Nut_AF5_H2_REFERENCE-6",
+      "BD_RB_M2p5_Nut_AF5_H2_REFERENCE-7",
+      "BD_RB_M2p5_Nut_AF5_H2_REFERENCE-8",
+      "BD_RB_M2p5_Nut_AF5_H2_REFERENCE-9",
+      "BD_RB_M2p5_Washer_2p7x6x0p5_REFERENCE-10",
+      "BD_RB_M2p5_Washer_2p7x6x0p5_REFERENCE-5",
+      "BD_RB_M2p5_Washer_2p7x6x0p5_REFERENCE-6",
+      "BD_RB_M2p5_Washer_2p7x6x0p5_REFERENCE-7",
+      "BD_RB_M2p5_Washer_2p7x6x0p5_REFERENCE-8",
+      "BD_RB_M2p5_Washer_2p7x6x0p5_REFERENCE-9",
+      "BD_RB_M2p5x4_CSK_REFERENCE-1",
+      "BD_RB_M2p5x4_CSK_REFERENCE-2",
+      "BD_RB_M2p5x8_CSK_REFERENCE-3",
+      "BD_RB_M2p5x8_CSK_REFERENCE-4",
+      "BD_RB_M2p5x8_CSK_REFERENCE-5",
+      "BD_RB_M2p5x8_CSK_REFERENCE-6",
+      "BD_RB_M2p5x8_CSK_REFERENCE-7",
+      "BD_RB_M2p5x8_CSK_REFERENCE-8",
+      "BD_RB_M2x12_Socket_Cap_REFERENCE-1",
+      "BD_RB_M2x12_Socket_Cap_REFERENCE-2",
+      "BD_RB_M2x12_Socket_Cap_REFERENCE-3",
+      "BD_RB_M2x12_Socket_Cap_REFERENCE-4",
+      "BD_RB_M2x3_Horn_Retaining_Screw_REFERENCE-1",
+      "BD_RB_M2x3_Horn_Retaining_Screw_REFERENCE-2",
+      "BD_RB_Pivot_Pin_D2_REFERENCE-1",
+      "BD_RB_Pivot_Pin_D2_REFERENCE-2",
+      "BD_RB_Pivot_Pin_D2_REFERENCE-3",
+      "BD_RB_Pivot_Pin_D2_REFERENCE-4",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-1",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-2",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-3",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-4",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-5",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-6",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-7",
+      "BD_RB_Pivot_Thrust_Spacer_H0p5-8",
+      "BD_RB_Savox_Output_Spline_NATIVE_REFERENCE-1",
+      "BD_RB_Savox_Output_Spline_NATIVE_REFERENCE-2",
+      "BD_RB_Savox_SH0257MG_INTERFACE_REFERENCE-1",
+      "BD_RB_Savox_SH0257MG_INTERFACE_REFERENCE-2",
+      "BD_RB_Servo_Horn_R12_LAYOUT-1",
+      "BD_RB_Servo_Horn_R12_LAYOUT-2",
+      "BD_RB_Servo_Link_L40_PROTOTYPE-1",
+      "BD_RB_Servo_Link_L40_PROTOTYPE-2",
+      "BD_RB_Servo_X_Mount_PROTOTYPE-1",
+      "BD_RB_Servo_Y_Mount_PROTOTYPE-1",
+      "BD_RB_X_Slider_Drive_Tab_PROTOTYPE-1",
+      "BD_RB_Y_Carriage_Drive_Tab_PROTOTYPE-1"
+    ],
+    "suppressed_mates": [
+      "Conn_HornXRetainingScrew_Front_Plane",
+      "Conn_HornXRetainingScrew_Right_Plane",
+      "Conn_HornXRetainingScrew_Top_Plane",
+      "Conn_HornYRetainingScrew_Front_Plane",
+      "Conn_HornYRetainingScrew_Right_Plane",
+      "Conn_HornYRetainingScrew_Top_Plane",
+      "Conn_Pivot1LowerThrust_Rigid",
+      "Conn_Pivot1MiddleThrust_Rigid",
+      "Conn_Pivot1Nut_Front_Plane",
+      "Conn_Pivot1Nut_Right_Plane",
+      "Conn_Pivot1Nut_Top_Plane",
+      "Conn_Pivot1Washer_Front_Plane",
+      "Conn_Pivot1Washer_Right_Plane",
+      "Conn_Pivot1Washer_Top_Plane",
+      "Conn_Pivot2LowerThrust_Rigid",
+      "Conn_Pivot2MiddleThrust_Rigid",
+      "Conn_Pivot2Nut_Front_Plane",
+      "Conn_Pivot2Nut_Right_Plane",
+      "Conn_Pivot2Nut_Top_Plane",
+      "Conn_Pivot2Washer_Front_Plane",
+      "Conn_Pivot2Washer_Right_Plane",
+      "Conn_Pivot2Washer_Top_Plane",
+      "Conn_Pivot3LowerThrust_Rigid",
+      "Conn_Pivot3MiddleThrust_Rigid",
+      "Conn_Pivot3Nut_Front_Plane",
+      "Conn_Pivot3Nut_Right_Plane",
+      "Conn_Pivot3Nut_Top_Plane",
+      "Conn_Pivot3Washer_Front_Plane",
+      "Conn_Pivot3Washer_Right_Plane",
+      "Conn_Pivot3Washer_Top_Plane",
+      "Conn_Pivot4LowerThrust_Rigid",
+      "Conn_Pivot4MiddleThrust_Rigid",
+      "Conn_Pivot4Nut_Front_Plane",
+      "Conn_Pivot4Nut_Right_Plane",
+      "Conn_Pivot4Nut_Top_Plane",
+      "Conn_Pivot4Washer_Front_Plane",
+      "Conn_Pivot4Washer_Right_Plane",
+      "Conn_Pivot4Washer_Top_Plane",
+      "Conn_RotatingServoOutputX_Front_Plane",
+      "Conn_RotatingServoOutputX_Right_Plane",
+      "Conn_RotatingServoOutputX_Top_Plane",
+      "Conn_RotatingServoOutputY_Front_Plane",
+      "Conn_RotatingServoOutputY_Right_Plane",
+      "Conn_RotatingServoOutputY_Top_Plane",
+      "Conn_YTabBlindScrew1_Front_Plane",
+      "Conn_YTabBlindScrew1_Right_Plane",
+      "Conn_YTabBlindScrew1_Top_Plane",
+      "Conn_YTabBlindScrew2_Front_Plane",
+      "Conn_YTabBlindScrew2_Right_Plane",
+      "Conn_YTabBlindScrew2_Top_Plane",
+      "ServoMount_X_Ear1_BottomWasher_Front_Plane",
+      "ServoMount_X_Ear1_BottomWasher_Right_Plane",
+      "ServoMount_X_Ear1_BottomWasher_Top_Plane",
+      "ServoMount_X_Ear1_Nut_Front_Plane",
+      "ServoMount_X_Ear1_Nut_Right_Plane",
+      "ServoMount_X_Ear1_Nut_Top_Plane",
+      "ServoMount_X_Ear1_Screw_Front_Plane",
+      "ServoMount_X_Ear1_Screw_Right_Plane",
+      "ServoMount_X_Ear1_Screw_Top_Plane",
+      "ServoMount_X_Ear1_TopWasher_Front_Plane",
+      "ServoMount_X_Ear1_TopWasher_Right_Plane",
+      "ServoMount_X_Ear1_TopWasher_Top_Plane",
+      "ServoMount_X_Ear2_BottomWasher_Front_Plane",
+      "ServoMount_X_Ear2_BottomWasher_Right_Plane",
+      "ServoMount_X_Ear2_BottomWasher_Top_Plane",
+      "ServoMount_X_Ear2_Nut_Front_Plane",
+      "ServoMount_X_Ear2_Nut_Right_Plane",
+      "ServoMount_X_Ear2_Nut_Top_Plane",
+      "ServoMount_X_Ear2_Screw_Front_Plane",
+      "ServoMount_X_Ear2_Screw_Right_Plane",
+      "ServoMount_X_Ear2_Screw_Top_Plane",
+      "ServoMount_X_Ear2_TopWasher_Front_Plane",
+      "ServoMount_X_Ear2_TopWasher_Right_Plane",
+      "ServoMount_X_Ear2_TopWasher_Top_Plane",
+      "ServoMount_X_Pad1_Nut_Front_Plane",
+      "ServoMount_X_Pad1_Nut_Right_Plane",
+      "ServoMount_X_Pad1_Nut_Top_Plane",
+      "ServoMount_X_Pad1_Screw_Front_Plane",
+      "ServoMount_X_Pad1_Screw_Right_Plane",
+      "ServoMount_X_Pad1_Screw_Top_Plane",
+      "ServoMount_X_Pad1_Washer_Front_Plane",
+      "ServoMount_X_Pad1_Washer_Right_Plane",
+      "ServoMount_X_Pad1_Washer_Top_Plane",
+      "ServoMount_X_Pad2_Nut_Front_Plane",
+      "ServoMount_X_Pad2_Nut_Right_Plane",
+      "ServoMount_X_Pad2_Nut_Top_Plane",
+      "ServoMount_X_Pad2_Screw_Front_Plane",
+      "ServoMount_X_Pad2_Screw_Right_Plane",
+      "ServoMount_X_Pad2_Screw_Top_Plane",
+      "ServoMount_X_Pad2_Washer_Front_Plane",
+      "ServoMount_X_Pad2_Washer_Right_Plane",
+      "ServoMount_X_Pad2_Washer_Top_Plane",
+      "ServoMount_Y_Ear1_BottomWasher_Front_Plane",
+      "ServoMount_Y_Ear1_BottomWasher_Right_Plane",
+      "ServoMount_Y_Ear1_BottomWasher_Top_Plane",
+      "ServoMount_Y_Ear1_Nut_Front_Plane",
+      "ServoMount_Y_Ear1_Nut_Right_Plane",
+      "ServoMount_Y_Ear1_Nut_Top_Plane",
+      "ServoMount_Y_Ear1_Screw_Front_Plane",
+      "ServoMount_Y_Ear1_Screw_Right_Plane",
+      "ServoMount_Y_Ear1_Screw_Top_Plane",
+      "ServoMount_Y_Ear1_TopWasher_Front_Plane",
+      "ServoMount_Y_Ear1_TopWasher_Right_Plane",
+      "ServoMount_Y_Ear1_TopWasher_Top_Plane",
+      "ServoMount_Y_Ear2_BottomWasher_Front_Plane",
+      "ServoMount_Y_Ear2_BottomWasher_Right_Plane",
+      "ServoMount_Y_Ear2_BottomWasher_Top_Plane",
+      "ServoMount_Y_Ear2_Nut_Front_Plane",
+      "ServoMount_Y_Ear2_Nut_Right_Plane",
+      "ServoMount_Y_Ear2_Nut_Top_Plane",
+      "ServoMount_Y_Ear2_Screw_Front_Plane",
+      "ServoMount_Y_Ear2_Screw_Right_Plane",
+      "ServoMount_Y_Ear2_Screw_Top_Plane",
+      "ServoMount_Y_Ear2_TopWasher_Front_Plane",
+      "ServoMount_Y_Ear2_TopWasher_Right_Plane",
+      "ServoMount_Y_Ear2_TopWasher_Top_Plane",
+      "ServoMount_Y_Pad1_Nut_Front_Plane",
+      "ServoMount_Y_Pad1_Nut_Right_Plane",
+      "ServoMount_Y_Pad1_Nut_Top_Plane",
+      "ServoMount_Y_Pad1_Screw_Front_Plane",
+      "ServoMount_Y_Pad1_Screw_Right_Plane",
+      "ServoMount_Y_Pad1_Screw_Top_Plane",
+      "ServoMount_Y_Pad1_Washer_Front_Plane",
+      "ServoMount_Y_Pad1_Washer_Right_Plane",
+      "ServoMount_Y_Pad1_Washer_Top_Plane",
+      "ServoMount_Y_Pad2_Nut_Front_Plane",
+      "ServoMount_Y_Pad2_Nut_Right_Plane",
+      "ServoMount_Y_Pad2_Nut_Top_Plane",
+      "ServoMount_Y_Pad2_Screw_Front_Plane",
+      "ServoMount_Y_Pad2_Screw_Right_Plane",
+      "ServoMount_Y_Pad2_Screw_Top_Plane",
+      "ServoMount_Y_Pad2_Washer_Front_Plane",
+      "ServoMount_Y_Pad2_Washer_Right_Plane",
+      "ServoMount_Y_Pad2_Washer_Top_Plane",
+      "XTab_Fastener1_Nut_Axial",
+      "XTab_Fastener1_Nut_Concentric",
+      "XTab_Fastener1_Screw_Axial",
+      "XTab_Fastener1_Screw_Concentric",
+      "XTab_Fastener1_Washer_Axial",
+      "XTab_Fastener1_Washer_Concentric",
+      "XTab_Fastener2_Nut_Axial",
+      "XTab_Fastener2_Nut_Concentric",
+      "XTab_Fastener2_Screw_Axial",
+      "XTab_Fastener2_Screw_Concentric",
+      "XTab_Fastener2_Washer_Axial",
+      "XTab_Fastener2_Washer_Concentric",
+      "X_Horn_Axial_Envelope",
+      "X_Horn_Link_Pivot",
+      "X_Link_Slider_Pivot",
+      "X_Link_Stack_Gap",
+      "X_Official21T_Reference_Axes",
+      "Y_Horn_Axial_Envelope",
+      "Y_Horn_Link_Pivot",
+      "Y_Link_Slider_Pivot",
+      "Y_Link_Stack_Gap",
+      "Y_Official21T_Reference_Axes",
+      "mountX_Rigid_Front_Plane",
+      "mountX_Rigid_Right_Plane",
+      "mountX_Rigid_Top_Plane",
+      "mountY_Rigid_Front_Plane",
+      "mountY_Rigid_Right_Plane",
+      "mountY_Rigid_Top_Plane",
+      "pinXHorn_Rigid_Front_Plane",
+      "pinXHorn_Rigid_Right_Plane",
+      "pinXHorn_Rigid_Top_Plane",
+      "pinXSlider_Rigid_Front_Plane",
+      "pinXSlider_Rigid_Right_Plane",
+      "pinXSlider_Rigid_Top_Plane",
+      "pinYHorn_Rigid_Front_Plane",
+      "pinYHorn_Rigid_Right_Plane",
+      "pinYHorn_Rigid_Top_Plane",
+      "pinYSlider_Rigid_Front_Plane",
+      "pinYSlider_Rigid_Right_Plane",
+      "pinYSlider_Rigid_Top_Plane",
+      "servoX_Rigid_Front_Plane",
+      "servoX_Rigid_Right_Plane",
+      "servoX_Rigid_Top_Plane",
+      "servoY_Rigid_Front_Plane",
+      "servoY_Rigid_Right_Plane",
+      "servoY_Rigid_Top_Plane",
+      "tabX_Rigid_Front_Plane",
+      "tabX_Rigid_Right_Plane",
+      "tabX_Rigid_Top_Plane",
+      "tabY_Rigid_Front_Plane",
+      "tabY_Rigid_Right_Plane",
+      "tabY_Rigid_Top_Plane"
+    ],
+    "retained_xy_limit_mates": [
+      "LimitDistance1",
+      "LimitDistance3",
+      "Combined_XY_Radial_Limit_6p88mm"
+    ]
+  },
+  "step5_kinematic_and_clearance_audit": {
+    "tested_pose_count": 38,
+    "total_native_boolean_checks": 676,
+    "max_boolean_overlap_mm3": 0.0,
+    "active_mate_error_count": 0,
+    "active_mate_errors": [],
+    "restored_xy_mm": [
+      0.7571610774028681,
+      -2.2952454019471435
+    ],
+    "max_shaft_restore_transform_delta": 9.35015953551499e-16,
+    "pedestal_clearances": {
+      "min_axial_gap_mm": 0.5,
+      "axial_gap_details": "0.500 mm nominal axial gap between D12 root step (Z=8.50 mm) and X-slider underside (Z=9.00 mm), between X-slider top (Z=12.00 mm) and D10 mid-collar bottom (Z=12.50 mm), and between D10 mid-collar top (Z=17.50 mm) and Y-carriage underside (Z=18.00 mm). The R0.30 mm fillets at R=2.75..3.05 mm lie radially inside the minimum eccentric plate bore radius (10.00 - 6.88 = 3.12 mm) and stay strictly within the 0.50 mm axial bands.",
+      "min_radial_gap_at_e6p88_mm": 0.62,
+      "radial_gap_details": "0.620 mm nominal radial gap between fixed D12 pedestal root (R=6.00 mm, Z=0..8.5 mm) and Fixed Base D13.24 bore (R=6.62 mm); 3.120 mm radial gap between D5.5 stem (R=2.75 mm) and moving X-slider/Y-carriage D20.00 bores (R=10.00 mm) at e=6.88 mm (0.370 mm radial gap from the R=3.05 mm fillet toe to the D20.00 bore edge at e=6.88 mm). Zero boolean overlaps across all poses."
+    },
+    "oldham_clearances": {
+      "min_axial_gap_mm": 0.2,
+      "min_radial_or_lateral_pad_gap_mm": 0.015,
+      "details": "0.015 mm symmetric lateral sliding gap per side (4.030 mm active pad slot width vs 4.000 mm tongue width; 0.030 mm total diametral clearance) and 0.200 mm axial face gap across all 360-deg shaft angles and e=6.88 mm XY poses. Zero boolean overlaps."
+    },
+    "poses": [
+      {
+        "pose_label": "center_0_0",
+        "xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": -1.3386891600687541e-14,
+        "input_slide_error_mm": 1.2615294613410381e-13,
+        "floating_axial_error_mm": -6.158268339717665e-14,
+        "blade_pitch_deg": [
+          -0.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 1.793434473310067e-14,
+        "input_slide_error_mm": -1.9142224796255042e-13,
+        "floating_axial_error_mm": -6.158268339717665e-14,
+        "blade_pitch_deg": [
+          -0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -1.1926140827714306e-13,
+        "input_slide_error_mm": 1.5456865419478857e-14,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "center_0_0",
+        "xy_mm": [
+          0.0,
+          0.0
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 9.97206797320112e-14,
+        "input_slide_error_mm": -5.193561679609572e-14,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": 6.64769430773976e-14,
+        "input_slide_error_mm": -1.0226715576757794e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -10.4265,
+          -34.0826,
+          6.6977,
+          33.8207
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 9.018031947320923e-14,
+        "input_slide_error_mm": 1.740091031331853e-11,
+        "floating_axial_error_mm": -6.158268339717665e-14,
+        "blade_pitch_deg": [
+          33.8207,
+          -10.4265,
+          -34.0826,
+          6.6977
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 1.878401259100716e-13,
+        "input_slide_error_mm": 1.0080021407428933e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          6.6977,
+          33.8207,
+          -10.4265,
+          -34.0826
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_0deg_+6p88_0",
+        "xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.077673254575128,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -2.5802241005647503e-15,
+        "input_slide_error_mm": -1.74825166198914e-11,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          -34.0826,
+          6.6977,
+          33.8207,
+          -10.4265
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "pitch_extrema_+6p88_0",
+        "xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_angle_deg": -1.2400000000000257,
+        "Part1_1_pitch_deg": -34.98966325252813,
+        "predicted_pitch_deg": -34.98966325252594,
+        "prediction_error_deg": -2.1884716261411086e-12,
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "pitch_extrema_+6p88_0",
+        "xy_mm": [
+          6.88,
+          0.0
+        ],
+        "shaft_angle_deg": 179.02999999999992,
+        "Part1_1_pitch_deg": 34.99109891612313,
+        "predicted_pitch_deg": 34.991098916126695,
+        "prediction_error_deg": -3.566924533515703e-12,
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": -8.341596973429683e-14,
+        "input_slide_error_mm": -1.7577462849663185e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -34.0826,
+          6.6977,
+          33.8207,
+          -10.4265
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -1.551910488060701e-13,
+        "input_slide_error_mm": -1.0062889197947076e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -10.4265,
+          -34.0826,
+          6.6977,
+          33.8207
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 1.9968143515598518e-13,
+        "input_slide_error_mm": 1.752846158424845e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          33.8207,
+          -10.4265,
+          -34.0826,
+          6.6977
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_90deg_0_+6p88",
+        "xy_mm": [
+          0.0,
+          6.88
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 6.1366310850005115e-15,
+        "input_slide_error_mm": 1.0039593836446552e-11,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          6.6977,
+          33.8207,
+          -10.4265,
+          -34.0826
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": 1.3070879628059542e-13,
+        "input_slide_error_mm": 1.0190392482263441e-11,
+        "floating_axial_error_mm": -6.418476861114186e-14,
+        "blade_pitch_deg": [
+          6.6977,
+          33.8207,
+          -10.4265,
+          -34.0826
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 1.907986799641339e-13,
+        "input_slide_error_mm": -1.7452409457911968e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -34.0826,
+          6.6977,
+          33.8207,
+          -10.4265
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 6.779839095574833e-14,
+        "input_slide_error_mm": -1.0116939608224194e-11,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          -10.4265,
+          -34.0826,
+          6.6977,
+          33.8207
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_180deg_-6p88_0",
+        "xy_mm": [
+          -6.88,
+          0.0
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -3.3752512649202154e-14,
+        "input_slide_error_mm": 1.7376870632403995e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          33.8207,
+          -10.4265,
+          -34.0826,
+          6.6977
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": -1.0416174508888674e-13,
+        "input_slide_error_mm": 1.7527263413697885e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          33.8207,
+          -10.4265,
+          -34.0826,
+          6.6977
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 8.202163231185618e-15,
+        "input_slide_error_mm": 1.023122594961534e-11,
+        "floating_axial_error_mm": -6.418476861114186e-14,
+        "blade_pitch_deg": [
+          6.6977,
+          33.8207,
+          -10.4265,
+          -34.0826
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 8.169373613278063e-14,
+        "input_slide_error_mm": -1.7357708882607827e-11,
+        "floating_axial_error_mm": -6.418476861114186e-14,
+        "blade_pitch_deg": [
+          -34.0826,
+          6.6977,
+          33.8207,
+          -10.4265
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "cardinal_270deg_0_-6p88",
+        "xy_mm": [
+          0.0,
+          -6.88
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 8.251995574814176e-14,
+        "input_slide_error_mm": -1.014341350851362e-11,
+        "floating_axial_error_mm": -6.158268339717665e-14,
+        "blade_pitch_deg": [
+          -10.4265,
+          -34.0826,
+          6.6977,
+          33.8207
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": -1.780472904782099e-13,
+        "input_slide_error_mm": -1.9475995807115843e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -29.8518,
+          -18.3893,
+          28.7736,
+          15.2826
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 9.357526471024141e-15,
+        "input_slide_error_mm": 5.400282521321326e-12,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          15.2826,
+          -29.8518,
+          -18.3893,
+          28.7736
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -7.847494667624464e-15,
+        "input_slide_error_mm": 1.9455498980880385e-11,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          28.7736,
+          15.2826,
+          -29.8518,
+          -18.3893
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_45deg",
+        "xy_mm": [
+          4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 1.0632447712523608e-13,
+        "input_slide_error_mm": -5.312184390344247e-12,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          -18.3893,
+          28.7736,
+          15.2826,
+          -29.8518
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": -2.69061740515894e-15,
+        "input_slide_error_mm": -5.4223409993252434e-12,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -18.3893,
+          28.7736,
+          15.2826,
+          -29.8518
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 7.210430861624654e-14,
+        "input_slide_error_mm": -1.9668056323411122e-11,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          -29.8518,
+          -18.3893,
+          28.7736,
+          15.2826
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -4.148031526952678e-14,
+        "input_slide_error_mm": 5.126546125453019e-12,
+        "floating_axial_error_mm": -6.158268339717665e-14,
+        "blade_pitch_deg": [
+          15.2826,
+          -29.8518,
+          -18.3893,
+          28.7736
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_135deg",
+        "xy_mm": [
+          -4.8649,
+          4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 7.384061876787608e-14,
+        "input_slide_error_mm": 1.94847477866164e-11,
+        "floating_axial_error_mm": -6.418476861114186e-14,
+        "blade_pitch_deg": [
+          28.7736,
+          15.2826,
+          -29.8518,
+          -18.3893
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": -3.630817384728977e-14,
+        "input_slide_error_mm": 1.948295666404684e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          28.7736,
+          15.2826,
+          -29.8518,
+          -18.3893
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -9.883665868755493e-14,
+        "input_slide_error_mm": -5.174319013826634e-12,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          -18.3893,
+          28.7736,
+          15.2826,
+          -29.8518
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -9.121687539880971e-15,
+        "input_slide_error_mm": -1.9559559011803873e-11,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          -29.8518,
+          -18.3893,
+          28.7736,
+          15.2826
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_225deg",
+        "xy_mm": [
+          -4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": -2.696222724809776e-14,
+        "input_slide_error_mm": 5.018248984266104e-12,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          15.2826,
+          -29.8518,
+          -18.3893,
+          28.7736
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 0,
+        "shaft_angle_deg": 75.9223267454249,
+        "ring_phase_error_deg": -1.323110747488823e-12,
+        "output_slide_error_mm": 2.3133915153924324e-13,
+        "input_slide_error_mm": 5.2946385135663656e-12,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          15.2826,
+          -29.8518,
+          -18.3893,
+          28.7736
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 90,
+        "shaft_angle_deg": 165.9223267454249,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 7.0425151496805815e-15,
+        "input_slide_error_mm": 1.9345629867453652e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          28.7736,
+          15.2826,
+          -29.8518,
+          -18.3893
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 180,
+        "shaft_angle_deg": -104.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 5.347540303907559e-14,
+        "input_slide_error_mm": -5.090565186719526e-12,
+        "floating_axial_error_mm": -6.331740687315346e-14,
+        "blade_pitch_deg": [
+          -18.3893,
+          28.7736,
+          15.2826,
+          -29.8518
+        ],
+        "boolean_overlaps": []
+      },
+      {
+        "pose_label": "diagonal_315deg",
+        "xy_mm": [
+          4.8649,
+          -4.8649
+        ],
+        "shaft_increment_deg": 270,
+        "shaft_angle_deg": -14.07767325457513,
+        "ring_phase_error_deg": -1.2722218725854068e-12,
+        "output_slide_error_mm": 1.1600183248553514e-13,
+        "input_slide_error_mm": -1.9557181193464756e-11,
+        "floating_axial_error_mm": -6.245004513516506e-14,
+        "blade_pitch_deg": [
+          -29.8518,
+          -18.3893,
+          28.7736,
+          15.2826
+        ],
+        "boolean_overlaps": []
+      }
+    ]
+  }
+}

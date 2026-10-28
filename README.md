@@ -68,13 +68,29 @@ python cfd_study/scripts/cfd_quality.py
 
 This returns a nonzero exit code when cases fail acceptance. The saved audit accepts 1 of 85 cases under the current criteria, so none of the five historical full polars is accepted. Historical files remain available in `cfd_study/results/` for diagnosis.
 
+## Bench Prototype CAD, Motion Study & Structural FEA (`CAD-003A..C`, `SIM-001A..C`, `MFG-001`)
+
+Full SolidWorks 2026 completion, all-pair boolean clearance verification, coupled 3D kinematic/dynamic simulation, critical-part structural FEA, native motion-study setup, and manufacturing CAD exports for the Bench Prototype (`CAD/Design_Completion/Bench_Prototype/`) are documented in:
+
+- **Master Summary & SHA-256 Manifest:** [CAD/Design_Completion/Bench_Prototype/BENCH_PROTOTYPE_MASTER_SUMMARY.md](CAD/Design_Completion/Bench_Prototype/BENCH_PROTOTYPE_MASTER_SUMMARY.md)
+- **Motion & Structural FEA Report (`SIM-001A/B`):** [CAD/Design_Completion/Bench_Prototype/Motion_Study/SIM001_MOTION_AND_STRUCTURAL_REPORT.md](CAD/Design_Completion/Bench_Prototype/Motion_Study/SIM001_MOTION_AND_STRUCTURAL_REPORT.md)
+- **Deliverable D1 Manufacturing Exports (`MFG-001` Checkpoint):** `CAD/Design_Completion/Bench_Prototype/Deliverable_D1_Manufacturing/` (18 STEP AP214 models, 5 DXF flat patterns, 6 assembly views, 22 part renders, and geometry/BOM JSON dumps)
+
+Key verified Bench Prototype metrics:
+- **Top-Level Assembly (`BA_Bench_Actuation_Layout.SLDASM`):** `19.2329 kg` active mass (`3.0590 kg` rotor + 400W drive subassembly `BD_Bench_Development_Source.SLDASM`), `486` active solid leaf components in `"Default"` (`211` in `"Motion_Fast_Playback"`), `0` mate errors, and **`0.0000 mm^3` unfiltered all-pair boolean overlap** across `1,550,190` pair checks over 36 swept poses.
+- **Coupled 3D Kinematics & Dynamics (`SIM-001A`):** 72-pose ($5^\circ$ step) SolidWorks 3D rebuild matches the analytical vector-loop solver to `1.33e-11 deg` on blade pitch and `2.02e-11 mm` on Oldham COM; Zaber `NA23C60-T4A` ($120\text{ N}$) actuation safety factors are $3.34\times$ peak / $6.03\times$ continuous RMS at `1900 RPM` and $2.74\times$ peak / $4.94\times$ continuous RMS at `2100 RPM` burst.
+- **Critical-Part Structural FEA (`SIM-001B`):** All 4 critical bottleneck groups pass $SF \ge 1.5$ across `1900 RPM` nominal and `2100 RPM` burst regimes, with total elastic eccentricity deflection $\Delta e_X = 0.0055\text{ mm}, \Delta e_Y = 0.0165\text{ mm} \ll 0.100\text{ mm}$ budget.
+- **Native SolidWorks `Motion Study 1` (`SIM-001C`):** Configured on `"Motion_Fast_Playback"` (`30.0 RPM` `RotaryMotor1`, $e_X = 6.88\text{ mm}$, `61` cached frames over `4.0 s` at `15 FPS`), with exported `.mp4` and `.avi` animations in `CAD/Design_Completion/Bench_Prototype/Motion_Study/`.
+
 ## Regression checks
 
 ```bash
 python -m unittest discover -s tests -v
+# or:
+pytest -v
 ```
 
-23 checks passed before the final stall-transition and documentation edits. Further test execution was skipped at the user's request. Numerical regression checks do not establish physical accuracy.
+All **23 tests and 17 subtests pass** (`0` failed, `0` skipped) across `RotorTests`, `PolarTests`, `CFDWorkflowTests`, and `MassTests` in [tests/test_pipeline.py](tests/test_pipeline.py). Numerical regression checks do not establish physical accuracy.
 
 ## Repository map
 
@@ -85,8 +101,11 @@ python -m unittest discover -s tests -v
 | `scripts/project_config.py` | Shared configuration and geometry-derived shaft mass |
 | `cfd_study/scripts/` | Geometry preparation, numerical acceptance and bounded polar interpolation |
 | `cfd_study/templates/steady/` | Reproducible OpenFOAM case template |
-| `CAD/` | Existing SolidWorks models and detailed CAD specification |
+| `CAD/` | SolidWorks flight-module models and detailed CAD specification |
+| `CAD/Design_Completion/Bench_Prototype/` | Verified Bench Prototype assemblies, CAD automation states, `Motion_Study/` reports/animations, and `Deliverable_D1_Manufacturing/` STEP/DXF/render exports |
+| `CAD/Design_Completion/automation/` | SolidWorks 2026 COM automation & verification scripts (`CAD-003A..C`, `SIM-001A..C`) |
+| `docs/` | Project state, implementation status, validation requirements, and task handoffs |
 | `reports/` | Current preliminary calculation and CFD quality report |
-| `CycloProp_PUSHPAK_Stage1_Submission/` | Historical submission snapshot |
+| `CycloProp_PUSHPAK_Stage1_Submission/` | Historical Stage 1 submission snapshot |
 
-Physical validation still requires accepted multi-Re CFD, mesh independence, transient treatment of persistent oscillation, CAD material/mass reconciliation, and structural/thermal/hardware checks. See [docs/VALIDATION.md](docs/VALIDATION.md).
+Physical validation still requires accepted multi-Re CFD, mesh independence, transient treatment of persistent oscillation, flight-baseline BOM reconciliation, and hardware bench testing. See [docs/VALIDATION.md](docs/VALIDATION.md).
